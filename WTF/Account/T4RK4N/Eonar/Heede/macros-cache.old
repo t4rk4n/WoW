@@ -1,0 +1,18 @@
+MACRO64 0000000001000002 "Regro" "Spell_Nature_ResistNature"
+#showtooltip Regrowth
+/cast [mod,target=player][target=mouseover,help,nodead][help,nodead][nogroup,target=player][target=targettarget,help,nodead]Regrowth
+END
+MACRO64 0000000001000001 "Rejuve" "Spell_Nature_Rejuvenation"
+#showtooltip Rejuvenation
+/cast [mod,target=player][target=mouseover,help,nodead][help,nodead][nogroup,target=player][target=targettarget,help,nodead]Rejuvenation
+END
+MACRO64 0000000001000003 "Thorn" "Spell_Nature_Thorns"
+#showtooltip Thorns
+/cast [mod,target=player][target=mouseover,help,nodead][help,nodead][nogroup,target=player][target=targettarget,help,nodead]Thorns
+END
+MACRO64 0000000001000004 "VuhDoDCShieldData" "Ability_Hunter_ExplosiveShot"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1DH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+MACRO64 0000000001000005 "VuhDoDCShieldNames" "Ability_Hunter_ExplosiveShot"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Hee[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

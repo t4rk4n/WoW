@@ -1,0 +1,4 @@
+VER 3 0100000000000070 "ZGVMacro3" "0"
+/target Akrosh
+/run ZGV:MRM():CG(30,3)
+END

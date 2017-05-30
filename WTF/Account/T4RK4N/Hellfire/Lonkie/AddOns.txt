@@ -1,0 +1,10 @@
+XPerl_TeamSpeak: disabled
+AshranBuddy: disabled
+XPerl_Options: enabled
+epgp: disabled
+epgp_lootmaster_ml: disabled
+epgp_lootmaster: disabled
+GatherMate2: disabled
+GatherMate2_Data: disabled
+Pawn: disabled
+XPerl: disabled

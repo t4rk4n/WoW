@@ -1,0 +1,7 @@
+changeset:   17:e28980465566
+tag:         v1.2.5
+user:        MMOSimca
+date:        Mon May 15 05:31:08 2017 -0400
+summary:     Regenerated libraries to include a minor update for QuestID 46032.
+
+

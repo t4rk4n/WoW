@@ -1,0 +1,108 @@
+
+RCLootCouncilDB = {
+	["global"] = {
+		["localizedSubTypes"] = {
+			["Two-Handed Maces"] = "Two-Handed Maces",
+			["One-Handed Swords"] = "One-Handed Swords",
+			["Staves"] = "Staves",
+			["Crossbows"] = "Crossbows",
+			["Plate"] = "Plate",
+			["One-Handed Maces"] = "One-Handed Maces",
+			["created"] = true,
+			["Shields"] = "Shields",
+			["Polearms"] = "Polearms",
+			["Bows"] = "Bows",
+			["Two-Handed Swords"] = "Two-Handed Swords",
+			["Daggers"] = "Daggers",
+			["Leather"] = "Leather",
+			["Cloth"] = "Cloth",
+			["Guns"] = "Guns",
+			["Fist Weapons"] = "Fist Weapons",
+			["Mail"] = "Mail",
+			["Wands"] = "Wands",
+			["One-Handed Axes"] = "One-Handed Axes",
+			["Two-Handed Axes"] = "Two-Handed Axes",
+		},
+		["log"] = {
+			"03/03/16", -- [1]
+			"17:58:07 - Logged In", -- [2]
+			"17:58:07 - ML initialized!", -- [3]
+			"17:58:18 - Viklund-TwistingNether (2.0.0) (Alpha.9)", -- [4]
+			"17:58:18 - Event: (PLAYER_ENTERING_WORLD)", -- [5]
+			"17:58:18 - GetML()", -- [6]
+			"17:58:21 - GetPlayersGuildRank()", -- [7]
+			"17:58:21 - Found Guild Rank: SPClassleader", -- [8]
+			"17:58:21 - Comm received: (^1^SverTest^T^N1^S2.0.0^N2^SAlpha.9^t^^) (from:) (Viklund) (distri:) (GUILD)", -- [9]
+			"17:58:21 - Comm received: (^1^SverTestReply^T^N1^SPyllerøx-TwistingNether^N2^SROGUE^N3^SMember^N4^S2.0.0^N5^SAlpha.9^t^^) (from:) (Pyllerøx) (distri:) (WHISPER)", -- [10]
+			"17:58:21 - Comm received: (^1^SverTestReply^T^N1^SLerov-TwistingNether^N2^SMAGE^N3^SMember^N4^S2.0.0^N5^SAlpha.9^t^^) (from:) (Lerov) (distri:) (WHISPER)", -- [11]
+			"17:58:22 - Timer LocalizeSubTypes passed", -- [12]
+			"17:58:22 - Found One-Handed Axes localized as: One-Handed Axes", -- [13]
+			"17:58:22 - Found One-Handed Swords localized as: One-Handed Swords", -- [14]
+			"17:58:22 - Found Staves localized as: Staves", -- [15]
+			"17:58:22 - Found Crossbows localized as: Crossbows", -- [16]
+			"17:58:22 - Found Plate localized as: Plate", -- [17]
+			"17:58:22 - Found One-Handed Maces localized as: One-Handed Maces", -- [18]
+			"17:58:22 - Found Shields localized as: Shields", -- [19]
+			"17:58:22 - Found Polearms localized as: Polearms", -- [20]
+			"17:58:22 - Found Bows localized as: Bows", -- [21]
+			"17:58:22 - Found Two-Handed Swords localized as: Two-Handed Swords", -- [22]
+			"17:58:22 - Found Two-Handed Maces localized as: Two-Handed Maces", -- [23]
+			"17:58:22 - Found Leather localized as: Leather", -- [24]
+			"17:58:22 - Found Mail localized as: Mail", -- [25]
+			"17:58:22 - Found Guns localized as: Guns", -- [26]
+			"17:58:22 - Found Fist Weapons localized as: Fist Weapons", -- [27]
+			"17:58:22 - Found Cloth localized as: Cloth", -- [28]
+			"17:58:22 - Found Wands localized as: Wands", -- [29]
+			"17:58:22 - Found Daggers localized as: Daggers", -- [30]
+			"17:58:22 - Found Two-Handed Axes localized as: Two-Handed Axes", -- [31]
+			"17:58:22 - Timer LocalizeSubTypes passed", -- [32]
+			"17:58:22 - Timer LocalizeSubTypes passed", -- [33]
+			"17:58:22 - Timer LocalizeSubTypes passed", -- [34]
+			"17:58:22 - Timer LocalizeSubTypes passed", -- [35]
+			"17:58:22 - Timer LocalizeSubTypes passed", -- [36]
+			"17:58:22 - Timer LocalizeSubTypes passed", -- [37]
+			"17:58:22 - Timer LocalizeSubTypes passed", -- [38]
+			"17:58:22 - Timer LocalizeSubTypes passed", -- [39]
+			"17:58:22 - Timer LocalizeSubTypes passed", -- [40]
+			"17:58:22 - Timer LocalizeSubTypes passed", -- [41]
+			"17:58:22 - Timer LocalizeSubTypes passed", -- [42]
+			"17:58:22 - Timer LocalizeSubTypes passed", -- [43]
+			"17:58:22 - Timer LocalizeSubTypes passed", -- [44]
+			"17:58:22 - Timer LocalizeSubTypes passed", -- [45]
+			"17:58:22 - Timer LocalizeSubTypes passed", -- [46]
+			"17:58:22 - Timer LocalizeSubTypes passed", -- [47]
+			"17:58:22 - Timer LocalizeSubTypes passed", -- [48]
+			"17:58:22 - Timer LocalizeSubTypes passed", -- [49]
+			"17:58:22 - Comm received: (^1^SverTestReply^T^N1^SSniekin-TwistingNether^N2^SDRUID^N3^SAlt^N4^S2.0.0^N5^SAlpha.9^t^^) (from:) (Sniekin) (distri:) (WHISPER)", -- [50]
+			"17:58:22 - Comm received: (^1^SverTestReply^T^N1^STegu-TwistingNether^N2^SDEATHKNIGHT^N3^SMember^N4^S2.0.0^N5^SAlpha.9^t^^) (from:) (Tegu) (distri:) (WHISPER)", -- [51]
+			"17:58:22 - Comm received: (^1^SverTestReply^T^N1^SCjzz-TwistingNether^N2^SMAGE^N3^STrial^N4^S2.0.0^N5^SAlpha.9^t^^) (from:) (Cjzz) (distri:) (WHISPER)", -- [52]
+			"17:58:33 - Comm received: (^1^SverTest^T^N1^S2.0.0^N2^SAlpha.9^t^^) (from:) (Landqvist) (distri:) (GUILD)", -- [53]
+			"17:59:36 - Comm received: (^1^SverTest^T^N1^S2.0.0^N2^SAlpha.9^t^^) (from:) (Sliddy) (distri:) (GUILD)", -- [54]
+			"18:00:59 - Comm received: (^1^SverTest^T^N1^S2.0.0^N2^SAlpha.9^t^^) (from:) (Cjzz) (distri:) (GUILD)", -- [55]
+			"18:03:57 - Comm received: (verTest 1.7.6) (from:) (Kuznam) (distri:) (GUILD)", -- [56]
+			"18:04:35 - Comm received: (^1^SverTest^T^N1^S2.0.0^N2^SAlpha.9^t^^) (from:) (Cjzz) (distri:) (GUILD)", -- [57]
+			"18:06:59 - Comm received: (^1^SverTest^T^N1^S2.0.0^N2^SAlpha.9^t^^) (from:) (Sonie) (distri:) (GUILD)", -- [58]
+			"18:09:26 - Comm received: (^1^SverTest^T^N1^S2.0.0^N2^SAlpha.9^t^^) (from:) (Infeh) (distri:) (GUILD)", -- [59]
+			"18:09:53 - Comm received: (^1^SverTest^T^N1^S2.0.0^N2^SAlpha.9^t^^) (from:) (Cjzz) (distri:) (GUILD)", -- [60]
+			"18:14:12 - Comm received: (^1^SverTest^T^N1^S2.0.0^N2^SAlpha.9^t^^) (from:) (Fragmage) (distri:) (GUILD)", -- [61]
+			"18:15:07 - Comm received: (^1^SverTest^T^N1^S2.0.0^N2^SAlpha.9^t^^) (from:) (Infeh) (distri:) (GUILD)", -- [62]
+			"18:18:21 - Comm received: (^1^SverTest^T^N1^S2.0.0^N2^SAlpha.9^t^^) (from:) (Fragdekay) (distri:) (GUILD)", -- [63]
+			"18:21:10 - Comm received: (^1^SverTest^T^N1^S2.0.0^N2^SAlpha.9^t^^) (from:) (Deepshades) (distri:) (GUILD)", -- [64]
+		},
+		["version"] = "2.0.0",
+		["tVersion"] = "Alpha.9",
+		["logMaxEntries"] = 1000,
+	},
+	["profileKeys"] = {
+		["Viklund - Twisting Nether"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}
+RCLootCouncilLootDB = {
+	["profileKeys"] = {
+		["Viklund - Twisting Nether"] = "Viklund - Twisting Nether",
+	},
+}

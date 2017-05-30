@@ -1,0 +1,65 @@
+
+AdiBagsDB = {
+	["profileKeys"] = {
+		["Wiikree - Silvermoon"] = "Default",
+	},
+	["namespaces"] = {
+		["ItemLevel"] = {
+		},
+		["FilterOverride"] = {
+			["profiles"] = {
+				["Default"] = {
+					["version"] = 3,
+				},
+			},
+		},
+		["ItemCategory"] = {
+		},
+		["NewItem"] = {
+		},
+		["AdiBags_TooltipInfo"] = {
+		},
+		["Equipment"] = {
+		},
+		["ItemSets"] = {
+		},
+		["CurrencyFrame"] = {
+			["profiles"] = {
+				["Default"] = {
+					["shown"] = {
+						["Mark of the World Tree"] = false,
+						["Elder Charm of Good Fortune"] = false,
+						["Nethershard"] = false,
+						["Valor"] = false,
+						["Lesser Charm of Good Fortune"] = false,
+						["Garrison Resources"] = false,
+						["Tol Barad Commendation"] = false,
+						["Mote of Darkness"] = false,
+						["Epicurean's Award"] = false,
+						["Timewarped Badge"] = false,
+						["Sightless Eye"] = false,
+						["Timeless Coin"] = false,
+						["Ironpaw Token"] = false,
+						["Apexis Crystal"] = false,
+						["Darkmoon Prize Ticket"] = false,
+						["Oil"] = false,
+						["Seal of Tempered Fate"] = false,
+						["Seal of Inevitable Fate"] = false,
+						["Champion's Seal"] = false,
+						["Lingering Soul Fragment"] = false,
+					},
+				},
+			},
+		},
+		["DataSource"] = {
+		},
+		["Junk"] = {
+		},
+		["MoneyFrame"] = {
+		},
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

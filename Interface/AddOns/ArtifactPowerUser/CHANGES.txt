@@ -1,0 +1,12 @@
+tag 95749552da7c88c54888ecb8e7ed5eba3eb616dd 2.4
+Author:	FlyNeko <iv-darya@yandex.ru>
+Date:	Sat Apr 22 07:42:57 2017 +0300
+
+Tagging as 2.4
+
+commit bf0e46cb543b01723d8609d6bd767bf79c8a597e
+Author: FlyNeko <iv-darya@yandex.ru>
+Date:   Sat Apr 22 07:42:39 2017 +0300
+
+    Improved AP token detection to not select wrong items.
+

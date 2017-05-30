@@ -1,0 +1,6 @@
+XPerl_TeamSpeak: disabled
+Chatter: enabled
+ConsLegion: disabled
+Pawn: disabled
+StatWeightScore: enabled
+ZPerl_Options: enabled

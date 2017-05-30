@@ -1,0 +1,4 @@
+VER 3 0100000000000001 "ZGVMacro1" "0"
+/target Lieutenant Horatio Laine
+/run ZGV:MRM():CG(2,1)
+END

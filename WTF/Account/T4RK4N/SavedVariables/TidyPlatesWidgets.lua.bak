@@ -1,0 +1,13 @@
+
+TidyPlatesWidgetData = {
+	["UnitLastSeen"] = {
+	},
+	["UnitDescriptions"] = {
+	},
+	["UnitGuild"] = {
+	},
+	["CachedAuraDurations"] = {
+	},
+	["UnitClass"] = {
+	},
+}

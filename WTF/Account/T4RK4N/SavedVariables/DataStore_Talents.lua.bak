@@ -1,0 +1,110 @@
+
+DataStore_TalentsDB = {
+	["profileKeys"] = {
+		["Etni - Eonar"] = "Etni - Eonar",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Eonar.Etni"] = {
+				["Class"] = "DEATHKNIGHT",
+				["lastUpdate"] = 1414313697,
+				["GlyphList"] = {
+					11, -- [1]
+					8202, -- [2]
+					8426, -- [3]
+					12298, -- [4]
+					12314, -- [5]
+					8330, -- [6]
+					12346, -- [7]
+					8314, -- [8]
+					8410, -- [9]
+					8250, -- [10]
+					8394, -- [11]
+					8442, -- [12]
+					8922, -- [13]
+					8346, -- [14]
+					8490, -- [15]
+					8906, -- [16]
+					8522, -- [17]
+					17746, -- [18]
+					8258, -- [19]
+					17794, -- [20]
+					17762, -- [21]
+					17778, -- [22]
+					8498, -- [23]
+					17826, -- [24]
+					17042, -- [25]
+					17842, -- [26]
+					17858, -- [27]
+					17010, -- [28]
+					13, -- [29]
+					19276, -- [30]
+					8940, -- [31]
+					8892, -- [32]
+					8476, -- [33]
+					8236, -- [34]
+					8364, -- [35]
+					8860, -- [36]
+					12380, -- [37]
+					8292, -- [38]
+					8868, -- [39]
+					17188, -- [40]
+				},
+				["ActiveTalents"] = 1,
+			},
+		},
+		["Reference"] = {
+			["GlyphNames"] = {
+				[1065] = "Regenerative Magic",
+				[515] = "Icebound Fortitude",
+				[769] = "Dark Simulacrum",
+				[519] = "Death Grip",
+				[521] = "Shifting Presences",
+				[525] = "Enduring Infection",
+				[527] = "Mind Freeze",
+				[529] = "Foul Menagerie",
+				[1109] = "Absorb Magic",
+				[1074] = "Skeleton",
+				[1204] = "Army of the Dead",
+				[553] = "Resilient Grip",
+				[555] = "Death Gate",
+				[557] = "Outbreak",
+				[1110] = "Ice Reaper",
+				[1114] = "Raise Ally",
+				[1063] = "Swift Death",
+				[512] = "Anti-Magic Shell",
+				[514] = "Geist",
+				[768] = "Dancing Rune Weapon",
+				[518] = "Death's Embrace",
+				[520] = "Death and Decay",
+				[522] = "Horn of Winter",
+				[524] = "Icy Touch",
+				[526] = "Blood Boil",
+				[530] = "Strangulate",
+				[1111] = "Icy Runes",
+				[1115] = "Rune Tap",
+				[554] = "Path of Frost",
+				[556] = "Unholy Command",
+				[558] = "Corpse Explosion",
+				[773] = "Tranquil Grip",
+				[771] = "Death Coil",
+				[1112] = "Empowerment",
+				[1116] = "Runic Power",
+				[531] = "Pillar of Frost",
+				[516] = "Chains of Ice",
+				[532] = "Vampiric Blood",
+			},
+		},
+	},
+}
+DataStore_TalentsRefDB = {
+	["profileKeys"] = {
+		["Etni - Eonar"] = "Etni - Eonar",
+	},
+	["global"] = {
+		["DEATHKNIGHT"] = {
+			["Locale"] = "enUS",
+			["Version"] = 19034,
+		},
+	},
+}

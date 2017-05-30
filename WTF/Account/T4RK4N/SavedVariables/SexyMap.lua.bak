@@ -1,0 +1,144 @@
+
+SexyMap2DB = {
+	["Wiikree-Silvermoon"] = {
+		["ping"] = {
+			["showPing"] = true,
+			["showAt"] = "map",
+		},
+		["coordinates"] = {
+			["enabled"] = false,
+			["fontColor"] = {
+			},
+			["borderColor"] = {
+			},
+			["locked"] = false,
+			["backgroundColor"] = {
+			},
+		},
+		["buttons"] = {
+			["radius"] = 10,
+			["lockDragging"] = false,
+			["allowDragging"] = true,
+			["visibilitySettings"] = {
+				["MinimapZoomIn"] = "never",
+				["MinimapZoneTextButton"] = "always",
+				["MiniMapMailFrame"] = "always",
+				["TimeManagerClockButton"] = "always",
+				["MinimapZoomOut"] = "never",
+				["MiniMapWorldMapButton"] = "never",
+			},
+			["dragPositions"] = {
+				["LibDBIcon10_Bartender4"] = 248.3177648838804,
+				["GameTimeFrame"] = 40.53904241838973,
+				["DBMMinimapButton"] = -23.74943807155093,
+				["LibDBIcon10_Omen"] = 150.0183638322119,
+				["LibDBIcon10_AtlasLoot"] = 168.40775896261,
+				["MiniMapTracking"] = -64.91632945231392,
+				["XPerl_MinimapButton_Frame"] = 202.275915125308,
+			},
+			["controlVisibility"] = true,
+		},
+		["hudmap"] = {
+			["scale"] = 1.4,
+			["textColor"] = {
+				["a"] = 1,
+				["b"] = 0.5,
+				["g"] = 1,
+				["r"] = 0.5,
+			},
+			["alpha"] = 0.7,
+			["hudColor"] = {
+			},
+		},
+		["zonetext"] = {
+			["bgColor"] = {
+				["a"] = 1,
+				["b"] = 0,
+				["g"] = 0,
+				["r"] = 0,
+			},
+			["fontColor"] = {
+			},
+			["borderColor"] = {
+				["a"] = 1,
+				["b"] = 0,
+				["g"] = 0,
+				["r"] = 0,
+			},
+			["xOffset"] = 0,
+			["yOffset"] = 0,
+		},
+		["fader"] = {
+			["enabled"] = false,
+			["normalOpacity"] = 1,
+			["hoverOpacity"] = 0.25,
+		},
+		["clock"] = {
+			["bgColor"] = {
+				["a"] = 1,
+				["b"] = 0,
+				["g"] = 0,
+				["r"] = 0,
+			},
+			["fontColor"] = {
+			},
+			["borderColor"] = {
+				["a"] = 1,
+				["b"] = 0,
+				["g"] = 0,
+				["r"] = 0,
+			},
+			["xOffset"] = 0,
+			["yOffset"] = 0,
+		},
+		["borders"] = {
+			["applyPreset"] = false,
+			["borders"] = {
+			},
+			["backdrop"] = {
+				["show"] = true,
+				["textureColor"] = {
+					["r"] = 0,
+					["g"] = 0,
+					["b"] = 0,
+				},
+				["settings"] = {
+					["bgFile"] = "Interface\\Tooltips\\UI-Tooltip-Background",
+					["edgeFile"] = "Interface\\Tooltips\\UI-Tooltip-Border",
+					["edgeSize"] = 17,
+					["tile"] = false,
+					["insets"] = {
+						["top"] = 4,
+						["right"] = 4,
+						["left"] = 4,
+						["bottom"] = 4,
+					},
+				},
+				["borderColor"] = {
+				},
+				["scale"] = 1.07,
+			},
+			["hideBlizzard"] = true,
+		},
+		["movers"] = {
+			["enabled"] = false,
+			["framePositions"] = {
+			},
+			["lock"] = false,
+		},
+		["core"] = {
+			["clamp"] = true,
+			["point"] = "TOPRIGHT",
+			["relpoint"] = "TOPRIGHT",
+			["autoZoom"] = 5,
+			["northTag"] = true,
+			["y"] = -29.99996185302734,
+			["x"] = -32.99998474121094,
+			["lock"] = true,
+			["shape"] = "Interface\\BUTTONS\\WHITE8X8",
+			["rightClickToConfig"] = true,
+		},
+	},
+	["presets"] = {
+	},
+}

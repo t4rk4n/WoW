@@ -1,0 +1,6 @@
+
+TukuiConfig = {
+	["general"] = {
+		["overridelowtohigh"] = true,
+	},
+}

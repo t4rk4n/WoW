@@ -1,0 +1,11 @@
+## Interface: 70100
+## Title: Best In Slot [|cffff975bLegion|r]
+## Notes: Warlords of Draenor Module for BestInSlot
+## Author: Feng @ Moonglade-EU
+## Version: r431
+## Dependencies: BestInSlot
+
+EmeraldNightmare.lua
+Nighthold.lua
+TrialOfValor.lua
+LegionArtifact.lua

@@ -1,0 +1,41 @@
+
+DataStore_CraftsDB = {
+	["profileKeys"] = {
+		["Etni - Eonar"] = "Etni - Eonar",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Eonar.Etni"] = {
+				["Professions"] = {
+					["Cooking"] = {
+						["MaxRank"] = 75,
+						["Rank"] = 9,
+					},
+					["Archaeology"] = {
+						["MaxRank"] = 75,
+						["Rank"] = 1,
+					},
+					["Fishing"] = {
+						["MaxRank"] = 150,
+						["Rank"] = 75,
+					},
+					["Inscription"] = {
+						["MaxRank"] = 600,
+						["Rank"] = 600,
+					},
+					["First Aid"] = {
+						["MaxRank"] = 600,
+						["Rank"] = 525,
+					},
+					["Jewelcrafting"] = {
+						["MaxRank"] = 610,
+						["Rank"] = 610,
+					},
+				},
+				["Prof2"] = "Inscription",
+				["lastUpdate"] = 1414313697,
+				["Prof1"] = "Jewelcrafting",
+			},
+		},
+	},
+}

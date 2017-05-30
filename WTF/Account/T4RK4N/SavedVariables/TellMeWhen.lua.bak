@@ -1,0 +1,49 @@
+
+TellMeWhenDB = {
+	["profileKeys"] = {
+		["Etni - Hellfire"] = "Etni - Hellfire",
+	},
+	["global"] = {
+		["TextLayouts"] = {
+			["icon1"] = {
+				{
+				}, -- [1]
+				{
+				}, -- [2]
+			},
+			["bar2"] = {
+				{
+				}, -- [1]
+				{
+				}, -- [2]
+			},
+		},
+		["HelpSettings"] = {
+			["SIMPLEGSTAB"] = true,
+		},
+	},
+	["Version"] = 72415,
+	["profiles"] = {
+		["Etni - Hellfire"] = {
+			["Version"] = 72415,
+			["Groups"] = {
+				{
+					["GUID"] = "TMW:group:1KyrP0kTTNHJ",
+					["Point"] = {
+						["y"] = -83.5713184014189,
+						["x"] = -91.8367749493814,
+					},
+					["Scale"] = 1.6333339214325,
+					["Icons"] = {
+						{
+							["Type"] = "buff",
+							["Name"] = "13046",
+							["Enabled"] = true,
+						}, -- [1]
+					},
+				}, -- [1]
+			},
+			["Locked"] = true,
+		},
+	},
+}

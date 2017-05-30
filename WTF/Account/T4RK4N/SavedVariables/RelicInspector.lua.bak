@@ -1,0 +1,12 @@
+
+RelicInspectorDB = {
+	["profileKeys"] = {
+		["Wiikree - Silvermoon"] = "Default",
+		["Slakthuset - Hellfire"] = "Default",
+		["Freddymcnugg - Silvermoon"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

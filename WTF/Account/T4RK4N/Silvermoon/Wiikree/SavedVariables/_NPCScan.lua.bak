@@ -1,0 +1,17 @@
+
+_NPCScanOptionsCharacter = {
+	["Achievements"] = {
+		[7317] = true,
+		[8103] = true,
+		[1312] = true,
+		[2257] = true,
+		[7439] = true,
+		[8714] = true,
+	},
+	["AchievementsAddFound"] = true,
+	["TrackRares"] = true,
+	["TrackBeasts"] = true,
+	["TargetIcon"] = 8,
+	["FlightSupress"] = true,
+	["Version"] = 2,
+}

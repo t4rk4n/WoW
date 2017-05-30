@@ -1,0 +1,61 @@
+
+AmrDb = {
+	["Talents"] = {
+	},
+	["LastCharacterImportDate"] = "",
+	["SendSettings"] = {
+		["SendTo"] = "",
+		["SendGems"] = true,
+		["SendEnchants"] = true,
+		["SendEnchantMaterials"] = true,
+		["SendToType"] = "a friend",
+	},
+	["CharacterName"] = "Poodo",
+	["Race"] = "Pandaren",
+	["ActiveSpec"] = 1,
+	["Level"] = 4,
+	["Equipped"] = {
+		{
+			[6] = "|cffffffff|Hitem:73218:0:0:0:0:0:0:618758464:4:0:0:0|h[Initiate's Belt]|h|r",
+			[7] = "|cffffffff|Hitem:73228:0:0:0:0:0:0:1250119296:4:0:0:0|h[Initiate's Britches]|h|r",
+			[15] = "|cffffffff|Hitem:73223:0:0:0:0:0:0:29229036:4:0:0:0|h[Cloak of the Compassionate]|h|r",
+			[10] = "|cffffffff|Hitem:73221:0:0:0:0:0:0:901993664:4:0:0:0|h[Initiate's Handguards]|h|r",
+			[5] = "|cffffffff|Hitem:73225:0:0:0:0:0:0:1489616512:4:0:0:0|h[Initiate's Vest]|h|r",
+			[9] = "|cffffffff|Hitem:73215:0:0:0:0:0:0:1682320384:4:0:0:0|h[Initiate's Bracers]|h|r",
+			[16] = "|cffffffff|Hitem:73209:0:0:0:0:0:0:1180715072:4:0:0:0|h[Trainee's Staff]|h|r",
+		}, -- [1]
+	},
+	["Specs"] = {
+	},
+	["Options"] = {
+	},
+	["Region"] = "EU",
+	["Currencies"] = {
+	},
+	["Class"] = "MONK",
+	["LogData"] = {
+		["_wipes"] = {
+		},
+		["_autoLog"] = {
+			[1228] = "disabled",
+			[1205] = "disabled",
+		},
+		["_lastZone"] = "The Wandering Isle",
+		["_lastDiff"] = 0,
+	},
+	["BagItems"] = {
+	},
+	["RealmName"] = "Jaedenar",
+	["LastCharacterImport"] = "",
+	["Reps"] = {
+	},
+	["Faction"] = "Neutral",
+	["IconInfo"] = {
+	},
+	["Professions"] = {
+	},
+	["BankItems"] = {
+	},
+	["Glyphs"] = {
+	},
+}

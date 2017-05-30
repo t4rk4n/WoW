@@ -1,0 +1,14 @@
+
+DataStoreDB = {
+	["profileKeys"] = {
+		["Etni - Eonar"] = "Etni - Eonar",
+	},
+	["global"] = {
+		["Version"] = 1,
+		["Characters"] = {
+			["Default.Eonar.Etni"] = {
+				["faction"] = "Alliance",
+			},
+		},
+	},
+}

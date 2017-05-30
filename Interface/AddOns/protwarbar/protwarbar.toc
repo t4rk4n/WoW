@@ -1,0 +1,50 @@
+## Interface: 70100
+## Title: ProtWarBar
+## Notes: Protection warrior rage bar
+## Author: Mythor
+## SavedVariables: ProtwarbarDB
+## Version: 0.9.1.1
+
+embeds.xml
+
+locales\enUS.lua
+
+core.lua
+gui.lua
+
+icon\icon.lua
+icon\gui.lua
+icon\defaults.lua
+icon\options.lua
+
+ragebar\ragebar.lua
+ragebar\gui.lua
+ragebar\defaults.lua
+ragebar\options.lua
+
+aurabar\aurabar.lua
+aurabar\gui.lua
+aurabar\defaults.lua
+aurabar\options.lua
+
+announce\announce.lua
+announce\defaults.lua
+announce\options.lua
+
+shieldbar\shieldbar.lua
+shieldbar\gui.lua
+shieldbar\defaults.lua
+shieldbar\options.lua
+
+trinket\trinket.lua
+trinket\gui.lua
+trinket\defaults.lua
+trinket\options.lua
+
+classes\warrior.lua
+classes\deathknight.lua
+classes\shared.lua
+
+defaults.lua
+defaultmedia.lua
+options.lua

@@ -1,0 +1,10 @@
+
+StatWeightScoreDB = {
+	["profileKeys"] = {
+		["Etni - Hellfire"] = "Etni - Hellfire",
+	},
+	["profiles"] = {
+		["Etni - Hellfire"] = {
+		},
+	},
+}

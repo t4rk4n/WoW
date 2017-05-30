@@ -1,0 +1,29 @@
+
+DataStore_AgendaDB = {
+	["profileKeys"] = {
+		["Etni - Eonar"] = "Etni - Eonar",
+	},
+	["global"] = {
+		["Options"] = {
+			["WeeklyResetHour"] = 6,
+			["WeeklyResetDay"] = 3,
+			["NextWeeklyReset"] = "2014-10-29",
+		},
+		["Characters"] = {
+			["Default.Eonar.Etni"] = {
+				["Contacts"] = {
+					["Baskiri"] = {
+						["note"] = "",
+					},
+					["Wiikree"] = {
+						["note"] = "",
+					},
+					["Maisom"] = {
+						["note"] = "",
+					},
+				},
+				["lastUpdate"] = 1414313697,
+			},
+		},
+	},
+}

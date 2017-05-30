@@ -1,0 +1,30 @@
+
+DataStore_CharactersDB = {
+	["profileKeys"] = {
+		["Etni - Eonar"] = "Etni - Eonar",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Eonar.Etni"] = {
+				["XPMax"] = 517000,
+				["played"] = 3925331,
+				["isResting"] = true,
+				["lastUpdate"] = 1414314042,
+				["class"] = "Death Knight",
+				["race"] = "Draenei",
+				["level"] = 85,
+				["XP"] = 516999,
+				["RestXP"] = 775500,
+				["money"] = 324098905,
+				["gender"] = 3,
+				["subZone"] = "Dwarven District",
+				["name"] = "Etni",
+				["faction"] = "Alliance",
+				["englishRace"] = "Draenei",
+				["zone"] = "Stormwind City",
+				["lastLogoutTimestamp"] = 1414314042,
+				["englishClass"] = "DEATHKNIGHT",
+			},
+		},
+	},
+}

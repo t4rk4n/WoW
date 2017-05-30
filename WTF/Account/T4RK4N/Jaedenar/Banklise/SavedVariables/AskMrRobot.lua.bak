@@ -1,0 +1,59 @@
+
+AmrDb = {
+	["Talents"] = {
+	},
+	["LastCharacterImportDate"] = "",
+	["SendSettings"] = {
+		["SendTo"] = "",
+		["SendGems"] = true,
+		["SendEnchants"] = true,
+		["SendEnchantMaterials"] = true,
+		["SendToType"] = "a friend",
+	},
+	["CharacterName"] = "Banklise",
+	["Race"] = "Troll",
+	["ActiveSpec"] = 1,
+	["Level"] = 1,
+	["Equipped"] = {
+		{
+			[6] = "|cffffffff|Hitem:77509:0:0:0:0:0:0:0:1:0:0:0|h[Trainee's Cord]|h|r",
+			[7] = "|cffffffff|Hitem:72020:0:0:0:0:0:0:0:1:0:0:0|h[Trainee's Leggings]|h|r",
+			[5] = "|cffffffff|Hitem:72019:0:0:0:0:0:0:0:1:0:0:0|h[Trainee's Vest]|h|r",
+			[9] = "|cffffffff|Hitem:77526:0:0:0:0:0:0:0:1:0:0:0|h[Trainee's Wristwraps]|h|r",
+			[16] = "|cffffffff|Hitem:73209:0:0:0:0:0:0:0:1:0:0:0|h[Trainee's Staff]|h|r",
+		}, -- [1]
+	},
+	["Specs"] = {
+	},
+	["Options"] = {
+	},
+	["Region"] = "EU",
+	["Currencies"] = {
+	},
+	["Glyphs"] = {
+	},
+	["LogData"] = {
+		["_wipes"] = {
+		},
+		["_autoLog"] = {
+			[1228] = "disabled",
+			[1205] = "disabled",
+		},
+		["_lastDiff"] = 0,
+		["_lastZone"] = "Kalimdor",
+	},
+	["BagItems"] = {
+	},
+	["BankItems"] = {
+	},
+	["LastCharacterImport"] = "",
+	["Reps"] = {
+	},
+	["Faction"] = "Horde",
+	["IconInfo"] = {
+	},
+	["Professions"] = {
+	},
+	["RealmName"] = "Jaedenar",
+	["Class"] = "MONK",
+}

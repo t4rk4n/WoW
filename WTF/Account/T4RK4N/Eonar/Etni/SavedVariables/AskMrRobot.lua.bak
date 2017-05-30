@@ -1,0 +1,69 @@
+
+AmrDb = {
+	["Talents"] = {
+	},
+	["LastCharacterImportDate"] = "",
+	["SendSettings"] = {
+		["SendTo"] = "",
+		["SendGems"] = true,
+		["SendEnchants"] = true,
+		["SendEnchantMaterials"] = true,
+		["SendToType"] = "a friend",
+	},
+	["CharacterName"] = "Etni",
+	["Race"] = "Draenei",
+	["ActiveSpec"] = 1,
+	["Level"] = 85,
+	["Equipped"] = {
+		{
+			"|cff1eff00|Hitem:82903:0:0:0:0:0:-105:1587806263:85:0:0:0|h[Ghost-Forged Helm of the Guardian]|h|r", -- [1]
+			"|cffa335ee|Hitem:70107:0:0:0:0:0:0:0:85:0:0:0|h[Fireheart Necklace]|h|r", -- [2]
+			"|cff1eff00|Hitem:82904:0:0:0:0:0:-104:1481834537:85:0:0:0|h[Ghost-Forged Shoulders of the Embodiment]|h|r", -- [3]
+			nil, -- [4]
+			"|cff1eff00|Hitem:82905:0:0:0:0:0:-105:2100166711:85:0:0:0|h[Ghost-Forged Breastplate of the Guardian]|h|r", -- [5]
+			"|cffa335ee|Hitem:62384:0:3985:4031:0:0:0:0:85:0:0:0|h[Belt of the Ferocious Wolf]|h|r", -- [6]
+			"|cffa335ee|Hitem:59503:4122:4013:4013:0:0:0:576548832:85:0:0:0|h[Terrastra's Legguards]|h|r", -- [7]
+			"|cff1eff00|Hitem:82909:0:0:0:0:0:-105:740884521:85:0:0:0|h[Ghost-Forged Boots of the Guardian]|h|r", -- [8]
+			"|cffa335ee|Hitem:59470:3850:0:0:0:0:0:-2069501568:85:0:0:0|h[Bracers of Impossible Strength]|h|r", -- [9]
+			"|cffa335ee|Hitem:59225:4075:4013:0:0:0:0:1598815360:85:0:0:0|h[Plated Fists of Provocation]|h|r", -- [10]
+			"|cffa335ee|Hitem:72886:0:0:0:0:0:0:1306109184:85:0:0:0|h[Thrall's Gratitude]|h|r", -- [11]
+			"|cffa335ee|Hitem:72888:0:0:0:0:0:0:1692646528:85:0:0:0|h[Ring of the Loyal Companion]|h|r", -- [12]
+			"|cff0070dd|Hitem:52352:0:0:0:0:0:0:963865024:85:0:0:0|h[Figurine - Earthen Guardian]|h|r", -- [13]
+			"|cffa335ee|Hitem:59515:0:0:0:0:0:0:755085216:85:0:0:0|h[Vial of Stolen Memories]|h|r", -- [14]
+			"|cffa335ee|Hitem:71269:0:0:0:0:0:0:1393130880:85:0:0:0|h[Mantle of Fury]|h|r", -- [15]
+			"|cff1eff00|Hitem:90382:0:0:0:0:0:0:1158720768:85:0:0:0|h[Captain Rogers' Polite Knocking Stick]|h|r", -- [16]
+		}, -- [1]
+	},
+	["Specs"] = {
+	},
+	["Options"] = {
+	},
+	["Region"] = "EU",
+	["Currencies"] = {
+	},
+	["Glyphs"] = {
+	},
+	["LogData"] = {
+		["_wipes"] = {
+		},
+		["_autoLog"] = {
+			[1136] = "disabled",
+		},
+		["_lastDiff"] = 0,
+		["_lastZone"] = "Eastern Kingdoms",
+	},
+	["BagItems"] = {
+	},
+	["BankItems"] = {
+	},
+	["LastCharacterImport"] = "",
+	["Reps"] = {
+	},
+	["Faction"] = "Alliance",
+	["IconInfo"] = {
+	},
+	["Professions"] = {
+	},
+	["RealmName"] = "Eonar",
+	["Class"] = "DEATHKNIGHT",
+}

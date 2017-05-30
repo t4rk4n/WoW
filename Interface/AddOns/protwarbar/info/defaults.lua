@@ -1,0 +1,52 @@
+function PWBInfo:CreateDefaults()
+	local defaults = {
+		enabled = true,
+		resolveHealing = {
+			enabled = true,
+			x = 853,
+			y = 400,
+			width = 75,
+			height = 25,
+			useDefaults = true,
+			font = "Big Noodle",
+			background = {0, 1, 0, 0.6},
+			fontsize = 19,
+			outline = true,
+			shadowColor = {0, 0, 0, 1},
+			shadowX = 0.8,
+			shadowY = -0.8,
+		},
+		resolveDamage = {
+			enabled = true,
+			x = 853,
+			y = 430,
+			width = 75,
+			height = 25,
+			useDefaults = true,
+			font = "Big Noodle",
+			background = {1, 0, 0, 0.6},
+			fontsize = 19,
+			outline = true,
+			shadowColor = {0, 0, 0, 1},
+			shadowX = 0.8,
+			shadowY = -0.8,
+		},		
+		shieldBarrier = {
+			enabled = true,
+			x = 853,
+			y = 460,
+			width = 75,
+			height = 25,
+			useDefaults = true,
+			font = "Big Noodle",
+			background = {0, 0, 1, 0.6},
+			fontsize = 19,
+			outline = true,
+			shadowColor = {0, 0, 0, 1},
+			shadowX = 0.8,
+			shadowY = -0.8,
+		},
+	}
+
+	return defaults
+end

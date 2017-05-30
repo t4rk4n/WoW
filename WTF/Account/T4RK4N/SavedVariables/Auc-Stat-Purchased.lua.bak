@@ -1,0 +1,14 @@
+
+AucAdvancedStatPurchasedData = {
+	["Version"] = "2.0",
+	["RealmData"] = {
+		["Twisting Nether-Horde"] = {
+			["means"] = {
+			},
+			["daily"] = {
+				["created"] = 1388356324,
+				[72234] = "0:246661;21",
+			},
+		},
+	},
+}

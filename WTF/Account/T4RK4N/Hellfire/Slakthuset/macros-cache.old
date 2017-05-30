@@ -1,0 +1,17 @@
+VER 3 0100000000000094 "ET" "SPELL_FIRE_SELFDESTRUCT"
+#showtooltip Explosive Trap
+/cast [@player] Explosive Trap
+END
+VER 3 0100000000000012 "miss" "INV_FIREARM_2H_RIFLE_DRAENORCRAFTED_D_01_A_ALLIANCE.BLP"
+#showtooltip
+/cast [@focus,help][help][@pet,exists] Misdirection
+END
+VER 3 0100000000000093 "Rapid Fire" "ABILITY_HUNTER_RUNNINGSHOT"
+#showtooltip
+/cast Rapid Fire
+/cast Blood Fury
+END
+VER 3 0100000000000092 "ZGVMacro1" "0"
+/target Decimatus
+/run ZGV:MRM():CG(88,1)
+END

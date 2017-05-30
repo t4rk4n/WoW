@@ -1,0 +1,16 @@
+VER 3 0100000000000002 "BF" "ABILITY_PALADIN_BLESSEDMENDING"
+#showtooltip Bestow Faith
+/cast [mod,target=player][target=mouseover,help,nodead][help,nodead][target=player][target=targettarget,help,nodead]Bestow Faith
+END
+VER 3 0100000000000004 "FoL" "SPELL_HOLY_FLASHHEAL"
+#showtooltip Flash of Light
+/cast [mod,target=player][target=mouseover,help,nodead][help,nodead][target=player][target=targettarget,help,nodead]Flash of Light
+END
+VER 3 0100000000000003 "HL" "SPELL_HOLY_SURGEOFLIGHT"
+#showtooltip Holy Light
+/cast [mod,target=player][target=mouseover,help,nodead][help,nodead][target=player][target=targettarget,help,nodead]Holy Light
+END
+VER 3 0100000000000001 "HS" "SPELL_HOLY_SEARINGLIGHT"
+#showtooltip Holy Shock
+/cast [mod,target=player][target=mouseover,help,nodead][help,nodead][target=player][target=targettarget,help,nodead]Holy Shock
+END

@@ -1,0 +1,163 @@
+
+AmrDb = {
+	["Talents"] = {
+	},
+	["LastCharacterImportDate"] = "",
+	["SendSettings"] = {
+		["SendTo"] = "",
+		["SendGems"] = true,
+		["SendEnchants"] = true,
+		["SendEnchantMaterials"] = true,
+		["SendToType"] = "a friend",
+	},
+	["CharacterName"] = "Obur",
+	["Race"] = "Worgen",
+	["ActiveSpec"] = 1,
+	["Level"] = 83,
+	["Equipped"] = {
+		{
+			"|cffa335ee|Hitem:40554:0:3621:3500:0:0:0:0:83:0:0:0|h[Valorous Scourgeborne Helmet]|h|r", -- [1]
+			"|cff1eff00|Hitem:57377:0:0:0:0:0:0:657348672:83:0:0:0|h[Goldrinn's Locket]|h|r", -- [2]
+			"|cff1eff00|Hitem:57360:0:0:0:0:0:0:1951283072:83:0:0:0|h[Shoulderguards of Empty Memory]|h|r", -- [3]
+			nil, -- [4]
+			"|cff1eff00|Hitem:57290:0:0:0:0:0:0:49754528:83:0:0:0|h[Druidic Guardian Plate]|h|r", -- [5]
+			"|cff0070dd|Hitem:59785:0:0:0:0:0:0:2120742656:83:0:0:0|h[Pounded Pewter Links]|h|r", -- [6]
+			"|cffa335ee|Hitem:48533:3822:3540:3532:0:0:0:0:83:0:0:0|h[Thassarian's Legguards of Conquest]|h|r", -- [7]
+			"|cffa335ee|Hitem:47511:0:0:0:0:0:0:856386816:83:0:0:0|h[Plated Greaves of Providence]|h|r", -- [8]
+			"|cff1eff00|Hitem:57303:0:0:0:0:0:0:2026313984:83:0:0:0|h[Heatbinder Wristplates]|h|r", -- [9]
+			"|cff1eff00|Hitem:57284:0:0:0:0:0:0:1875246336:83:0:0:0|h[Grips of Arcane Imprisonment]|h|r", -- [10]
+			"|cff0070dd|Hitem:59782:0:0:0:0:0:0:1615628416:83:0:0:0|h[Prismatic Periwinkle Band]|h|r", -- [11]
+			"|cff1eff00|Hitem:57383:0:0:0:0:0:0:1235092480:83:0:0:0|h[Sharptooth Signet]|h|r", -- [12]
+			"|cffa335ee|Hitem:50356:0:0:0:0:0:0:0:83:0:0:0|h[Corroded Skeleton Key]|h|r", -- [13]
+			"|cff1eff00|Hitem:59792:0:0:0:0:0:0:1099853184:83:0:0:0|h[Petrified Spider Crab]|h|r", -- [14]
+			"|cffa335ee|Hitem:40252:0:0:0:0:0:0:1611768022:83:0:0:0|h[Cloak of the Shadowed Sun]|h|r", -- [15]
+			"|cff1eff00|Hitem:57294:3847:0:0:0:0:0:1756076288:83:0:0:0|h[Poisonfire Greatsword]|h|r", -- [16]
+		}, -- [1]
+	},
+	["Class"] = "DEATHKNIGHT",
+	["Specs"] = {
+	},
+	["Options"] = {
+	},
+	["Region"] = "EU",
+	["Currencies"] = {
+	},
+	["Glyphs"] = {
+	},
+	["LogData"] = {
+		["_wipes"] = {
+		},
+		["_autoLog"] = {
+			[1228] = "disabled",
+			[1205] = "disabled",
+		},
+		["_lastDiff"] = 0,
+		["_lastZone"] = "Eastern Kingdoms",
+	},
+	["BagItems"] = {
+	},
+	["BankItems"] = {
+		"|cffffffff|Hitem:25539:0:0:0:0:0:0:1979730680:83:0:0:0|h[Potion of Water Breathing]|h|r", -- [1]
+		"|cffffffff|Hitem:43470:0:0:0:0:0:0:1891414220:83:0:0:0|h[Worg Tooth Oatmeal Stout]|h|r", -- [2]
+		"|cffffffff|Hitem:37265:0:0:0:0:0:0:215806800:83:0:0:0|h[Tua'kea's Breathing Bladder]|h|r", -- [3]
+		"|cffffffff|Hitem:29736:0:0:0:0:0:0:850528149:83:0:0:0|h[Arcane Rune]|h|r", -- [4]
+		"|cff0070dd|Hitem:40014:0:0:0:0:0:0:10206886:83:0:0:0|h[Rigid Sky Sapphire]|h|r", -- [5]
+		"|cffffffff|Hitem:38145:0:0:0:0:0:0:0:83:0:0:0|h[Deathweave Bag]|h|r", -- [6]
+		"|cffffffff|Hitem:44819:0:0:0:0:0:0:1564204693:83:0:0:0|h[Baby Blizzard Bear]|h|r", -- [7]
+		"|cff0070dd|Hitem:34053:0:0:0:0:0:0:719670657:83:0:0:0|h[Small Dream Shard]|h|r", -- [8]
+		"|cff1eff00|Hitem:21885:0:0:0:0:0:0:362786972:83:0:0:0|h[Primal Water]|h|r", -- [9]
+		"|cff1eff00|Hitem:11754:0:0:0:0:0:0:877187888:83:0:0:0|h[Black Diamond]|h|r", -- [10]
+		"|cffffffff|Hitem:21881:0:0:0:0:0:0:1222410346:83:0:0:0|h[Netherweb Spider Silk]|h|r", -- [11]
+		"|cff9d9d9d|Hitem:39208:0:0:0:0:0:0:1446511832:83:0:0:0|h[Sigil of the Dark Rider]|h|r", -- [12]
+		"|cffa335ee|Hitem:50267:3368:3454:0:0:0:0:-1985042560:83:0:0:0|h[Tyrannical Beheader]|h|r", -- [13]
+		"|cffa335ee|Hitem:50303:0:0:0:0:0:0:413048992:83:0:0:0|h[Black Icicle]|h|r", -- [14]
+		"|cffa335ee|Hitem:50191:3368:0:0:0:0:0:977442432:83:0:0:0|h[Nighttime]|h|r", -- [15]
+		"|cffa335ee|Hitem:48663:0:0:0:0:0:0:2109936866:83:0:0:0|h[Tankard O' Terror]|h|r", -- [16]
+		"|cff1eff00|Hitem:25978:0:0:0:0:0:0:26:83:0:0:0|h[Seth's Graphite Fishing Pole]|h|r", -- [17]
+		"|cffa335ee|Hitem:47677:3818:3637:3574:0:0:0:0:83:0:0:0|h[Faceplate of the Honorbound]|h|r", -- [18]
+		"|cffa335ee|Hitem:48535:3811:3540:0:0:0:0:0:83:0:0:0|h[Thassarian's Pauldrons of Conquest]|h|r", -- [19]
+		"|cffa335ee|Hitem:40557:3808:3500:0:0:0:0:0:83:0:0:0|h[Valorous Scourgeborne Shoulderplates]|h|r", -- [20]
+		"|cffa335ee|Hitem:48531:3297:3570:3532:0:0:0:0:83:0:0:0|h[Thassarian's Chestguard of Conquest]|h|r", -- [21]
+		"|cffa335ee|Hitem:47570:3850:3532:0:0:0:0:1084549376:83:0:0:0|h[Saronite Swordbreakers]|h|r", -- [22]
+		"|cffa335ee|Hitem:40563:0:3454:0:0:0:0:542621734:83:0:0:0|h[Valorous Scourgeborne Handguards]|h|r", -- [23]
+		"|cffa335ee|Hitem:45825:0:3532:0:0:0:0:0:83:0:0:0|h[Shieldwarder Girdle]|h|r", -- [24]
+		"|cffa335ee|Hitem:49795:1075:0:0:0:0:0:-1972309248:83:0:0:0|h[Sollerets of Suffering]|h|r", -- [25]
+		"|cffa335ee|Hitem:45821:0:0:0:0:0:0:0:83:0:0:0|h[Shard of the Crystal Forest]|h|r", -- [26]
+		"|cffa335ee|Hitem:50375:0:0:0:0:0:0:226800160:83:0:0:0|h[Ashen Band of Courage]|h|r", -- [27]
+		"|cffa335ee|Hitem:47243:0:3532:0:0:0:0:893341248:83:0:0:0|h[Mark of the Relentless]|h|r", -- [28]
+		"|cffa335ee|Hitem:40717:0:0:0:0:0:0:0:83:0:0:0|h[Ring of Invincibility]|h|r", -- [29]
+		"|cffa335ee|Hitem:47735:0:0:0:0:0:0:0:83:0:0:0|h[Glyph of Indomitability]|h|r", -- [30]
+		"|cffa335ee|Hitem:50235:0:0:0:0:0:0:1500063744:83:0:0:0|h[Ick's Rotting Thumb]|h|r", -- [31]
+		"|cffa335ee|Hitem:49118:0:0:0:0:0:0:721427296:83:0:0:0|h[Bubbling Brightbrew Charm]|h|r", -- [32]
+		"|cff0070dd|Hitem:37220:0:0:0:0:0:0:1273202880:83:0:0:0|h[Essence of Gossamer]|h|r", -- [33]
+		"|cff0070dd|Hitem:40483:0:0:0:0:0:0:2089182820:83:0:0:0|h[Insignia of the Scourge]|h|r", -- [34]
+		"|cffffffff|Hitem:43157:0:0:0:0:0:0:0:83:0:0:0|h[Tabard of the Kirin Tor]|h|r", -- [35]
+		"|cffffffff|Hitem:43156:0:0:0:0:0:0:0:83:0:0:0|h[Tabard of the Wyrmrest Accord]|h|r", -- [36]
+		"|cffffffff|Hitem:43155:0:0:0:0:0:0:0:83:0:0:0|h[Tabard of the Ebon Blade]|h|r", -- [37]
+		"|cffffffff|Hitem:43154:0:0:0:0:0:0:0:83:0:0:0|h[Tabard of the Argent Crusade]|h|r", -- [38]
+	},
+	["LastCharacterImport"] = "",
+	["Reps"] = {
+	},
+	["Faction"] = "Alliance",
+	["IconInfo"] = {
+	},
+	["Professions"] = {
+	},
+	["RealmName"] = "Eonar",
+	["BankItemsAndCounts"] = {
+		[45821] = 1,
+		[39208] = 1,
+		[45825] = 1,
+		[44819] = 1,
+		[28558] = 2,
+		[37265] = 1,
+		[41427] = 5,
+		[22577] = 9,
+		[26043] = 32,
+		[47735] = 1,
+		[40557] = 1,
+		[37220] = 1,
+		[40563] = 1,
+		[50267] = 1,
+		[43154] = 1,
+		[52984] = 5,
+		[52986] = 8,
+		[52988] = 3,
+		[40014] = 1,
+		[25433] = 9,
+		[40717] = 1,
+		[45192] = 5,
+		[43155] = 1,
+		[48535] = 1,
+		[48663] = 1,
+		[50303] = 1,
+		[43156] = 1,
+		[34053] = 1,
+		[43157] = 1,
+		[40483] = 1,
+		[50235] = 1,
+		[49118] = 1,
+		[50191] = 1,
+		[21100] = 2,
+		[47243] = 1,
+		[47677] = 1,
+		[50375] = 1,
+		[49795] = 1,
+		[29736] = 1,
+		[47570] = 1,
+		[48531] = 1,
+		[17202] = 9,
+		[43470] = 1,
+		[11754] = 1,
+		[25539] = 1,
+		[29425] = 22,
+		[21885] = 1,
+		[21881] = 1,
+		[25978] = 1,
+		[43090] = 3,
+		[40084] = 3,
+		[52983] = 13,
+		[38145] = 1,
+	},
+}

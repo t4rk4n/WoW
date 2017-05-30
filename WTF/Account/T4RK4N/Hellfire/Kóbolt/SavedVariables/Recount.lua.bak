@@ -1,0 +1,34 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Caseus"] = {
+			["GUID"] = "0x05000000037A4CB9",
+			["type"] = "Ungrouped",
+			["GuardianReverseGUIDs"] = {
+				["Woodland Squirrel"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "0xF1306CDB0025E941",
+					},
+				},
+			},
+			["Owner"] = false,
+			["enClass"] = "UNGROUPED",
+			["Name"] = "Caseus",
+			["Pet"] = {
+				"Woodland Squirrel <Caseus>", -- [1]
+			},
+			["Fights"] = {
+			},
+			["level"] = 1,
+			["UnitLockout"] = 1349113334,
+			["LastFightIn"] = 0,
+		},
+	},
+	["FightNum"] = 0,
+	["CombatTimes"] = {
+	},
+	["FoughtWho"] = {
+	},
+}

@@ -1,0 +1,6 @@
+
+ArtifactPowerUserCharacterDB = {
+	["hide"] = false,
+	["disable"] = {
+	},
+}

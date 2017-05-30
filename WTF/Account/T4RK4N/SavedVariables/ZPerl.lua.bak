@@ -1,0 +1,874 @@
+
+ZPerlConfig = nil
+ZPerlConfig_Global = nil
+ZPerlConfigNew = {
+	["savedPositions"] = {
+		["Eonar"] = {
+			["Wiikree"] = {
+				["XPerl_RosterTextAnchor"] = {
+					["top"] = 810,
+					["height"] = 250.000030517578,
+					["left"] = 785.000122070313,
+					["width"] = 349.999969482422,
+				},
+				["XPerl_Assists_FrameAnchor"] = {
+					["top"] = 602,
+					["height"] = 124.000007629395,
+					["left"] = 795,
+					["width"] = 330.000030517578,
+				},
+				["XPerl_TargetTargetTarget"] = {
+					["top"] = 1061.19977547092,
+					["height"] = false,
+					["left"] = 909.129833501618,
+					["width"] = false,
+				},
+				["XPerl_MTList_Anchor"] = {
+					["top"] = 580,
+					["height"] = 80,
+					["left"] = 856.999938964844,
+					["width"] = 206.000106811523,
+				},
+				["XPerl_Raid_Title8"] = {
+					["top"] = 708.000010550022,
+					["height"] = false,
+					["left"] = 425.600006341934,
+					["width"] = false,
+				},
+				["XPerl_AdminFrameAnchor"] = {
+					["top"] = 614.999938964844,
+					["height"] = 150,
+					["left"] = 890.000061035156,
+					["width"] = 140,
+				},
+				["XPerl_OptionsAnchor"] = {
+					["top"] = 810,
+					["height"] = 540.000061035156,
+					["left"] = 658.000122070313,
+					["width"] = 702.000061035156,
+				},
+				["XPerl_PetTarget"] = {
+					["top"] = 985.69987335035,
+					["height"] = false,
+					["left"] = 170.31870437488,
+					["width"] = false,
+				},
+				["XPerl_FocusTarget"] = {
+					["top"] = 1062.37436530661,
+					["height"] = false,
+					["left"] = 1361.59486430716,
+					["width"] = false,
+				},
+				["XPerl_Raid_Title4"] = {
+					["top"] = 708.000010550022,
+					["height"] = false,
+					["left"] = 182.400002717972,
+					["width"] = false,
+				},
+				["XPerl_Raid_Title1"] = {
+					["top"] = 708.000010550022,
+					["height"] = false,
+					["left"] = 0,
+					["width"] = false,
+				},
+				["XPerl_Player"] = {
+					["top"] = 1061.19978202539,
+					["height"] = false,
+					["left"] = 49.6999842291025,
+					["width"] = false,
+				},
+				["XPerl_TargetTarget"] = {
+					["top"] = 1061.19977547092,
+					["height"] = false,
+					["left"] = 733.996043504601,
+					["width"] = false,
+				},
+				["XPerl_Raid_Title9"] = {
+					["top"] = 708.000010550022,
+					["height"] = false,
+					["left"] = 486.400056076051,
+					["width"] = false,
+				},
+				["XPerl_Raid_Title5"] = {
+					["top"] = 708.000010550022,
+					["height"] = false,
+					["left"] = 243.200028038025,
+					["width"] = false,
+				},
+				["XPerl_Player_Pet"] = {
+					["top"] = 985.69987335035,
+					["height"] = false,
+					["left"] = 61.0999875153816,
+					["width"] = false,
+				},
+				["XPerl_Focus"] = {
+					["top"] = 1062.37437592456,
+					["height"] = false,
+					["left"] = 1093.68198191558,
+					["width"] = false,
+				},
+				["XPerl_Raid_Title6"] = {
+					["top"] = 708.000010550022,
+					["height"] = false,
+					["left"] = 304.000004529953,
+					["width"] = false,
+				},
+				["XPerl_CheckAnchor"] = {
+					["top"] = 660,
+					["height"] = 240.000015258789,
+					["left"] = 709.999877929688,
+					["width"] = 500.000061035156,
+				},
+				["XPerl_Raid_Title7"] = {
+					["top"] = 708.000010550022,
+					["height"] = false,
+					["left"] = 364.800005435944,
+					["width"] = false,
+				},
+				["XPerl_Party_Anchor"] = {
+					["top"] = 960.000014305115,
+					["height"] = false,
+					["left"] = 0,
+					["width"] = false,
+				},
+				["XPerl_Raid_Title12"] = {
+					["top"] = 708.000010550022,
+					["height"] = false,
+					["left"] = 668.800009965897,
+					["width"] = false,
+				},
+				["XPerl_Raid_Title11"] = {
+					["top"] = 708.000010550022,
+					["height"] = false,
+					["left"] = 608.000009059906,
+					["width"] = false,
+				},
+				["XPerl_Raid_Title10"] = {
+					["top"] = 708.000010550022,
+					["height"] = false,
+					["left"] = 547.200056982041,
+					["width"] = false,
+				},
+				["XPerl_Target"] = {
+					["top"] = 1061.19978202539,
+					["height"] = false,
+					["left"] = 451.550130787189,
+					["width"] = false,
+				},
+				["XPerl_Raid_Title2"] = {
+					["top"] = 708.000010550022,
+					["height"] = false,
+					["left"] = 60.8000070095063,
+					["width"] = false,
+				},
+				["XPerl_Raid_Title3"] = {
+					["top"] = 708.000010550022,
+					["height"] = false,
+					["left"] = 121.600014019013,
+					["width"] = false,
+				},
+			},
+		},
+	},
+	["ConfigVersion"] = "5.0.8 release",
+	["global"] = {
+		["highlight"] = {
+			["enable"] = 1,
+			["HOT"] = 1,
+			["AGGRO"] = 1,
+			["SHIELD"] = 1,
+		},
+		["highlightSelection"] = 1,
+		["raidpet"] = {
+			["enable"] = 1,
+		},
+		["rangeFinder"] = {
+			["StatsFrame"] = {
+				["item"] = "",
+				["FadeAmount"] = 0.5,
+				["HealthLowPoint"] = 0.85,
+				["spell"] = "Flash Heal",
+			},
+			["Main"] = {
+				["enabled"] = true,
+				["spell"] = "Flash Heal",
+				["item"] = "",
+				["FadeAmount"] = 0.5,
+				["HealthLowPoint"] = 0.85,
+			},
+			["NameFrame"] = {
+				["item"] = "",
+				["FadeAmount"] = 0.5,
+				["HealthLowPoint"] = 0.85,
+				["spell"] = "Flash Heal",
+			},
+		},
+		["showAFK"] = 1,
+		["combatFlash"] = 1,
+		["buffHelper"] = {
+			["enable"] = 1,
+			["sort"] = "group",
+			["visible"] = 1,
+		},
+		["focus"] = {
+			["comboindicator"] = {
+				["enable"] = 1,
+			},
+			["debuffs"] = {
+				["onlyMine"] = 1,
+				["enable"] = 1,
+				["big"] = 1,
+				["curable"] = 0,
+				["size"] = 29,
+			},
+			["portrait"] = 1,
+			["combo"] = {
+				["enable"] = 1,
+				["blizzard"] = 1,
+				["pos"] = "top",
+			},
+			["enable"] = 1,
+			["mana"] = 1,
+			["castBar"] = {
+				["enable"] = 1,
+			},
+			["hitIndicator"] = 1,
+			["classText"] = 1,
+			["level"] = 1,
+			["sound"] = 1,
+			["size"] = {
+				["width"] = 0,
+			},
+			["absorbs"] = 1,
+			["threat"] = 1,
+			["pvpIcon"] = 1,
+			["healerMode"] = {
+				["type"] = 1,
+			},
+			["mobType"] = 1,
+			["highlightDebuffs"] = {
+				["who"] = 2,
+			},
+			["raidIconAlternate"] = 1,
+			["scale"] = 0.999999618530274,
+			["threatMode"] = "portraitFrame",
+			["values"] = 1,
+			["healprediction"] = 1,
+			["elite"] = 1,
+			["buffs"] = {
+				["maxrows"] = 2,
+				["castable"] = 0,
+				["enable"] = 1,
+				["wrap"] = 1,
+				["rows"] = 3,
+				["size"] = 22,
+			},
+			["percent"] = 1,
+			["classIcon"] = 1,
+		},
+		["target"] = {
+			["comboindicator"] = {
+				["enable"] = 1,
+			},
+			["debuffs"] = {
+				["onlyMine"] = 1,
+				["enable"] = 1,
+				["big"] = 1,
+				["curable"] = 0,
+				["size"] = 29,
+			},
+			["portrait"] = 1,
+			["combo"] = {
+				["enable"] = 1,
+				["blizzard"] = 1,
+				["pos"] = "top",
+			},
+			["enable"] = 1,
+			["mana"] = 1,
+			["castBar"] = {
+				["enable"] = 1,
+			},
+			["classText"] = 1,
+			["hitIndicator"] = 1,
+			["values"] = 1,
+			["level"] = 1,
+			["sound"] = 1,
+			["size"] = {
+				["width"] = 0,
+			},
+			["absorbs"] = 1,
+			["threat"] = 1,
+			["pvpIcon"] = 1,
+			["healerMode"] = {
+				["type"] = 1,
+			},
+			["mobType"] = 1,
+			["highlightDebuffs"] = {
+				["who"] = 2,
+			},
+			["raidIconAlternate"] = 1,
+			["scale"] = 1.05263092041016,
+			["threatMode"] = "portraitFrame",
+			["healprediction"] = 1,
+			["elite"] = 1,
+			["buffs"] = {
+				["maxrows"] = 2,
+				["castable"] = 0,
+				["enable"] = 1,
+				["wrap"] = 1,
+				["rows"] = 3,
+				["size"] = 22,
+			},
+			["percent"] = 1,
+			["classIcon"] = 1,
+		},
+		["raid"] = {
+			["debuffs"] = {
+				["enable"] = 1,
+				["size"] = 20,
+			},
+			["class"] = {
+				{
+					["enable"] = 1,
+					["name"] = "WARRIOR",
+				}, -- [1]
+				{
+					["enable"] = 1,
+					["name"] = "ROGUE",
+				}, -- [2]
+				{
+					["enable"] = 1,
+					["name"] = "HUNTER",
+				}, -- [3]
+				{
+					["enable"] = 1,
+					["name"] = "MAGE",
+				}, -- [4]
+				{
+					["enable"] = 1,
+					["name"] = "WARLOCK",
+				}, -- [5]
+				{
+					["enable"] = 1,
+					["name"] = "PRIEST",
+				}, -- [6]
+				{
+					["enable"] = 1,
+					["name"] = "DRUID",
+				}, -- [7]
+				{
+					["enable"] = 1,
+					["name"] = "SHAMAN",
+				}, -- [8]
+				{
+					["enable"] = 1,
+					["name"] = "PALADIN",
+				}, -- [9]
+				{
+					["enable"] = 1,
+					["name"] = "DEATHKNIGHT",
+				}, -- [10]
+				{
+					["enable"] = 1,
+					["name"] = "MONK",
+				}, -- [11]
+				{
+					["enable"] = 1,
+					["name"] = "DEMONHUNTER",
+				}, -- [12]
+			},
+			["healprediction"] = 1,
+			["precisionPercent"] = 1,
+			["anchor"] = "TOP",
+			["size"] = {
+				["width"] = 0,
+			},
+			["gap"] = 0,
+			["healerMode"] = {
+				["type"] = 1,
+			},
+			["manaPercent"] = 1,
+			["absorbs"] = 1,
+			["titles"] = 1,
+			["spacing"] = 0,
+			["scale"] = 0.8,
+			["precisionManaPercent"] = 1,
+			["mana"] = 1,
+			["buffs"] = {
+				["castable"] = 0,
+				["maxrows"] = 2,
+				["right"] = 1,
+				["size"] = 20,
+				["inside"] = 1,
+			},
+			["percent"] = 1,
+			["group"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+				1, -- [6]
+				1, -- [7]
+				1, -- [8]
+				1, -- [9]
+				1, -- [10]
+				1, -- [11]
+				1, -- [12]
+			},
+		},
+		["pettarget"] = {
+			["debuffs"] = {
+				["enable"] = 1,
+				["curable"] = 0,
+				["size"] = 29,
+			},
+			["values"] = 1,
+			["pvpIcon"] = 1,
+			["enable"] = 1,
+			["mana"] = 1,
+			["healprediction"] = 1,
+			["healerMode"] = {
+				["type"] = 1,
+			},
+			["scale"] = 0.7,
+			["absorbs"] = 1,
+			["buffs"] = {
+				["maxrows"] = 2,
+				["castable"] = 0,
+				["enable"] = 1,
+				["rows"] = 3,
+				["wrap"] = 1,
+				["size"] = 22,
+			},
+			["percent"] = 1,
+			["size"] = {
+				["width"] = 0,
+			},
+		},
+		["colour"] = {
+			["classic"] = 1,
+			["guildList"] = 1,
+			["border"] = {
+				["a"] = 1,
+				["b"] = 0.5,
+				["g"] = 0.5,
+				["r"] = 0.5,
+			},
+			["reaction"] = {
+				["tapped"] = {
+					["b"] = 0.5,
+					["g"] = 0.5,
+					["r"] = 0.5,
+				},
+				["none"] = {
+					["b"] = 1,
+					["g"] = 0.5,
+					["r"] = 0.5,
+				},
+				["neutral"] = {
+					["b"] = 0,
+					["g"] = 1,
+					["r"] = 1,
+				},
+				["unfriendly"] = {
+					["b"] = 0,
+					["g"] = 0.5,
+					["r"] = 1,
+				},
+				["friend"] = {
+					["b"] = 0,
+					["g"] = 1,
+					["r"] = 0,
+				},
+				["enemy"] = {
+					["b"] = 0,
+					["g"] = 0,
+					["r"] = 1,
+				},
+			},
+			["classbarBright"] = 1,
+			["gradient"] = {
+				["enable"] = 1,
+				["s"] = {
+					["a"] = 1,
+					["b"] = 0.25,
+					["g"] = 0.25,
+					["r"] = 0.25,
+				},
+				["e"] = {
+					["a"] = 0,
+					["b"] = 0.1,
+					["g"] = 0.1,
+					["r"] = 0.1,
+				},
+			},
+			["frame"] = {
+				["a"] = 1,
+				["b"] = 0,
+				["g"] = 0,
+				["r"] = 0,
+			},
+			["class"] = 1,
+			["bar"] = {
+				["rage"] = {
+					["b"] = 0,
+					["g"] = 0,
+					["r"] = 1,
+				},
+				["absorb"] = {
+					["a"] = 0.7,
+					["b"] = 0.7,
+					["g"] = 0.33,
+					["r"] = 0.14,
+				},
+				["fury"] = {
+					["b"] = 0.992,
+					["g"] = 0.259,
+					["r"] = 0.788,
+				},
+				["mana"] = {
+					["b"] = 1,
+					["g"] = 0,
+					["r"] = 0,
+				},
+				["healthEmpty"] = {
+					["b"] = 0,
+					["g"] = 0,
+					["r"] = 1,
+				},
+				["pain"] = {
+					["b"] = 0,
+					["g"] = 0.611,
+					["r"] = 1,
+				},
+				["healprediction"] = {
+					["a"] = 1,
+					["b"] = 1,
+					["g"] = 1,
+					["r"] = 0,
+				},
+				["healthFull"] = {
+					["b"] = 0,
+					["g"] = 1,
+					["r"] = 0,
+				},
+				["maelstrom"] = {
+					["b"] = 1,
+					["g"] = 0.5,
+					["r"] = 0,
+				},
+				["focus"] = {
+					["b"] = 0.25,
+					["g"] = 0.5,
+					["r"] = 1,
+				},
+				["runic_power"] = {
+					["b"] = 1,
+					["g"] = 0.82,
+					["r"] = 0,
+				},
+				["insanity"] = {
+					["b"] = 0.8,
+					["g"] = 0,
+					["r"] = 0.4,
+				},
+				["energy"] = {
+					["b"] = 0,
+					["g"] = 1,
+					["r"] = 1,
+				},
+				["lunar"] = {
+					["b"] = 0.9,
+					["g"] = 0.52,
+					["r"] = 0.3,
+				},
+			},
+		},
+		["focustarget"] = {
+			["debuffs"] = {
+				["enable"] = 1,
+				["onlyMine"] = 1,
+				["curable"] = 0,
+				["size"] = 29,
+			},
+			["values"] = 1,
+			["pvpIcon"] = 1,
+			["enable"] = 1,
+			["mana"] = 1,
+			["healprediction"] = 1,
+			["healerMode"] = {
+				["type"] = 1,
+			},
+			["scale"] = 0.914596405029297,
+			["absorbs"] = 1,
+			["buffs"] = {
+				["maxrows"] = 2,
+				["castable"] = 0,
+				["enable"] = 1,
+				["rows"] = 3,
+				["wrap"] = 1,
+				["size"] = 22,
+			},
+			["percent"] = 1,
+			["size"] = {
+				["width"] = 0,
+			},
+		},
+		["targettarget"] = {
+			["debuffs"] = {
+				["enable"] = 1,
+				["curable"] = 0,
+				["size"] = 29,
+			},
+			["values"] = 1,
+			["pvpIcon"] = 1,
+			["enable"] = 1,
+			["mana"] = 1,
+			["healprediction"] = 1,
+			["healerMode"] = {
+				["type"] = 1,
+			},
+			["scale"] = 0.986969604492188,
+			["absorbs"] = 1,
+			["buffs"] = {
+				["maxrows"] = 2,
+				["castable"] = 0,
+				["enable"] = 1,
+				["rows"] = 3,
+				["wrap"] = 1,
+				["size"] = 22,
+			},
+			["percent"] = 1,
+			["size"] = {
+				["width"] = 0,
+			},
+		},
+		["targettargettarget"] = {
+			["debuffs"] = {
+				["enable"] = 1,
+				["curable"] = 0,
+				["size"] = 29,
+			},
+			["values"] = 1,
+			["pvpIcon"] = 1,
+			["scale"] = 0.986969604492188,
+			["mana"] = 1,
+			["healprediction"] = 1,
+			["enable"] = 1,
+			["healerMode"] = {
+				["type"] = 1,
+			},
+			["absorbs"] = 1,
+			["buffs"] = {
+				["maxrows"] = 2,
+				["castable"] = 0,
+				["enable"] = 1,
+				["rows"] = 3,
+				["wrap"] = 1,
+				["size"] = 22,
+			},
+			["percent"] = 1,
+			["size"] = {
+				["width"] = 0,
+			},
+		},
+		["pet"] = {
+			["threat"] = 1,
+			["portrait"] = 1,
+			["healerMode"] = {
+				["type"] = 1,
+			},
+			["scale"] = 0.7,
+			["values"] = 1,
+			["debuffs"] = {
+				["enable"] = 1,
+				["size"] = 18,
+			},
+			["buffs"] = {
+				["maxrows"] = 2,
+				["enable"] = 1,
+				["rows"] = 3,
+				["wrap"] = 1,
+				["size"] = 18,
+			},
+			["castBar"] = {
+				["enable"] = 1,
+			},
+			["threatMode"] = "portraitFrame",
+			["name"] = 1,
+			["hitIndicator"] = 1,
+			["absorbs"] = 1,
+			["level"] = 1,
+			["healprediction"] = 1,
+			["size"] = {
+				["width"] = 0,
+			},
+		},
+		["tooltip"] = {
+			["enable"] = 1,
+			["enableBuffs"] = 1,
+			["modifier"] = "all",
+		},
+		["highlightDebuffs"] = {
+			["enable"] = 1,
+			["frame"] = 1,
+			["border"] = 1,
+			["class"] = 1,
+		},
+		["partypet"] = {
+			["scale"] = 0.7,
+			["debuffs"] = {
+				["enable"] = 1,
+				["curable"] = 0,
+				["size"] = 12,
+			},
+			["name"] = 1,
+			["mana"] = 1,
+			["enable"] = 1,
+			["buffs"] = {
+				["enable"] = 1,
+				["maxrows"] = 2,
+				["size"] = 12,
+				["castable"] = 0,
+			},
+			["healerMode"] = {
+				["type"] = 1,
+			},
+			["size"] = {
+				["width"] = 0,
+			},
+		},
+		["player"] = {
+			["partyNumber"] = 1,
+			["debuffs"] = {
+				["enable"] = 1,
+				["size"] = 25,
+			},
+			["portrait"] = 1,
+			["scale"] = 1.05263092041016,
+			["castBar"] = {
+				["precast"] = 1,
+				["enable"] = 1,
+			},
+			["fullScreen"] = {
+				["enable"] = 1,
+				["highHP"] = 40,
+				["lowHP"] = 30,
+			},
+			["hitIndicator"] = 1,
+			["dockRunes"] = 1,
+			["level"] = 1,
+			["size"] = {
+				["width"] = 0,
+			},
+			["threat"] = 1,
+			["pvpIcon"] = 1,
+			["lockRunes"] = 1,
+			["healerMode"] = {
+				["type"] = 1,
+			},
+			["totems"] = {
+				["enable"] = 1,
+				["offsetY"] = 0,
+				["offsetX"] = 0,
+			},
+			["showRunes"] = 1,
+			["healprediction"] = 1,
+			["threatMode"] = "portraitFrame",
+			["absorbs"] = 1,
+			["values"] = 1,
+			["buffs"] = {
+				["wrap"] = 1,
+				["flash"] = 1,
+				["count"] = 40,
+				["maxrows"] = 2,
+				["rows"] = 2,
+				["hideBlizzard"] = 1,
+				["cooldown"] = 1,
+				["size"] = 25,
+			},
+			["percent"] = 1,
+			["classIcon"] = 1,
+		},
+		["transparency"] = {
+			["text"] = 1,
+			["frame"] = 1,
+		},
+		["party"] = {
+			["debuffs"] = {
+				["halfSize"] = 1,
+				["below"] = 1,
+				["enable"] = 1,
+				["curable"] = 0,
+				["size"] = 32,
+			},
+			["portrait"] = 1,
+			["castBar"] = {
+				["enable"] = 1,
+				["castTime"] = 1,
+			},
+			["spacing"] = 23,
+			["anchor"] = "TOP",
+			["level"] = 1,
+			["size"] = {
+				["width"] = 0,
+			},
+			["healerMode"] = {
+				["type"] = 1,
+			},
+			["threat"] = 1,
+			["pvpIcon"] = 1,
+			["scale"] = 0.8,
+			["healprediction"] = 1,
+			["inRaid"] = 1,
+			["hitIndicator"] = 1,
+			["target"] = {
+				["enable"] = 1,
+				["size"] = 120,
+				["large"] = 1,
+			},
+			["threatMode"] = "portraitFrame",
+			["name"] = 1,
+			["values"] = 1,
+			["absorbs"] = 1,
+			["buffs"] = {
+				["maxrows"] = 2,
+				["castable"] = 0,
+				["enable"] = 1,
+				["wrap"] = 1,
+				["rows"] = 2,
+				["size"] = 22,
+			},
+			["percent"] = 1,
+			["classIcon"] = 1,
+		},
+		["bar"] = {
+			["fat"] = 1,
+			["background"] = 1,
+			["fadeTime"] = 0.5,
+			["texture"] = {
+				"Blizzard", -- [1]
+				"Interface\\TargetingFrame\\UI-StatusBar", -- [2]
+			},
+		},
+		["minimap"] = {
+			["enable"] = 1,
+			["radius"] = 78,
+			["pos"] = 186,
+		},
+		["buffs"] = {
+			["countdown"] = 1,
+			["cooldown"] = 1,
+			["countdownStart"] = 20,
+		},
+		["maximumScale"] = 1.5,
+		["optionsColour"] = {
+			["b"] = 0.2,
+			["g"] = 0.2,
+			["r"] = 0.7,
+		},
+	},
+}
+ZPerlConfigSavePerCharacter = nil
+ZPerlImportDone = nil

@@ -1,0 +1,57 @@
+
+AmrDb = {
+	["Talents"] = {
+	},
+	["LastCharacterImportDate"] = "",
+	["SendSettings"] = {
+		["SendTo"] = "",
+		["SendGems"] = true,
+		["SendEnchants"] = true,
+		["SendEnchantMaterials"] = true,
+		["SendToType"] = "a friend",
+	},
+	["CharacterName"] = "Bankisho",
+	["Race"] = "Orc",
+	["ActiveSpec"] = 1,
+	["Level"] = 1,
+	["Equipped"] = {
+		{
+			[5] = "|cffffffff|Hitem:58247:0:0:0:0:0:0:0:1:0:0:0|h[Trapper's Vest]|h|r",
+			[16] = "|cffffffff|Hitem:2504:0:0:0:0:0:0:0:1:0:0:0|h[Worn Shortbow]|h|r",
+			[7] = "|cffffffff|Hitem:6137:0:0:0:0:0:0:0:1:0:0:0|h[Thug Pants]|h|r",
+			[8] = "|cffffffff|Hitem:6138:0:0:0:0:0:0:0:1:0:0:0|h[Trapper's Boots]|h|r",
+		}, -- [1]
+	},
+	["Specs"] = {
+	},
+	["Options"] = {
+	},
+	["Region"] = "EU",
+	["Currencies"] = {
+	},
+	["Glyphs"] = {
+	},
+	["LogData"] = {
+		["_wipes"] = {
+		},
+		["_autoLog"] = {
+			[1136] = "disabled",
+		},
+		["_lastDiff"] = 0,
+		["_lastZone"] = "Kalimdor",
+	},
+	["BagItems"] = {
+	},
+	["BankItems"] = {
+	},
+	["LastCharacterImport"] = "",
+	["Reps"] = {
+	},
+	["Faction"] = "Horde",
+	["IconInfo"] = {
+	},
+	["Professions"] = {
+	},
+	["RealmName"] = "Hellfire",
+	["Class"] = "HUNTER",
+}

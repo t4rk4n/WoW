@@ -1,0 +1,5804 @@
+
+Bartender4DB = {
+	["namespaces"] = {
+		["ActionBars"] = {
+			["profiles"] = {
+				["Kargoth - Frostmane"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["position"] = {
+								["y"] = 87.03603918616176,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+							["visibility"] = {
+								["pet"] = false,
+								["stance"] = {
+									false, -- [1]
+								},
+							},
+							["states"] = {
+								["default"] = 1,
+								["stance"] = {
+									["PRIEST"] = {
+										["shadowform"] = 5,
+									},
+								},
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["skin"] = {
+								["ID"] = "Dream Layout",
+								["Backdrop"] = false,
+							},
+							["visibility"] = {
+								["stance"] = {
+									[0] = true,
+								},
+							},
+							["position"] = {
+								["y"] = 105.5606695685196,
+								["x"] = -231.4999399218102,
+								["point"] = "BOTTOM",
+							},
+						}, -- [2]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["rows"] = 7,
+							["buttons"] = 8,
+							["position"] = {
+								["y"] = -52.2228157474749,
+								["x"] = -79.99975599432969,
+								["point"] = "RIGHT",
+							},
+						}, -- [3]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["rows"] = 5,
+							["buttons"] = 7,
+							["position"] = {
+								["y"] = -204.6494246478964,
+								["x"] = -79.99975599432969,
+								["point"] = "RIGHT",
+							},
+						}, -- [4]
+						{
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["version"] = 3,
+							["position"] = {
+								["y"] = 162.5459420345655,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+						}, -- [5]
+						{
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+							},
+							["version"] = 3,
+							["position"] = {
+								["y"] = 124.6517169881631,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 0.4999862199712197,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [7]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+							},
+							["rows"] = 2,
+							["buttons"] = 4,
+							["position"] = {
+								["y"] = -51.731425529955,
+								["x"] = 213.5001208744457,
+								["point"] = "CENTER",
+							},
+						}, -- [8]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 76.49993999019728,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [9]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 114.499978150277,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [10]
+					},
+				},
+				["Paraply - Frostwhisper"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -205.0000487601017,
+								["x"] = -231.4999749360768,
+								["point"] = "CENTER",
+							},
+						}, -- [1]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -189.5000207555272,
+								["x"] = -231.4999749360768,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -151.4999738418809,
+								["x"] = -231.4999749360768,
+								["point"] = "CENTER",
+							},
+						}, -- [3]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -113.4999882032012,
+								["x"] = -231.4999749360768,
+								["point"] = "CENTER",
+							},
+						}, -- [4]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -75.50000256452148,
+								["x"] = -231.4999749360768,
+								["point"] = "CENTER",
+							},
+						}, -- [5]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -37.49999941870846,
+								["x"] = -231.4999749360768,
+								["point"] = "CENTER",
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						[9] = {
+						},
+						[10] = {
+						},
+					},
+				},
+				["Slakthuset - Shattered Hand"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["position"] = {
+								["y"] = 87.03603918616176,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+							["visibility"] = {
+								["pet"] = false,
+								["stance"] = {
+									false, -- [1]
+								},
+							},
+							["states"] = {
+								["default"] = 1,
+								["stance"] = {
+									["PRIEST"] = {
+										["shadowform"] = 5,
+									},
+								},
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["skin"] = {
+								["ID"] = "Dream Layout",
+								["Backdrop"] = false,
+							},
+							["visibility"] = {
+								["stance"] = {
+									[0] = true,
+								},
+							},
+							["position"] = {
+								["y"] = 105.5606695685196,
+								["x"] = -231.4999399218102,
+								["point"] = "BOTTOM",
+							},
+						}, -- [2]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["position"] = {
+								["y"] = -52.2228157474749,
+								["x"] = -79.99975599432969,
+								["point"] = "RIGHT",
+							},
+							["rows"] = 7,
+							["buttons"] = 8,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+						}, -- [3]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["position"] = {
+								["y"] = -204.6494246478964,
+								["x"] = -79.99975599432969,
+								["point"] = "RIGHT",
+							},
+							["rows"] = 5,
+							["buttons"] = 7,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+						}, -- [4]
+						{
+							["position"] = {
+								["y"] = 162.5459420345655,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["version"] = 3,
+							["showgrid"] = true,
+						}, -- [5]
+						{
+							["position"] = {
+								["y"] = 124.6517169881631,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+							["skin"] = {
+								["ID"] = "Blizzard",
+							},
+							["version"] = 3,
+							["showgrid"] = true,
+						}, -- [6]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 0.4999862199712197,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [7]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["position"] = {
+								["y"] = -51.731425529955,
+								["x"] = 213.5001208744457,
+								["point"] = "CENTER",
+							},
+							["rows"] = 2,
+							["buttons"] = 4,
+							["skin"] = {
+								["ID"] = "Blizzard",
+							},
+						}, -- [8]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 76.49993999019728,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [9]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 114.499978150277,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [10]
+					},
+				},
+				["Lathe - Shattered Hand"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -205.0000487601017,
+								["x"] = -231.4999749360768,
+								["point"] = "CENTER",
+							},
+						}, -- [1]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -189.5000207555272,
+								["x"] = -231.4999749360768,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -151.4999738418809,
+								["x"] = -231.4999749360768,
+								["point"] = "CENTER",
+							},
+						}, -- [3]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -113.4999882032012,
+								["x"] = -231.4999749360768,
+								["point"] = "CENTER",
+							},
+						}, -- [4]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -75.50000256452148,
+								["x"] = -231.4999749360768,
+								["point"] = "CENTER",
+							},
+						}, -- [5]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -37.49999941870846,
+								["x"] = -231.4999749360768,
+								["point"] = "CENTER",
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						[9] = {
+						},
+						[10] = {
+						},
+					},
+				},
+				["Heede - Eonar"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["position"] = {
+								["y"] = 87.03603918616176,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+							["visibility"] = {
+								["pet"] = false,
+								["stance"] = {
+									false, -- [1]
+								},
+							},
+							["states"] = {
+								["default"] = 1,
+								["stance"] = {
+									["PRIEST"] = {
+										["shadowform"] = 5,
+									},
+								},
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["skin"] = {
+								["ID"] = "Dream Layout",
+								["Backdrop"] = false,
+							},
+							["visibility"] = {
+								["stance"] = {
+									[0] = true,
+								},
+							},
+							["position"] = {
+								["y"] = 105.5606695685196,
+								["x"] = -231.4999399218102,
+								["point"] = "BOTTOM",
+							},
+						}, -- [2]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["position"] = {
+								["y"] = -52.2228157474749,
+								["x"] = -79.99975599432969,
+								["point"] = "RIGHT",
+							},
+							["rows"] = 7,
+							["buttons"] = 8,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+						}, -- [3]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["position"] = {
+								["y"] = -204.6494246478964,
+								["x"] = -79.99975599432969,
+								["point"] = "RIGHT",
+							},
+							["rows"] = 5,
+							["buttons"] = 8,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+						}, -- [4]
+						{
+							["position"] = {
+								["y"] = 162.5459420345655,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["version"] = 3,
+							["showgrid"] = true,
+						}, -- [5]
+						{
+							["position"] = {
+								["y"] = 124.6517169881631,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+							["skin"] = {
+								["ID"] = "Blizzard",
+							},
+							["version"] = 3,
+							["showgrid"] = true,
+						}, -- [6]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 0.4999862199712197,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [7]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["position"] = {
+								["y"] = -51.731425529955,
+								["x"] = 213.5001208744457,
+								["point"] = "CENTER",
+							},
+							["rows"] = 2,
+							["buttons"] = 4,
+							["skin"] = {
+								["ID"] = "Blizzard",
+							},
+						}, -- [8]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 76.49993999019728,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [9]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 114.499978150277,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [10]
+					},
+				},
+				["Ironetti - Eonar"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["position"] = {
+								["y"] = 87.03603918616176,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+							["visibility"] = {
+								["pet"] = false,
+								["stance"] = {
+									false, -- [1]
+								},
+							},
+							["states"] = {
+								["default"] = 1,
+								["stance"] = {
+									["PRIEST"] = {
+										["shadowform"] = 5,
+									},
+								},
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["skin"] = {
+								["ID"] = "Dream Layout",
+								["Backdrop"] = false,
+							},
+							["visibility"] = {
+								["stance"] = {
+									[0] = true,
+								},
+							},
+							["position"] = {
+								["y"] = 105.5606695685196,
+								["x"] = -231.4999399218102,
+								["point"] = "BOTTOM",
+							},
+						}, -- [2]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["rows"] = 7,
+							["buttons"] = 8,
+							["position"] = {
+								["y"] = -52.2228157474749,
+								["x"] = -79.99975599432969,
+								["point"] = "RIGHT",
+							},
+						}, -- [3]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["rows"] = 5,
+							["buttons"] = 8,
+							["position"] = {
+								["y"] = -204.6494246478964,
+								["x"] = -79.99975599432969,
+								["point"] = "RIGHT",
+							},
+						}, -- [4]
+						{
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["version"] = 3,
+							["position"] = {
+								["y"] = 162.5459420345655,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+						}, -- [5]
+						{
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+							},
+							["version"] = 3,
+							["position"] = {
+								["y"] = 124.6517169881631,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 0.4999862199712197,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [7]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+							},
+							["rows"] = 2,
+							["buttons"] = 4,
+							["position"] = {
+								["y"] = -51.731425529955,
+								["x"] = 213.5001208744457,
+								["point"] = "CENTER",
+							},
+						}, -- [8]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 76.49993999019728,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [9]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 114.499978150277,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [10]
+					},
+				},
+				["Kizzie - Talnivarr"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -205.0000049922685,
+								["x"] = -231.4999399218102,
+								["point"] = "CENTER",
+							},
+						}, -- [1]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -189.5000120019606,
+								["x"] = -231.4999399218102,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -151.5000088561475,
+								["x"] = -231.4999399218102,
+								["point"] = "CENTER",
+							},
+						}, -- [3]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -113.5000407246012,
+								["x"] = -231.4999399218102,
+								["point"] = "CENTER",
+							},
+						}, -- [4]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -75.50007259305471,
+								["x"] = -231.4999399218102,
+								["point"] = "CENTER",
+							},
+						}, -- [5]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -37.50006944724169,
+								["x"] = -231.4999399218102,
+								["point"] = "CENTER",
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						[9] = {
+						},
+						[10] = {
+						},
+					},
+				},
+				["Ironoppi - Eonar"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["position"] = {
+								["y"] = 87.03603918616176,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+							["visibility"] = {
+								["pet"] = false,
+								["stance"] = {
+									false, -- [1]
+								},
+							},
+							["states"] = {
+								["default"] = 1,
+								["stance"] = {
+									["PRIEST"] = {
+										["shadowform"] = 5,
+									},
+								},
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["skin"] = {
+								["ID"] = "Dream Layout",
+								["Backdrop"] = false,
+							},
+							["visibility"] = {
+								["stance"] = {
+									[0] = true,
+								},
+							},
+							["position"] = {
+								["y"] = 105.5606695685196,
+								["x"] = -231.4999399218102,
+								["point"] = "BOTTOM",
+							},
+						}, -- [2]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["position"] = {
+								["y"] = -52.2228157474749,
+								["x"] = -79.99975599432969,
+								["point"] = "RIGHT",
+							},
+							["rows"] = 7,
+							["buttons"] = 8,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+						}, -- [3]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["position"] = {
+								["y"] = -204.6494246478964,
+								["x"] = -79.99975599432969,
+								["point"] = "RIGHT",
+							},
+							["rows"] = 5,
+							["buttons"] = 8,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+						}, -- [4]
+						{
+							["position"] = {
+								["y"] = 162.5459420345655,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["version"] = 3,
+							["showgrid"] = true,
+						}, -- [5]
+						{
+							["position"] = {
+								["y"] = 124.6517169881631,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+							["skin"] = {
+								["ID"] = "Blizzard",
+							},
+							["version"] = 3,
+							["showgrid"] = true,
+						}, -- [6]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 0.4999862199712197,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [7]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["position"] = {
+								["y"] = -51.731425529955,
+								["x"] = 213.5001208744457,
+								["point"] = "CENTER",
+							},
+							["rows"] = 2,
+							["buttons"] = 4,
+							["skin"] = {
+								["ID"] = "Blizzard",
+							},
+						}, -- [8]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 76.49993999019728,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [9]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 114.499978150277,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [10]
+					},
+				},
+				["Doerf - Frostmane"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -205.0000487601017,
+								["x"] = -231.4999749360768,
+								["point"] = "CENTER",
+							},
+						}, -- [1]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -189.5000207555272,
+								["x"] = -231.4999749360768,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -151.4999738418809,
+								["x"] = -231.4999749360768,
+								["point"] = "CENTER",
+							},
+						}, -- [3]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -113.4999882032012,
+								["x"] = -231.4999749360768,
+								["point"] = "CENTER",
+							},
+						}, -- [4]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -75.50000256452148,
+								["x"] = -231.4999749360768,
+								["point"] = "CENTER",
+							},
+						}, -- [5]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -37.49999941870846,
+								["x"] = -231.4999749360768,
+								["point"] = "CENTER",
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						[9] = {
+						},
+						[10] = {
+						},
+					},
+				},
+				["Jokkles - Shattered Hand"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["position"] = {
+								["y"] = 87.03603918616176,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+							["visibility"] = {
+								["pet"] = false,
+								["stance"] = {
+									false, -- [1]
+								},
+							},
+							["states"] = {
+								["default"] = 1,
+								["stance"] = {
+									["PRIEST"] = {
+										["shadowform"] = 5,
+									},
+								},
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["skin"] = {
+								["ID"] = "Dream Layout",
+								["Backdrop"] = false,
+							},
+							["visibility"] = {
+								["stance"] = {
+									[0] = true,
+								},
+							},
+							["position"] = {
+								["y"] = 105.5606695685196,
+								["x"] = -231.4999399218102,
+								["point"] = "BOTTOM",
+							},
+						}, -- [2]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["rows"] = 7,
+							["buttons"] = 8,
+							["position"] = {
+								["y"] = -52.2228157474749,
+								["x"] = -79.99975599432969,
+								["point"] = "RIGHT",
+							},
+						}, -- [3]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["rows"] = 5,
+							["buttons"] = 7,
+							["position"] = {
+								["y"] = -204.6494246478964,
+								["x"] = -79.99975599432969,
+								["point"] = "RIGHT",
+							},
+						}, -- [4]
+						{
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["version"] = 3,
+							["position"] = {
+								["y"] = 162.5459420345655,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+						}, -- [5]
+						{
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+							},
+							["version"] = 3,
+							["position"] = {
+								["y"] = 124.6517169881631,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 0.4999862199712197,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [7]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+							},
+							["rows"] = 2,
+							["buttons"] = 4,
+							["position"] = {
+								["y"] = -51.731425529955,
+								["x"] = 213.5001208744457,
+								["point"] = "CENTER",
+							},
+						}, -- [8]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 76.49993999019728,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [9]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 114.499978150277,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [10]
+					},
+				},
+				["Wiikree - Shattered Hand"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["position"] = {
+								["y"] = 87.03603918616176,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+							["visibility"] = {
+								["pet"] = false,
+								["stance"] = {
+									false, -- [1]
+								},
+							},
+							["states"] = {
+								["default"] = 1,
+								["stance"] = {
+									["PRIEST"] = {
+										["shadowform"] = 2,
+									},
+								},
+							},
+						}, -- [1]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Dream Layout",
+								["Backdrop"] = false,
+							},
+							["position"] = {
+								["y"] = 87.03604,
+								["x"] = -249.87175,
+								["point"] = "BOTTOM",
+							},
+							["visibility"] = {
+								["stance"] = {
+									true, -- [1]
+									[0] = true,
+								},
+								["vehicleui"] = false,
+							},
+							["states"] = {
+								["enabled"] = true,
+								["possess"] = true,
+								["actionbar"] = true,
+							},
+						}, -- [2]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["rows"] = 7,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["position"] = {
+								["y"] = 25.07469671456067,
+								["x"] = -79.99975599432969,
+								["point"] = "RIGHT",
+							},
+						}, -- [3]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["rows"] = 4,
+							["buttons"] = 8,
+							["position"] = {
+								["y"] = -204.1076313936,
+								["x"] = -79.99975599432969,
+								["point"] = "RIGHT",
+							},
+						}, -- [4]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["visibility"] = {
+								["stance"] = {
+									false, -- [1]
+								},
+							},
+							["position"] = {
+								["y"] = 162.5459420345655,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+						}, -- [5]
+						{
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+							},
+							["version"] = 3,
+							["position"] = {
+								["y"] = 124.6517169881631,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 0.4999862199712197,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [7]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+							},
+							["rows"] = 2,
+							["buttons"] = 4,
+							["position"] = {
+								["y"] = -51.731425529955,
+								["x"] = 213.5001208744457,
+								["point"] = "CENTER",
+							},
+						}, -- [8]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 76.49993999019728,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [9]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 114.499978150277,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [10]
+					},
+				},
+				["Wiikree - Arena Pass 1"] = {
+					["actionbars"] = {
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 41.75,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -189.5000995376271,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["padding"] = 5,
+							["rows"] = 12,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -82,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [3]
+						{
+							["padding"] = 5,
+							["rows"] = 12,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -42,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [4]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 83,
+								["x"] = 3,
+								["point"] = "BOTTOM",
+							},
+						}, -- [5]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 83,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						[10] = {
+						},
+					},
+				},
+				["Wobster - Shattered Hand"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["position"] = {
+								["y"] = 87.03603918616176,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+							["visibility"] = {
+								["pet"] = false,
+								["stance"] = {
+									false, -- [1]
+								},
+							},
+							["states"] = {
+								["default"] = 1,
+								["stance"] = {
+									["PRIEST"] = {
+										["shadowform"] = 5,
+									},
+								},
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["skin"] = {
+								["ID"] = "Dream Layout",
+								["Backdrop"] = false,
+							},
+							["visibility"] = {
+								["stance"] = {
+									[0] = true,
+								},
+							},
+							["position"] = {
+								["y"] = 105.5606695685196,
+								["x"] = -231.4999399218102,
+								["point"] = "BOTTOM",
+							},
+						}, -- [2]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["rows"] = 7,
+							["buttons"] = 8,
+							["position"] = {
+								["y"] = -52.2228157474749,
+								["x"] = -79.99975599432969,
+								["point"] = "RIGHT",
+							},
+						}, -- [3]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["rows"] = 5,
+							["buttons"] = 7,
+							["position"] = {
+								["y"] = -204.6494246478964,
+								["x"] = -79.99975599432969,
+								["point"] = "RIGHT",
+							},
+						}, -- [4]
+						{
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["version"] = 3,
+							["position"] = {
+								["y"] = 162.5459420345655,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+						}, -- [5]
+						{
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+							},
+							["version"] = 3,
+							["position"] = {
+								["y"] = 124.6517169881631,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 0.4999862199712197,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [7]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+							},
+							["rows"] = 2,
+							["buttons"] = 4,
+							["position"] = {
+								["y"] = -51.731425529955,
+								["x"] = 213.5001208744457,
+								["point"] = "CENTER",
+							},
+						}, -- [8]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 76.49993999019728,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [9]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 114.499978150277,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [10]
+					},
+				},
+				["Etni - Eonar"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["position"] = {
+								["y"] = 87.03603918616176,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+							["visibility"] = {
+								["pet"] = false,
+								["stance"] = {
+									false, -- [1]
+								},
+							},
+							["states"] = {
+								["default"] = 1,
+								["stance"] = {
+									["PRIEST"] = {
+										["shadowform"] = 5,
+									},
+								},
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["skin"] = {
+								["ID"] = "Dream Layout",
+								["Backdrop"] = false,
+							},
+							["visibility"] = {
+								["stance"] = {
+									[0] = true,
+								},
+							},
+							["position"] = {
+								["y"] = 105.5606695685196,
+								["x"] = -231.4999399218102,
+								["point"] = "BOTTOM",
+							},
+						}, -- [2]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["position"] = {
+								["y"] = -52.2228157474749,
+								["x"] = -79.99975599432969,
+								["point"] = "RIGHT",
+							},
+							["rows"] = 7,
+							["buttons"] = 8,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+						}, -- [3]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["position"] = {
+								["y"] = -204.6494246478964,
+								["x"] = -79.99975599432969,
+								["point"] = "RIGHT",
+							},
+							["rows"] = 5,
+							["buttons"] = 8,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+						}, -- [4]
+						{
+							["position"] = {
+								["y"] = 162.5459420345655,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["version"] = 3,
+							["showgrid"] = true,
+						}, -- [5]
+						{
+							["position"] = {
+								["y"] = 124.6517169881631,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+							["skin"] = {
+								["ID"] = "Blizzard",
+							},
+							["version"] = 3,
+							["showgrid"] = true,
+						}, -- [6]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 0.4999862199712197,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [7]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["position"] = {
+								["y"] = -51.731425529955,
+								["x"] = 213.5001208744457,
+								["point"] = "CENTER",
+							},
+							["rows"] = 2,
+							["buttons"] = 4,
+							["skin"] = {
+								["ID"] = "Blizzard",
+							},
+						}, -- [8]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 76.49993999019728,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [9]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 114.499978150277,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [10]
+					},
+				},
+				["Wiikree - Boulderfist"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["position"] = {
+								["y"] = 87.03603918616176,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+							["visibility"] = {
+								["pet"] = false,
+								["stance"] = {
+									false, -- [1]
+								},
+							},
+							["states"] = {
+								["default"] = 1,
+								["stance"] = {
+									["PRIEST"] = {
+										["shadowform"] = 5,
+									},
+								},
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["skin"] = {
+								["ID"] = "Dream Layout",
+								["Backdrop"] = false,
+							},
+							["visibility"] = {
+								["stance"] = {
+									[0] = true,
+								},
+							},
+							["position"] = {
+								["y"] = 105.5606695685196,
+								["x"] = -231.4999399218102,
+								["point"] = "BOTTOM",
+							},
+						}, -- [2]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["rows"] = 7,
+							["buttons"] = 8,
+							["position"] = {
+								["y"] = -52.2228157474749,
+								["x"] = -79.99975599432969,
+								["point"] = "RIGHT",
+							},
+						}, -- [3]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["rows"] = 5,
+							["buttons"] = 8,
+							["position"] = {
+								["y"] = -204.6494246478964,
+								["x"] = -79.99975599432969,
+								["point"] = "RIGHT",
+							},
+						}, -- [4]
+						{
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["version"] = 3,
+							["position"] = {
+								["y"] = 162.5459420345655,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+						}, -- [5]
+						{
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+							},
+							["version"] = 3,
+							["position"] = {
+								["y"] = 124.6517169881631,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 0.4999862199712197,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [7]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+							},
+							["rows"] = 2,
+							["buttons"] = 4,
+							["position"] = {
+								["y"] = -51.731425529955,
+								["x"] = 213.5001208744457,
+								["point"] = "CENTER",
+							},
+						}, -- [8]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 76.49993999019728,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [9]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 114.499978150277,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [10]
+					},
+				},
+				["Osses - Eonar"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["position"] = {
+								["y"] = 87.03603918616176,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+							["visibility"] = {
+								["pet"] = false,
+								["stance"] = {
+									false, -- [1]
+								},
+							},
+							["states"] = {
+								["default"] = 1,
+								["stance"] = {
+									["PRIEST"] = {
+										["shadowform"] = 5,
+									},
+								},
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["skin"] = {
+								["ID"] = "Dream Layout",
+								["Backdrop"] = false,
+							},
+							["visibility"] = {
+								["stance"] = {
+									[0] = true,
+								},
+							},
+							["position"] = {
+								["y"] = 105.5606695685196,
+								["x"] = -231.4999399218102,
+								["point"] = "BOTTOM",
+							},
+						}, -- [2]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["rows"] = 7,
+							["buttons"] = 8,
+							["position"] = {
+								["y"] = -52.2228157474749,
+								["x"] = -79.99975599432969,
+								["point"] = "RIGHT",
+							},
+						}, -- [3]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["rows"] = 5,
+							["buttons"] = 8,
+							["position"] = {
+								["y"] = -204.6494246478964,
+								["x"] = -79.99975599432969,
+								["point"] = "RIGHT",
+							},
+						}, -- [4]
+						{
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["version"] = 3,
+							["position"] = {
+								["y"] = 162.5459420345655,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+						}, -- [5]
+						{
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+							},
+							["version"] = 3,
+							["position"] = {
+								["y"] = 124.6517169881631,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 0.4999862199712197,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [7]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+							},
+							["rows"] = 2,
+							["buttons"] = 4,
+							["position"] = {
+								["y"] = -51.731425529955,
+								["x"] = 213.5001208744457,
+								["point"] = "CENTER",
+							},
+						}, -- [8]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 76.49993999019728,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [9]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 114.499978150277,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [10]
+					},
+				},
+				["Oween - Frostmane"] = {
+					["actionbars"] = {
+						{
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["version"] = 3,
+							["position"] = {
+								["y"] = 87.03603918616176,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+							["visibility"] = {
+								["pet"] = false,
+								["stance"] = {
+									false, -- [1]
+								},
+							},
+							["states"] = {
+								["default"] = 1,
+								["stance"] = {
+									["PRIEST"] = {
+										["shadowform"] = 5,
+									},
+								},
+							},
+						}, -- [1]
+						{
+							["skin"] = {
+								["ID"] = "Dream Layout",
+								["Backdrop"] = false,
+							},
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 105.5606695685196,
+								["x"] = -231.4999399218102,
+								["point"] = "BOTTOM",
+							},
+							["visibility"] = {
+								["stance"] = {
+									[0] = true,
+								},
+							},
+						}, -- [2]
+						{
+							["showgrid"] = true,
+							["rows"] = 7,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["buttons"] = 8,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -52.2228157474749,
+								["x"] = -79.99975599432969,
+								["point"] = "RIGHT",
+							},
+						}, -- [3]
+						{
+							["showgrid"] = true,
+							["rows"] = 5,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["buttons"] = 8,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -204.6494246478964,
+								["x"] = -79.99975599432969,
+								["point"] = "RIGHT",
+							},
+						}, -- [4]
+						{
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["version"] = 3,
+							["position"] = {
+								["y"] = 162.5459420345655,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+						}, -- [5]
+						{
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+							},
+							["version"] = 3,
+							["position"] = {
+								["y"] = 124.6517169881631,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 0.4999862199712197,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [7]
+						{
+							["showgrid"] = true,
+							["rows"] = 2,
+							["skin"] = {
+								["ID"] = "Blizzard",
+							},
+							["buttons"] = 4,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -51.731425529955,
+								["x"] = 213.5001208744457,
+								["point"] = "CENTER",
+							},
+						}, -- [8]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 76.49993999019728,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [9]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 114.499978150277,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [10]
+					},
+				},
+				["Etni - Shattered Hand"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["position"] = {
+								["y"] = 87.03603918616176,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+							["visibility"] = {
+								["pet"] = false,
+								["stance"] = {
+									false, -- [1]
+								},
+							},
+							["states"] = {
+								["default"] = 1,
+								["stance"] = {
+									["PRIEST"] = {
+										["shadowform"] = 5,
+									},
+								},
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["skin"] = {
+								["ID"] = "Dream Layout",
+								["Backdrop"] = false,
+							},
+							["visibility"] = {
+								["stance"] = {
+									[0] = true,
+								},
+							},
+							["position"] = {
+								["y"] = 105.5606695685196,
+								["x"] = -231.4999399218102,
+								["point"] = "BOTTOM",
+							},
+						}, -- [2]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["position"] = {
+								["y"] = -52.2228157474749,
+								["x"] = -79.99975599432969,
+								["point"] = "RIGHT",
+							},
+							["rows"] = 7,
+							["buttons"] = 8,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+						}, -- [3]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["position"] = {
+								["y"] = -204.6494246478964,
+								["x"] = -79.99975599432969,
+								["point"] = "RIGHT",
+							},
+							["rows"] = 5,
+							["buttons"] = 8,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+						}, -- [4]
+						{
+							["position"] = {
+								["y"] = 162.5459420345655,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["version"] = 3,
+							["showgrid"] = true,
+						}, -- [5]
+						{
+							["position"] = {
+								["y"] = 124.6517169881631,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+							["skin"] = {
+								["ID"] = "Blizzard",
+							},
+							["version"] = 3,
+							["showgrid"] = true,
+						}, -- [6]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 0.4999862199712197,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [7]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["position"] = {
+								["y"] = -51.731425529955,
+								["x"] = 213.5001208744457,
+								["point"] = "CENTER",
+							},
+							["rows"] = 2,
+							["buttons"] = 4,
+							["skin"] = {
+								["ID"] = "Blizzard",
+							},
+						}, -- [8]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 76.49993999019728,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [9]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 114.499978150277,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [10]
+					},
+				},
+				["Pelé - Eonar"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["position"] = {
+								["y"] = 87.03603918616176,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+							["visibility"] = {
+								["pet"] = false,
+								["stance"] = {
+									false, -- [1]
+								},
+							},
+							["states"] = {
+								["default"] = 1,
+								["stance"] = {
+									["PRIEST"] = {
+										["shadowform"] = 5,
+									},
+								},
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["skin"] = {
+								["ID"] = "Dream Layout",
+								["Backdrop"] = false,
+							},
+							["visibility"] = {
+								["stance"] = {
+									[0] = true,
+								},
+							},
+							["position"] = {
+								["y"] = 105.5606695685196,
+								["x"] = -231.4999399218102,
+								["point"] = "BOTTOM",
+							},
+						}, -- [2]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["position"] = {
+								["y"] = -52.2228157474749,
+								["x"] = -79.99975599432969,
+								["point"] = "RIGHT",
+							},
+							["rows"] = 7,
+							["buttons"] = 8,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+						}, -- [3]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["position"] = {
+								["y"] = -204.6494246478964,
+								["x"] = -79.99975599432969,
+								["point"] = "RIGHT",
+							},
+							["rows"] = 5,
+							["buttons"] = 8,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+						}, -- [4]
+						{
+							["position"] = {
+								["y"] = 162.5459420345655,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["version"] = 3,
+							["showgrid"] = true,
+						}, -- [5]
+						{
+							["position"] = {
+								["y"] = 124.6517169881631,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+							["skin"] = {
+								["ID"] = "Blizzard",
+							},
+							["version"] = 3,
+							["showgrid"] = true,
+						}, -- [6]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 0.4999862199712197,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [7]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["position"] = {
+								["y"] = -51.731425529955,
+								["x"] = 213.5001208744457,
+								["point"] = "CENTER",
+							},
+							["rows"] = 2,
+							["buttons"] = 4,
+							["skin"] = {
+								["ID"] = "Blizzard",
+							},
+						}, -- [8]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 76.49993999019728,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [9]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 114.499978150277,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [10]
+					},
+				},
+				["Wiikree - Silvermoon"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["position"] = {
+								["y"] = 87.03603918616176,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+							["visibility"] = {
+								["pet"] = false,
+								["stance"] = {
+									false, -- [1]
+								},
+							},
+							["states"] = {
+								["default"] = 1,
+								["stance"] = {
+									["PRIEST"] = {
+										["shadowform"] = 2,
+									},
+								},
+							},
+						}, -- [1]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Dream Layout",
+								["Backdrop"] = false,
+							},
+							["position"] = {
+								["y"] = 87.03604,
+								["x"] = -249.87175,
+								["point"] = "BOTTOM",
+							},
+							["visibility"] = {
+								["vehicleui"] = false,
+								["stance"] = {
+									true, -- [1]
+									[0] = true,
+								},
+							},
+							["states"] = {
+								["enabled"] = true,
+								["possess"] = true,
+								["actionbar"] = true,
+							},
+						}, -- [2]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["rows"] = 7,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["position"] = {
+								["y"] = 25.07469671456067,
+								["x"] = -79.99975599432969,
+								["point"] = "RIGHT",
+							},
+						}, -- [3]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["rows"] = 4,
+							["buttons"] = 8,
+							["position"] = {
+								["y"] = -204.1076313936,
+								["x"] = -79.99975599432969,
+								["point"] = "RIGHT",
+							},
+						}, -- [4]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["visibility"] = {
+								["stance"] = {
+									false, -- [1]
+								},
+							},
+							["position"] = {
+								["y"] = 162.5459420345655,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+						}, -- [5]
+						{
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+							},
+							["version"] = 3,
+							["position"] = {
+								["y"] = 124.6517169881631,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 0.4999862199712197,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [7]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+							},
+							["rows"] = 2,
+							["buttons"] = 4,
+							["position"] = {
+								["y"] = -51.731425529955,
+								["x"] = 213.5001208744457,
+								["point"] = "CENTER",
+							},
+						}, -- [8]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 76.49993999019728,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [9]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 114.499978150277,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [10]
+					},
+				},
+				["Cazey - Talnivarr"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -205.0000049922685,
+								["x"] = -231.4999399218102,
+								["point"] = "CENTER",
+							},
+						}, -- [1]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -189.5000120019606,
+								["x"] = -231.4999399218102,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -151.5000088561475,
+								["x"] = -231.4999399218102,
+								["point"] = "CENTER",
+							},
+						}, -- [3]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -113.5000407246012,
+								["x"] = -231.4999399218102,
+								["point"] = "CENTER",
+							},
+						}, -- [4]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -75.50007259305471,
+								["x"] = -231.4999399218102,
+								["point"] = "CENTER",
+							},
+						}, -- [5]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = -37.50006944724169,
+								["x"] = -231.4999399218102,
+								["point"] = "CENTER",
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						[9] = {
+						},
+						[10] = {
+						},
+					},
+				},
+				["Lillipop - Eonar"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["position"] = {
+								["y"] = 87.03603918616176,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+							["visibility"] = {
+								["pet"] = false,
+								["stance"] = {
+									false, -- [1]
+								},
+							},
+							["states"] = {
+								["default"] = 1,
+								["stance"] = {
+									["PRIEST"] = {
+										["shadowform"] = 5,
+									},
+								},
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["skin"] = {
+								["ID"] = "Dream Layout",
+								["Backdrop"] = false,
+							},
+							["visibility"] = {
+								["stance"] = {
+									[0] = true,
+								},
+							},
+							["position"] = {
+								["y"] = 105.5606695685196,
+								["x"] = -231.4999399218102,
+								["point"] = "BOTTOM",
+							},
+						}, -- [2]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["position"] = {
+								["y"] = -52.2228157474749,
+								["x"] = -79.99975599432969,
+								["point"] = "RIGHT",
+							},
+							["rows"] = 7,
+							["buttons"] = 8,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+						}, -- [3]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["position"] = {
+								["y"] = -204.6494246478964,
+								["x"] = -79.99975599432969,
+								["point"] = "RIGHT",
+							},
+							["rows"] = 5,
+							["buttons"] = 8,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+						}, -- [4]
+						{
+							["position"] = {
+								["y"] = 162.5459420345655,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["version"] = 3,
+							["showgrid"] = true,
+						}, -- [5]
+						{
+							["position"] = {
+								["y"] = 124.6517169881631,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+							["skin"] = {
+								["ID"] = "Blizzard",
+							},
+							["version"] = 3,
+							["showgrid"] = true,
+						}, -- [6]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 0.4999862199712197,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [7]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["position"] = {
+								["y"] = -51.731425529955,
+								["x"] = 213.5001208744457,
+								["point"] = "CENTER",
+							},
+							["rows"] = 2,
+							["buttons"] = 4,
+							["skin"] = {
+								["ID"] = "Blizzard",
+							},
+						}, -- [8]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 76.49993999019728,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [9]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 114.499978150277,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [10]
+					},
+				},
+				["Slakthuset - Eonar"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["position"] = {
+								["y"] = 87.03603918616176,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+							["visibility"] = {
+								["pet"] = false,
+								["stance"] = {
+									false, -- [1]
+								},
+							},
+							["states"] = {
+								["default"] = 1,
+								["stance"] = {
+									["PRIEST"] = {
+										["shadowform"] = 5,
+									},
+								},
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["skin"] = {
+								["ID"] = "Dream Layout",
+								["Backdrop"] = false,
+							},
+							["visibility"] = {
+								["stance"] = {
+									[0] = true,
+								},
+							},
+							["position"] = {
+								["y"] = 105.5606695685196,
+								["x"] = -231.4999399218102,
+								["point"] = "BOTTOM",
+							},
+						}, -- [2]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["position"] = {
+								["y"] = -52.2228157474749,
+								["x"] = -79.99975599432969,
+								["point"] = "RIGHT",
+							},
+							["rows"] = 7,
+							["buttons"] = 8,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+						}, -- [3]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["position"] = {
+								["y"] = -204.6494246478964,
+								["x"] = -79.99975599432969,
+								["point"] = "RIGHT",
+							},
+							["rows"] = 5,
+							["buttons"] = 8,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+						}, -- [4]
+						{
+							["position"] = {
+								["y"] = 162.5459420345655,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["version"] = 3,
+							["showgrid"] = true,
+						}, -- [5]
+						{
+							["position"] = {
+								["y"] = 124.6517169881631,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+							["skin"] = {
+								["ID"] = "Blizzard",
+							},
+							["version"] = 3,
+							["showgrid"] = true,
+						}, -- [6]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 0.4999862199712197,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [7]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["position"] = {
+								["y"] = -51.731425529955,
+								["x"] = 213.5001208744457,
+								["point"] = "CENTER",
+							},
+							["rows"] = 2,
+							["buttons"] = 4,
+							["skin"] = {
+								["ID"] = "Blizzard",
+							},
+						}, -- [8]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 76.49993999019728,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [9]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 114.499978150277,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [10]
+					},
+				},
+				["Augor - Shattered Hand"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["position"] = {
+								["y"] = 87.03603918616176,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+							["visibility"] = {
+								["pet"] = false,
+								["stance"] = {
+									false, -- [1]
+								},
+							},
+							["states"] = {
+								["default"] = 1,
+								["stance"] = {
+									["PRIEST"] = {
+										["shadowform"] = 5,
+									},
+								},
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["skin"] = {
+								["ID"] = "Dream Layout",
+								["Backdrop"] = false,
+							},
+							["visibility"] = {
+								["stance"] = {
+									[0] = true,
+								},
+							},
+							["position"] = {
+								["y"] = 105.5606695685196,
+								["x"] = -231.4999399218102,
+								["point"] = "BOTTOM",
+							},
+						}, -- [2]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["rows"] = 7,
+							["buttons"] = 8,
+							["position"] = {
+								["y"] = -52.2228157474749,
+								["x"] = -79.99975599432969,
+								["point"] = "RIGHT",
+							},
+						}, -- [3]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["rows"] = 5,
+							["buttons"] = 8,
+							["position"] = {
+								["y"] = -204.6494246478964,
+								["x"] = -79.99975599432969,
+								["point"] = "RIGHT",
+							},
+						}, -- [4]
+						{
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["version"] = 3,
+							["position"] = {
+								["y"] = 162.5459420345655,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+						}, -- [5]
+						{
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+							},
+							["version"] = 3,
+							["position"] = {
+								["y"] = 124.6517169881631,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 0.4999862199712197,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [7]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+							},
+							["rows"] = 2,
+							["buttons"] = 4,
+							["position"] = {
+								["y"] = -51.731425529955,
+								["x"] = 213.5001208744457,
+								["point"] = "CENTER",
+							},
+						}, -- [8]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 76.49993999019728,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [9]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 114.499978150277,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [10]
+					},
+				},
+				["Obur - Eonar"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["position"] = {
+								["y"] = 87.03603918616176,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+							["visibility"] = {
+								["pet"] = false,
+								["stance"] = {
+									false, -- [1]
+								},
+							},
+							["states"] = {
+								["default"] = 1,
+								["stance"] = {
+									["PRIEST"] = {
+										["shadowform"] = 5,
+									},
+								},
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["skin"] = {
+								["ID"] = "Dream Layout",
+								["Backdrop"] = false,
+							},
+							["visibility"] = {
+								["stance"] = {
+									[0] = true,
+								},
+							},
+							["position"] = {
+								["y"] = 105.5606695685196,
+								["x"] = -231.4999399218102,
+								["point"] = "BOTTOM",
+							},
+						}, -- [2]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["rows"] = 7,
+							["buttons"] = 8,
+							["position"] = {
+								["y"] = -52.2228157474749,
+								["x"] = -79.99975599432969,
+								["point"] = "RIGHT",
+							},
+						}, -- [3]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["rows"] = 5,
+							["buttons"] = 8,
+							["position"] = {
+								["y"] = -204.6494246478964,
+								["x"] = -79.99975599432969,
+								["point"] = "RIGHT",
+							},
+						}, -- [4]
+						{
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["version"] = 3,
+							["position"] = {
+								["y"] = 162.5459420345655,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+						}, -- [5]
+						{
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+							},
+							["version"] = 3,
+							["position"] = {
+								["y"] = 124.6517169881631,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 0.4999862199712197,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [7]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+							},
+							["rows"] = 2,
+							["buttons"] = 4,
+							["position"] = {
+								["y"] = -51.731425529955,
+								["x"] = 213.5001208744457,
+								["point"] = "CENTER",
+							},
+						}, -- [8]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 76.49993999019728,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [9]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 114.499978150277,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [10]
+					},
+				},
+				["Ironikree - Eonar"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["position"] = {
+								["y"] = 87.03603918616176,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+							["visibility"] = {
+								["pet"] = false,
+								["stance"] = {
+									false, -- [1]
+								},
+							},
+							["states"] = {
+								["default"] = 1,
+								["stance"] = {
+									["PRIEST"] = {
+										["shadowform"] = 5,
+									},
+								},
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["skin"] = {
+								["ID"] = "Dream Layout",
+								["Backdrop"] = false,
+							},
+							["visibility"] = {
+								["stance"] = {
+									[0] = true,
+								},
+							},
+							["position"] = {
+								["y"] = 105.5606695685196,
+								["x"] = -231.4999399218102,
+								["point"] = "BOTTOM",
+							},
+						}, -- [2]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["position"] = {
+								["y"] = -52.2228157474749,
+								["x"] = -79.99975599432969,
+								["point"] = "RIGHT",
+							},
+							["rows"] = 7,
+							["buttons"] = 8,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+						}, -- [3]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["position"] = {
+								["y"] = -204.6494246478964,
+								["x"] = -79.99975599432969,
+								["point"] = "RIGHT",
+							},
+							["rows"] = 5,
+							["buttons"] = 8,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+						}, -- [4]
+						{
+							["position"] = {
+								["y"] = 162.5459420345655,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["version"] = 3,
+							["showgrid"] = true,
+						}, -- [5]
+						{
+							["position"] = {
+								["y"] = 124.6517169881631,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+							["skin"] = {
+								["ID"] = "Blizzard",
+							},
+							["version"] = 3,
+							["showgrid"] = true,
+						}, -- [6]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 0.4999862199712197,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [7]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["position"] = {
+								["y"] = -51.731425529955,
+								["x"] = 213.5001208744457,
+								["point"] = "CENTER",
+							},
+							["rows"] = 2,
+							["buttons"] = 4,
+							["skin"] = {
+								["ID"] = "Blizzard",
+							},
+						}, -- [8]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 76.49993999019728,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [9]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 114.499978150277,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [10]
+					},
+				},
+				["Baskiri - Eonar"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["position"] = {
+								["y"] = 87.03603918616176,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+							["visibility"] = {
+								["pet"] = false,
+								["stance"] = {
+									false, -- [1]
+								},
+							},
+							["states"] = {
+								["default"] = 1,
+								["stance"] = {
+									["PRIEST"] = {
+										["shadowform"] = 5,
+									},
+								},
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["skin"] = {
+								["ID"] = "Dream Layout",
+								["Backdrop"] = false,
+							},
+							["visibility"] = {
+								["stance"] = {
+									[0] = true,
+								},
+							},
+							["position"] = {
+								["y"] = 105.5606695685196,
+								["x"] = -231.4999399218102,
+								["point"] = "BOTTOM",
+							},
+						}, -- [2]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["rows"] = 7,
+							["buttons"] = 8,
+							["position"] = {
+								["y"] = -52.2228157474749,
+								["x"] = -79.99975599432969,
+								["point"] = "RIGHT",
+							},
+						}, -- [3]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["rows"] = 5,
+							["buttons"] = 8,
+							["position"] = {
+								["y"] = -204.6494246478964,
+								["x"] = -79.99975599432969,
+								["point"] = "RIGHT",
+							},
+						}, -- [4]
+						{
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+								["Backdrop"] = false,
+							},
+							["version"] = 3,
+							["position"] = {
+								["y"] = 162.5459420345655,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+						}, -- [5]
+						{
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+							},
+							["version"] = 3,
+							["position"] = {
+								["y"] = 124.6517169881631,
+								["x"] = -249.8717505375751,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 0.4999862199712197,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [7]
+						{
+							["version"] = 3,
+							["showgrid"] = true,
+							["skin"] = {
+								["ID"] = "Blizzard",
+							},
+							["rows"] = 2,
+							["buttons"] = 4,
+							["position"] = {
+								["y"] = -51.731425529955,
+								["x"] = 213.5001208744457,
+								["point"] = "CENTER",
+							},
+						}, -- [8]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 76.49993999019728,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [9]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 114.499978150277,
+								["x"] = -231.4999049075436,
+								["point"] = "CENTER",
+							},
+						}, -- [10]
+					},
+				},
+			},
+		},
+		["ExtraActionBar"] = {
+			["profiles"] = {
+				["Wiikree - Arena Pass 1"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 222.9999816038326,
+						["x"] = -31.49991967918732,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Baskiri - Eonar"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 222.9999816038326,
+						["x"] = -31.49991967918732,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Osses - Eonar"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 222.9999816038326,
+						["x"] = -31.49991967918732,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Oween - Frostmane"] = {
+					["position"] = {
+						["y"] = 222.9999816038326,
+						["x"] = -31.49991967918732,
+						["point"] = "BOTTOM",
+					},
+					["version"] = 3,
+				},
+				["Slakthuset - Eonar"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 222.9999816038326,
+						["x"] = -31.49991967918732,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Heede - Eonar"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 222.9999816038326,
+						["x"] = -31.49991967918732,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Ironetti - Eonar"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 222.9999816038326,
+						["x"] = -31.49991967918732,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Lillipop - Eonar"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 222.9999816038326,
+						["x"] = -31.49991967918732,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Wiikree - Silvermoon"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 222.9999816038326,
+						["x"] = -31.49991967918732,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Ironoppi - Eonar"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 222.9999816038326,
+						["x"] = -31.49991967918732,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Obur - Eonar"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 222.9999816038326,
+						["x"] = -31.49991967918732,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Ironikree - Eonar"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 222.9999816038326,
+						["x"] = -31.49991967918732,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Etni - Eonar"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 222.9999816038326,
+						["x"] = -31.49991967918732,
+						["point"] = "BOTTOM",
+					},
+				},
+			},
+		},
+		["MicroMenu"] = {
+			["profiles"] = {
+				["Kargoth - Frostmane"] = {
+					["skin"] = {
+						["ID"] = "Dream Layout",
+						["Backdrop"] = false,
+					},
+					["rows"] = 2,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 193.8489968883471,
+						["x"] = 295.2032980636016,
+						["point"] = "BOTTOM",
+						["scale"] = 0.800000011920929,
+					},
+				},
+				["Paraply - Frostwhisper"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 42.40002263183698,
+						["x"] = -188.7999830329723,
+						["point"] = "CENTER",
+						["scale"] = 0.800000011920929,
+					},
+				},
+				["Slakthuset - Shattered Hand"] = {
+					["skin"] = {
+						["ID"] = "Dream Layout",
+						["Backdrop"] = false,
+					},
+					["rows"] = 2,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 193.8489968883471,
+						["x"] = 295.2032980636016,
+						["point"] = "BOTTOM",
+						["scale"] = 0.800000011920929,
+					},
+				},
+				["Lathe - Shattered Hand"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 42.40002263183698,
+						["x"] = -188.7999830329723,
+						["point"] = "CENTER",
+						["scale"] = 0.800000011920929,
+					},
+				},
+				["Heede - Eonar"] = {
+					["position"] = {
+						["y"] = 194,
+						["x"] = 286,
+						["point"] = "BOTTOM",
+						["scale"] = 0.800000011920929,
+					},
+					["rows"] = 2,
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "Dream Layout",
+						["Backdrop"] = false,
+					},
+				},
+				["Ironetti - Eonar"] = {
+					["position"] = {
+						["y"] = 193.8489968883471,
+						["x"] = 286,
+						["point"] = "BOTTOM",
+						["scale"] = 0.800000011920929,
+					},
+					["rows"] = 2,
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "Dream Layout",
+						["Backdrop"] = false,
+					},
+				},
+				["Kizzie - Talnivarr"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 42.40001492255829,
+						["x"] = -188.7999422717192,
+						["point"] = "CENTER",
+						["scale"] = 0.800000011920929,
+					},
+				},
+				["Ironoppi - Eonar"] = {
+					["position"] = {
+						["y"] = 193.8489968883471,
+						["x"] = 286,
+						["point"] = "BOTTOM",
+						["scale"] = 0.800000011920929,
+					},
+					["rows"] = 2,
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "Dream Layout",
+						["Backdrop"] = false,
+					},
+				},
+				["Doerf - Frostmane"] = {
+					["version"] = 3,
+					["position"] = {
+						["scale"] = 0.800000011920929,
+						["x"] = -188.7999830329723,
+						["point"] = "CENTER",
+						["y"] = 42.40002263183698,
+					},
+				},
+				["Jokkles - Shattered Hand"] = {
+					["skin"] = {
+						["ID"] = "Dream Layout",
+						["Backdrop"] = false,
+					},
+					["rows"] = 2,
+					["version"] = 3,
+					["position"] = {
+						["scale"] = 0.800000011920929,
+						["x"] = 295.2032980636016,
+						["point"] = "BOTTOM",
+						["y"] = 193.8489968883471,
+					},
+				},
+				["Wiikree - Shattered Hand"] = {
+					["position"] = {
+						["y"] = 193.8489968883471,
+						["x"] = 295.2032980636016,
+						["point"] = "BOTTOM",
+						["scale"] = 0.800000011920929,
+					},
+					["rows"] = 2,
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "Dream Layout",
+						["Backdrop"] = false,
+					},
+				},
+				["Wiikree - Arena Pass 1"] = {
+					["version"] = 3,
+					["position"] = {
+						["scale"] = 1,
+						["x"] = 37.5,
+						["point"] = "BOTTOM",
+						["y"] = 41.75,
+					},
+				},
+				["Wobster - Shattered Hand"] = {
+					["skin"] = {
+						["ID"] = "Dream Layout",
+						["Backdrop"] = false,
+					},
+					["rows"] = 2,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 193.8489968883471,
+						["x"] = 295.2032980636016,
+						["point"] = "BOTTOM",
+						["scale"] = 0.800000011920929,
+					},
+				},
+				["Etni - Eonar"] = {
+					["skin"] = {
+						["ID"] = "Dream Layout",
+						["Backdrop"] = false,
+					},
+					["rows"] = 2,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 193.8489968883471,
+						["x"] = 295.2032980636016,
+						["point"] = "BOTTOM",
+						["scale"] = 0.800000011920929,
+					},
+				},
+				["Wiikree - Boulderfist"] = {
+					["skin"] = {
+						["ID"] = "Dream Layout",
+						["Backdrop"] = false,
+					},
+					["rows"] = 2,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 193.8489968883471,
+						["x"] = 295.2032980636016,
+						["point"] = "BOTTOM",
+						["scale"] = 0.800000011920929,
+					},
+				},
+				["Osses - Eonar"] = {
+					["position"] = {
+						["y"] = 193.8489968883471,
+						["x"] = 295.2032980636016,
+						["point"] = "BOTTOM",
+						["scale"] = 0.800000011920929,
+					},
+					["rows"] = 2,
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "Dream Layout",
+						["Backdrop"] = false,
+					},
+				},
+				["Oween - Frostmane"] = {
+					["version"] = 3,
+					["rows"] = 2,
+					["position"] = {
+						["y"] = 193.8489968883471,
+						["x"] = 289,
+						["point"] = "BOTTOM",
+						["scale"] = 0.800000011920929,
+					},
+					["skin"] = {
+						["ID"] = "Dream Layout",
+						["Backdrop"] = false,
+					},
+				},
+				["Etni - Shattered Hand"] = {
+					["skin"] = {
+						["ID"] = "Dream Layout",
+						["Backdrop"] = false,
+					},
+					["rows"] = 2,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 193.8489968883471,
+						["x"] = 295.2032980636016,
+						["point"] = "BOTTOM",
+						["scale"] = 0.800000011920929,
+					},
+				},
+				["Pelé - Eonar"] = {
+					["position"] = {
+						["y"] = 193.8489968883471,
+						["x"] = 295.2032980636016,
+						["point"] = "BOTTOM",
+						["scale"] = 0.800000011920929,
+					},
+					["rows"] = 2,
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "Dream Layout",
+						["Backdrop"] = false,
+					},
+				},
+				["Wiikree - Silvermoon"] = {
+					["position"] = {
+						["y"] = 193.8489968883471,
+						["x"] = 295.2032980636016,
+						["point"] = "BOTTOM",
+						["scale"] = 0.800000011920929,
+					},
+					["rows"] = 2,
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "Dream Layout",
+						["Backdrop"] = false,
+					},
+				},
+				["Cazey - Talnivarr"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 42.40001492255829,
+						["x"] = -188.7999422717192,
+						["point"] = "CENTER",
+						["scale"] = 0.800000011920929,
+					},
+				},
+				["Lillipop - Eonar"] = {
+					["position"] = {
+						["y"] = 193.8489968883471,
+						["x"] = 287,
+						["point"] = "BOTTOM",
+						["scale"] = 0.800000011920929,
+					},
+					["rows"] = 2,
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "Dream Layout",
+						["Backdrop"] = false,
+					},
+				},
+				["Slakthuset - Eonar"] = {
+					["skin"] = {
+						["ID"] = "Dream Layout",
+						["Backdrop"] = false,
+					},
+					["rows"] = 2,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 193.8489968883471,
+						["x"] = 295.2032980636016,
+						["point"] = "BOTTOM",
+						["scale"] = 0.800000011920929,
+					},
+				},
+				["Augor - Shattered Hand"] = {
+					["position"] = {
+						["y"] = 193.8489968883471,
+						["x"] = 295.2032980636016,
+						["point"] = "BOTTOM",
+						["scale"] = 0.800000011920929,
+					},
+					["rows"] = 2,
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "Dream Layout",
+						["Backdrop"] = false,
+					},
+				},
+				["Obur - Eonar"] = {
+					["skin"] = {
+						["ID"] = "Dream Layout",
+						["Backdrop"] = false,
+					},
+					["rows"] = 2,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 193.8489968883471,
+						["x"] = 295.2032980636016,
+						["point"] = "BOTTOM",
+						["scale"] = 0.800000011920929,
+					},
+				},
+				["Ironikree - Eonar"] = {
+					["skin"] = {
+						["ID"] = "Dream Layout",
+						["Backdrop"] = false,
+					},
+					["rows"] = 2,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 193.8489968883471,
+						["x"] = 286,
+						["point"] = "BOTTOM",
+						["scale"] = 0.800000011920929,
+					},
+				},
+				["Baskiri - Eonar"] = {
+					["skin"] = {
+						["ID"] = "Dream Layout",
+						["Backdrop"] = false,
+					},
+					["rows"] = 2,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 193.8489968883471,
+						["x"] = 295.2032980636016,
+						["point"] = "BOTTOM",
+						["scale"] = 0.800000011920929,
+					},
+				},
+			},
+		},
+		["XPBar"] = {
+			["profiles"] = {
+				["Kargoth - Frostmane"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 213.4638811085107,
+						["x"] = 473.3720159826449,
+						["point"] = "BOTTOMLEFT",
+						["scale"] = 0.85,
+					},
+				},
+				["Slakthuset - Shattered Hand"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 213.4638811085107,
+						["x"] = 473.3720159826449,
+						["point"] = "BOTTOMLEFT",
+						["scale"] = 0.85,
+					},
+				},
+				["Heede - Eonar"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 25,
+						["x"] = -465,
+						["point"] = "BOTTOM",
+						["scale"] = 0.8500000238418579,
+					},
+				},
+				["Jokkles - Shattered Hand"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["scale"] = 0.800000011920929,
+						["x"] = -455.9403514850054,
+						["point"] = "BOTTOM",
+						["y"] = 217.9160253857925,
+					},
+					["clickthrough"] = true,
+					["alpha"] = 0.65,
+				},
+				["Wiikree - Shattered Hand"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 213.4638811085107,
+						["x"] = 473.3720159826449,
+						["point"] = "BOTTOMLEFT",
+						["scale"] = 0.85,
+					},
+				},
+				["Ironetti - Eonar"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 25,
+						["x"] = -465,
+						["point"] = "BOTTOM",
+						["scale"] = 0.8500000238418579,
+					},
+				},
+				["Baskiri - Eonar"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 213.4638811085107,
+						["x"] = 473.3720159826449,
+						["point"] = "BOTTOMLEFT",
+						["scale"] = 0.85,
+					},
+				},
+				["Etni - Shattered Hand"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 213.4638811085107,
+						["x"] = 473.3720159826449,
+						["point"] = "BOTTOMLEFT",
+						["scale"] = 0.85,
+					},
+				},
+				["Ironoppi - Eonar"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 25,
+						["x"] = -465,
+						["point"] = "BOTTOM",
+						["scale"] = 0.8500000238418579,
+					},
+				},
+				["Osses - Eonar"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 25.17370583988561,
+						["x"] = -466.2061023042902,
+						["point"] = "BOTTOM",
+						["scale"] = 0.8500000238418579,
+					},
+				},
+				["Oween - Frostmane"] = {
+					["enabled"] = true,
+					["position"] = {
+						["y"] = 25,
+						["x"] = -430,
+						["point"] = "BOTTOM",
+						["scale"] = 0.82,
+					},
+					["version"] = 3,
+				},
+				["Pelé - Eonar"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 25.17370583988561,
+						["x"] = -466.2061023042902,
+						["point"] = "BOTTOM",
+						["scale"] = 0.8500000238418579,
+					},
+				},
+				["Slakthuset - Eonar"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 25.17370583988561,
+						["x"] = -466.2061023042902,
+						["point"] = "BOTTOM",
+						["scale"] = 0.8500000238418579,
+					},
+				},
+				["Wiikree - Silvermoon"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 23,
+						["x"] = -420,
+						["point"] = "BOTTOM",
+						["scale"] = 0.85,
+					},
+				},
+				["Lillipop - Eonar"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 25,
+						["x"] = -465,
+						["point"] = "BOTTOM",
+						["scale"] = 0.8500000238418579,
+					},
+				},
+				["Wiikree - Boulderfist"] = {
+					["enabled"] = true,
+					["alpha"] = 0.75,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 204.7881096470729,
+						["x"] = -470.8706312528598,
+						["point"] = "BOTTOM",
+						["scale"] = 0.8500000238418579,
+					},
+				},
+				["Wobster - Shattered Hand"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 213.4638811085107,
+						["x"] = 473.3720159826449,
+						["point"] = "BOTTOMLEFT",
+						["scale"] = 0.85,
+					},
+				},
+				["Augor - Shattered Hand"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 213.4638811085107,
+						["x"] = 473.3720159826449,
+						["point"] = "BOTTOMLEFT",
+						["scale"] = 0.85,
+					},
+				},
+				["Obur - Eonar"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 25,
+						["x"] = -465,
+						["point"] = "BOTTOM",
+						["scale"] = 0.8500000238418579,
+					},
+				},
+				["Ironikree - Eonar"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 25,
+						["x"] = -465,
+						["point"] = "BOTTOM",
+						["scale"] = 0.8500000238418579,
+					},
+				},
+				["Etni - Eonar"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 25,
+						["x"] = -465,
+						["point"] = "BOTTOM",
+						["scale"] = 0.8500000238418579,
+					},
+				},
+			},
+		},
+		["MultiCast"] = {
+			["profiles"] = {
+				["Osses - Eonar"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 194.5459704836571,
+						["x"] = -249.8718205661082,
+						["point"] = "BOTTOM",
+					},
+				},
+			},
+		},
+		["BlizzardArt"] = {
+			["profiles"] = {
+				["Wiikree - Arena Pass 1"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47,
+						["x"] = -512,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Lillipop - Eonar"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 99.99999261417814,
+						["x"] = -34.6279914031769,
+						["point"] = "BOTTOMLEFT",
+					},
+				},
+				["Ironoppi - Eonar"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 99.99999261417814,
+						["x"] = -34.6279914031769,
+						["point"] = "BOTTOMLEFT",
+					},
+				},
+				["Ironetti - Eonar"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 99.99999261417814,
+						["x"] = -34.6279914031769,
+						["point"] = "BOTTOMLEFT",
+					},
+				},
+				["Oween - Frostmane"] = {
+					["position"] = {
+						["y"] = 99.99999261417814,
+						["x"] = -34.6279914031769,
+						["point"] = "BOTTOMLEFT",
+					},
+					["version"] = 3,
+				},
+				["Ironikree - Eonar"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 99.99999261417814,
+						["x"] = -34.6279914031769,
+						["point"] = "BOTTOMLEFT",
+					},
+				},
+				["Etni - Eonar"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 99.99999261417814,
+						["x"] = -34.6279914031769,
+						["point"] = "BOTTOMLEFT",
+					},
+				},
+			},
+		},
+		["BagBar"] = {
+			["profiles"] = {
+				["Kargoth - Frostmane"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["rows"] = 5,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 193.5880851921726,
+						["x"] = 208.1282320920661,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Paraply - Frostwhisper"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 1.499923645647129,
+						["x"] = 58.4999458714999,
+						["point"] = "CENTER",
+					},
+				},
+				["Slakthuset - Shattered Hand"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["rows"] = 5,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 193.5880851921726,
+						["x"] = 208.1282320920661,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Lathe - Shattered Hand"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 1.499923645647129,
+						["x"] = 58.4999458714999,
+						["point"] = "CENTER",
+					},
+				},
+				["Heede - Eonar"] = {
+					["position"] = {
+						["y"] = 193.5880851921726,
+						["x"] = 208.1282320920661,
+						["point"] = "BOTTOM",
+					},
+					["rows"] = 5,
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+				},
+				["Ironetti - Eonar"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["rows"] = 5,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 193.5880851921726,
+						["x"] = 208.1282320920661,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Kizzie - Talnivarr"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 1.500011181313653,
+						["x"] = 58.50008592856636,
+						["point"] = "CENTER",
+					},
+				},
+				["Ironoppi - Eonar"] = {
+					["position"] = {
+						["y"] = 193.5880851921726,
+						["x"] = 208.1282320920661,
+						["point"] = "BOTTOM",
+					},
+					["rows"] = 5,
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+				},
+				["Doerf - Frostmane"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 1.499923645647129,
+						["x"] = 58.4999458714999,
+						["point"] = "CENTER",
+					},
+				},
+				["Jokkles - Shattered Hand"] = {
+					["position"] = {
+						["y"] = 193.5880851921726,
+						["x"] = 208.1282320920661,
+						["point"] = "BOTTOM",
+					},
+					["rows"] = 5,
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+				},
+				["Wiikree - Shattered Hand"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["rows"] = 5,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 193.5880851921726,
+						["x"] = 208.1282320920661,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Wiikree - Arena Pass 1"] = {
+					["onebag"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 41.75,
+						["x"] = 463.5,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Wobster - Shattered Hand"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["rows"] = 5,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 193.5880851921726,
+						["x"] = 208.1282320920661,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Etni - Eonar"] = {
+					["position"] = {
+						["y"] = 193.5880851921726,
+						["x"] = 208.1282320920661,
+						["point"] = "BOTTOM",
+					},
+					["rows"] = 5,
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+				},
+				["Wiikree - Boulderfist"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["rows"] = 5,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 193.5880851921726,
+						["x"] = 208.1282320920661,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Osses - Eonar"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["rows"] = 5,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 193.5880851921726,
+						["x"] = 208.1282320920661,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Oween - Frostmane"] = {
+					["rows"] = 5,
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["version"] = 3,
+					["position"] = {
+						["y"] = 193.5880851921726,
+						["x"] = 208.1282320920661,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Etni - Shattered Hand"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["rows"] = 5,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 193.5880851921726,
+						["x"] = 208.1282320920661,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Pelé - Eonar"] = {
+					["position"] = {
+						["y"] = 193.5880851921726,
+						["x"] = 208.1282320920661,
+						["point"] = "BOTTOM",
+					},
+					["rows"] = 5,
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+				},
+				["Wiikree - Silvermoon"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["rows"] = 5,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 193.5880851921726,
+						["x"] = 208.1282320920661,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Cazey - Talnivarr"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 1.500011181313653,
+						["x"] = 58.50008592856636,
+						["point"] = "CENTER",
+					},
+				},
+				["Lillipop - Eonar"] = {
+					["position"] = {
+						["y"] = 193.5880851921726,
+						["x"] = 208.1282320920661,
+						["point"] = "BOTTOM",
+					},
+					["rows"] = 5,
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+				},
+				["Slakthuset - Eonar"] = {
+					["position"] = {
+						["y"] = 193.5880851921726,
+						["x"] = 208.1282320920661,
+						["point"] = "BOTTOM",
+					},
+					["rows"] = 5,
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+				},
+				["Augor - Shattered Hand"] = {
+					["position"] = {
+						["y"] = 193.5880851921726,
+						["x"] = 208.1282320920661,
+						["point"] = "BOTTOM",
+					},
+					["rows"] = 5,
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+				},
+				["Obur - Eonar"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["rows"] = 5,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 193.5880851921726,
+						["x"] = 208.1282320920661,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Ironikree - Eonar"] = {
+					["position"] = {
+						["y"] = 193.5880851921726,
+						["x"] = 208.1282320920661,
+						["point"] = "BOTTOM",
+					},
+					["rows"] = 5,
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+				},
+				["Baskiri - Eonar"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["rows"] = 5,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 193.5880851921726,
+						["x"] = 208.1282320920661,
+						["point"] = "BOTTOM",
+					},
+				},
+			},
+		},
+		["StanceBar"] = {
+			["profiles"] = {
+				["Kargoth - Frostmane"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["version"] = 3,
+					["position"] = {
+						["y"] = 189.945942526137,
+						["x"] = -249.9718102936078,
+						["point"] = "BOTTOM",
+						["scale"] = 0.800000011920929,
+					},
+				},
+				["Paraply - Frostwhisper"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 14.24993115114671,
+						["x"] = -111.749957651202,
+						["point"] = "CENTER",
+					},
+				},
+				["Slakthuset - Shattered Hand"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["version"] = 3,
+					["position"] = {
+						["y"] = 189.945942526137,
+						["x"] = -249.9718102936078,
+						["point"] = "BOTTOM",
+						["scale"] = 0.800000011920929,
+					},
+				},
+				["Lathe - Shattered Hand"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 14.24993115114671,
+						["x"] = -111.749957651202,
+						["point"] = "CENTER",
+					},
+				},
+				["Heede - Eonar"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["version"] = 3,
+					["position"] = {
+						["y"] = 189.945942526137,
+						["x"] = -249.9718102936078,
+						["point"] = "BOTTOM",
+						["scale"] = 0.800000011920929,
+					},
+				},
+				["Ironetti - Eonar"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["version"] = 3,
+					["position"] = {
+						["y"] = 189.945942526137,
+						["x"] = -249.9718102936078,
+						["point"] = "BOTTOM",
+						["scale"] = 0.800000011920929,
+					},
+				},
+				["Kizzie - Talnivarr"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 14.25003619394647,
+						["x"] = -111.7499051298021,
+						["point"] = "CENTER",
+					},
+				},
+				["Ironoppi - Eonar"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["version"] = 3,
+					["position"] = {
+						["y"] = 189.945942526137,
+						["x"] = -249.9718102936078,
+						["point"] = "BOTTOM",
+						["scale"] = 0.800000011920929,
+					},
+				},
+				["Doerf - Frostmane"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 14.24993115114671,
+						["x"] = -159.7500003248395,
+						["point"] = "CENTER",
+					},
+				},
+				["Jokkles - Shattered Hand"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["version"] = 3,
+					["position"] = {
+						["scale"] = 0.800000011920929,
+						["x"] = -249.9718102936078,
+						["point"] = "BOTTOM",
+						["y"] = 189.945942526137,
+					},
+				},
+				["Wiikree - Shattered Hand"] = {
+					["position"] = {
+						["y"] = 189.945942526137,
+						["x"] = -249.9718102936078,
+						["point"] = "BOTTOM",
+						["scale"] = 0.800000011920929,
+					},
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+				},
+				["Wiikree - Arena Pass 1"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -14.99999801677006,
+						["x"] = -82.49991468691883,
+						["point"] = "CENTER",
+					},
+				},
+				["Wobster - Shattered Hand"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["version"] = 3,
+					["position"] = {
+						["y"] = 189.945942526137,
+						["x"] = -249.9718102936078,
+						["point"] = "BOTTOM",
+						["scale"] = 0.800000011920929,
+					},
+				},
+				["Etni - Eonar"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["version"] = 3,
+					["position"] = {
+						["y"] = 189.945942526137,
+						["x"] = -249.9718102936078,
+						["point"] = "BOTTOM",
+						["scale"] = 0.800000011920929,
+					},
+				},
+				["Wiikree - Boulderfist"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["version"] = 3,
+					["position"] = {
+						["y"] = 189.945942526137,
+						["x"] = -249.9718102936078,
+						["point"] = "BOTTOM",
+						["scale"] = 0.800000011920929,
+					},
+				},
+				["Osses - Eonar"] = {
+					["position"] = {
+						["y"] = 189.945942526137,
+						["x"] = -249.9718102936078,
+						["point"] = "BOTTOM",
+						["scale"] = 0.800000011920929,
+					},
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+				},
+				["Oween - Frostmane"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 189.945942526137,
+						["x"] = -249.9718102936078,
+						["point"] = "BOTTOM",
+						["scale"] = 0.800000011920929,
+					},
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+				},
+				["Etni - Shattered Hand"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["version"] = 3,
+					["position"] = {
+						["y"] = 189.945942526137,
+						["x"] = -249.9718102936078,
+						["point"] = "BOTTOM",
+						["scale"] = 0.800000011920929,
+					},
+				},
+				["Pelé - Eonar"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["version"] = 3,
+					["position"] = {
+						["y"] = 189.945942526137,
+						["x"] = -249.9718102936078,
+						["point"] = "BOTTOM",
+						["scale"] = 0.800000011920929,
+					},
+				},
+				["Wiikree - Silvermoon"] = {
+					["position"] = {
+						["y"] = 189.945942526137,
+						["x"] = -249.9718102936078,
+						["point"] = "BOTTOM",
+						["scale"] = 0.800000011920929,
+					},
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+				},
+				["Cazey - Talnivarr"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 14.25003619394647,
+						["x"] = -159.7498952820396,
+						["point"] = "CENTER",
+					},
+				},
+				["Lillipop - Eonar"] = {
+					["position"] = {
+						["y"] = 189.945942526137,
+						["x"] = -249.9718102936078,
+						["point"] = "BOTTOM",
+						["scale"] = 0.800000011920929,
+					},
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+				},
+				["Slakthuset - Eonar"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["version"] = 3,
+					["position"] = {
+						["y"] = 189.945942526137,
+						["x"] = -249.9718102936078,
+						["point"] = "BOTTOM",
+						["scale"] = 0.800000011920929,
+					},
+				},
+				["Augor - Shattered Hand"] = {
+					["position"] = {
+						["y"] = 189.945942526137,
+						["x"] = -249.9718102936078,
+						["point"] = "BOTTOM",
+						["scale"] = 0.800000011920929,
+					},
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+				},
+				["Obur - Eonar"] = {
+					["position"] = {
+						["y"] = 189.945942526137,
+						["x"] = -249.9718102936078,
+						["point"] = "BOTTOM",
+						["scale"] = 0.800000011920929,
+					},
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+				},
+				["Ironikree - Eonar"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["version"] = 3,
+					["position"] = {
+						["y"] = 189.945942526137,
+						["x"] = -249.9718102936078,
+						["point"] = "BOTTOM",
+						["scale"] = 0.800000011920929,
+					},
+				},
+				["Baskiri - Eonar"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["version"] = 3,
+					["position"] = {
+						["y"] = 189.945942526137,
+						["x"] = -249.9718102936078,
+						["point"] = "BOTTOM",
+						["scale"] = 0.800000011920929,
+					},
+				},
+			},
+		},
+		["Vehicle"] = {
+			["profiles"] = {
+				["Kargoth - Frostmane"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["rows"] = 3,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 193.7291751794533,
+						["x"] = 242.1283454781092,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Paraply - Frostwhisper"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 51.49992870630291,
+						["x"] = 53.50004865752089,
+						["point"] = "CENTER",
+					},
+				},
+				["Slakthuset - Shattered Hand"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["rows"] = 3,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 193.7291751794533,
+						["x"] = 242.1283454781092,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Lathe - Shattered Hand"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 51.49992870630291,
+						["x"] = 53.50004865752089,
+						["point"] = "CENTER",
+					},
+				},
+				["Heede - Eonar"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["rows"] = 3,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 193.7291751794533,
+						["x"] = 242.1283454781092,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Ironetti - Eonar"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["rows"] = 3,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 193.7291751794533,
+						["x"] = 242.1283454781092,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Kizzie - Talnivarr"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 51.49992870630285,
+						["x"] = 53.50004865752089,
+						["point"] = "CENTER",
+					},
+				},
+				["Ironoppi - Eonar"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["rows"] = 3,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 193.7291751794533,
+						["x"] = 242.1283454781092,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Doerf - Frostmane"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 51.49992870630291,
+						["x"] = 53.50004865752089,
+						["point"] = "CENTER",
+					},
+				},
+				["Jokkles - Shattered Hand"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["rows"] = 3,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 193.7291751794533,
+						["x"] = 242.1283454781092,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Wiikree - Shattered Hand"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["rows"] = 3,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 193.7291751794533,
+						["x"] = 242.1283454781092,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Wiikree - Arena Pass 1"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 51.49985867776957,
+						["x"] = 53.50011868605407,
+						["point"] = "CENTER",
+					},
+				},
+				["Wobster - Shattered Hand"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["rows"] = 3,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 193.7291751794533,
+						["x"] = 242.1283454781092,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Etni - Eonar"] = {
+					["position"] = {
+						["y"] = 193.7291751794533,
+						["x"] = 242.1283454781092,
+						["point"] = "BOTTOM",
+					},
+					["rows"] = 3,
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+				},
+				["Wiikree - Boulderfist"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["rows"] = 3,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 193.7291751794533,
+						["x"] = 242.1283454781092,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Osses - Eonar"] = {
+					["position"] = {
+						["y"] = 193.7291751794533,
+						["x"] = 242.1283454781092,
+						["point"] = "BOTTOM",
+					},
+					["rows"] = 3,
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+				},
+				["Oween - Frostmane"] = {
+					["rows"] = 3,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 193.7291751794533,
+						["x"] = 242.1283454781092,
+						["point"] = "BOTTOM",
+					},
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+				},
+				["Etni - Shattered Hand"] = {
+					["position"] = {
+						["y"] = 193.7291751794533,
+						["x"] = 242.1283454781092,
+						["point"] = "BOTTOM",
+					},
+					["rows"] = 3,
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+				},
+				["Pelé - Eonar"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["rows"] = 3,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 193.7291751794533,
+						["x"] = 242.1283454781092,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Wiikree - Silvermoon"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["rows"] = 3,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 193.7291751794533,
+						["x"] = 242.1283454781092,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Cazey - Talnivarr"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 51.49992870630285,
+						["x"] = 53.50004865752089,
+						["point"] = "CENTER",
+					},
+				},
+				["Lillipop - Eonar"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["rows"] = 3,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 193.7291751794533,
+						["x"] = 242.1283454781092,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Slakthuset - Eonar"] = {
+					["position"] = {
+						["y"] = 193.7291751794533,
+						["x"] = 242.1283454781092,
+						["point"] = "BOTTOM",
+					},
+					["rows"] = 3,
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+				},
+				["Augor - Shattered Hand"] = {
+					["position"] = {
+						["y"] = 193.7291751794533,
+						["x"] = 242.1283454781092,
+						["point"] = "BOTTOM",
+					},
+					["rows"] = 3,
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+				},
+				["Obur - Eonar"] = {
+					["position"] = {
+						["y"] = 193.7291751794533,
+						["x"] = 242.1283454781092,
+						["point"] = "BOTTOM",
+					},
+					["rows"] = 3,
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+				},
+				["Ironikree - Eonar"] = {
+					["position"] = {
+						["y"] = 193.7291751794533,
+						["x"] = 242.1283454781092,
+						["point"] = "BOTTOM",
+					},
+					["rows"] = 3,
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+				},
+				["Baskiri - Eonar"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["rows"] = 3,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 193.7291751794533,
+						["x"] = 242.1283454781092,
+						["point"] = "BOTTOM",
+					},
+				},
+			},
+		},
+		["PetBar"] = {
+			["profiles"] = {
+				["Kargoth - Frostmane"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["version"] = 3,
+					["position"] = {
+						["y"] = 194.3719320715021,
+						["x"] = -113.8716121218024,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Paraply - Frostwhisper"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 89.50000188064911,
+						["x"] = -163.5000282781234,
+						["point"] = "CENTER",
+					},
+				},
+				["Slakthuset - Shattered Hand"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["version"] = 3,
+					["position"] = {
+						["y"] = 194.3719320715021,
+						["x"] = -113.8716121218024,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Lathe - Shattered Hand"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 89.50000188064911,
+						["x"] = -163.5000282781234,
+						["point"] = "CENTER",
+					},
+				},
+				["Heede - Eonar"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["version"] = 3,
+					["position"] = {
+						["y"] = 194.3719320715021,
+						["x"] = -113.8716121218024,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Ironetti - Eonar"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["version"] = 3,
+					["position"] = {
+						["y"] = 194.3719320715021,
+						["x"] = -113.8716121218024,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Kizzie - Talnivarr"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 89.50000188064905,
+						["x"] = -163.4998882210571,
+						["point"] = "CENTER",
+					},
+				},
+				["Ironoppi - Eonar"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["version"] = 3,
+					["position"] = {
+						["y"] = 194.3719320715021,
+						["x"] = -113.8716121218024,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Doerf - Frostmane"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 89.50000188064911,
+						["x"] = -163.5000282781234,
+						["point"] = "CENTER",
+					},
+				},
+				["Jokkles - Shattered Hand"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["version"] = 3,
+					["position"] = {
+						["y"] = 194.3719320715021,
+						["x"] = -113.8716121218024,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Wiikree - Shattered Hand"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["version"] = 3,
+					["position"] = {
+						["y"] = 194.3719320715021,
+						["x"] = -113.8716121218024,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Wiikree - Arena Pass 1"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 116,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Wobster - Shattered Hand"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["version"] = 3,
+					["position"] = {
+						["y"] = 194.3719320715021,
+						["x"] = -113.8716121218024,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Etni - Eonar"] = {
+					["position"] = {
+						["y"] = 194.3719320715021,
+						["x"] = -113.8716121218024,
+						["point"] = "BOTTOM",
+					},
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+				},
+				["Wiikree - Boulderfist"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["version"] = 3,
+					["position"] = {
+						["y"] = 194.3719320715021,
+						["x"] = -113.8716121218024,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Osses - Eonar"] = {
+					["position"] = {
+						["y"] = 194.3719320715021,
+						["x"] = -113.8716121218024,
+						["point"] = "BOTTOM",
+					},
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+				},
+				["Oween - Frostmane"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 194.3719320715021,
+						["x"] = -113.8716121218024,
+						["point"] = "BOTTOM",
+					},
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+				},
+				["Etni - Shattered Hand"] = {
+					["position"] = {
+						["y"] = 194.3719320715021,
+						["x"] = -113.8716121218024,
+						["point"] = "BOTTOM",
+					},
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+				},
+				["Pelé - Eonar"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["version"] = 3,
+					["position"] = {
+						["y"] = 194.3719320715021,
+						["x"] = -113.8716121218024,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Wiikree - Silvermoon"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["version"] = 3,
+					["position"] = {
+						["y"] = 194.3719320715021,
+						["x"] = -113.8716121218024,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Cazey - Talnivarr"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 89.50000188064905,
+						["x"] = -163.4998882210571,
+						["point"] = "CENTER",
+					},
+				},
+				["Lillipop - Eonar"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["version"] = 3,
+					["position"] = {
+						["y"] = 194.3719320715021,
+						["x"] = -113.8716121218024,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Slakthuset - Eonar"] = {
+					["position"] = {
+						["y"] = 194.3719320715021,
+						["x"] = -113.8716121218024,
+						["point"] = "BOTTOM",
+					},
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+				},
+				["Augor - Shattered Hand"] = {
+					["position"] = {
+						["y"] = 196.545967884942,
+						["x"] = -249.8717505375751,
+						["point"] = "BOTTOM",
+					},
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+				},
+				["Obur - Eonar"] = {
+					["position"] = {
+						["y"] = 194.3719320715021,
+						["x"] = -113.8716121218024,
+						["point"] = "BOTTOM",
+					},
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+				},
+				["Ironikree - Eonar"] = {
+					["position"] = {
+						["y"] = 194.3719320715021,
+						["x"] = -113.8716121218024,
+						["point"] = "BOTTOM",
+					},
+					["version"] = 3,
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+				},
+				["Baskiri - Eonar"] = {
+					["skin"] = {
+						["ID"] = "Blizzard",
+						["Backdrop"] = false,
+					},
+					["version"] = 3,
+					["position"] = {
+						["y"] = 194.3719320715021,
+						["x"] = -113.8716121218024,
+						["point"] = "BOTTOM",
+					},
+				},
+			},
+		},
+		["RepBar"] = {
+			["profiles"] = {
+				["Kargoth - Frostmane"] = {
+					["enabled"] = true,
+					["clickthrough"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 12.80000456751825,
+						["x"] = -465.9737037355853,
+						["point"] = "BOTTOM",
+						["scale"] = 0.85,
+					},
+				},
+				["Slakthuset - Shattered Hand"] = {
+					["enabled"] = true,
+					["clickthrough"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 12.80000456751825,
+						["x"] = -465.9737037355853,
+						["point"] = "BOTTOM",
+						["scale"] = 0.85,
+					},
+				},
+				["Heede - Eonar"] = {
+					["enabled"] = true,
+					["clickthrough"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 12.80000456751825,
+						["x"] = -465.9737037355853,
+						["point"] = "BOTTOM",
+						["scale"] = 0.85,
+					},
+				},
+				["Jokkles - Shattered Hand"] = {
+					["enabled"] = true,
+					["clickthrough"] = true,
+					["version"] = 3,
+					["position"] = {
+						["scale"] = 0.85,
+						["x"] = -465.9737037355853,
+						["point"] = "BOTTOM",
+						["y"] = 12.80000456751825,
+					},
+				},
+				["Wiikree - Shattered Hand"] = {
+					["enabled"] = true,
+					["clickthrough"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 12.80000456751825,
+						["x"] = -341.9045417621245,
+						["point"] = "BOTTOM",
+						["scale"] = 0.85,
+					},
+				},
+				["Ironetti - Eonar"] = {
+					["enabled"] = true,
+					["clickthrough"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 12.80000456751825,
+						["x"] = -465.9737037355853,
+						["point"] = "BOTTOM",
+						["scale"] = 0.85,
+					},
+				},
+				["Baskiri - Eonar"] = {
+					["enabled"] = true,
+					["clickthrough"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 12.80000456751825,
+						["x"] = -465.9737037355853,
+						["point"] = "BOTTOM",
+						["scale"] = 0.85,
+					},
+				},
+				["Etni - Shattered Hand"] = {
+					["enabled"] = true,
+					["clickthrough"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 12.80000456751825,
+						["x"] = -465.9737037355853,
+						["point"] = "BOTTOM",
+						["scale"] = 0.85,
+					},
+				},
+				["Ironoppi - Eonar"] = {
+					["enabled"] = true,
+					["clickthrough"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 12.80000456751825,
+						["x"] = -465.9737037355853,
+						["point"] = "BOTTOM",
+						["scale"] = 0.85,
+					},
+				},
+				["Osses - Eonar"] = {
+					["enabled"] = true,
+					["clickthrough"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 12.80000456751825,
+						["x"] = -465.9737037355853,
+						["point"] = "BOTTOM",
+						["scale"] = 0.85,
+					},
+				},
+				["Oween - Frostmane"] = {
+					["enabled"] = true,
+					["position"] = {
+						["y"] = 12.80000456751825,
+						["x"] = -430,
+						["point"] = "BOTTOM",
+						["scale"] = 0.82,
+					},
+					["version"] = 3,
+					["clickthrough"] = true,
+				},
+				["Pelé - Eonar"] = {
+					["enabled"] = true,
+					["clickthrough"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 12.80000456751825,
+						["x"] = -465.9737037355853,
+						["point"] = "BOTTOM",
+						["scale"] = 0.85,
+					},
+				},
+				["Slakthuset - Eonar"] = {
+					["enabled"] = true,
+					["clickthrough"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 12.80000456751825,
+						["x"] = -465.9737037355853,
+						["point"] = "BOTTOM",
+						["scale"] = 0.85,
+					},
+				},
+				["Wiikree - Silvermoon"] = {
+					["enabled"] = true,
+					["clickthrough"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 12.80000456751825,
+						["x"] = -420,
+						["point"] = "BOTTOM",
+						["scale"] = 0.85,
+					},
+				},
+				["Lillipop - Eonar"] = {
+					["enabled"] = true,
+					["clickthrough"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 12.80000456751825,
+						["x"] = -465.9737037355853,
+						["point"] = "BOTTOM",
+						["scale"] = 0.85,
+					},
+				},
+				["Wiikree - Boulderfist"] = {
+					["enabled"] = true,
+					["clickthrough"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 12.80000456751825,
+						["x"] = -465.9737037355853,
+						["point"] = "BOTTOM",
+						["scale"] = 0.85,
+					},
+				},
+				["Wobster - Shattered Hand"] = {
+					["enabled"] = true,
+					["clickthrough"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 12.80000456751825,
+						["x"] = -465.9737037355853,
+						["point"] = "BOTTOM",
+						["scale"] = 0.85,
+					},
+				},
+				["Augor - Shattered Hand"] = {
+					["enabled"] = true,
+					["clickthrough"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 12.80000456751825,
+						["x"] = -465.9737037355853,
+						["point"] = "BOTTOM",
+						["scale"] = 0.85,
+					},
+				},
+				["Obur - Eonar"] = {
+					["enabled"] = true,
+					["clickthrough"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 12.80000456751825,
+						["x"] = -465.9737037355853,
+						["point"] = "BOTTOM",
+						["scale"] = 0.85,
+					},
+				},
+				["Ironikree - Eonar"] = {
+					["enabled"] = true,
+					["clickthrough"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 12.80000456751825,
+						["x"] = -465.9737037355853,
+						["point"] = "BOTTOM",
+						["scale"] = 0.85,
+					},
+				},
+				["Etni - Eonar"] = {
+					["enabled"] = true,
+					["clickthrough"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 12.80000456751825,
+						["x"] = -465.9737037355853,
+						["point"] = "BOTTOM",
+						["scale"] = 0.85,
+					},
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Kargoth - Frostmane"] = "Kargoth - Frostmane",
+		["Paraply - Frostwhisper"] = "Paraply - Frostwhisper",
+		["Slakthuset - Shattered Hand"] = "Slakthuset - Shattered Hand",
+		["Lathe - Shattered Hand"] = "Wobster - Shattered Hand",
+		["Heede - Eonar"] = "Heede - Eonar",
+		["Ironetti - Eonar"] = "Ironetti - Eonar",
+		["Kizzie - Talnivarr"] = "Kizzie - Talnivarr",
+		["Ironoppi - Eonar"] = "Ironoppi - Eonar",
+		["Doerf - Frostmane"] = "Wobster - Shattered Hand",
+		["Jokkles - Shattered Hand"] = "Jokkles - Shattered Hand",
+		["Wiikree - Shattered Hand"] = "Wiikree - Shattered Hand",
+		["Wiikree - Arena Pass 1"] = "Wiikree - Arena Pass 1",
+		["Wobster - Shattered Hand"] = "Wobster - Shattered Hand",
+		["Etni - Eonar"] = "Etni - Eonar",
+		["Wiikree - Boulderfist"] = "Wiikree - Boulderfist",
+		["Osses - Eonar"] = "Osses - Eonar",
+		["Oween - Frostmane"] = "Oween - Frostmane",
+		["Etni - Shattered Hand"] = "Etni - Shattered Hand",
+		["Pelé - Eonar"] = "Pelé - Eonar",
+		["Wiikree - Silvermoon"] = "Wiikree - Silvermoon",
+		["Cazey - Talnivarr"] = "Wobster - Shattered Hand",
+		["Lillipop - Eonar"] = "Lillipop - Eonar",
+		["Slakthuset - Eonar"] = "Slakthuset - Eonar",
+		["Augor - Shattered Hand"] = "Augor - Shattered Hand",
+		["Obur - Eonar"] = "Obur - Eonar",
+		["Ironikree - Eonar"] = "Ironikree - Eonar",
+		["Baskiri - Eonar"] = "Baskiri - Eonar",
+	},
+	["profiles"] = {
+		["Kargoth - Frostmane"] = {
+			["minimapIcon"] = {
+				["minimapPos"] = 245.9558000095842,
+				["hide"] = false,
+			},
+		},
+		["Paraply - Frostwhisper"] = {
+		},
+		["Slakthuset - Shattered Hand"] = {
+			["minimapIcon"] = {
+				["minimapPos"] = 245.9558000095842,
+				["hide"] = false,
+			},
+		},
+		["Lathe - Shattered Hand"] = {
+		},
+		["Heede - Eonar"] = {
+			["snapping"] = 1,
+			["minimapIcon"] = {
+				["minimapPos"] = 245.9558000095842,
+				["hide"] = false,
+			},
+		},
+		["Ironetti - Eonar"] = {
+			["minimapIcon"] = {
+				["minimapPos"] = 245.9558000095842,
+				["hide"] = false,
+			},
+		},
+		["Kizzie - Talnivarr"] = {
+		},
+		["Ironoppi - Eonar"] = {
+			["minimapIcon"] = {
+				["minimapPos"] = 245.9558000095842,
+				["hide"] = false,
+			},
+		},
+		["Doerf - Frostmane"] = {
+		},
+		["Jokkles - Shattered Hand"] = {
+			["minimapIcon"] = {
+				["minimapPos"] = 245.9558000095842,
+				["hide"] = false,
+			},
+		},
+		["Wiikree - Shattered Hand"] = {
+			["minimapIcon"] = {
+				["minimapPos"] = 244.6708792236699,
+				["hide"] = false,
+			},
+		},
+		["Wiikree - Arena Pass 1"] = {
+			["focuscastmodifier"] = false,
+			["blizzardVehicle"] = true,
+			["outofrange"] = "hotkey",
+		},
+		["Wobster - Shattered Hand"] = {
+			["minimapIcon"] = {
+				["minimapPos"] = 245.9558000095842,
+				["hide"] = false,
+			},
+		},
+		["Etni - Eonar"] = {
+			["minimapIcon"] = {
+				["minimapPos"] = 245.9558000095842,
+				["hide"] = false,
+			},
+		},
+		["Wiikree - Boulderfist"] = {
+			["minimapIcon"] = {
+				["minimapPos"] = 245.9558000095842,
+				["hide"] = false,
+			},
+		},
+		["Osses - Eonar"] = {
+			["snapping"] = 1,
+			["minimapIcon"] = {
+				["minimapPos"] = 245.9558000095842,
+				["hide"] = false,
+			},
+		},
+		["Oween - Frostmane"] = {
+			["minimapIcon"] = {
+				["minimapPos"] = 241.5389320786254,
+				["hide"] = false,
+			},
+		},
+		["Etni - Shattered Hand"] = {
+			["minimapIcon"] = {
+				["minimapPos"] = 245.9558000095842,
+				["hide"] = false,
+			},
+		},
+		["Pelé - Eonar"] = {
+			["snapping"] = 1,
+			["minimapIcon"] = {
+				["minimapPos"] = 245.9558000095842,
+				["hide"] = false,
+			},
+		},
+		["Wiikree - Silvermoon"] = {
+			["minimapIcon"] = {
+				["minimapPos"] = 244.6708792236699,
+				["hide"] = false,
+			},
+		},
+		["Cazey - Talnivarr"] = {
+		},
+		["Lillipop - Eonar"] = {
+			["snapping"] = 1,
+			["minimapIcon"] = {
+				["minimapPos"] = 245.9558000095842,
+				["hide"] = false,
+			},
+		},
+		["Slakthuset - Eonar"] = {
+			["snapping"] = 1,
+			["minimapIcon"] = {
+				["minimapPos"] = 245.9558000095842,
+				["hide"] = false,
+			},
+		},
+		["Augor - Shattered Hand"] = {
+			["minimapIcon"] = {
+				["minimapPos"] = 245.9558000095842,
+				["hide"] = false,
+			},
+		},
+		["Obur - Eonar"] = {
+			["minimapIcon"] = {
+				["minimapPos"] = 245.9558000095842,
+				["hide"] = false,
+			},
+		},
+		["Ironikree - Eonar"] = {
+			["minimapIcon"] = {
+				["minimapPos"] = 245.9558000095842,
+				["hide"] = false,
+			},
+		},
+		["Baskiri - Eonar"] = {
+			["minimapIcon"] = {
+				["minimapPos"] = 245.9558000095842,
+				["hide"] = false,
+			},
+		},
+	},
+}

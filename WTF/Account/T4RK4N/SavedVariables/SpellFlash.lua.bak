@@ -1,0 +1,13 @@
+
+SpellFlashAddonConfig = {
+	["REALM"] = {
+		["Hellfire"] = {
+			["PLAYER"] = {
+				["Etni"] = {
+					["MODULE"] = {
+					},
+				},
+			},
+		},
+	},
+}

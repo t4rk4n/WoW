@@ -1,0 +1,62 @@
+
+AmrDb = {
+	["Talents"] = {
+	},
+	["LastCharacterImportDate"] = "",
+	["SendSettings"] = {
+		["SendTo"] = "",
+		["SendGems"] = true,
+		["SendEnchants"] = true,
+		["SendEnchantMaterials"] = true,
+		["SendToType"] = "a friend",
+	},
+	["CharacterName"] = "Baskiri",
+	["Race"] = "Human",
+	["ActiveSpec"] = 1,
+	["Level"] = 1,
+	["Equipped"] = {
+		{
+		}, -- [1]
+	},
+	["Class"] = "WARRIOR",
+	["Specs"] = {
+	},
+	["Options"] = {
+	},
+	["Region"] = "EU",
+	["Currencies"] = {
+	},
+	["Glyphs"] = {
+	},
+	["LogData"] = {
+		["_wipes"] = {
+		},
+		["_autoLog"] = {
+			[1228] = "disabled",
+			[1205] = "disabled",
+		},
+		["_lastDiff"] = 0,
+		["_lastZone"] = "Eastern Kingdoms",
+	},
+	["BagItems"] = {
+	},
+	["BankItems"] = {
+		"|cffffffff|Hitem:2589:0:0:0:0:0:0:1079543232:1:0:0:0|h[Linen Cloth]|h|r", -- [1]
+	},
+	["LastCharacterImport"] = "",
+	["Reps"] = {
+	},
+	["Faction"] = "Alliance",
+	["IconInfo"] = {
+	},
+	["Professions"] = {
+	},
+	["RealmName"] = "Eonar",
+	["BankItemsAndCounts"] = {
+		[2589] = 1,
+		[4306] = 178,
+		[2592] = 38,
+		[4338] = 54,
+		[14047] = 187,
+	},
+}

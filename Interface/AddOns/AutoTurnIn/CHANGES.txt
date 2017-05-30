@@ -1,0 +1,12 @@
+tag aacd5fb55db0c363211634d8e5b9d01633e22c86 7.2.1
+Author:	Alex Shubert <shubert@animatron.com>
+Date:	Sat May 6 00:06:05 2017 +0300
+
+7.2.1
+
+commit 4cd577ebd1cedf3f62471174df7d7f57fdc919cc
+Author: Alex Shubert <shubert@animatron.com>
+Date:   Sat May 6 00:05:17 2017 +0300
+
+    upddate libs
+

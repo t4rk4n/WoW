@@ -1,0 +1,44 @@
+VER 3 0100000000000006 "Adrenaline Rush" "SPELL_SHADOW_SHADOWWORDDOMINATE"
+#showtooltip Adrenaline Rush
+/cast Adrenaline Rush
+/cast Shadow Blades
+END
+VER 3 0100000000000002 "Dalan Nightbreak" "INV_Weapon_Shortblade_92"
+/target Dalan Nightbreaker
+END
+VER 3 0100000000000003 "Disha Fearwarden" "INV_Weapon_Shortblade_93"
+/target Disha Fearwarden
+END
+VER 3 0100000000000008 "Dispatch" "ABILITY_BACKSTAB"
+#showtooltip Dispatch
+/use 13
+/cast Dispatch
+END
+VER 3 0100000000000004 "Mavis Harms" "INV_Weapon_Shortblade_97"
+/target Mavis Harms
+END
+VER 3 0100000000000007 "Mutilate" "ABILITY_ROGUE_SHADOWSTRIKES"
+#showtooltip Mutilate
+/use 13
+/cast Mutilate
+END
+VER 3 0100000000000005 "Sinister Strike" "SPELL_SHADOW_RITUALOFSACRIFICE"
+#showtooltip Sinister Strike
+/use 13
+/cast Sinister Strike
+END
+VER 3 0100000000000001 "trick" "ABILITY_ROGUE_TRICKSOFTHETRADE"
+#showtooltip
+/cast [@mouseover] Tricks of the Trade
+END
+VER 3 0100000000000009 "Vendetta" "ABILITY_ROGUE_DEADLINESS"
+#showtooltip Vendetta
+/cast Vendetta
+/cast Shadow Blades
+END
+VER 3 010000000000000A "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1RM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 010000000000000B "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Owe[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

@@ -1,0 +1,16 @@
+
+_NPCScanOptions = {
+	["IgnoreList"] = {
+		["NPCs"] = {
+		},
+		["MapName"] = {
+		},
+		["WorldID"] = {
+		},
+	},
+	["NPCs"] = {
+	},
+	["Version"] = 2,
+	["NPCWorldIDs"] = {
+	},
+}

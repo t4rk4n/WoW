@@ -1,0 +1,89 @@
+
+DataStore_CurrenciesDB = {
+	["profileKeys"] = {
+		["Etni - Eonar"] = "Etni - Eonar",
+	},
+	["global"] = {
+		["Reference"] = {
+			["Currencies"] = {
+				"Cataclysm|", -- [1]
+				"Illustrious Jewelcrafter's Token|Interface\\Icons\\inv_misc_token_argentdawn3", -- [2]
+				"Dungeon and Raid|", -- [3]
+				"Justice Points|Interface\\Icons\\pvecurrency-justice", -- [4]
+				"Valor Points|Interface\\Icons\\pvecurrency-valor", -- [5]
+				"Miscellaneous|", -- [6]
+				"Champion's Seal|Interface\\Icons\\Ability_Paladin_ArtofWar", -- [7]
+				"Dalaran Jewelcrafter's Token|Interface\\Icons\\INV_Misc_Gem_Variety_01", -- [8]
+				"Epicurean's Award|Interface\\Icons\\INV_Misc_Ribbon_01", -- [9]
+				"Ironpaw Token|Interface\\Icons\\inv_relics_idolofferocity", -- [10]
+				"Mark of the World Tree|Interface\\Icons\\inv_misc_markoftheworldtree", -- [11]
+				"Player vs. Player|", -- [12]
+				"Conquest Points|Interface\\Icons\\PVPCurrency-Conquest-Alliance", -- [13]
+				"Honor Points|Interface\\Icons\\PVPCurrency-Honor-Alliance", -- [14]
+				"Tol Barad Commendation|Interface\\Icons\\achievement_zone_tolbarad", -- [15]
+			},
+			["CurrencyTextRev"] = {
+				["Mark of the World Tree"] = 11,
+				["Ironpaw Token"] = 10,
+				["Tol Barad Commendation"] = 15,
+				["Epicurean's Award"] = 9,
+				["Honor Points"] = 14,
+				["Conquest Points"] = 13,
+				["Dungeon and Raid"] = 3,
+				["Dalaran Jewelcrafter's Token"] = 8,
+				["Player vs. Player"] = 12,
+				["Valor Points"] = 5,
+				["Cataclysm"] = 1,
+				["Illustrious Jewelcrafter's Token"] = 2,
+				["Justice Points"] = 4,
+				["Champion's Seal"] = 7,
+				["Miscellaneous"] = 6,
+			},
+		},
+		["Characters"] = {
+			["Default.Eonar.Etni"] = {
+				["Currencies"] = {
+					3, -- [1]
+					1796, -- [2]
+					7, -- [3]
+					8, -- [4]
+					10, -- [5]
+					13, -- [6]
+					5390, -- [7]
+					144, -- [8]
+					1170, -- [9]
+					20, -- [10]
+					8342, -- [11]
+					25, -- [12]
+					26, -- [13]
+					278684, -- [14]
+					10910, -- [15]
+				},
+				["Archeology"] = {
+					0, -- [1]
+					0, -- [2]
+					0, -- [3]
+					0, -- [4]
+					0, -- [5]
+					0, -- [6]
+					0, -- [7]
+					0, -- [8]
+					0, -- [9]
+					0, -- [10]
+					0, -- [11]
+					0, -- [12]
+					0, -- [13]
+					0, -- [14]
+					0, -- [15]
+				},
+				["lastUpdate"] = 1414313698,
+				["CurrencyInfo"] = {
+					[392] = "2177-0-0-4000",
+					[390] = "0-0-1700-0",
+					[396] = "0-0-1000-3000",
+					[395] = "0-0-0-0",
+				},
+			},
+		},
+	},
+}

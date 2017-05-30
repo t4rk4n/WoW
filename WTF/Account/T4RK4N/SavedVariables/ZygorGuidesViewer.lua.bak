@@ -1,0 +1,956 @@
+
+ZygorGuidesViewerSettings = {
+	["char"] = {
+		["Slakthuset - Hellfire"] = {
+			["notifications"] = {
+			},
+			["RecipeWipe01142013"] = true,
+			["guides_history_ZGV4clear"] = true,
+			["initialFlightPathsLoaded"] = true,
+			["guidename"] = "LEVELING\\Warlords of Draenor 90-100\\Gorgrond (92-94)",
+			["debuglog"] = {
+				"00:44:02.795.817> [itemscore] [autoequip] In slot |cffaaffaaMainHandSlot|cffff88dd, |cffa335ee|Hitem:109168:0:0:0:0:0:0:0:92:0:13:3:532:525:214|h[Shrediron's Shredder of the Harmonious]|h|cffff88dd got scored at |cffff0000835 (Item-ItemScore.lua:1044:Debug)", -- [1]
+				"00:44:02.795.817> [itemscore] [autoequip] Scanning bags (Item-ItemScore.lua:1044:Debug)", -- [2]
+				"00:44:02.795.818> [itemscore] [autoequip] 24612 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [3]
+				"00:44:02.795.818> [itemscore] [autoequip] 108945 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [4]
+				"00:44:02.795.818> [itemscore] [autoequip] 25187 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [5]
+				"00:44:02.795.818> [itemscore] [autoequip] 15254 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [6]
+				"00:44:02.795.818> [itemscore] [autoequip] 55415 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [7]
+				"00:44:02.795.818> [itemscore] [autoequip] 82287 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [8]
+				"00:44:02.795.819> [itemscore] [autoequip] 9858 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [9]
+				"00:44:02.795.819> [itemscore] [autoequip] 55556 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [10]
+				"00:44:02.795.819> [itemscore] [autoequip] 25125 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [11]
+				"00:44:02.795.819> [itemscore] [autoequip] 5213 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [12]
+				"00:44:02.795.819> [itemscore] [autoequip] 55482 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [13]
+				"00:44:02.795.819> [itemscore] [autoequip] Number of Items Tested: 11 (Item-ItemScore.lua:1044:Debug)", -- [14]
+				"00:44:02.795.819> [itemscore] [autoequip] Time Scoring Items: 0 (Item-ItemScore.lua:1044:Debug)", -- [15]
+				"00:44:02.795.819> [itemscore] [autoequip] Cache hit num: 0 (Item-ItemScore.lua:1044:Debug)", -- [16]
+				"00:44:02.795.819> [itemscore] [autoequip] Time to Find Upgrades: 0 (Item-ItemScore.lua:1044:Debug)", -- [17]
+				"00:44:02.795.820> [itemscore] [autoequip] Total Time: 2 (Item-ItemScore.lua:1044:Debug)", -- [18]
+				"00:44:12.259.260> [itemscore] [itemevents] ITEM_PUSH (Item-ItemScore.lua:1044:Debug)", -- [19]
+				"00:44:12.392.393> [itemscore] [itemevents] ITEM_PUSH (Item-ItemScore.lua:1044:Debug)", -- [20]
+				"00:44:12.552.553> [itemscore] [itemevents] ITEM_PUSH (Item-ItemScore.lua:1044:Debug)", -- [21]
+				"00:44:12.724.726> [itemscore] [itemevents] ITEM_PUSH (Item-ItemScore.lua:1044:Debug)", -- [22]
+				"00:44:12.757.801> [itemscore] [itemevents] BAG_UPDATE_DELAYED (Item-ItemScore.lua:1044:Debug)", -- [23]
+				"00:44:12.757.801> [itemscore] [autoequip] Scanning bags (Item-ItemScore.lua:1044:Debug)", -- [24]
+				"00:44:12.757.801> [itemscore] [autoequip] 24612 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [25]
+				"00:44:12.757.801> [itemscore] [autoequip] 108945 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [26]
+				"00:44:12.757.801> [itemscore] [autoequip] 25187 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [27]
+				"00:44:12.757.801> [itemscore] [autoequip] 15254 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [28]
+				"00:44:12.757.802> [itemscore] [autoequip] 55415 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [29]
+				"00:44:12.757.802> [itemscore] [autoequip] 82287 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [30]
+				"00:44:12.757.802> [itemscore] [autoequip] 9858 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [31]
+				"00:44:12.757.802> [itemscore] [autoequip] 55556 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [32]
+				"00:44:12.757.802> [itemscore] [autoequip] 25125 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [33]
+				"00:44:12.757.802> [itemscore] [autoequip] 5213 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [34]
+				"00:44:12.757.802> [itemscore] [autoequip] 55482 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [35]
+				"00:44:12.757.803> [itemscore] [autoequip] 82009 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [36]
+				"00:44:12.757.803> [itemscore] [autoequip] 116510 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [37]
+				"00:44:12.757.803> [itemscore] [autoequip] Number of Items Tested: 13 (Item-ItemScore.lua:1044:Debug)", -- [38]
+				"00:44:12.757.803> [itemscore] [autoequip] Time Scoring Items: 0 (Item-ItemScore.lua:1044:Debug)", -- [39]
+				"00:44:12.757.803> [itemscore] [autoequip] Cache hit num: 11 (Item-ItemScore.lua:1044:Debug)", -- [40]
+				"00:44:12.757.803> [itemscore] [autoequip] Time to Find Upgrades: 0 (Item-ItemScore.lua:1044:Debug)", -- [41]
+				"00:44:12.757.803> [itemscore] [autoequip] Total Time: 2 (Item-ItemScore.lua:1044:Debug)", -- [42]
+				"00:44:13.338.339> [itemscore] [itemevents] ITEM_PUSH (Item-ItemScore.lua:1044:Debug)", -- [43]
+				"00:44:13.459.459> [itemscore] [itemevents] ITEM_PUSH (Item-ItemScore.lua:1044:Debug)", -- [44]
+				"00:44:13.596.618> [itemscore] [itemevents] BAG_UPDATE_DELAYED (Item-ItemScore.lua:1044:Debug)", -- [45]
+				"00:44:13.596.618> [itemscore] [autoequip] Scanning bags (Item-ItemScore.lua:1044:Debug)", -- [46]
+				"00:44:13.596.618> [itemscore] [autoequip] 24612 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [47]
+				"00:44:13.596.618> [itemscore] [autoequip] 108945 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [48]
+				"00:44:13.596.618> [itemscore] [autoequip] 25187 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [49]
+				"00:44:13.596.618> [itemscore] [autoequip] 15254 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [50]
+				"00:44:13.596.618> [itemscore] [autoequip] 55415 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [51]
+				"00:44:13.596.618> [itemscore] [autoequip] 82287 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [52]
+				"00:44:13.596.619> [itemscore] [autoequip] 9858 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [53]
+				"00:44:13.596.619> [itemscore] [autoequip] 55556 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [54]
+				"00:44:13.596.619> [itemscore] [autoequip] 25125 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [55]
+				"00:44:13.596.619> [itemscore] [autoequip] 5213 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [56]
+				"00:44:13.596.619> [itemscore] [autoequip] 55482 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [57]
+				"00:44:13.596.619> [itemscore] [autoequip] 82009 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [58]
+				"00:44:13.596.619> [itemscore] [autoequip] 116510 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [59]
+				"00:44:13.596.619> [itemscore] [autoequip] Number of Items Tested: 13 (Item-ItemScore.lua:1044:Debug)", -- [60]
+				"00:44:13.596.619> [itemscore] [autoequip] Time Scoring Items: 0 (Item-ItemScore.lua:1044:Debug)", -- [61]
+				"00:44:13.596.619> [itemscore] [autoequip] Cache hit num: 13 (Item-ItemScore.lua:1044:Debug)", -- [62]
+				"00:44:13.596.619> [itemscore] [autoequip] Time to Find Upgrades: 0 (Item-ItemScore.lua:1044:Debug)", -- [63]
+				"00:44:13.596.619> [itemscore] [autoequip] Total Time: 1 (Item-ItemScore.lua:1044:Debug)", -- [64]
+				"00:44:21.240.243> [itemscore] [itemevents] ITEM_PUSH (Item-ItemScore.lua:1044:Debug)", -- [65]
+				"00:44:21.278.298> [itemscore] [itemevents] BAG_UPDATE_DELAYED (Item-ItemScore.lua:1044:Debug)", -- [66]
+				"00:44:21.278.298> [itemscore] [autoequip] Scanning bags (Item-ItemScore.lua:1044:Debug)", -- [67]
+				"00:44:21.278.298> [itemscore] [autoequip] 24612 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [68]
+				"00:44:21.278.298> [itemscore] [autoequip] 108945 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [69]
+				"00:44:21.278.298> [itemscore] [autoequip] 25187 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [70]
+				"00:44:21.278.298> [itemscore] [autoequip] 15254 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [71]
+				"00:44:21.278.298> [itemscore] [autoequip] 55415 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [72]
+				"00:44:21.278.298> [itemscore] [autoequip] 82287 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [73]
+				"00:44:21.278.299> [itemscore] [autoequip] 9858 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [74]
+				"00:44:21.278.299> [itemscore] [autoequip] 55556 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [75]
+				"00:44:21.278.299> [itemscore] [autoequip] 25125 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [76]
+				"00:44:21.278.299> [itemscore] [autoequip] 5213 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [77]
+				"00:44:21.278.299> [itemscore] [autoequip] 55482 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [78]
+				"00:44:21.278.299> [itemscore] [autoequip] 82009 Removed because score <= 0. Reason in cache. (Item-ItemScore.lua:1044:Debug)", -- [79]
+				"00:44:21.278.299> [itemscore] [autoequip] Number of Items Tested: 12 (Item-ItemScore.lua:1044:Debug)", -- [80]
+				"00:44:21.278.299> [itemscore] [autoequip] Time Scoring Items: 0 (Item-ItemScore.lua:1044:Debug)", -- [81]
+				"00:44:21.278.299> [itemscore] [autoequip] Cache hit num: 12 (Item-ItemScore.lua:1044:Debug)", -- [82]
+				"00:44:21.278.299> [itemscore] [autoequip] Time to Find Upgrades: 0 (Item-ItemScore.lua:1044:Debug)", -- [83]
+				"00:44:21.278.299> [itemscore] [autoequip] Total Time: 1 (Item-ItemScore.lua:1044:Debug)", -- [84]
+				"00:44:27.902.923> 13 Enchanting recipes found (Profession.lua:330:CacheRecipes)", -- [85]
+				"00:44:27.902.924> 13 Enchanting recipes found (Profession.lua:330:CacheRecipes)", -- [86]
+				"00:44:27.902.932> 13 Enchanting recipes found (Profession.lua:330:CacheRecipes)", -- [87]
+				"00:44:27.902.933> 13 Enchanting recipes found (Profession.lua:330:CacheRecipes)", -- [88]
+				"00:44:27.902.935> 13 Enchanting recipes found (Profession.lua:330:CacheRecipes)", -- [89]
+				"00:44:27.951.953> 13 Enchanting recipes found (Profession.lua:330:CacheRecipes)", -- [90]
+				"00:44:27.951.956> 13 Enchanting recipes found (Profession.lua:330:CacheRecipes)", -- [91]
+				"00:44:27.951.958> 13 Enchanting recipes found (Profession.lua:330:CacheRecipes)", -- [92]
+				"00:44:27.389.393> 13 Enchanting recipes found (Profession.lua:330:CacheRecipes)", -- [93]
+				"00:44:27.389.395> 13 Enchanting recipes found (Profession.lua:330:CacheRecipes)", -- [94]
+				"00:45:56.501.502> [LibRover] -> FindPath (LibRover-1.0.lua:1339:FindPath)", -- [95]
+				"00:45:56.501.504> [LibRover] - FindPath:  |cffaaff88Frostwall|cffff88dd/0 |cffffffff45.2|cffff88dd,|cffffffff47.5|cffff88dd --> |cffaaff88Gorgrond|cffff88dd/0 |cffffffff37.3|cffff88dd,|cffffffff77.0|cffff88dd (LibRover-1.0.lua:1387:FindPath)", -- [96]
+				"00:45:56.501.504> [LibRover] <- FindPath (LibRover-1.0.lua:1450:FindPath)", -- [97]
+				"00:45:56.523.524> [LibRover] -> InitializePath (LibRover-1.0.lua:1462:InitializePath)", -- [98]
+				"00:45:56.523.525> [LibRover] [LRadv] - InitializePath: cleared old nodes, 2241 left (LibRover-1.0.lua:1478:InitializePath)", -- [99]
+				"00:45:56.523.527> [LibRover] [LRadv] - InitializePath: cleared linkage (LibRover-1.0.lua:1485:InitializePath)", -- [100]
+				"00:45:56.523.532> [LibRover] [LRadv] - Initialized end node #2242 with copy #2243 table: 000000005CE9B210 (LibRover-1.0.lua:1503:InitializePath)", -- [101]
+				"00:45:56.523.532> [LibRover] - |cffff8844 No idea where player's hearthstone is bound to: |cffff8800Bladespire Citadel (LibRover-1.0.lua:1212:FindBindLocation)", -- [102]
+				"00:45:56.523.532> [LibRover] - |cff88ff44 Found garrison hearth node: |cffffee00[340] \"Town Hall\" = Frostwall 976 /0 42.5,53.5 [inn] [closed] |cff8899aa(mode:|cffffffffwalk|cff8899aa from [|cffffffff2244|cff8899aa]) |cff888888[my t=|cff55aa006.1|cff888888/|cff77ee0012.2|cff888888] |cff888888(t=|cff00aa556.1|cff888888/|cff00ee7712.2|cff888888) (LibRover-1.0.lua:1222:FindGarrisonBindLocation)", -- [103]
+				"00:45:56.523.535> [LibRover] [LRadv] - Initialized start node #2244 (LibRover-1.0.lua:1544:InitializePath)", -- [104]
+				"00:45:56.523.541> [LibRover] [LRadv] - InitializePath: cleared temp fields (LibRover-1.0.lua:1581:InitializePath)", -- [105]
+				"00:45:56.523.541> [LibRover] [LRadv] - NodeSetHeap clear (NodeSetHeap.lua:134:Clear)", -- [106]
+				"00:45:56.523.541> [LibRover] <- InitializePath: done (LibRover-1.0.lua:1615:InitializePath)", -- [107]
+				"00:45:56.523.541> [LibRover] Calc pending MAIN, frame 1 (calcs: 0) in 17.16ms. (LibRover-1.0.lua:2857:OnUpdate)", -- [108]
+				"00:45:56.559.561> [LibRover] StepForever: initialized, proceeding (LibRover-1.0.lua:1706:<local>)", -- [109]
+				"00:45:56.559.566> [LibRover] This pass: [SUCCESS] = |cffffffff5.26|cffff88ddms. Done |cffffff8871|cffff88dd calculations over |cff88ffff2|cffff88dd frames:\n compared |cff88ff88564|cffff88dd nodes in |cffffffff0.44|cffff88dd ms, opened |cff88ff88119|cffff88dd, closed |cff88ff8871|cffff88dd \n cheapest |cffffffff0.44|cffff88dd, initial |cffffffff0.11|cffff88dd, overhead |cffffffff0.93|cffff88dd, blah |cffffffff0.38|cffff88dd, scoring |cffffffff1.37|cffff88dd, adding |cffffffff0.43|cffff88dd ms    \n calc total |cffffffff22.36|cffff88dd ms, total time |cffffffff22.42|cffff88dd ms   \n(found: YES) (LibRover-1.0.lua:2861:OnUpdate)", -- [110]
+				"00:45:56.559.566> [LibRover] 0. |cff88ff88START|cffff88dd -- |cff88ccddFrostwall 45,47|cffff88dd  (dist 0) |cff8888dd{walk_start__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [111]
+				"00:45:56.559.566> [LibRover] 1. |cff88ff88Leave Garrison|cffff88dd -- |cff88ccddFrostwall/Frostfire Ridge border|cffff88dd  (dist 204) |cff8888dd{walk_border__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [112]
+				"00:45:56.559.566> [LibRover] 2. |cff88ff88Leave Garrison|cffff88dd -- |cff88ccddFrostfire Ridge/Frostwall border|cffff88dd  (dist 37) |cff8888dd{walk_border__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [113]
+				"00:45:56.559.567> [LibRover] 3. |cff88ff88Go to Gorgrond|cffff88dd -- |cff88ccddFrostfire Ridge/Gorgrond border|cffff88dd  (dist 2387) |cff8888dd{walk_border__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [114]
+				"00:45:56.559.567> [LibRover] 4. |cff88ff88Go to Gorgrond|cffff88dd -- |cff88ccddGorgrond/Frostfire Ridge border|cffff88dd  (dist 1) |cff8888dd{walk_border__walk_end}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [115]
+				"00:45:56.559.567> [LibRover] 5. |cff88ff88Accept |cffeebbff`The Laughing Skull'|cffff88dd|cffff88dd -- |cff88ccddDurotan|cffff88dd  (dist 134) |cff8888dd{walk_end}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [116]
+				"00:45:56.559.567> [pointer] -> PathFoundHandler! state=success (Pointer.lua:3779:PathFoundHandler)", -- [117]
+				"00:45:56.559.567> [pointer] - ClearSet route + ants = 0.23 (Pointer.lua:3707:ClearSet)", -- [118]
+				"00:45:56.559.568> [pointer] - set_waypoints: type route (Pointer.lua:3497:<local>)", -- [119]
+				"00:45:56.559.569> [pointer] - set_waypoints end (Pointer.lua:3563:<local>)", -- [120]
+				"00:45:56.559.569> [pointer] - ShowSet route = 1.59 (Pointer.lua:3766:ShowSet)", -- [121]
+				"00:45:56.559.569> [pointer] - ShowSet route + ants = 0.47 (Pointer.lua:3769:ShowSet)", -- [122]
+				"00:45:56.559.570> [pointer] <- PathFoundHandler done. (Pointer.lua:3874:PathFoundHandler)", -- [123]
+				"00:46:26.567.569> [LibRover] -> FindPath (LibRover-1.0.lua:1339:FindPath)", -- [124]
+				"00:46:26.567.571> [LibRover] - FindPath:  |cffaaff88Frostwall|cffff88dd/0 |cffffffff45.7|cffff88dd,|cffffffff47.1|cffff88dd --> |cffaaff88Gorgrond|cffff88dd/0 |cffffffff37.3|cffff88dd,|cffffffff77.0|cffff88dd (LibRover-1.0.lua:1387:FindPath)", -- [125]
+				"00:46:26.567.571> [LibRover] <- FindPath (LibRover-1.0.lua:1450:FindPath)", -- [126]
+				"00:46:26.588.590> [LibRover] -> InitializePath (LibRover-1.0.lua:1462:InitializePath)", -- [127]
+				"00:46:26.588.592> [LibRover] [LRadv] - InitializePath: cleared old nodes, 2241 left (LibRover-1.0.lua:1478:InitializePath)", -- [128]
+				"00:46:26.588.594> [LibRover] [LRadv] - InitializePath: cleared linkage (LibRover-1.0.lua:1485:InitializePath)", -- [129]
+				"00:46:26.588.598> [LibRover] [LRadv] - Initialized end node #2242 with copy #2243 table: 000000005E0EFD50 (LibRover-1.0.lua:1503:InitializePath)", -- [130]
+				"00:46:26.588.599> [LibRover] - |cffff8844 No idea where player's hearthstone is bound to: |cffff8800Bladespire Citadel (LibRover-1.0.lua:1212:FindBindLocation)", -- [131]
+				"00:46:26.588.599> [LibRover] - |cff88ff44 Found garrison hearth node: |cffffee00[340] \"Town Hall\" = Frostwall 976 /0 42.5,53.5 [inn] [closed] |cff8899aa(mode:|cffffffffwalk|cff8899aa from [|cffffffff2244|cff8899aa]) |cff888888[my t=|cff55aa006.1|cff888888/|cff77ee0012.2|cff888888] |cff888888(t=|cff00aa556.1|cff888888/|cff00ee7712.2|cff888888) (LibRover-1.0.lua:1222:FindGarrisonBindLocation)", -- [132]
+				"00:46:26.588.602> [LibRover] [LRadv] - Initialized start node #2244 (LibRover-1.0.lua:1544:InitializePath)", -- [133]
+				"00:46:26.588.607> [LibRover] [LRadv] - InitializePath: cleared temp fields (LibRover-1.0.lua:1581:InitializePath)", -- [134]
+				"00:46:26.588.607> [LibRover] [LRadv] - NodeSetHeap clear (NodeSetHeap.lua:134:Clear)", -- [135]
+				"00:46:26.588.608> [LibRover] <- InitializePath: done (LibRover-1.0.lua:1615:InitializePath)", -- [136]
+				"00:46:26.588.608> [LibRover] Calc pending MAIN, frame 1 (calcs: 0) in 17.21ms. (LibRover-1.0.lua:2857:OnUpdate)", -- [137]
+				"00:46:26.626.628> [LibRover] StepForever: initialized, proceeding (LibRover-1.0.lua:1706:<local>)", -- [138]
+				"00:46:26.626.633> [LibRover] This pass: [SUCCESS] = |cffffffff5.22|cffff88ddms. Done |cffffff8872|cffff88dd calculations over |cff88ffff2|cffff88dd frames:\n compared |cff88ff88577|cffff88dd nodes in |cffffffff0.44|cffff88dd ms, opened |cff88ff88118|cffff88dd, closed |cff88ff8872|cffff88dd \n cheapest |cffffffff0.44|cffff88dd, initial |cffffffff0.12|cffff88dd, overhead |cffffffff0.96|cffff88dd, blah |cffffffff0.38|cffff88dd, scoring |cffffffff1.37|cffff88dd, adding |cffffffff0.44|cffff88dd ms    \n calc total |cffffffff22.37|cffff88dd ms, total time |cffffffff22.44|cffff88dd ms   \n(found: YES) (LibRover-1.0.lua:2861:OnUpdate)", -- [139]
+				"00:46:26.626.633> [LibRover] 0. |cff88ff88START|cffff88dd -- |cff88ccddFrostwall 45,47|cffff88dd  (dist 0) |cff8888dd{walk_start__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [140]
+				"00:46:26.626.633> [LibRover] 1. |cff88ff88Leave Garrison|cffff88dd -- |cff88ccddFrostwall/Frostfire Ridge border|cffff88dd  (dist 201) |cff8888dd{walk_border__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [141]
+				"00:46:26.626.633> [LibRover] 2. |cff88ff88Leave Garrison|cffff88dd -- |cff88ccddFrostfire Ridge/Frostwall border|cffff88dd  (dist 37) |cff8888dd{walk_border__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [142]
+				"00:46:26.626.633> [LibRover] 3. |cff88ff88Go to Gorgrond|cffff88dd -- |cff88ccddFrostfire Ridge/Gorgrond border|cffff88dd  (dist 2387) |cff8888dd{walk_border__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [143]
+				"00:46:26.626.633> [LibRover] 4. |cff88ff88Go to Gorgrond|cffff88dd -- |cff88ccddGorgrond/Frostfire Ridge border|cffff88dd  (dist 1) |cff8888dd{walk_border__walk_end}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [144]
+				"00:46:26.626.634> [LibRover] 5. |cff88ff88Accept |cffeebbff`The Laughing Skull'|cffff88dd|cffff88dd -- |cff88ccddDurotan|cffff88dd  (dist 134) |cff8888dd{walk_end}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [145]
+				"00:46:26.626.634> [pointer] -> PathFoundHandler! state=success (Pointer.lua:3779:PathFoundHandler)", -- [146]
+				"00:46:26.626.634> [pointer] - ClearSet route + ants = 0.22 (Pointer.lua:3707:ClearSet)", -- [147]
+				"00:46:26.626.635> [pointer] - set_waypoints: type route (Pointer.lua:3497:<local>)", -- [148]
+				"00:46:26.626.635> [pointer] - set_waypoints end (Pointer.lua:3563:<local>)", -- [149]
+				"00:46:26.626.636> [pointer] - ShowSet route = 1.54 (Pointer.lua:3766:ShowSet)", -- [150]
+				"00:46:26.626.636> [pointer] - ShowSet route + ants = 0.46 (Pointer.lua:3769:ShowSet)", -- [151]
+				"00:46:26.626.637> [pointer] <- PathFoundHandler done. (Pointer.lua:3874:PathFoundHandler)", -- [152]
+				"00:47:56.510.512> [LibRover] -> FindPath (LibRover-1.0.lua:1339:FindPath)", -- [153]
+				"00:47:56.510.514> [LibRover] - FindPath:  |cffaaff88Frostwall|cffff88dd/0 |cffffffff45.7|cffff88dd,|cffffffff47.1|cffff88dd --> |cffaaff88Gorgrond|cffff88dd/0 |cffffffff37.3|cffff88dd,|cffffffff77.0|cffff88dd (LibRover-1.0.lua:1387:FindPath)", -- [154]
+				"00:47:56.510.514> [LibRover] <- FindPath (LibRover-1.0.lua:1450:FindPath)", -- [155]
+				"00:47:56.532.533> [LibRover] -> InitializePath (LibRover-1.0.lua:1462:InitializePath)", -- [156]
+				"00:47:56.532.534> [LibRover] [LRadv] - InitializePath: cleared old nodes, 2241 left (LibRover-1.0.lua:1478:InitializePath)", -- [157]
+				"00:47:56.532.537> [LibRover] [LRadv] - InitializePath: cleared linkage (LibRover-1.0.lua:1485:InitializePath)", -- [158]
+				"00:47:56.532.541> [LibRover] [LRadv] - Initialized end node #2242 with copy #2243 table: 000000004A4A83C0 (LibRover-1.0.lua:1503:InitializePath)", -- [159]
+				"00:47:56.532.542> [LibRover] - |cffff8844 No idea where player's hearthstone is bound to: |cffff8800Bladespire Citadel (LibRover-1.0.lua:1212:FindBindLocation)", -- [160]
+				"00:47:56.532.542> [LibRover] - |cff88ff44 Found garrison hearth node: |cffffee00[340] \"Town Hall\" = Frostwall 976 /0 42.5,53.5 [inn] [closed] |cff8899aa(mode:|cffffffffwalk|cff8899aa from [|cffffffff2244|cff8899aa]) |cff888888[my t=|cff55aa006.7|cff888888/|cff77ee0013.3|cff888888] |cff888888(t=|cff00aa556.7|cff888888/|cff00ee7713.3|cff888888) (LibRover-1.0.lua:1222:FindGarrisonBindLocation)", -- [161]
+				"00:47:56.532.545> [LibRover] [LRadv] - Initialized start node #2244 (LibRover-1.0.lua:1544:InitializePath)", -- [162]
+				"00:47:56.532.550> [LibRover] [LRadv] - InitializePath: cleared temp fields (LibRover-1.0.lua:1581:InitializePath)", -- [163]
+				"00:47:56.532.551> [LibRover] [LRadv] - NodeSetHeap clear (NodeSetHeap.lua:134:Clear)", -- [164]
+				"00:47:56.532.551> [LibRover] <- InitializePath: done (LibRover-1.0.lua:1615:InitializePath)", -- [165]
+				"00:47:56.568.570> [LibRover] StepForever: initialized, proceeding (LibRover-1.0.lua:1706:<local>)", -- [166]
+				"00:47:56.568.575> [LibRover] This pass: [SUCCESS] = |cffffffff5.10|cffff88ddms. Done |cffffff8872|cffff88dd calculations over |cff88ffff2|cffff88dd frames:\n compared |cff88ff88577|cffff88dd nodes in |cffffffff0.44|cffff88dd ms, opened |cff88ff88118|cffff88dd, closed |cff88ff8872|cffff88dd \n cheapest |cffffffff0.44|cffff88dd, initial |cffffffff0.12|cffff88dd, overhead |cffffffff0.93|cffff88dd, blah |cffffffff0.38|cffff88dd, scoring |cffffffff1.36|cffff88dd, adding |cffffffff0.43|cffff88dd ms    \n calc total |cffffffff22.32|cffff88dd ms, total time |cffffffff22.38|cffff88dd ms   \n(found: YES) (LibRover-1.0.lua:2861:OnUpdate)", -- [167]
+				"00:47:56.568.575> [LibRover] 0. |cff88ff88START|cffff88dd -- |cff88ccddFrostwall 45,47|cffff88dd  (dist 0) |cff8888dd{walk_start__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [168]
+				"00:47:56.568.576> [LibRover] 1. |cff88ff88Leave Garrison|cffff88dd -- |cff88ccddFrostwall/Frostfire Ridge border|cffff88dd  (dist 201) |cff8888dd{walk_border__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [169]
+				"00:47:56.568.576> [LibRover] 2. |cff88ff88Leave Garrison|cffff88dd -- |cff88ccddFrostfire Ridge/Frostwall border|cffff88dd  (dist 37) |cff8888dd{walk_border__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [170]
+				"00:47:56.568.576> [LibRover] 3. |cff88ff88Go to Gorgrond|cffff88dd -- |cff88ccddFrostfire Ridge/Gorgrond border|cffff88dd  (dist 2387) |cff8888dd{walk_border__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [171]
+				"00:47:56.568.576> [LibRover] 4. |cff88ff88Go to Gorgrond|cffff88dd -- |cff88ccddGorgrond/Frostfire Ridge border|cffff88dd  (dist 1) |cff8888dd{walk_border__walk_end}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [172]
+				"00:47:56.568.576> [LibRover] 5. |cff88ff88Accept |cffeebbff`The Laughing Skull'|cffff88dd|cffff88dd -- |cff88ccddDurotan|cffff88dd  (dist 134) |cff8888dd{walk_end}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [173]
+				"00:47:56.568.576> [pointer] -> PathFoundHandler! state=success (Pointer.lua:3779:PathFoundHandler)", -- [174]
+				"00:47:56.568.576> [pointer] - ClearSet route + ants = 0.22 (Pointer.lua:3707:ClearSet)", -- [175]
+				"00:47:56.568.577> [pointer] - set_waypoints: type route (Pointer.lua:3497:<local>)", -- [176]
+				"00:47:56.568.578> [pointer] - set_waypoints end (Pointer.lua:3563:<local>)", -- [177]
+				"00:47:56.568.578> [pointer] - ShowSet route = 1.54 (Pointer.lua:3766:ShowSet)", -- [178]
+				"00:47:56.568.578> [pointer] - ShowSet route + ants = 0.45 (Pointer.lua:3769:ShowSet)", -- [179]
+				"00:47:56.568.579> [pointer] <- PathFoundHandler done. (Pointer.lua:3874:PathFoundHandler)", -- [180]
+				"00:49:56.527.528> [LibRover] -> FindPath (LibRover-1.0.lua:1339:FindPath)", -- [181]
+				"00:49:56.527.530> [LibRover] - FindPath:  |cffaaff88Frostwall|cffff88dd/0 |cffffffff45.7|cffff88dd,|cffffffff47.1|cffff88dd --> |cffaaff88Gorgrond|cffff88dd/0 |cffffffff37.3|cffff88dd,|cffffffff77.0|cffff88dd (LibRover-1.0.lua:1387:FindPath)", -- [182]
+				"00:49:56.527.530> [LibRover] <- FindPath (LibRover-1.0.lua:1450:FindPath)", -- [183]
+				"00:49:56.548.550> [LibRover] -> InitializePath (LibRover-1.0.lua:1462:InitializePath)", -- [184]
+				"00:49:56.548.551> [LibRover] [LRadv] - InitializePath: cleared old nodes, 2241 left (LibRover-1.0.lua:1478:InitializePath)", -- [185]
+				"00:49:56.548.553> [LibRover] [LRadv] - InitializePath: cleared linkage (LibRover-1.0.lua:1485:InitializePath)", -- [186]
+				"00:49:56.548.558> [LibRover] [LRadv] - Initialized end node #2242 with copy #2243 table: 000000005C98F2F0 (LibRover-1.0.lua:1503:InitializePath)", -- [187]
+				"00:49:56.548.558> [LibRover] - |cffff8844 No idea where player's hearthstone is bound to: |cffff8800Bladespire Citadel (LibRover-1.0.lua:1212:FindBindLocation)", -- [188]
+				"00:49:56.548.559> [LibRover] - |cff88ff44 Found garrison hearth node: |cffffee00[340] \"Town Hall\" = Frostwall 976 /0 42.5,53.5 [inn] [closed] |cff8899aa(mode:|cffffffffwalk|cff8899aa from [|cffffffff2244|cff8899aa]) |cff888888[my t=|cff55aa006.7|cff888888/|cff77ee0013.3|cff888888] |cff888888(t=|cff00aa556.7|cff888888/|cff00ee7713.3|cff888888) (LibRover-1.0.lua:1222:FindGarrisonBindLocation)", -- [189]
+				"00:49:56.548.561> [LibRover] [LRadv] - Initialized start node #2244 (LibRover-1.0.lua:1544:InitializePath)", -- [190]
+				"00:49:56.548.567> [LibRover] [LRadv] - InitializePath: cleared temp fields (LibRover-1.0.lua:1581:InitializePath)", -- [191]
+				"00:49:56.548.567> [LibRover] [LRadv] - NodeSetHeap clear (NodeSetHeap.lua:134:Clear)", -- [192]
+				"00:49:56.548.567> [LibRover] <- InitializePath: done (LibRover-1.0.lua:1615:InitializePath)", -- [193]
+				"00:49:56.585.587> [LibRover] StepForever: initialized, proceeding (LibRover-1.0.lua:1706:<local>)", -- [194]
+				"00:49:56.585.591> [LibRover] This pass: [SUCCESS] = |cffffffff5.15|cffff88ddms. Done |cffffff8872|cffff88dd calculations over |cff88ffff2|cffff88dd frames:\n compared |cff88ff88577|cffff88dd nodes in |cffffffff0.45|cffff88dd ms, opened |cff88ff88118|cffff88dd, closed |cff88ff8872|cffff88dd \n cheapest |cffffffff0.45|cffff88dd, initial |cffffffff0.12|cffff88dd, overhead |cffffffff0.94|cffff88dd, blah |cffffffff0.38|cffff88dd, scoring |cffffffff1.37|cffff88dd, adding |cffffffff0.42|cffff88dd ms    \n calc total |cffffffff22.42|cffff88dd ms, total time |cffffffff22.48|cffff88dd ms   \n(found: YES) (LibRover-1.0.lua:2861:OnUpdate)", -- [195]
+				"00:49:56.585.592> [LibRover] 0. |cff88ff88START|cffff88dd -- |cff88ccddFrostwall 45,47|cffff88dd  (dist 0) |cff8888dd{walk_start__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [196]
+				"00:49:56.585.592> [LibRover] 1. |cff88ff88Leave Garrison|cffff88dd -- |cff88ccddFrostwall/Frostfire Ridge border|cffff88dd  (dist 201) |cff8888dd{walk_border__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [197]
+				"00:49:56.585.592> [LibRover] 2. |cff88ff88Leave Garrison|cffff88dd -- |cff88ccddFrostfire Ridge/Frostwall border|cffff88dd  (dist 37) |cff8888dd{walk_border__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [198]
+				"00:49:56.585.592> [LibRover] 3. |cff88ff88Go to Gorgrond|cffff88dd -- |cff88ccddFrostfire Ridge/Gorgrond border|cffff88dd  (dist 2387) |cff8888dd{walk_border__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [199]
+				"00:49:56.585.592> [LibRover] 4. |cff88ff88Go to Gorgrond|cffff88dd -- |cff88ccddGorgrond/Frostfire Ridge border|cffff88dd  (dist 1) |cff8888dd{walk_border__walk_end}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [200]
+				"00:49:56.585.592> [LibRover] 5. |cff88ff88Accept |cffeebbff`The Laughing Skull'|cffff88dd|cffff88dd -- |cff88ccddDurotan|cffff88dd  (dist 134) |cff8888dd{walk_end}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [201]
+				"00:49:56.585.592> [pointer] -> PathFoundHandler! state=success (Pointer.lua:3779:PathFoundHandler)", -- [202]
+				"00:49:56.585.593> [pointer] - ClearSet route + ants = 0.25 (Pointer.lua:3707:ClearSet)", -- [203]
+				"00:49:56.585.593> [pointer] - set_waypoints: type route (Pointer.lua:3497:<local>)", -- [204]
+				"00:49:56.585.594> [pointer] - set_waypoints end (Pointer.lua:3563:<local>)", -- [205]
+				"00:49:56.585.594> [pointer] - ShowSet route = 1.61 (Pointer.lua:3766:ShowSet)", -- [206]
+				"00:49:56.585.595> [pointer] - ShowSet route + ants = 0.49 (Pointer.lua:3769:ShowSet)", -- [207]
+				"00:49:56.585.595> [pointer] <- PathFoundHandler done. (Pointer.lua:3874:PathFoundHandler)", -- [208]
+				"00:50:38.878.879> [pointer] Clicked way 1 type way (Pointer.lua:1409:MinimapButton_OnClick)", -- [209]
+				"00:50:38.878.879> [pointer] ClearWaypoints manual (Pointer.lua:548:ClearWaypoints)", -- [210]
+				"00:50:38.878.879> [pointer] FindTravelPath (Pointer.lua:3897:FindTravelPath)", -- [211]
+				"00:50:38.878.880> [LibRover] -> FindPath (LibRover-1.0.lua:1339:FindPath)", -- [212]
+				"00:50:38.878.882> [LibRover] - FindPath:  |cffaaff88Frostwall|cffff88dd/0 |cffffffff45.7|cffff88dd,|cffffffff47.1|cffff88dd --> |cffaaff88Gorgrond|cffff88dd/0 |cffffffff37.3|cffff88dd,|cffffffff77.0|cffff88dd (LibRover-1.0.lua:1387:FindPath)", -- [213]
+				"00:50:38.878.882> [LibRover] <- FindPath (LibRover-1.0.lua:1450:FindPath)", -- [214]
+				"00:50:38.878.884> [LibRover] -> InitializePath (LibRover-1.0.lua:1462:InitializePath)", -- [215]
+				"00:50:38.878.885> [LibRover] [LRadv] - InitializePath: cleared old nodes, 2241 left (LibRover-1.0.lua:1478:InitializePath)", -- [216]
+				"00:50:38.878.887> [LibRover] [LRadv] - InitializePath: cleared linkage (LibRover-1.0.lua:1485:InitializePath)", -- [217]
+				"00:50:38.878.892> [LibRover] [LRadv] - Initialized end node #2242 with copy #2243 table: 000000005D4FC2F0 (LibRover-1.0.lua:1503:InitializePath)", -- [218]
+				"00:50:38.878.893> [LibRover] - |cffff8844 No idea where player's hearthstone is bound to: |cffff8800Bladespire Citadel (LibRover-1.0.lua:1212:FindBindLocation)", -- [219]
+				"00:50:38.878.893> [LibRover] - |cff88ff44 Found garrison hearth node: |cffffee00[340] \"Town Hall\" = Frostwall 976 /0 42.5,53.5 [inn] [closed] |cff8899aa(mode:|cffffffffwalk|cff8899aa from [|cffffffff2244|cff8899aa]) |cff888888[my t=|cff55aa006.7|cff888888/|cff77ee0013.3|cff888888] |cff888888(t=|cff00aa556.7|cff888888/|cff00ee7713.3|cff888888) (LibRover-1.0.lua:1222:FindGarrisonBindLocation)", -- [220]
+				"00:50:38.878.896> [LibRover] [LRadv] - Initialized start node #2244 (LibRover-1.0.lua:1544:InitializePath)", -- [221]
+				"00:50:38.878.901> [LibRover] [LRadv] - InitializePath: cleared temp fields (LibRover-1.0.lua:1581:InitializePath)", -- [222]
+				"00:50:38.878.901> [LibRover] [LRadv] - NodeSetHeap clear (NodeSetHeap.lua:134:Clear)", -- [223]
+				"00:50:38.878.901> [LibRover] <- InitializePath: done (LibRover-1.0.lua:1615:InitializePath)", -- [224]
+				"00:50:38.878.901> [pointer] -> PathFoundHandler! state=progress (Pointer.lua:3779:PathFoundHandler)", -- [225]
+				"00:50:38.878.902> [pointer] <- PathFoundHandler done. (Pointer.lua:3874:PathFoundHandler)", -- [226]
+				"00:50:38.920.926> [LibRover] StepForever: initialized, proceeding (LibRover-1.0.lua:1706:<local>)", -- [227]
+				"00:50:38.920.931> [LibRover] This pass: [SUCCESS] = |cffffffff5.17|cffff88ddms. Done |cffffff8872|cffff88dd calculations over |cff88ffff2|cffff88dd frames:\n compared |cff88ff88577|cffff88dd nodes in |cffffffff0.45|cffff88dd ms, opened |cff88ff88118|cffff88dd, closed |cff88ff8872|cffff88dd \n cheapest |cffffffff0.45|cffff88dd, initial |cffffffff0.12|cffff88dd, overhead |cffffffff0.93|cffff88dd, blah |cffffffff0.37|cffff88dd, scoring |cffffffff1.42|cffff88dd, adding |cffffffff0.43|cffff88dd ms    \n calc total |cffffffff22.22|cffff88dd ms, total time |cffffffff22.28|cffff88dd ms   \n(found: YES) (LibRover-1.0.lua:2861:OnUpdate)", -- [228]
+				"00:50:38.920.931> [LibRover] 0. |cff88ff88START|cffff88dd -- |cff88ccddFrostwall 45,47|cffff88dd  (dist 0) |cff8888dd{walk_start__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [229]
+				"00:50:38.920.931> [LibRover] 1. |cff88ff88Leave Garrison|cffff88dd -- |cff88ccddFrostwall/Frostfire Ridge border|cffff88dd  (dist 201) |cff8888dd{walk_border__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [230]
+				"00:50:38.920.931> [LibRover] 2. |cff88ff88Leave Garrison|cffff88dd -- |cff88ccddFrostfire Ridge/Frostwall border|cffff88dd  (dist 37) |cff8888dd{walk_border__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [231]
+				"00:50:38.920.931> [LibRover] 3. |cff88ff88Go to Gorgrond|cffff88dd -- |cff88ccddFrostfire Ridge/Gorgrond border|cffff88dd  (dist 2387) |cff8888dd{walk_border__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [232]
+				"00:50:38.920.931> [LibRover] 4. |cff88ff88Go to Gorgrond|cffff88dd -- |cff88ccddGorgrond/Frostfire Ridge border|cffff88dd  (dist 1) |cff8888dd{walk_border__walk_end}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [233]
+				"00:50:38.920.932> [LibRover] 5. |cff88ff88Turn in |cffeebbff`The Secrets of Gorgrond'|cffff88dd|cffff88dd -- |cff88ccddDurotan|cffff88dd  (dist 134) |cff8888dd{walk_end}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [234]
+				"00:50:38.920.932> [pointer] -> PathFoundHandler! state=success (Pointer.lua:3779:PathFoundHandler)", -- [235]
+				"00:50:38.920.932> [pointer] - ClearSet route + ants = 0.29 (Pointer.lua:3707:ClearSet)", -- [236]
+				"00:50:38.920.933> [pointer] - set_waypoints: type route (Pointer.lua:3497:<local>)", -- [237]
+				"00:50:38.920.934> [pointer] - set_waypoints end (Pointer.lua:3563:<local>)", -- [238]
+				"00:50:38.920.934> [pointer] - ShowSet route = 1.69 (Pointer.lua:3766:ShowSet)", -- [239]
+				"00:50:38.920.934> [pointer] - ShowSet route + ants = 0.62 (Pointer.lua:3769:ShowSet)", -- [240]
+				"00:50:38.920.934> [pointer] <- PathFoundHandler done. (Pointer.lua:3874:PathFoundHandler)", -- [241]
+				"00:51:56.550.552> [LibRover] -> FindPath (LibRover-1.0.lua:1339:FindPath)", -- [242]
+				"00:51:56.550.554> [LibRover] - FindPath:  |cffaaff88Frostwall|cffff88dd/0 |cffffffff45.7|cffff88dd,|cffffffff47.1|cffff88dd --> |cffaaff88Gorgrond|cffff88dd/0 |cffffffff37.3|cffff88dd,|cffffffff77.0|cffff88dd (LibRover-1.0.lua:1387:FindPath)", -- [243]
+				"00:51:56.550.554> [LibRover] <- FindPath (LibRover-1.0.lua:1450:FindPath)", -- [244]
+				"00:51:56.568.570> [LibRover] -> InitializePath (LibRover-1.0.lua:1462:InitializePath)", -- [245]
+				"00:51:56.568.571> [LibRover] [LRadv] - InitializePath: cleared old nodes, 2241 left (LibRover-1.0.lua:1478:InitializePath)", -- [246]
+				"00:51:56.568.573> [LibRover] [LRadv] - InitializePath: cleared linkage (LibRover-1.0.lua:1485:InitializePath)", -- [247]
+				"00:51:56.568.578> [LibRover] [LRadv] - Initialized end node #2242 with copy #2243 table: 000000003D69C5C0 (LibRover-1.0.lua:1503:InitializePath)", -- [248]
+				"00:51:56.568.578> [LibRover] - |cffff8844 No idea where player's hearthstone is bound to: |cffff8800Bladespire Citadel (LibRover-1.0.lua:1212:FindBindLocation)", -- [249]
+				"00:51:56.568.578> [LibRover] - |cff88ff44 Found garrison hearth node: |cffffee00[340] \"Town Hall\" = Frostwall 976 /0 42.5,53.5 [inn] [closed] |cff8899aa(mode:|cffffffffwalk|cff8899aa from [|cffffffff2244|cff8899aa]) |cff888888[my t=|cff55aa006.7|cff888888/|cff77ee0013.3|cff888888] |cff888888(t=|cff00aa556.7|cff888888/|cff00ee7713.3|cff888888) (LibRover-1.0.lua:1222:FindGarrisonBindLocation)", -- [250]
+				"00:51:56.568.581> [LibRover] [LRadv] - Initialized start node #2244 (LibRover-1.0.lua:1544:InitializePath)", -- [251]
+				"00:51:56.568.586> [LibRover] [LRadv] - InitializePath: cleared temp fields (LibRover-1.0.lua:1581:InitializePath)", -- [252]
+				"00:51:56.568.586> [LibRover] [LRadv] - NodeSetHeap clear (NodeSetHeap.lua:134:Clear)", -- [253]
+				"00:51:56.568.587> [LibRover] <- InitializePath: done (LibRover-1.0.lua:1615:InitializePath)", -- [254]
+				"00:51:56.600.603> [LibRover] StepForever: initialized, proceeding (LibRover-1.0.lua:1706:<local>)", -- [255]
+				"00:51:56.600.607> [LibRover] This pass: [SUCCESS] = |cffffffff5.19|cffff88ddms. Done |cffffff8872|cffff88dd calculations over |cff88ffff2|cffff88dd frames:\n compared |cff88ff88577|cffff88dd nodes in |cffffffff0.45|cffff88dd ms, opened |cff88ff88118|cffff88dd, closed |cff88ff8872|cffff88dd \n cheapest |cffffffff0.45|cffff88dd, initial |cffffffff0.12|cffff88dd, overhead |cffffffff0.94|cffff88dd, blah |cffffffff0.38|cffff88dd, scoring |cffffffff1.39|cffff88dd, adding |cffffffff0.44|cffff88dd ms    \n calc total |cffffffff22.06|cffff88dd ms, total time |cffffffff22.12|cffff88dd ms   \n(found: YES) (LibRover-1.0.lua:2861:OnUpdate)", -- [256]
+				"00:51:56.600.608> [LibRover] 0. |cff88ff88START|cffff88dd -- |cff88ccddFrostwall 45,47|cffff88dd  (dist 0) |cff8888dd{walk_start__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [257]
+				"00:51:56.600.608> [LibRover] 1. |cff88ff88Leave Garrison|cffff88dd -- |cff88ccddFrostwall/Frostfire Ridge border|cffff88dd  (dist 201) |cff8888dd{walk_border__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [258]
+				"00:51:56.600.608> [LibRover] 2. |cff88ff88Leave Garrison|cffff88dd -- |cff88ccddFrostfire Ridge/Frostwall border|cffff88dd  (dist 37) |cff8888dd{walk_border__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [259]
+				"00:51:56.600.608> [LibRover] 3. |cff88ff88Go to Gorgrond|cffff88dd -- |cff88ccddFrostfire Ridge/Gorgrond border|cffff88dd  (dist 2387) |cff8888dd{walk_border__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [260]
+				"00:51:56.600.608> [LibRover] 4. |cff88ff88Go to Gorgrond|cffff88dd -- |cff88ccddGorgrond/Frostfire Ridge border|cffff88dd  (dist 1) |cff8888dd{walk_border__walk_end}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [261]
+				"00:51:56.600.608> [LibRover] 5. |cff88ff88Turn in |cffeebbff`The Secrets of Gorgrond'|cffff88dd|cffff88dd -- |cff88ccddDurotan|cffff88dd  (dist 134) |cff8888dd{walk_end}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [262]
+				"00:51:56.600.608> [pointer] -> PathFoundHandler! state=success (Pointer.lua:3779:PathFoundHandler)", -- [263]
+				"00:51:56.600.609> [pointer] - ClearSet route + ants = 0.22 (Pointer.lua:3707:ClearSet)", -- [264]
+				"00:51:56.600.609> [pointer] - set_waypoints: type route (Pointer.lua:3497:<local>)", -- [265]
+				"00:51:56.600.610> [pointer] - set_waypoints end (Pointer.lua:3563:<local>)", -- [266]
+				"00:51:56.600.610> [pointer] - ShowSet route = 1.54 (Pointer.lua:3766:ShowSet)", -- [267]
+				"00:51:56.600.611> [pointer] - ShowSet route + ants = 0.46 (Pointer.lua:3769:ShowSet)", -- [268]
+				"00:51:56.600.612> [pointer] <- PathFoundHandler done. (Pointer.lua:3874:PathFoundHandler)", -- [269]
+				"00:52:26.609.612> [LibRover] -> FindPath (LibRover-1.0.lua:1339:FindPath)", -- [270]
+				"00:52:26.609.614> [LibRover] - FindPath:  |cffaaff88Frostwall|cffff88dd/0 |cffffffff45.0|cffff88dd,|cffffffff47.3|cffff88dd --> |cffaaff88Gorgrond|cffff88dd/0 |cffffffff37.3|cffff88dd,|cffffffff77.0|cffff88dd (LibRover-1.0.lua:1387:FindPath)", -- [271]
+				"00:52:26.609.614> [LibRover] <- FindPath (LibRover-1.0.lua:1450:FindPath)", -- [272]
+				"00:52:26.628.630> [LibRover] -> InitializePath (LibRover-1.0.lua:1462:InitializePath)", -- [273]
+				"00:52:26.628.631> [LibRover] [LRadv] - InitializePath: cleared old nodes, 2241 left (LibRover-1.0.lua:1478:InitializePath)", -- [274]
+				"00:52:26.628.633> [LibRover] [LRadv] - InitializePath: cleared linkage (LibRover-1.0.lua:1485:InitializePath)", -- [275]
+				"00:52:26.628.638> [LibRover] [LRadv] - Initialized end node #2242 with copy #2243 table: 000000004A822030 (LibRover-1.0.lua:1503:InitializePath)", -- [276]
+				"00:52:26.628.639> [LibRover] - |cffff8844 No idea where player's hearthstone is bound to: |cffff8800Bladespire Citadel (LibRover-1.0.lua:1212:FindBindLocation)", -- [277]
+				"00:52:26.628.639> [LibRover] - |cff88ff44 Found garrison hearth node: |cffffee00[340] \"Town Hall\" = Frostwall 976 /0 42.5,53.5 [inn] [closed] |cff8899aa(mode:|cffffffffwalk|cff8899aa from [|cffffffff2244|cff8899aa]) |cff888888[my t=|cff55aa006.7|cff888888/|cff77ee0013.3|cff888888] |cff888888(t=|cff00aa556.7|cff888888/|cff00ee7713.3|cff888888) (LibRover-1.0.lua:1222:FindGarrisonBindLocation)", -- [278]
+				"00:52:26.628.642> [LibRover] [LRadv] - Initialized start node #2244 (LibRover-1.0.lua:1544:InitializePath)", -- [279]
+				"00:52:26.628.647> [LibRover] [LRadv] - InitializePath: cleared temp fields (LibRover-1.0.lua:1581:InitializePath)", -- [280]
+				"00:52:26.628.647> [LibRover] [LRadv] - NodeSetHeap clear (NodeSetHeap.lua:134:Clear)", -- [281]
+				"00:52:26.628.647> [LibRover] <- InitializePath: done (LibRover-1.0.lua:1615:InitializePath)", -- [282]
+				"00:52:26.662.664> [LibRover] StepForever: initialized, proceeding (LibRover-1.0.lua:1706:<local>)", -- [283]
+				"00:52:26.662.669> [LibRover] This pass: [SUCCESS] = |cffffffff5.13|cffff88ddms. Done |cffffff8871|cffff88dd calculations over |cff88ffff2|cffff88dd frames:\n compared |cff88ff88564|cffff88dd nodes in |cffffffff0.44|cffff88dd ms, opened |cff88ff88119|cffff88dd, closed |cff88ff8871|cffff88dd \n cheapest |cffffffff0.44|cffff88dd, initial |cffffffff0.11|cffff88dd, overhead |cffffffff0.94|cffff88dd, blah |cffffffff0.38|cffff88dd, scoring |cffffffff1.37|cffff88dd, adding |cffffffff0.44|cffff88dd ms    \n calc total |cffffffff22.15|cffff88dd ms, total time |cffffffff22.21|cffff88dd ms   \n(found: YES) (LibRover-1.0.lua:2861:OnUpdate)", -- [284]
+				"00:52:26.662.669> [LibRover] 0. |cff88ff88START|cffff88dd -- |cff88ccddFrostwall 44,47|cffff88dd  (dist 0) |cff8888dd{walk_start__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [285]
+				"00:52:26.662.669> [LibRover] 1. |cff88ff88Leave Garrison|cffff88dd -- |cff88ccddFrostwall/Frostfire Ridge border|cffff88dd  (dist 204) |cff8888dd{walk_border__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [286]
+				"00:52:26.662.669> [LibRover] 2. |cff88ff88Leave Garrison|cffff88dd -- |cff88ccddFrostfire Ridge/Frostwall border|cffff88dd  (dist 37) |cff8888dd{walk_border__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [287]
+				"00:52:26.662.669> [LibRover] 3. |cff88ff88Go to Gorgrond|cffff88dd -- |cff88ccddFrostfire Ridge/Gorgrond border|cffff88dd  (dist 2387) |cff8888dd{walk_border__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [288]
+				"00:52:26.662.669> [LibRover] 4. |cff88ff88Go to Gorgrond|cffff88dd -- |cff88ccddGorgrond/Frostfire Ridge border|cffff88dd  (dist 1) |cff8888dd{walk_border__walk_end}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [289]
+				"00:52:26.662.669> [LibRover] 5. |cff88ff88Turn in |cffeebbff`The Secrets of Gorgrond'|cffff88dd|cffff88dd -- |cff88ccddDurotan|cffff88dd  (dist 134) |cff8888dd{walk_end}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [290]
+				"00:52:26.662.670> [pointer] -> PathFoundHandler! state=success (Pointer.lua:3779:PathFoundHandler)", -- [291]
+				"00:52:26.662.670> [pointer] - ClearSet route + ants = 0.22 (Pointer.lua:3707:ClearSet)", -- [292]
+				"00:52:26.662.670> [pointer] - set_waypoints: type route (Pointer.lua:3497:<local>)", -- [293]
+				"00:52:26.662.671> [pointer] - set_waypoints end (Pointer.lua:3563:<local>)", -- [294]
+				"00:52:26.662.672> [pointer] - ShowSet route = 1.59 (Pointer.lua:3766:ShowSet)", -- [295]
+				"00:52:26.662.672> [pointer] - ShowSet route + ants = 0.46 (Pointer.lua:3769:ShowSet)", -- [296]
+				"00:52:26.662.673> [pointer] <- PathFoundHandler done. (Pointer.lua:3874:PathFoundHandler)", -- [297]
+				"00:52:41.407.409> 13 Enchanting recipes found (Profession.lua:330:CacheRecipes)", -- [298]
+				"00:52:41.407.412> 13 Enchanting recipes found (Profession.lua:330:CacheRecipes)", -- [299]
+				"00:52:41.407.414> 13 Enchanting recipes found (Profession.lua:330:CacheRecipes)", -- [300]
+				"00:52:41.407.416> 13 Enchanting recipes found (Profession.lua:330:CacheRecipes)", -- [301]
+				"00:52:42.900.904> 13 Enchanting recipes found (Profession.lua:330:CacheRecipes)", -- [302]
+				"00:52:42.900.906> 13 Enchanting recipes found (Profession.lua:330:CacheRecipes)", -- [303]
+				"00:53:56.574.577> [LibRover] -> FindPath (LibRover-1.0.lua:1339:FindPath)", -- [304]
+				"00:53:56.574.579> [LibRover] - FindPath:  |cffaaff88Frostwall|cffff88dd/0 |cffffffff45.0|cffff88dd,|cffffffff47.3|cffff88dd --> |cffaaff88Gorgrond|cffff88dd/0 |cffffffff37.3|cffff88dd,|cffffffff77.0|cffff88dd (LibRover-1.0.lua:1387:FindPath)", -- [305]
+				"00:53:56.574.579> [LibRover] <- FindPath (LibRover-1.0.lua:1450:FindPath)", -- [306]
+				"00:53:56.592.595> [LibRover] -> InitializePath (LibRover-1.0.lua:1462:InitializePath)", -- [307]
+				"00:53:56.592.596> [LibRover] [LRadv] - InitializePath: cleared old nodes, 2241 left (LibRover-1.0.lua:1478:InitializePath)", -- [308]
+				"00:53:56.592.598> [LibRover] [LRadv] - InitializePath: cleared linkage (LibRover-1.0.lua:1485:InitializePath)", -- [309]
+				"00:53:56.592.603> [LibRover] [LRadv] - Initialized end node #2242 with copy #2243 table: 000000005C0B43C0 (LibRover-1.0.lua:1503:InitializePath)", -- [310]
+				"00:53:56.592.603> [LibRover] - |cffff8844 No idea where player's hearthstone is bound to: |cffff8800Bladespire Citadel (LibRover-1.0.lua:1212:FindBindLocation)", -- [311]
+				"00:53:56.592.604> [LibRover] - |cff88ff44 Found garrison hearth node: |cffffee00[340] \"Town Hall\" = Frostwall 976 /0 42.5,53.5 [inn] [closed] |cff8899aa(mode:|cffffffffwalk|cff8899aa from [|cffffffff2244|cff8899aa]) |cff888888[my t=|cff55aa006.0|cff888888/|cff77ee0012.1|cff888888] |cff888888(t=|cff00aa556.0|cff888888/|cff00ee7712.1|cff888888) (LibRover-1.0.lua:1222:FindGarrisonBindLocation)", -- [312]
+				"00:53:56.592.606> [LibRover] [LRadv] - Initialized start node #2244 (LibRover-1.0.lua:1544:InitializePath)", -- [313]
+				"00:53:56.592.612> [LibRover] [LRadv] - InitializePath: cleared temp fields (LibRover-1.0.lua:1581:InitializePath)", -- [314]
+				"00:53:56.592.612> [LibRover] [LRadv] - NodeSetHeap clear (NodeSetHeap.lua:134:Clear)", -- [315]
+				"00:53:56.592.612> [LibRover] <- InitializePath: done (LibRover-1.0.lua:1615:InitializePath)", -- [316]
+				"00:53:56.592.612> [LibRover] Calc pending MAIN, frame 1 (calcs: 0) in 17.33ms. (LibRover-1.0.lua:2857:OnUpdate)", -- [317]
+				"00:53:56.627.629> [LibRover] StepForever: initialized, proceeding (LibRover-1.0.lua:1706:<local>)", -- [318]
+				"00:53:56.627.634> [LibRover] This pass: [SUCCESS] = |cffffffff5.22|cffff88ddms. Done |cffffff8871|cffff88dd calculations over |cff88ffff2|cffff88dd frames:\n compared |cff88ff88564|cffff88dd nodes in |cffffffff0.44|cffff88dd ms, opened |cff88ff88119|cffff88dd, closed |cff88ff8871|cffff88dd \n cheapest |cffffffff0.44|cffff88dd, initial |cffffffff0.11|cffff88dd, overhead |cffffffff0.91|cffff88dd, blah |cffffffff0.37|cffff88dd, scoring |cffffffff1.41|cffff88dd, adding |cffffffff0.44|cffff88dd ms    \n calc total |cffffffff22.49|cffff88dd ms, total time |cffffffff22.55|cffff88dd ms   \n(found: YES) (LibRover-1.0.lua:2861:OnUpdate)", -- [319]
+				"00:53:56.627.635> [LibRover] 0. |cff88ff88START|cffff88dd -- |cff88ccddFrostwall 44,47|cffff88dd  (dist 0) |cff8888dd{walk_start__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [320]
+				"00:53:56.627.635> [LibRover] 1. |cff88ff88Leave Garrison|cffff88dd -- |cff88ccddFrostwall/Frostfire Ridge border|cffff88dd  (dist 204) |cff8888dd{walk_border__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [321]
+				"00:53:56.627.635> [LibRover] 2. |cff88ff88Leave Garrison|cffff88dd -- |cff88ccddFrostfire Ridge/Frostwall border|cffff88dd  (dist 37) |cff8888dd{walk_border__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [322]
+				"00:53:56.627.635> [LibRover] 3. |cff88ff88Go to Gorgrond|cffff88dd -- |cff88ccddFrostfire Ridge/Gorgrond border|cffff88dd  (dist 2387) |cff8888dd{walk_border__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [323]
+				"00:53:56.627.635> [LibRover] 4. |cff88ff88Go to Gorgrond|cffff88dd -- |cff88ccddGorgrond/Frostfire Ridge border|cffff88dd  (dist 1) |cff8888dd{walk_border__walk_end}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [324]
+				"00:53:56.627.635> [LibRover] 5. |cff88ff88Turn in |cffeebbff`The Secrets of Gorgrond'|cffff88dd|cffff88dd -- |cff88ccddDurotan|cffff88dd  (dist 134) |cff8888dd{walk_end}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [325]
+				"00:53:56.627.635> [pointer] -> PathFoundHandler! state=success (Pointer.lua:3779:PathFoundHandler)", -- [326]
+				"00:53:56.627.635> [pointer] - ClearSet route + ants = 0.22 (Pointer.lua:3707:ClearSet)", -- [327]
+				"00:53:56.627.636> [pointer] - set_waypoints: type route (Pointer.lua:3497:<local>)", -- [328]
+				"00:53:56.627.637> [pointer] - set_waypoints end (Pointer.lua:3563:<local>)", -- [329]
+				"00:53:56.627.637> [pointer] - ShowSet route = 1.61 (Pointer.lua:3766:ShowSet)", -- [330]
+				"00:53:56.627.637> [pointer] - ShowSet route + ants = 0.46 (Pointer.lua:3769:ShowSet)", -- [331]
+				"00:53:56.627.638> [pointer] <- PathFoundHandler done. (Pointer.lua:3874:PathFoundHandler)", -- [332]
+				"00:55:56.604.605> [LibRover] -> FindPath (LibRover-1.0.lua:1339:FindPath)", -- [333]
+				"00:55:56.604.608> [LibRover] - FindPath:  |cffaaff88Frostwall|cffff88dd/0 |cffffffff45.0|cffff88dd,|cffffffff47.3|cffff88dd --> |cffaaff88Gorgrond|cffff88dd/0 |cffffffff37.3|cffff88dd,|cffffffff77.0|cffff88dd (LibRover-1.0.lua:1387:FindPath)", -- [334]
+				"00:55:56.604.608> [LibRover] <- FindPath (LibRover-1.0.lua:1450:FindPath)", -- [335]
+				"00:55:56.622.624> [LibRover] -> InitializePath (LibRover-1.0.lua:1462:InitializePath)", -- [336]
+				"00:55:56.622.625> [LibRover] [LRadv] - InitializePath: cleared old nodes, 2241 left (LibRover-1.0.lua:1478:InitializePath)", -- [337]
+				"00:55:56.622.627> [LibRover] [LRadv] - InitializePath: cleared linkage (LibRover-1.0.lua:1485:InitializePath)", -- [338]
+				"00:55:56.622.632> [LibRover] [LRadv] - Initialized end node #2242 with copy #2243 table: 000000005CE953B0 (LibRover-1.0.lua:1503:InitializePath)", -- [339]
+				"00:55:56.622.633> [LibRover] - |cffff8844 No idea where player's hearthstone is bound to: |cffff8800Bladespire Citadel (LibRover-1.0.lua:1212:FindBindLocation)", -- [340]
+				"00:55:56.622.633> [LibRover] - |cff88ff44 Found garrison hearth node: |cffffee00[340] \"Town Hall\" = Frostwall 976 /0 42.5,53.5 [inn] [closed] |cff8899aa(mode:|cffffffffwalk|cff8899aa from [|cffffffff2244|cff8899aa]) |cff888888[my t=|cff55aa006.0|cff888888/|cff77ee0012.1|cff888888] |cff888888(t=|cff00aa556.0|cff888888/|cff00ee7712.1|cff888888) (LibRover-1.0.lua:1222:FindGarrisonBindLocation)", -- [341]
+				"00:55:56.622.637> [LibRover] [LRadv] - Initialized start node #2244 (LibRover-1.0.lua:1544:InitializePath)", -- [342]
+				"00:55:56.622.642> [LibRover] [LRadv] - InitializePath: cleared temp fields (LibRover-1.0.lua:1581:InitializePath)", -- [343]
+				"00:55:56.622.642> [LibRover] [LRadv] - NodeSetHeap clear (NodeSetHeap.lua:134:Clear)", -- [344]
+				"00:55:56.622.642> [LibRover] <- InitializePath: done (LibRover-1.0.lua:1615:InitializePath)", -- [345]
+				"00:55:56.657.659> [LibRover] StepForever: initialized, proceeding (LibRover-1.0.lua:1706:<local>)", -- [346]
+				"00:55:56.657.664> [LibRover] This pass: [SUCCESS] = |cffffffff5.30|cffff88ddms. Done |cffffff8871|cffff88dd calculations over |cff88ffff2|cffff88dd frames:\n compared |cff88ff88564|cffff88dd nodes in |cffffffff0.44|cffff88dd ms, opened |cff88ff88119|cffff88dd, closed |cff88ff8871|cffff88dd \n cheapest |cffffffff0.44|cffff88dd, initial |cffffffff0.12|cffff88dd, overhead |cffffffff0.99|cffff88dd, blah |cffffffff0.39|cffff88dd, scoring |cffffffff1.41|cffff88dd, adding |cffffffff0.46|cffff88dd ms    \n calc total |cffffffff23.56|cffff88dd ms, total time |cffffffff23.62|cffff88dd ms   \n(found: YES) (LibRover-1.0.lua:2861:OnUpdate)", -- [347]
+				"00:55:56.657.665> [LibRover] 0. |cff88ff88START|cffff88dd -- |cff88ccddFrostwall 44,47|cffff88dd  (dist 0) |cff8888dd{walk_start__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [348]
+				"00:55:56.657.665> [LibRover] 1. |cff88ff88Leave Garrison|cffff88dd -- |cff88ccddFrostwall/Frostfire Ridge border|cffff88dd  (dist 204) |cff8888dd{walk_border__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [349]
+				"00:55:56.657.665> [LibRover] 2. |cff88ff88Leave Garrison|cffff88dd -- |cff88ccddFrostfire Ridge/Frostwall border|cffff88dd  (dist 37) |cff8888dd{walk_border__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [350]
+				"00:55:56.657.665> [LibRover] 3. |cff88ff88Go to Gorgrond|cffff88dd -- |cff88ccddFrostfire Ridge/Gorgrond border|cffff88dd  (dist 2387) |cff8888dd{walk_border__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [351]
+				"00:55:56.657.665> [LibRover] 4. |cff88ff88Go to Gorgrond|cffff88dd -- |cff88ccddGorgrond/Frostfire Ridge border|cffff88dd  (dist 1) |cff8888dd{walk_border__walk_end}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [352]
+				"00:55:56.657.665> [LibRover] 5. |cff88ff88Turn in |cffeebbff`The Secrets of Gorgrond'|cffff88dd|cffff88dd -- |cff88ccddDurotan|cffff88dd  (dist 134) |cff8888dd{walk_end}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [353]
+				"00:55:56.657.665> [pointer] -> PathFoundHandler! state=success (Pointer.lua:3779:PathFoundHandler)", -- [354]
+				"00:55:56.657.665> [pointer] - ClearSet route + ants = 0.22 (Pointer.lua:3707:ClearSet)", -- [355]
+				"00:55:56.657.666> [pointer] - set_waypoints: type route (Pointer.lua:3497:<local>)", -- [356]
+				"00:55:56.657.667> [pointer] - set_waypoints end (Pointer.lua:3563:<local>)", -- [357]
+				"00:55:56.657.667> [pointer] - ShowSet route = 1.56 (Pointer.lua:3766:ShowSet)", -- [358]
+				"00:55:56.657.667> [pointer] - ShowSet route + ants = 0.46 (Pointer.lua:3769:ShowSet)", -- [359]
+				"00:55:56.657.668> [pointer] <- PathFoundHandler done. (Pointer.lua:3874:PathFoundHandler)", -- [360]
+				"00:57:56.615.617> [LibRover] -> FindPath (LibRover-1.0.lua:1339:FindPath)", -- [361]
+				"00:57:56.615.619> [LibRover] - FindPath:  |cffaaff88Frostwall|cffff88dd/0 |cffffffff45.0|cffff88dd,|cffffffff47.3|cffff88dd --> |cffaaff88Gorgrond|cffff88dd/0 |cffffffff37.3|cffff88dd,|cffffffff77.0|cffff88dd (LibRover-1.0.lua:1387:FindPath)", -- [362]
+				"00:57:56.615.619> [LibRover] <- FindPath (LibRover-1.0.lua:1450:FindPath)", -- [363]
+				"00:57:56.634.636> [LibRover] -> InitializePath (LibRover-1.0.lua:1462:InitializePath)", -- [364]
+				"00:57:56.634.637> [LibRover] [LRadv] - InitializePath: cleared old nodes, 2241 left (LibRover-1.0.lua:1478:InitializePath)", -- [365]
+				"00:57:56.634.639> [LibRover] [LRadv] - InitializePath: cleared linkage (LibRover-1.0.lua:1485:InitializePath)", -- [366]
+				"00:57:56.634.643> [LibRover] [LRadv] - Initialized end node #2242 with copy #2243 table: 000000003D6979D0 (LibRover-1.0.lua:1503:InitializePath)", -- [367]
+				"00:57:56.634.644> [LibRover] - |cffff8844 No idea where player's hearthstone is bound to: |cffff8800Bladespire Citadel (LibRover-1.0.lua:1212:FindBindLocation)", -- [368]
+				"00:57:56.634.644> [LibRover] - |cff88ff44 Found garrison hearth node: |cffffee00[340] \"Town Hall\" = Frostwall 976 /0 42.5,53.5 [inn] [closed] |cff8899aa(mode:|cffffffffwalk|cff8899aa from [|cffffffff2244|cff8899aa]) |cff888888[my t=|cff55aa006.0|cff888888/|cff77ee0012.1|cff888888] |cff888888(t=|cff00aa556.0|cff888888/|cff00ee7712.1|cff888888) (LibRover-1.0.lua:1222:FindGarrisonBindLocation)", -- [369]
+				"00:57:56.634.647> [LibRover] [LRadv] - Initialized start node #2244 (LibRover-1.0.lua:1544:InitializePath)", -- [370]
+				"00:57:56.634.652> [LibRover] [LRadv] - InitializePath: cleared temp fields (LibRover-1.0.lua:1581:InitializePath)", -- [371]
+				"00:57:56.634.652> [LibRover] [LRadv] - NodeSetHeap clear (NodeSetHeap.lua:134:Clear)", -- [372]
+				"00:57:56.634.652> [LibRover] <- InitializePath: done (LibRover-1.0.lua:1615:InitializePath)", -- [373]
+				"00:57:56.667.670> [LibRover] StepForever: initialized, proceeding (LibRover-1.0.lua:1706:<local>)", -- [374]
+				"00:57:56.667.674> [LibRover] This pass: [SUCCESS] = |cffffffff5.21|cffff88ddms. Done |cffffff8871|cffff88dd calculations over |cff88ffff2|cffff88dd frames:\n compared |cff88ff88564|cffff88dd nodes in |cffffffff0.44|cffff88dd ms, opened |cff88ff88119|cffff88dd, closed |cff88ff8871|cffff88dd \n cheapest |cffffffff0.44|cffff88dd, initial |cffffffff0.12|cffff88dd, overhead |cffffffff0.96|cffff88dd, blah |cffffffff0.43|cffff88dd, scoring |cffffffff1.36|cffff88dd, adding |cffffffff0.43|cffff88dd ms    \n calc total |cffffffff22.12|cffff88dd ms, total time |cffffffff22.18|cffff88dd ms   \n(found: YES) (LibRover-1.0.lua:2861:OnUpdate)", -- [375]
+				"00:57:56.667.675> [LibRover] 0. |cff88ff88START|cffff88dd -- |cff88ccddFrostwall 44,47|cffff88dd  (dist 0) |cff8888dd{walk_start__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [376]
+				"00:57:56.667.675> [LibRover] 1. |cff88ff88Leave Garrison|cffff88dd -- |cff88ccddFrostwall/Frostfire Ridge border|cffff88dd  (dist 204) |cff8888dd{walk_border__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [377]
+				"00:57:56.667.675> [LibRover] 2. |cff88ff88Leave Garrison|cffff88dd -- |cff88ccddFrostfire Ridge/Frostwall border|cffff88dd  (dist 37) |cff8888dd{walk_border__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [378]
+				"00:57:56.667.675> [LibRover] 3. |cff88ff88Go to Gorgrond|cffff88dd -- |cff88ccddFrostfire Ridge/Gorgrond border|cffff88dd  (dist 2387) |cff8888dd{walk_border__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [379]
+				"00:57:56.667.675> [LibRover] 4. |cff88ff88Go to Gorgrond|cffff88dd -- |cff88ccddGorgrond/Frostfire Ridge border|cffff88dd  (dist 1) |cff8888dd{walk_border__walk_end}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [380]
+				"00:57:56.667.675> [LibRover] 5. |cff88ff88Turn in |cffeebbff`The Secrets of Gorgrond'|cffff88dd|cffff88dd -- |cff88ccddDurotan|cffff88dd  (dist 134) |cff8888dd{walk_end}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [381]
+				"00:57:56.667.675> [pointer] -> PathFoundHandler! state=success (Pointer.lua:3779:PathFoundHandler)", -- [382]
+				"00:57:56.667.676> [pointer] - ClearSet route + ants = 0.22 (Pointer.lua:3707:ClearSet)", -- [383]
+				"00:57:56.667.676> [pointer] - set_waypoints: type route (Pointer.lua:3497:<local>)", -- [384]
+				"00:57:56.667.677> [pointer] - set_waypoints end (Pointer.lua:3563:<local>)", -- [385]
+				"00:57:56.667.677> [pointer] - ShowSet route = 1.53 (Pointer.lua:3766:ShowSet)", -- [386]
+				"00:57:56.667.678> [pointer] - ShowSet route + ants = 0.46 (Pointer.lua:3769:ShowSet)", -- [387]
+				"00:57:56.667.679> [pointer] <- PathFoundHandler done. (Pointer.lua:3874:PathFoundHandler)", -- [388]
+				"00:59:56.639.641> [LibRover] -> FindPath (LibRover-1.0.lua:1339:FindPath)", -- [389]
+				"00:59:56.639.642> [LibRover] - FindPath:  |cffaaff88Frostwall|cffff88dd/0 |cffffffff45.0|cffff88dd,|cffffffff47.3|cffff88dd --> |cffaaff88Gorgrond|cffff88dd/0 |cffffffff37.3|cffff88dd,|cffffffff77.0|cffff88dd (LibRover-1.0.lua:1387:FindPath)", -- [390]
+				"00:59:56.639.642> [LibRover] <- FindPath (LibRover-1.0.lua:1450:FindPath)", -- [391]
+				"00:59:56.655.658> [LibRover] -> InitializePath (LibRover-1.0.lua:1462:InitializePath)", -- [392]
+				"00:59:56.655.659> [LibRover] [LRadv] - InitializePath: cleared old nodes, 2241 left (LibRover-1.0.lua:1478:InitializePath)", -- [393]
+				"00:59:56.655.661> [LibRover] [LRadv] - InitializePath: cleared linkage (LibRover-1.0.lua:1485:InitializePath)", -- [394]
+				"00:59:56.655.665> [LibRover] [LRadv] - Initialized end node #2242 with copy #2243 table: 000000005A8C0E80 (LibRover-1.0.lua:1503:InitializePath)", -- [395]
+				"00:59:56.655.666> [LibRover] - |cffff8844 No idea where player's hearthstone is bound to: |cffff8800Bladespire Citadel (LibRover-1.0.lua:1212:FindBindLocation)", -- [396]
+				"00:59:56.655.666> [LibRover] - |cff88ff44 Found garrison hearth node: |cffffee00[340] \"Town Hall\" = Frostwall 976 /0 42.5,53.5 [inn] [closed] |cff8899aa(mode:|cffffffffwalk|cff8899aa from [|cffffffff2244|cff8899aa]) |cff888888[my t=|cff55aa006.0|cff888888/|cff77ee0012.1|cff888888] |cff888888(t=|cff00aa556.0|cff888888/|cff00ee7712.1|cff888888) (LibRover-1.0.lua:1222:FindGarrisonBindLocation)", -- [397]
+				"00:59:56.655.669> [LibRover] [LRadv] - Initialized start node #2244 (LibRover-1.0.lua:1544:InitializePath)", -- [398]
+				"00:59:56.655.674> [LibRover] [LRadv] - InitializePath: cleared temp fields (LibRover-1.0.lua:1581:InitializePath)", -- [399]
+				"00:59:56.655.674> [LibRover] [LRadv] - NodeSetHeap clear (NodeSetHeap.lua:134:Clear)", -- [400]
+				"00:59:56.655.674> [LibRover] <- InitializePath: done (LibRover-1.0.lua:1615:InitializePath)", -- [401]
+				"00:59:56.689.691> [LibRover] StepForever: initialized, proceeding (LibRover-1.0.lua:1706:<local>)", -- [402]
+				"00:59:56.689.696> [LibRover] This pass: [SUCCESS] = |cffffffff5.28|cffff88ddms. Done |cffffff8871|cffff88dd calculations over |cff88ffff2|cffff88dd frames:\n compared |cff88ff88564|cffff88dd nodes in |cffffffff0.52|cffff88dd ms, opened |cff88ff88119|cffff88dd, closed |cff88ff8871|cffff88dd \n cheapest |cffffffff0.52|cffff88dd, initial |cffffffff0.12|cffff88dd, overhead |cffffffff0.87|cffff88dd, blah |cffffffff0.38|cffff88dd, scoring |cffffffff1.41|cffff88dd, adding |cffffffff0.44|cffff88dd ms    \n calc total |cffffffff22.09|cffff88dd ms, total time |cffffffff22.15|cffff88dd ms   \n(found: YES) (LibRover-1.0.lua:2861:OnUpdate)", -- [403]
+				"00:59:56.689.696> [LibRover] 0. |cff88ff88START|cffff88dd -- |cff88ccddFrostwall 44,47|cffff88dd  (dist 0) |cff8888dd{walk_start__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [404]
+				"00:59:56.689.696> [LibRover] 1. |cff88ff88Leave Garrison|cffff88dd -- |cff88ccddFrostwall/Frostfire Ridge border|cffff88dd  (dist 204) |cff8888dd{walk_border__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [405]
+				"00:59:56.689.697> [LibRover] 2. |cff88ff88Leave Garrison|cffff88dd -- |cff88ccddFrostfire Ridge/Frostwall border|cffff88dd  (dist 37) |cff8888dd{walk_border__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [406]
+				"00:59:56.689.697> [LibRover] 3. |cff88ff88Go to Gorgrond|cffff88dd -- |cff88ccddFrostfire Ridge/Gorgrond border|cffff88dd  (dist 2387) |cff8888dd{walk_border__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [407]
+				"00:59:56.689.697> [LibRover] 4. |cff88ff88Go to Gorgrond|cffff88dd -- |cff88ccddGorgrond/Frostfire Ridge border|cffff88dd  (dist 1) |cff8888dd{walk_border__walk_end}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [408]
+				"00:59:56.689.697> [LibRover] 5. |cff88ff88Turn in |cffeebbff`The Secrets of Gorgrond'|cffff88dd|cffff88dd -- |cff88ccddDurotan|cffff88dd  (dist 134) |cff8888dd{walk_end}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [409]
+				"00:59:56.689.697> [pointer] -> PathFoundHandler! state=success (Pointer.lua:3779:PathFoundHandler)", -- [410]
+				"00:59:56.689.697> [pointer] - ClearSet route + ants = 0.22 (Pointer.lua:3707:ClearSet)", -- [411]
+				"00:59:56.689.698> [pointer] - set_waypoints: type route (Pointer.lua:3497:<local>)", -- [412]
+				"00:59:56.689.699> [pointer] - set_waypoints end (Pointer.lua:3563:<local>)", -- [413]
+				"00:59:56.689.699> [pointer] - ShowSet route = 1.59 (Pointer.lua:3766:ShowSet)", -- [414]
+				"00:59:56.689.699> [pointer] - ShowSet route + ants = 0.46 (Pointer.lua:3769:ShowSet)", -- [415]
+				"00:59:56.689.700> [pointer] <- PathFoundHandler done. (Pointer.lua:3874:PathFoundHandler)", -- [416]
+				"01:01:56.672.674> [LibRover] -> FindPath (LibRover-1.0.lua:1339:FindPath)", -- [417]
+				"01:01:56.672.676> [LibRover] - FindPath:  |cffaaff88Frostwall|cffff88dd/0 |cffffffff45.0|cffff88dd,|cffffffff47.3|cffff88dd --> |cffaaff88Gorgrond|cffff88dd/0 |cffffffff37.3|cffff88dd,|cffffffff77.0|cffff88dd (LibRover-1.0.lua:1387:FindPath)", -- [418]
+				"01:01:56.672.676> [LibRover] <- FindPath (LibRover-1.0.lua:1450:FindPath)", -- [419]
+				"01:01:56.690.693> [LibRover] -> InitializePath (LibRover-1.0.lua:1462:InitializePath)", -- [420]
+				"01:01:56.690.694> [LibRover] [LRadv] - InitializePath: cleared old nodes, 2241 left (LibRover-1.0.lua:1478:InitializePath)", -- [421]
+				"01:01:56.690.696> [LibRover] [LRadv] - InitializePath: cleared linkage (LibRover-1.0.lua:1485:InitializePath)", -- [422]
+				"01:01:56.690.700> [LibRover] [LRadv] - Initialized end node #2242 with copy #2243 table: 000000005C9ECB50 (LibRover-1.0.lua:1503:InitializePath)", -- [423]
+				"01:01:56.690.701> [LibRover] - |cffff8844 No idea where player's hearthstone is bound to: |cffff8800Bladespire Citadel (LibRover-1.0.lua:1212:FindBindLocation)", -- [424]
+				"01:01:56.690.701> [LibRover] - |cff88ff44 Found garrison hearth node: |cffffee00[340] \"Town Hall\" = Frostwall 976 /0 42.5,53.5 [inn] [closed] |cff8899aa(mode:|cffffffffwalk|cff8899aa from [|cffffffff2244|cff8899aa]) |cff888888[my t=|cff55aa006.0|cff888888/|cff77ee0012.1|cff888888] |cff888888(t=|cff00aa556.0|cff888888/|cff00ee7712.1|cff888888) (LibRover-1.0.lua:1222:FindGarrisonBindLocation)", -- [425]
+				"01:01:56.690.704> [LibRover] [LRadv] - Initialized start node #2244 (LibRover-1.0.lua:1544:InitializePath)", -- [426]
+				"01:01:56.690.709> [LibRover] [LRadv] - InitializePath: cleared temp fields (LibRover-1.0.lua:1581:InitializePath)", -- [427]
+				"01:01:56.690.709> [LibRover] [LRadv] - NodeSetHeap clear (NodeSetHeap.lua:134:Clear)", -- [428]
+				"01:01:56.690.710> [LibRover] <- InitializePath: done (LibRover-1.0.lua:1615:InitializePath)", -- [429]
+				"01:01:56.725.727> [LibRover] StepForever: initialized, proceeding (LibRover-1.0.lua:1706:<local>)", -- [430]
+				"01:01:56.725.731> [LibRover] This pass: [SUCCESS] = |cffffffff5.34|cffff88ddms. Done |cffffff8871|cffff88dd calculations over |cff88ffff2|cffff88dd frames:\n compared |cff88ff88564|cffff88dd nodes in |cffffffff0.49|cffff88dd ms, opened |cff88ff88119|cffff88dd, closed |cff88ff8871|cffff88dd \n cheapest |cffffffff0.49|cffff88dd, initial |cffffffff0.12|cffff88dd, overhead |cffffffff0.99|cffff88dd, blah |cffffffff0.38|cffff88dd, scoring |cffffffff1.43|cffff88dd, adding |cffffffff0.42|cffff88dd ms    \n calc total |cffffffff22.34|cffff88dd ms, total time |cffffffff22.40|cffff88dd ms   \n(found: YES) (LibRover-1.0.lua:2861:OnUpdate)", -- [431]
+				"01:01:56.725.732> [LibRover] 0. |cff88ff88START|cffff88dd -- |cff88ccddFrostwall 44,47|cffff88dd  (dist 0) |cff8888dd{walk_start__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [432]
+				"01:01:56.725.732> [LibRover] 1. |cff88ff88Leave Garrison|cffff88dd -- |cff88ccddFrostwall/Frostfire Ridge border|cffff88dd  (dist 204) |cff8888dd{walk_border__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [433]
+				"01:01:56.725.732> [LibRover] 2. |cff88ff88Leave Garrison|cffff88dd -- |cff88ccddFrostfire Ridge/Frostwall border|cffff88dd  (dist 37) |cff8888dd{walk_border__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [434]
+				"01:01:56.725.732> [LibRover] 3. |cff88ff88Go to Gorgrond|cffff88dd -- |cff88ccddFrostfire Ridge/Gorgrond border|cffff88dd  (dist 2387) |cff8888dd{walk_border__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [435]
+				"01:01:56.725.732> [LibRover] 4. |cff88ff88Go to Gorgrond|cffff88dd -- |cff88ccddGorgrond/Frostfire Ridge border|cffff88dd  (dist 1) |cff8888dd{walk_border__walk_end}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [436]
+				"01:01:56.725.732> [LibRover] 5. |cff88ff88Turn in |cffeebbff`The Secrets of Gorgrond'|cffff88dd|cffff88dd -- |cff88ccddDurotan|cffff88dd  (dist 134) |cff8888dd{walk_end}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [437]
+				"01:01:56.725.732> [pointer] -> PathFoundHandler! state=success (Pointer.lua:3779:PathFoundHandler)", -- [438]
+				"01:01:56.725.733> [pointer] - ClearSet route + ants = 0.24 (Pointer.lua:3707:ClearSet)", -- [439]
+				"01:01:56.725.733> [pointer] - set_waypoints: type route (Pointer.lua:3497:<local>)", -- [440]
+				"01:01:56.725.734> [pointer] - set_waypoints end (Pointer.lua:3563:<local>)", -- [441]
+				"01:01:56.725.734> [pointer] - ShowSet route = 1.58 (Pointer.lua:3766:ShowSet)", -- [442]
+				"01:01:56.725.735> [pointer] - ShowSet route + ants = 0.47 (Pointer.lua:3769:ShowSet)", -- [443]
+				"01:01:56.725.736> [pointer] <- PathFoundHandler done. (Pointer.lua:3874:PathFoundHandler)", -- [444]
+				"01:03:56.684.685> [LibRover] -> FindPath (LibRover-1.0.lua:1339:FindPath)", -- [445]
+				"01:03:56.684.687> [LibRover] - FindPath:  |cffaaff88Frostwall|cffff88dd/0 |cffffffff45.0|cffff88dd,|cffffffff47.3|cffff88dd --> |cffaaff88Gorgrond|cffff88dd/0 |cffffffff37.3|cffff88dd,|cffffffff77.0|cffff88dd (LibRover-1.0.lua:1387:FindPath)", -- [446]
+				"01:03:56.684.687> [LibRover] <- FindPath (LibRover-1.0.lua:1450:FindPath)", -- [447]
+				"01:03:56.702.703> [LibRover] -> InitializePath (LibRover-1.0.lua:1462:InitializePath)", -- [448]
+				"01:03:56.702.704> [LibRover] [LRadv] - InitializePath: cleared old nodes, 2241 left (LibRover-1.0.lua:1478:InitializePath)", -- [449]
+				"01:03:56.702.707> [LibRover] [LRadv] - InitializePath: cleared linkage (LibRover-1.0.lua:1485:InitializePath)", -- [450]
+				"01:03:56.702.711> [LibRover] [LRadv] - Initialized end node #2242 with copy #2243 table: 000000005B082AC0 (LibRover-1.0.lua:1503:InitializePath)", -- [451]
+				"01:03:56.702.712> [LibRover] - |cffff8844 No idea where player's hearthstone is bound to: |cffff8800Bladespire Citadel (LibRover-1.0.lua:1212:FindBindLocation)", -- [452]
+				"01:03:56.702.712> [LibRover] - |cff88ff44 Found garrison hearth node: |cffffee00[340] \"Town Hall\" = Frostwall 976 /0 42.5,53.5 [inn] [closed] |cff8899aa(mode:|cffffffffwalk|cff8899aa from [|cffffffff2244|cff8899aa]) |cff888888[my t=|cff55aa006.0|cff888888/|cff77ee0012.1|cff888888] |cff888888(t=|cff00aa556.0|cff888888/|cff00ee7712.1|cff888888) (LibRover-1.0.lua:1222:FindGarrisonBindLocation)", -- [453]
+				"01:03:56.702.715> [LibRover] [LRadv] - Initialized start node #2244 (LibRover-1.0.lua:1544:InitializePath)", -- [454]
+				"01:03:56.702.720> [LibRover] [LRadv] - InitializePath: cleared temp fields (LibRover-1.0.lua:1581:InitializePath)", -- [455]
+				"01:03:56.702.720> [LibRover] [LRadv] - NodeSetHeap clear (NodeSetHeap.lua:134:Clear)", -- [456]
+				"01:03:56.702.720> [LibRover] <- InitializePath: done (LibRover-1.0.lua:1615:InitializePath)", -- [457]
+				"01:03:56.734.737> [LibRover] StepForever: initialized, proceeding (LibRover-1.0.lua:1706:<local>)", -- [458]
+				"01:03:56.734.742> [LibRover] This pass: [SUCCESS] = |cffffffff5.19|cffff88ddms. Done |cffffff8871|cffff88dd calculations over |cff88ffff2|cffff88dd frames:\n compared |cff88ff88564|cffff88dd nodes in |cffffffff0.43|cffff88dd ms, opened |cff88ff88119|cffff88dd, closed |cff88ff8871|cffff88dd \n cheapest |cffffffff0.43|cffff88dd, initial |cffffffff0.11|cffff88dd, overhead |cffffffff0.99|cffff88dd, blah |cffffffff0.38|cffff88dd, scoring |cffffffff1.39|cffff88dd, adding |cffffffff0.42|cffff88dd ms    \n calc total |cffffffff22.28|cffff88dd ms, total time |cffffffff22.33|cffff88dd ms   \n(found: YES) (LibRover-1.0.lua:2861:OnUpdate)", -- [459]
+				"01:03:56.734.743> [LibRover] 0. |cff88ff88START|cffff88dd -- |cff88ccddFrostwall 44,47|cffff88dd  (dist 0) |cff8888dd{walk_start__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [460]
+				"01:03:56.734.743> [LibRover] 1. |cff88ff88Leave Garrison|cffff88dd -- |cff88ccddFrostwall/Frostfire Ridge border|cffff88dd  (dist 204) |cff8888dd{walk_border__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [461]
+				"01:03:56.734.743> [LibRover] 2. |cff88ff88Leave Garrison|cffff88dd -- |cff88ccddFrostfire Ridge/Frostwall border|cffff88dd  (dist 37) |cff8888dd{walk_border__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [462]
+				"01:03:56.734.743> [LibRover] 3. |cff88ff88Go to Gorgrond|cffff88dd -- |cff88ccddFrostfire Ridge/Gorgrond border|cffff88dd  (dist 2387) |cff8888dd{walk_border__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [463]
+				"01:03:56.734.743> [LibRover] 4. |cff88ff88Go to Gorgrond|cffff88dd -- |cff88ccddGorgrond/Frostfire Ridge border|cffff88dd  (dist 1) |cff8888dd{walk_border__walk_end}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [464]
+				"01:03:56.734.743> [LibRover] 5. |cff88ff88Turn in |cffeebbff`The Secrets of Gorgrond'|cffff88dd|cffff88dd -- |cff88ccddDurotan|cffff88dd  (dist 134) |cff8888dd{walk_end}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [465]
+				"01:03:56.734.743> [pointer] -> PathFoundHandler! state=success (Pointer.lua:3779:PathFoundHandler)", -- [466]
+				"01:03:56.734.743> [pointer] - ClearSet route + ants = 0.22 (Pointer.lua:3707:ClearSet)", -- [467]
+				"01:03:56.734.744> [pointer] - set_waypoints: type route (Pointer.lua:3497:<local>)", -- [468]
+				"01:03:56.734.745> [pointer] - set_waypoints end (Pointer.lua:3563:<local>)", -- [469]
+				"01:03:56.734.745> [pointer] - ShowSet route = 1.55 (Pointer.lua:3766:ShowSet)", -- [470]
+				"01:03:56.734.746> [pointer] - ShowSet route + ants = 0.46 (Pointer.lua:3769:ShowSet)", -- [471]
+				"01:03:56.734.746> [pointer] <- PathFoundHandler done. (Pointer.lua:3874:PathFoundHandler)", -- [472]
+				"01:05:56.690.692> [LibRover] -> FindPath (LibRover-1.0.lua:1339:FindPath)", -- [473]
+				"01:05:56.690.694> [LibRover] - FindPath:  |cffaaff88Frostwall|cffff88dd/0 |cffffffff45.0|cffff88dd,|cffffffff47.3|cffff88dd --> |cffaaff88Gorgrond|cffff88dd/0 |cffffffff37.3|cffff88dd,|cffffffff77.0|cffff88dd (LibRover-1.0.lua:1387:FindPath)", -- [474]
+				"01:05:56.690.694> [LibRover] <- FindPath (LibRover-1.0.lua:1450:FindPath)", -- [475]
+				"01:05:56.708.710> [LibRover] -> InitializePath (LibRover-1.0.lua:1462:InitializePath)", -- [476]
+				"01:05:56.708.711> [LibRover] [LRadv] - InitializePath: cleared old nodes, 2241 left (LibRover-1.0.lua:1478:InitializePath)", -- [477]
+				"01:05:56.708.713> [LibRover] [LRadv] - InitializePath: cleared linkage (LibRover-1.0.lua:1485:InitializePath)", -- [478]
+				"01:05:56.708.718> [LibRover] [LRadv] - Initialized end node #2242 with copy #2243 table: 000000005CDB9230 (LibRover-1.0.lua:1503:InitializePath)", -- [479]
+				"01:05:56.708.718> [LibRover] - |cffff8844 No idea where player's hearthstone is bound to: |cffff8800Bladespire Citadel (LibRover-1.0.lua:1212:FindBindLocation)", -- [480]
+				"01:05:56.708.719> [LibRover] - |cff88ff44 Found garrison hearth node: |cffffee00[340] \"Town Hall\" = Frostwall 976 /0 42.5,53.5 [inn] [closed] |cff8899aa(mode:|cffffffffwalk|cff8899aa from [|cffffffff2244|cff8899aa]) |cff888888[my t=|cff55aa006.0|cff888888/|cff77ee0012.1|cff888888] |cff888888(t=|cff00aa556.0|cff888888/|cff00ee7712.1|cff888888) (LibRover-1.0.lua:1222:FindGarrisonBindLocation)", -- [481]
+				"01:05:56.708.721> [LibRover] [LRadv] - Initialized start node #2244 (LibRover-1.0.lua:1544:InitializePath)", -- [482]
+				"01:05:56.708.727> [LibRover] [LRadv] - InitializePath: cleared temp fields (LibRover-1.0.lua:1581:InitializePath)", -- [483]
+				"01:05:56.708.727> [LibRover] [LRadv] - NodeSetHeap clear (NodeSetHeap.lua:134:Clear)", -- [484]
+				"01:05:56.708.727> [LibRover] <- InitializePath: done (LibRover-1.0.lua:1615:InitializePath)", -- [485]
+				"01:05:56.742.744> [LibRover] StepForever: initialized, proceeding (LibRover-1.0.lua:1706:<local>)", -- [486]
+				"01:05:56.742.749> [LibRover] This pass: [SUCCESS] = |cffffffff5.25|cffff88ddms. Done |cffffff8871|cffff88dd calculations over |cff88ffff2|cffff88dd frames:\n compared |cff88ff88564|cffff88dd nodes in |cffffffff0.44|cffff88dd ms, opened |cff88ff88119|cffff88dd, closed |cff88ff8871|cffff88dd \n cheapest |cffffffff0.44|cffff88dd, initial |cffffffff0.11|cffff88dd, overhead |cffffffff0.96|cffff88dd, blah |cffffffff0.38|cffff88dd, scoring |cffffffff1.39|cffff88dd, adding |cffffffff0.46|cffff88dd ms    \n calc total |cffffffff22.32|cffff88dd ms, total time |cffffffff22.38|cffff88dd ms   \n(found: YES) (LibRover-1.0.lua:2861:OnUpdate)", -- [487]
+				"01:05:56.742.750> [LibRover] 0. |cff88ff88START|cffff88dd -- |cff88ccddFrostwall 44,47|cffff88dd  (dist 0) |cff8888dd{walk_start__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [488]
+				"01:05:56.742.750> [LibRover] 1. |cff88ff88Leave Garrison|cffff88dd -- |cff88ccddFrostwall/Frostfire Ridge border|cffff88dd  (dist 204) |cff8888dd{walk_border__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [489]
+				"01:05:56.742.750> [LibRover] 2. |cff88ff88Leave Garrison|cffff88dd -- |cff88ccddFrostfire Ridge/Frostwall border|cffff88dd  (dist 37) |cff8888dd{walk_border__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [490]
+				"01:05:56.742.750> [LibRover] 3. |cff88ff88Go to Gorgrond|cffff88dd -- |cff88ccddFrostfire Ridge/Gorgrond border|cffff88dd  (dist 2387) |cff8888dd{walk_border__walk_border}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [491]
+				"01:05:56.742.750> [LibRover] 4. |cff88ff88Go to Gorgrond|cffff88dd -- |cff88ccddGorgrond/Frostfire Ridge border|cffff88dd  (dist 1) |cff8888dd{walk_border__walk_end}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [492]
+				"01:05:56.742.750> [LibRover] 5. |cff88ff88Turn in |cffeebbff`The Secrets of Gorgrond'|cffff88dd|cffff88dd -- |cff88ccddDurotan|cffff88dd  (dist 134) |cff8888dd{walk_end}|cffff88dd (LibRover-1.0.lua:2697:ReportPath)", -- [493]
+				"01:05:56.742.750> [pointer] -> PathFoundHandler! state=success (Pointer.lua:3779:PathFoundHandler)", -- [494]
+				"01:05:56.742.750> [pointer] - ClearSet route + ants = 0.23 (Pointer.lua:3707:ClearSet)", -- [495]
+				"01:05:56.742.751> [pointer] - set_waypoints: type route (Pointer.lua:3497:<local>)", -- [496]
+				"01:05:56.742.752> [pointer] - set_waypoints end (Pointer.lua:3563:<local>)", -- [497]
+				"01:05:56.742.752> [pointer] - ShowSet route = 1.60 (Pointer.lua:3766:ShowSet)", -- [498]
+				"01:05:56.742.752> [pointer] - ShowSet route + ants = 0.46 (Pointer.lua:3769:ShowSet)", -- [499]
+				"01:05:56.742.753> [pointer] <- PathFoundHandler done. (Pointer.lua:3874:PathFoundHandler)", -- [500]
+			},
+			["guideTurnInsOnly"] = false,
+			["guides_history"] = {
+				{
+					"LEVELING\\Warlords of Draenor 90-100\\Gorgrond (92-94)", -- [1]
+					1, -- [2]
+				}, -- [1]
+			},
+			["guides_history_ZGV45clear"] = true,
+			["RecipesKnown"] = {
+				[333] = {
+					[159236] = {
+						["nummade"] = {
+							1, -- [1]
+							1, -- [2]
+						},
+						["spell"] = 159236,
+						["producttype"] = "enchant",
+						["link"] = "|cffffd000|Henchant:159236|h[Enchanting: Mark of the Shattered Hand]|h|r",
+						["productlink"] = "|cffffd000|Henchant:159236|h[Mark of the Shattered Hand]|h|r",
+						["productid"] = 159236,
+						["reagents"] = {
+							{
+								["num"] = 1,
+								["have"] = 12,
+								["link"] = "|cffa335ee|Hitem:113588:0:0:0:0:0:0:0:92:0:0:0|h[Temporal Crystal]|h|r",
+								["id"] = 113588,
+								["name"] = "Temporal Crystal",
+								["texture"] = "interface\\ICONS\\INV_Enchanting_WOD_crystal.blp",
+							}, -- [1]
+						},
+					},
+					[158908] = {
+						["nummade"] = {
+							30, -- [1]
+							30, -- [2]
+						},
+						["spell"] = 158908,
+						["producttype"] = "enchant",
+						["link"] = "|cffffd000|Henchant:158908|h[Enchanting: Breath of Haste]|h|r",
+						["productlink"] = "|cffffd000|Henchant:158908|h[Breath of Haste]|h|r",
+						["productid"] = 158908,
+						["reagents"] = {
+							{
+								["num"] = 1,
+								["have"] = 2,
+								["link"] = "|cff0070dd|Hitem:111245:0:0:0:0:0:0:0:92:0:0:0|h[Luminous Shard]|h|r",
+								["id"] = 111245,
+								["name"] = "Luminous Shard",
+								["texture"] = "interface\\ICONS\\INV_Enchanting_WOD_crystalshard3.blp",
+							}, -- [1]
+						},
+					},
+					[158910] = {
+						["nummade"] = {
+							30, -- [1]
+							30, -- [2]
+						},
+						["spell"] = 158910,
+						["producttype"] = "enchant",
+						["link"] = "|cffffd000|Henchant:158910|h[Enchanting: Breath of Multistrike]|h|r",
+						["productlink"] = "|cffffd000|Henchant:158910|h[Breath of Multistrike]|h|r",
+						["productid"] = 158910,
+						["reagents"] = {
+							{
+								["num"] = 1,
+								["have"] = 2,
+								["link"] = "|cff0070dd|Hitem:111245:0:0:0:0:0:0:0:92:0:0:0|h[Luminous Shard]|h|r",
+								["id"] = 111245,
+								["name"] = "Luminous Shard",
+								["texture"] = "interface\\ICONS\\INV_Enchanting_WOD_crystalshard3.blp",
+							}, -- [1]
+						},
+					},
+					[7421] = {
+						["nummade"] = {
+							1, -- [1]
+							1, -- [2]
+						},
+						["spell"] = 7421,
+						["producttype"] = "item",
+						["link"] = "|cffffd000|Henchant:7421|h[Enchanting: Runed Copper Rod]|h|r",
+						["productlink"] = "|cffffffff|Hitem:6218:0:0:0:0:0:0:0:92:0:0:0|h[Runed Copper Rod]|h|r",
+						["productid"] = 6218,
+						["reagents"] = {
+							{
+								["num"] = 1,
+								["have"] = 0,
+								["link"] = "|cffffffff|Hitem:6217:0:0:0:0:0:0:0:92:0:0:0|h[Copper Rod]|h|r",
+								["id"] = 6217,
+								["name"] = "Copper Rod",
+								["texture"] = "Interface\\ICONS\\INV_Misc_Flute_01.blp",
+							}, -- [1]
+							{
+								["num"] = 1,
+								["have"] = 10,
+								["link"] = "|cffffffff|Hitem:10940:0:0:0:0:0:0:0:92:0:0:0|h[Strange Dust]|h|r",
+								["id"] = 10940,
+								["name"] = "Strange Dust",
+								["texture"] = "Interface\\ICONS\\INV_Enchant_DustStrange.blp",
+							}, -- [2]
+							{
+								["num"] = 1,
+								["have"] = 0,
+								["link"] = "|cff1eff00|Hitem:10938:0:0:0:0:0:0:0:92:0:0:0|h[Lesser Magic Essence]|h|r",
+								["id"] = 10938,
+								["name"] = "Lesser Magic Essence",
+								["texture"] = "Interface\\ICONS\\INV_Enchant_EssenceMagicSmall.blp",
+							}, -- [3]
+						},
+					},
+					[7418] = {
+						["nummade"] = {
+							5, -- [1]
+							5, -- [2]
+						},
+						["spell"] = 7418,
+						["producttype"] = "enchant",
+						["link"] = "|cffffd000|Henchant:7418|h[Enchanting: Minor Health]|h|r",
+						["productlink"] = "|cffffd000|Henchant:7418|h[Minor Health]|h|r",
+						["productid"] = 7418,
+						["reagents"] = {
+							{
+								["num"] = 1,
+								["have"] = 10,
+								["link"] = "|cffffffff|Hitem:10940:0:0:0:0:0:0:0:92:0:0:0|h[Strange Dust]|h|r",
+								["id"] = 10940,
+								["name"] = "Strange Dust",
+								["texture"] = "Interface\\ICONS\\INV_Enchant_DustStrange.blp",
+							}, -- [1]
+						},
+					},
+					[169091] = {
+						["nummade"] = {
+							1, -- [1]
+							1, -- [2]
+						},
+						["spell"] = 169091,
+						["producttype"] = "item",
+						["link"] = "|cffffd000|Henchant:169091|h[Enchanting: Luminous Shard]|h|r",
+						["productlink"] = "|cff0070dd|Hitem:111245:0:0:0:0:0:0:0:92:0:0:0|h[Luminous Shard]|h|r",
+						["productid"] = 111245,
+						["reagents"] = {
+							{
+								["num"] = 20,
+								["have"] = 69,
+								["link"] = "|cffffffff|Hitem:109693:0:0:0:0:0:0:0:92:0:0:0|h[Draenic Dust]|h|r",
+								["id"] = 109693,
+								["name"] = "Draenic Dust",
+								["texture"] = "interface\\ICONS\\INV_Enchanting_WOD_dust3.blp",
+							}, -- [1]
+						},
+					},
+					[169092] = {
+						["nummade"] = {
+							3, -- [1]
+							6, -- [2]
+						},
+						["spell"] = 169092,
+						["producttype"] = "item",
+						["link"] = "|cffffd000|Henchant:169092|h[Enchanting: Temporal Crystal]|h|r",
+						["productlink"] = "|cffa335ee|Hitem:115504:0:0:0:0:0:0:0:92:0:0:0|h[Fractured Temporal Crystal]|h|r",
+						["productid"] = 115504,
+						["reagents"] = {
+							{
+								["num"] = 1,
+								["have"] = 2,
+								["link"] = "|cff0070dd|Hitem:111245:0:0:0:0:0:0:0:92:0:0:0|h[Luminous Shard]|h|r",
+								["id"] = 111245,
+								["name"] = "Luminous Shard",
+								["texture"] = "interface\\ICONS\\INV_Enchanting_WOD_crystalshard3.blp",
+							}, -- [1]
+						},
+					},
+					[158907] = {
+						["nummade"] = {
+							30, -- [1]
+							30, -- [2]
+						},
+						["spell"] = 158907,
+						["producttype"] = "enchant",
+						["link"] = "|cffffd000|Henchant:158907|h[Enchanting: Breath of Critical Strike]|h|r",
+						["productlink"] = "|cffffd000|Henchant:158907|h[Breath of Critical Strike]|h|r",
+						["productid"] = 158907,
+						["reagents"] = {
+							{
+								["num"] = 1,
+								["have"] = 2,
+								["link"] = "|cff0070dd|Hitem:111245:0:0:0:0:0:0:0:92:0:0:0|h[Luminous Shard]|h|r",
+								["id"] = 111245,
+								["name"] = "Luminous Shard",
+								["texture"] = "interface\\ICONS\\INV_Enchanting_WOD_crystalshard3.blp",
+							}, -- [1]
+						},
+					},
+					[158909] = {
+						["nummade"] = {
+							30, -- [1]
+							30, -- [2]
+						},
+						["spell"] = 158909,
+						["producttype"] = "enchant",
+						["link"] = "|cffffd000|Henchant:158909|h[Enchanting: Breath of Mastery]|h|r",
+						["productlink"] = "|cffffd000|Henchant:158909|h[Breath of Mastery]|h|r",
+						["productid"] = 158909,
+						["reagents"] = {
+							{
+								["num"] = 1,
+								["have"] = 2,
+								["link"] = "|cff0070dd|Hitem:111245:0:0:0:0:0:0:0:92:0:0:0|h[Luminous Shard]|h|r",
+								["id"] = 111245,
+								["name"] = "Luminous Shard",
+								["texture"] = "interface\\ICONS\\INV_Enchanting_WOD_crystalshard3.blp",
+							}, -- [1]
+						},
+					},
+					[158911] = {
+						["nummade"] = {
+							30, -- [1]
+							30, -- [2]
+						},
+						["spell"] = 158911,
+						["producttype"] = "enchant",
+						["link"] = "|cffffd000|Henchant:158911|h[Enchanting: Breath of Versatility]|h|r",
+						["productlink"] = "|cffffd000|Henchant:158911|h[Breath of Versatility]|h|r",
+						["productid"] = 158911,
+						["reagents"] = {
+							{
+								["num"] = 1,
+								["have"] = 2,
+								["link"] = "|cff0070dd|Hitem:111245:0:0:0:0:0:0:0:92:0:0:0|h[Luminous Shard]|h|r",
+								["id"] = 111245,
+								["name"] = "Luminous Shard",
+								["texture"] = "interface\\ICONS\\INV_Enchanting_WOD_crystalshard3.blp",
+							}, -- [1]
+						},
+					},
+					[162948] = {
+						["nummade"] = {
+							1, -- [1]
+							1, -- [2]
+						},
+						["spell"] = 162948,
+						["producttype"] = "item",
+						["link"] = "|cffffd000|Henchant:162948|h[Enchanting: Enchanted Dust]|h|r",
+						["productlink"] = "|cffffffff|Hitem:112321:0:0:0:0:0:0:0:92:0:0:0|h[Enchanted Dust]|h|r",
+						["productid"] = 112321,
+						["reagents"] = {
+							{
+								["num"] = 1,
+								["have"] = 69,
+								["link"] = "|cffffffff|Hitem:109693:0:0:0:0:0:0:0:92:0:0:0|h[Draenic Dust]|h|r",
+								["id"] = 109693,
+								["name"] = "Draenic Dust",
+								["texture"] = "interface\\ICONS\\INV_Enchanting_WOD_dust3.blp",
+							}, -- [1]
+						},
+					},
+					[177043] = {
+						["nummade"] = {
+							1, -- [1]
+							1, -- [2]
+						},
+						["spell"] = 177043,
+						["producttype"] = "item",
+						["link"] = "|cffffd000|Henchant:177043|h[Enchanting: Secrets of Draenor Enchanting]|h|r",
+						["productlink"] = "|cffffffff|Hitem:119293:0:0:0:0:0:0:0:92:0:0:0|h[Secret of Draenor Enchanting]|h|r",
+						["productid"] = 119293,
+						["reagents"] = {
+							{
+								["num"] = 3,
+								["have"] = 69,
+								["link"] = "|cffffffff|Hitem:109693:0:0:0:0:0:0:0:92:0:0:0|h[Draenic Dust]|h|r",
+								["id"] = 109693,
+								["name"] = "Draenic Dust",
+								["texture"] = "interface\\ICONS\\INV_Enchanting_WOD_dust3.blp",
+							}, -- [1]
+						},
+					},
+					[7428] = {
+						["nummade"] = {
+							2, -- [1]
+							2, -- [2]
+						},
+						["spell"] = 7428,
+						["producttype"] = "enchant",
+						["link"] = "|cffffd000|Henchant:7428|h[Enchanting: Minor Dodge]|h|r",
+						["productlink"] = "|cffffd000|Henchant:7428|h[Minor Dodge]|h|r",
+						["productid"] = 7428,
+						["reagents"] = {
+							{
+								["num"] = 1,
+								["have"] = 0,
+								["link"] = "|cff1eff00|Hitem:10938:0:0:0:0:0:0:0:92:0:0:0|h[Lesser Magic Essence]|h|r",
+								["id"] = 10938,
+								["name"] = "Lesser Magic Essence",
+								["texture"] = "Interface\\ICONS\\INV_Enchant_EssenceMagicSmall.blp",
+							}, -- [1]
+							{
+								["num"] = 1,
+								["have"] = 10,
+								["link"] = "|cffffffff|Hitem:10940:0:0:0:0:0:0:0:92:0:0:0|h[Strange Dust]|h|r",
+								["id"] = 10940,
+								["name"] = "Strange Dust",
+								["texture"] = "Interface\\ICONS\\INV_Enchant_DustStrange.blp",
+							}, -- [2]
+						},
+					},
+				},
+			},
+			["taxis"] = {
+				["Orgrimmar"] = true,
+				["Sen'jin Village"] = true,
+				["Thunder Bluff"] = true,
+				["Bloodhoof Village"] = true,
+				["Razor Hill"] = true,
+				["Serpent's Overlook"] = true,
+			},
+		},
+	},
+	["global"] = {
+		["itemCache"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Slakthuset - Hellfire"] = "default",
+	},
+	["profiles"] = {
+		["Slakthuset - Hellfire"] = {
+			["load_im"] = true,
+			["magickey_bind"] = "",
+			["show_ui"] = true,
+			["frame_positions"] = {
+				["ZygorGuidesViewerViewer"] = {
+				},
+			},
+			["load_gold"] = true,
+			["skipauxsteps"] = true,
+			["customcolorants"] = true,
+			["fullness_search"] = 1,
+			["minicons"] = true,
+			["frame_anchor"] = {
+				"CENTER", -- [1]
+				{
+					[0] = nil --[[ skipped userdata ]],
+					["firstTimeLoaded"] = 1,
+				}, -- [2]
+				"CENTER", -- [3]
+				0, -- [4]
+				0, -- [5]
+			},
+			["im_town_alert"] = false,
+			["im_always_wait"] = false,
+			["Inventory Manager"] = {
+				["lastParentName"] = "Blizzard",
+				["showText"] = false,
+				["isSnapped"] = true,
+				["lastParent"] = {
+					[0] = nil --[[ skipped userdata ]],
+					["PortraitButton"] = {
+						[0] = nil --[[ skipped userdata ]],
+						["Highlight"] = {
+							[0] = nil --[[ skipped userdata ]],
+						},
+					},
+					["Portrait"] = {
+						[0] = nil --[[ skipped userdata ]],
+					},
+					["ClickableTitleFrame"] = {
+						[0] = nil --[[ skipped userdata ]],
+					},
+					["bags"] = {
+					},
+					["FilterDropDown"] = {
+						[0] = nil --[[ skipped userdata ]],
+						["displayMode"] = "MENU",
+						["initialize"] = nil --[[ skipped inline function ]],
+					},
+					["size"] = 16,
+					["bagsShown"] = 0,
+					["allBags"] = false,
+					["Show"] = nil --[[ skipped inline function ]],
+					["FilterIcon"] = {
+						[0] = nil --[[ skipped userdata ]],
+						["Icon"] = {
+							[0] = nil --[[ skipped userdata ]],
+						},
+					},
+					["Hide"] = nil --[[ skipped inline function ]],
+				},
+				["isSnappedSize"] = 169,
+				["im_lastWidth"] = 169,
+			},
+			["skinstyle"] = "stealth",
+			["load_mail"] = true,
+			["tmp__was_sheened"] = true,
+			["stickycolored"] = false,
+			["skin"] = "default",
+			["visible"] = false,
+			["load_betaguides"] = true,
+			["debug_flags"] = {
+				["LibRover"] = {
+					["enabled"] = true,
+					["color"] = "ffffbb00",
+				},
+				["startup"] = {
+					["enabled"] = true,
+					["color"] = "ffff3300",
+				},
+				["waypoints"] = {
+					["enabled"] = true,
+					["color"] = "ff66ff00",
+				},
+				["display"] = {
+					["enabled"] = false,
+				},
+				["pointer"] = {
+					["enabled"] = true,
+					["color"] = "ff00ff00",
+				},
+				["sticky"] = {
+					["enabled"] = true,
+					["color"] = "ffff5500",
+				},
+			},
+		},
+		["default"] = {
+			["autosell"] = true,
+			["autotaxi"] = false,
+			["autoaccept"] = true,
+			["autoturnin"] = true,
+			["currentbuild"] = "Leveling Survival",
+			["usernamed"] = true,
+			["frame_anchor"] = {
+				"RIGHT", -- [1]
+				nil, -- [2]
+				"RIGHT", -- [3]
+				-374.999938964844, -- [4]
+				-150.000137329102, -- [5]
+			},
+			["ranconfig2"] = true,
+			["autoselectitem"] = true,
+		},
+	},
+}

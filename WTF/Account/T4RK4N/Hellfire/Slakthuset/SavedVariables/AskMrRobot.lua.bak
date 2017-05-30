@@ -1,0 +1,70 @@
+
+AmrDb = {
+	["Talents"] = {
+	},
+	["LastCharacterImportDate"] = "",
+	["SendSettings"] = {
+		["SendTo"] = "",
+		["SendGems"] = true,
+		["SendEnchants"] = true,
+		["SendEnchantMaterials"] = true,
+		["SendToType"] = "a friend",
+	},
+	["CharacterName"] = "Slakthuset",
+	["Race"] = "Orc",
+	["ActiveSpec"] = 1,
+	["Level"] = 92,
+	["Equipped"] = {
+		{
+			"|cff0070dd|Hitem:112665:0:0:0:0:0:0:0:92:0:11:0|h[Voidgazer Chain Hood]|h|r", -- [1]
+			"|cff1eff00|Hitem:117096:0:0:0:0:0:0:0:92:0:0:0|h[Trailseeker Choker]|h|r", -- [2]
+			"|cff0070dd|Hitem:106173:0:0:0:0:0:0:0:92:0:11:0|h[Frostwolf Ringmail Pauldrons]|h|r", -- [3]
+			nil, -- [4]
+			"|cff1eff00|Hitem:117502:0:0:0:0:0:0:0:92:0:11:0|h[Grimfrost Frostmail]|h|r", -- [5]
+			"|cff1eff00|Hitem:107302:0:0:0:0:0:0:0:92:0:11:0|h[Frostwolf Ringmail Belt]|h|r", -- [6]
+			"|cff0070dd|Hitem:112077:0:0:0:0:0:0:0:92:0:0:0|h[Grutush's Fur-Padded Pantaloons]|h|r", -- [7]
+			"|cffa335ee|Hitem:112187:0:0:0:0:0:0:0:92:0:0:1:545|h[Crag-Leaping Boots]|h|r", -- [8]
+			"|cff1eff00|Hitem:106177:0:0:0:0:0:0:0:92:0:11:0|h[Frostwolf Ringmail Wristguards]|h|r", -- [9]
+			"|cff1eff00|Hitem:106170:0:0:0:0:0:0:0:92:0:11:0|h[Frostwolf Ringmail Gauntlets]|h|r", -- [10]
+			"|cff1eff00|Hitem:117984:0:0:0:0:0:0:0:92:0:11:0|h[Pit Skukler's Ring]|h|r", -- [11]
+			"|cff1eff00|Hitem:117099:0:0:0:0:0:0:0:92:0:0:0|h[Trailseeker Ring of Onslaught]|h|r", -- [12]
+			"|cff0070dd|Hitem:108907:0:0:0:0:0:0:0:92:0:0:0|h[Mushroom of Destiny]|h|r", -- [13]
+			"|cff1eff00|Hitem:117100:0:0:0:0:0:0:0:92:0:0:0|h[Trailseeker Stone of Rage]|h|r", -- [14]
+			"|cff1eff00|Hitem:108955:0:0:0:0:0:0:0:92:0:11:0|h[Wolfsfur Cloak]|h|r", -- [15]
+			"|cffa335ee|Hitem:109168:0:0:0:0:0:0:0:92:0:13:3:532:525:214|h[Shrediron's Shredder of the Harmonious]|h|r", -- [16]
+		}, -- [1]
+	},
+	["Specs"] = {
+	},
+	["Options"] = {
+	},
+	["Region"] = "EU",
+	["Currencies"] = {
+	},
+	["Glyphs"] = {
+	},
+	["LogData"] = {
+		["_wipes"] = {
+		},
+		["_autoLog"] = {
+			[1228] = "disabled",
+			[1205] = "disabled",
+		},
+		["_lastDiff"] = 1,
+		["_lastZone"] = "FW Horde Garrison Level 2",
+	},
+	["BagItems"] = {
+	},
+	["BankItems"] = {
+	},
+	["LastCharacterImport"] = "",
+	["Reps"] = {
+	},
+	["Faction"] = "Horde",
+	["IconInfo"] = {
+	},
+	["Professions"] = {
+	},
+	["RealmName"] = "Hellfire",
+	["Class"] = "HUNTER",
+}

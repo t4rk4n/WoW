@@ -1,0 +1,25 @@
+
+SkadaDB = {
+	["profileKeys"] = {
+		["Veklund - Auchindoun"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["windows"] = {
+				{
+					["mode"] = "Absorbs and healing",
+					["point"] = "BOTTOMRIGHT",
+					["x"] = -201.6409988612841,
+					["background"] = {
+						["height"] = 263.8355451020341,
+					},
+					["barwidth"] = 357.0599444928132,
+					["y"] = 74.09715597303382,
+				}, -- [1]
+			},
+			["report"] = {
+				["mode"] = "Buff uptimes",
+			},
+		},
+	},
+}

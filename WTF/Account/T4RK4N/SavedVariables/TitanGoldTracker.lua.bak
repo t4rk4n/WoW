@@ -1,0 +1,9 @@
+
+GoldArray = {
+	["DISPLAYGPH"] = true,
+	["VERSION2"] = true,
+	["SORTBYNAME"] = true,
+	["INITIALIZED"] = true,
+	["VIEWALL"] = true,
+	["Chaosruler_Frostmane::Alliance"] = 33062910,
+}

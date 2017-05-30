@@ -1,0 +1,19 @@
+
+HandyNotesDB = {
+	["profileKeys"] = {
+		["Viklund - Twisting Nether"] = "Viklund - Twisting Nether",
+	},
+	["profiles"] = {
+		["Viklund - Twisting Nether"] = {
+		},
+	},
+}
+HandyNotes_HandyNotesDB = {
+	["profileKeys"] = {
+		["Viklund - Twisting Nether"] = "Viklund - Twisting Nether",
+	},
+	["profiles"] = {
+		["Viklund - Twisting Nether"] = {
+		},
+	},
+}

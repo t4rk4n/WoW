@@ -1,0 +1,10 @@
+
+FlashTaskbarDB = {
+	["profileKeys"] = {
+		["Etni - Hellfire"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

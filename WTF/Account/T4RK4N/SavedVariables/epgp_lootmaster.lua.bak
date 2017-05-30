@@ -1,0 +1,10 @@
+
+EPGPLootMaster = {
+	["profileKeys"] = {
+		["Víklund - Twisting Nether"] = "Víklund - Twisting Nether",
+	},
+	["profiles"] = {
+		["Víklund - Twisting Nether"] = {
+		},
+	},
+}

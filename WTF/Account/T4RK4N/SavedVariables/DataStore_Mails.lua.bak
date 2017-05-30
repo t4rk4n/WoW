@@ -1,0 +1,14 @@
+
+DataStore_MailsDB = {
+	["profileKeys"] = {
+		["Etni - Eonar"] = "Etni - Eonar",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Eonar.Etni"] = {
+				["lastUpdate"] = 1414313792,
+				["lastVisitDate"] = "2014/10/26 09:56",
+			},
+		},
+	},
+}

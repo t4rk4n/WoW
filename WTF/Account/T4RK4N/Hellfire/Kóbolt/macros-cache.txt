@@ -1,0 +1,28 @@
+VER 3 0100000000000001 "Chain Heal" "SPELL_NATURE_HEALINGWAVEGREATER"
+#showtooltip Chain Heal
+/use [@mouseover,help,nodead][help,nodead][@player] Chain Heal
+END
+VER 3 0100000000000002 "Earth Shield" "SPELL_NATURE_SKINOFEARTH"
+#showtooltip Earth Shield
+/use [@mouseover,help,nodead][help,nodead][@player] Earth Shield
+END
+VER 3 0100000000000003 "Healing Surge" "SPELL_NATURE_HEALINGWAY"
+#showtooltip Healing Surge
+/use [@mouseover,help,nodead][help,nodead][@player] Healing Surge
+END
+VER 3 0100000000000006 "Healing Wave" "SPELL_NATURE_HEALINGWAVELESSER"
+#showtooltip Healing Wave
+/use [@mouseover,help,nodead][help,nodead][@player] Healing Wave
+END
+VER 3 0100000000000007 "Purify Spirit" "ABILITY_SHAMAN_CLEANSESPIRIT"
+#showtooltip Purify Spirit
+/use [@mouseover,help,nodead][help,nodead][@player] Purify Spirit
+END
+VER 3 0100000000000005 "Riptide" "SPELL_NATURE_RIPTIDE"
+#showtooltip Riptide
+/use [@mouseover,help,nodead][help,nodead][@player] Riptide
+END
+VER 3 0100000000000004 "Unleash Life" "SPELL_SHAMAN_UNLEASHWEAPON_LIFE"
+#showtooltip Unleash Life
+/use [@mouseover,help,nodead][help,nodead][@player] Unleash Life
+END

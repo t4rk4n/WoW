@@ -1,0 +1,2 @@
+
+DejaCharacterStatsDB = nil

@@ -1,0 +1,38 @@
+VER 3 0100000000000006 "Healing Touch" "INV_MISC_QUESTIONMARK"
+#showtooltip Healing Touch
+/use [@mouseover,help,nodead][help,nodead][@player] Healing Touch
+END
+VER 3 0100000000000009 "Ironbark" "INV_MISC_QUESTIONMARK"
+#showtooltip Ironbark
+/use [@mouseover,help,nodead][help,nodead][@player] Ironbark
+END
+VER 3 0100000000000007 "Lifebloom" "INV_MISC_QUESTIONMARK"
+#showtooltip Lifebloom
+/use [@mouseover,help,nodead][help,nodead][@player] Lifebloom
+END
+VER 3 010000000000000A "Nature's Cure" "INV_MISC_QUESTIONMARK"
+#showtooltip Nature's Cure
+/use [@mouseover,help,nodead][help,nodead][@player] Nature's Cure
+END
+VER 3 0100000000000005 "Regrowth" "INV_MISC_QUESTIONMARK"
+#showtooltip Regrowth
+/use [@mouseover,help,nodead][help,nodead][@player] Regrowth
+END
+VER 3 0100000000000003 "Rejuvenation" "INV_MISC_QUESTIONMARK"
+#showtooltip Rejuvenation
+/use [@mouseover,help,nodead][help,nodead][@player] Rejuvenation
+END
+VER 3 0100000000000004 "Swiftmend" "INV_MISC_QUESTIONMARK"
+#showtooltip Swiftmend
+/use [@mouseover,help,nodead][help,nodead][@player] Swiftmend
+END
+VER 3 0100000000000001 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1DM[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000002 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Ari[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000008 "Wild Mushroom" "INV_MISC_QUESTIONMARK"
+#showtooltip Wild Mushroom
+/use [@mouseover,help,nodead][help,nodead][@player] Wild Mushroom
+END

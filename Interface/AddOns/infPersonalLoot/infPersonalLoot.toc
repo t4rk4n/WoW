@@ -1,0 +1,5 @@
+## Interface: 60000
+## Title: |cff3399FFinf|rPersonalLoot
+## Author: iNFEH @ methodwow.com
+## Notes: asdf
+infPersonalLoot.lua

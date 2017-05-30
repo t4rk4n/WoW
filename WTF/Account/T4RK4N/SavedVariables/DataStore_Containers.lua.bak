@@ -1,0 +1,585 @@
+
+DataStore_ContainersDB = {
+	["profileKeys"] = {
+		["Etni - Eonar"] = "Etni - Eonar",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Eonar.Etni"] = {
+				["numFreeBankSlots"] = 27,
+				["numBankSlots"] = 168,
+				["lastUpdate"] = 1414313858,
+				["Containers"] = {
+					["Bag-3"] = {
+						["size"] = 98,
+						["ids"] = {
+							74863, -- [1]
+							76734, -- [2]
+							76142, -- [3]
+							76138, -- [4]
+							76131, -- [5]
+							76137, -- [6]
+							76136, -- [7]
+							76135, -- [8]
+							76134, -- [9]
+							76133, -- [10]
+							76130, -- [11]
+							79253, -- [12]
+							79251, -- [13]
+							61980, -- [14]
+							79254, -- [15]
+							79731, -- [16]
+							89112, -- [17]
+							39354, -- [18]
+							90407, -- [19]
+							72092, -- [20]
+							85506, -- [21]
+							74850, -- [22]
+							74849, -- [23]
+							74847, -- [24]
+							74843, -- [25]
+							74839, -- [26]
+							74838, -- [27]
+							74834, -- [28]
+							74833, -- [29]
+							74866, -- [30]
+							74864, -- [31]
+							43125, -- [32]
+							39469, -- [33]
+							43120, -- [34]
+							43117, -- [35]
+							43123, -- [36]
+							39334, -- [37]
+							39339, -- [38]
+							39341, -- [39]
+							43126, -- [40]
+							39343, -- [41]
+							61979, -- [42]
+							36929, -- [43]
+							36926, -- [44]
+							36923, -- [45]
+							36920, -- [46]
+							36932, -- [47]
+						},
+						["freeslots"] = 51,
+						["counts"] = {
+							nil, -- [1]
+							5, -- [2]
+							nil, -- [3]
+							nil, -- [4]
+							2, -- [5]
+							14, -- [6]
+							7, -- [7]
+							8, -- [8]
+							3, -- [9]
+							8, -- [10]
+							14, -- [11]
+							6, -- [12]
+							38, -- [13]
+							6, -- [14]
+							2, -- [15]
+							9, -- [16]
+							3, -- [17]
+							34, -- [18]
+							6, -- [19]
+							2, -- [20]
+							6, -- [21]
+							20, -- [22]
+							23, -- [23]
+							12, -- [24]
+							9, -- [25]
+							4, -- [26]
+							28, -- [27]
+							23, -- [28]
+							7, -- [29]
+							12, -- [30]
+							8, -- [31]
+							20, -- [32]
+							4, -- [33]
+							2, -- [34]
+							nil, -- [35]
+							17, -- [36]
+							nil, -- [37]
+							nil, -- [38]
+							nil, -- [39]
+							7, -- [40]
+							nil, -- [41]
+							5, -- [42]
+							4, -- [43]
+							4, -- [44]
+							4, -- [45]
+							[47] = 2,
+						},
+						["links"] = {
+							[17] = "|cffffffff|Hitem:89112:0:0:0:0:0:0:-1986128768:85:0:0:0|h[Mote of Harmony]|h|r",
+							[12] = "|cff1eff00|Hitem:79253:0:0:0:0:0:0:-2104343040:85:0:0:0|h[Misty Pigment]|h|r",
+							[37] = "|cffffffff|Hitem:39334:0:0:0:0:0:0:-1932623872:85:0:0:0|h[Dusky Pigment]|h|r",
+							[30] = "|cffffffff|Hitem:74866:0:0:0:0:0:0:-1749370752:85:0:0:0|h[Golden Carp]|h|r",
+							[13] = "|cffffffff|Hitem:79251:0:0:0:0:0:0:-1965506816:85:0:0:0|h[Shadow Pigment]|h|r",
+						},
+					},
+					["Bag10"] = {
+						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:65363488:85:0:0:0|h[Frostweave Bag]|h|r",
+						["icon"] = "Interface\\ICONS\\INV_Misc_Bag_EnchantedMageweave.blp",
+						["size"] = 20,
+						["freeslots"] = 20,
+					},
+					["Bag8"] = {
+						["ids"] = {
+							50356, -- [1]
+							47727, -- [2]
+							49118, -- [3]
+							47216, -- [4]
+							47214, -- [5]
+							40684, -- [6]
+							40483, -- [7]
+							65908, -- [8]
+							65906, -- [9]
+							43157, -- [10]
+							43156, -- [11]
+							43155, -- [12]
+							43154, -- [13]
+							45574, -- [14]
+							28111, -- [15]
+							41599, -- [16]
+							43090, -- [17]
+							45192, -- [18]
+							43089, -- [19]
+							38551, -- [20]
+						},
+						["links"] = {
+							[2] = "|cffa335ee|Hitem:47727:0:0:0:0:0:0:-1895929344:85:0:0:0|h[Fervor of the Frostborn]|h|r",
+						},
+						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:577152960:85:0:0:0|h[Frostweave Bag]|h|r",
+						["icon"] = "Interface\\ICONS\\INV_Misc_Bag_EnchantedMageweave.blp",
+						["size"] = 20,
+						["counts"] = {
+							[19] = 18,
+							[17] = 3,
+							[20] = 83,
+						},
+					},
+					["Bag100"] = {
+						["size"] = 28,
+						["ids"] = {
+							46006, -- [1]
+							6532, -- [2]
+							6529, -- [3]
+							18662, -- [4]
+							62668, -- [5]
+							62667, -- [6]
+							43000, -- [7]
+							43000, -- [8]
+							44953, -- [9]
+							63306, -- [10]
+							25539, -- [11]
+							22850, -- [12]
+							33447, -- [13]
+							22829, -- [14]
+							6372, -- [15]
+							42436, -- [16]
+							24579, -- [17]
+							37604, -- [18]
+							37265, -- [19]
+							34076, -- [20]
+							21745, -- [21]
+							50810, -- [22]
+							50787, -- [23]
+							25978, -- [24]
+							59344, -- [25]
+							51133, -- [26]
+							50096, -- [27]
+							48483, -- [28]
+						},
+						["counts"] = {
+							nil, -- [1]
+							nil, -- [2]
+							5, -- [3]
+							nil, -- [4]
+							13, -- [5]
+							19, -- [6]
+							20, -- [7]
+							4, -- [8]
+							3, -- [9]
+							10, -- [10]
+							nil, -- [11]
+							2, -- [12]
+							12, -- [13]
+							20, -- [14]
+							[17] = 3,
+							[18] = 9,
+						},
+						["links"] = {
+							"|cffffffff|Hitem:46006:0:0:0:0:0:0:-1912156928:85:0:0:0|h[Glow Worm]|h|r", -- [1]
+							[25] = "|cffa335ee|Hitem:59344:4208:4252:3994:0:0:0:-1834378240:85:0:0:0|h[Dragon Bone Warhelm]|h|r",
+							[26] = "|cffa335ee|Hitem:51133:3818:3637:3541:0:0:0:0:85:0:0:0|h[Sanctified Scourgelord Faceguard]|h|r",
+							[27] = "|cffa335ee|Hitem:50096:3817:3628:3732:0:0:0:0:85:0:0:0|h[Scourgelord Helmet]|h|r",
+							[28] = "|cffa335ee|Hitem:48483:3817:3628:3879:0:0:0:0:85:0:0:0|h[Thassarian's Helmet of Triumph]|h|r",
+							[15] = "|cffffffff|Hitem:6372:0:0:0:0:0:0:-2031555840:85:0:0:0|h[Swim Speed Potion]|h|r",
+							[18] = "|cffffffff|Hitem:37604:0:0:0:0:0:0:-819949458:85:0:0:0|h[Tooth Pick]|h|r",
+							[21] = "|cffffffff|Hitem:21745:0:0:0:0:0:0:-2106935867:85:0:0:0|h[Elder's Moonstone]|h|r",
+							[22] = "|cffa335ee|Hitem:50810:3368:0:0:0:0:0:-2127757696:85:0:0:0|h[Gutbuster]|h|r",
+							[23] = "|cffa335ee|Hitem:50787:3370:0:0:0:0:0:578585184:85:0:0:0|h[Frost Giant's Cleaver]|h|r",
+						},
+					},
+					["Bag3"] = {
+						["ids"] = {
+							90388, -- [1]
+							6256, -- [2]
+							55077, -- [3]
+							64739, -- [4]
+							60408, -- [5]
+							55071, -- [6]
+							60409, -- [7]
+							60521, -- [8]
+							60411, -- [9]
+							55074, -- [10]
+							70384, -- [11]
+							64714, -- [12]
+							64852, -- [13]
+							64793, -- [14]
+							64763, -- [15]
+							65907, -- [16]
+							65905, -- [17]
+							65904, -- [18]
+						},
+						["links"] = {
+							nil, -- [1]
+							nil, -- [2]
+							nil, -- [3]
+							"|cff0070dd|Hitem:64739:4194:4000:0:0:0:0:0:85:0:0:0|h[Bloodthirsty Gladiator's Dreadplate Shoulders]|h|r", -- [4]
+							"|cffa335ee|Hitem:60408:4077:4238:4036:0:0:0:0:85:0:0:0|h[Vicious Gladiator's Dreadplate Chestpiece]|h|r", -- [5]
+							"|cff0070dd|Hitem:55071:4089:0:0:0:0:0:561849088:85:0:0:0|h[Bloodied Pyrium Bracers]|h|r", -- [6]
+							"|cffa335ee|Hitem:60409:4075:4007:0:0:0:0:0:85:0:0:0|h[Vicious Gladiator's Dreadplate Gauntlets]|h|r", -- [7]
+							"|cffa335ee|Hitem:60521:0:4007:4036:0:0:0:1623147904:85:0:0:0|h[Vicious Gladiator's Girdle of Prowess]|h|r", -- [8]
+							"|cffa335ee|Hitem:60411:4122:4000:4000:0:0:0:-564020864:85:0:0:0|h[Vicious Gladiator's Dreadplate Legguards]|h|r", -- [9]
+							nil, -- [10]
+							"|cffa335ee|Hitem:70384:4064:0:0:0:0:0:473390176:85:0:0:0|h[Ruthless Gladiator's Cloak of Prowess]|h|r", -- [11]
+						},
+						["link"] = "|cffa335ee|Hitem:49295:0:0:0:0:0:0:-915607936:85:0:0:0|h[Enlarged Onyxia Hide Backpack]|h|r",
+						["icon"] = "Interface\\ICONS\\INV_Misc_Bag_22.blp",
+						["size"] = 22,
+						["freeslots"] = 4,
+					},
+					["Bag1"] = {
+						["ids"] = {
+							54651, -- [1]
+							34068, -- [2]
+							88567, -- [3]
+							90902, -- [4]
+						},
+						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:20204098:85:0:0:0|h[Frostweave Bag]|h|r",
+						["icon"] = "Interface\\ICONS\\INV_Misc_Bag_EnchantedMageweave.blp",
+						["size"] = 20,
+						["counts"] = {
+							[2] = 19,
+						},
+						["freeslots"] = 16,
+					},
+					["Bag5"] = {
+						["ids"] = {
+							48529, -- [1]
+							46120, -- [2]
+							46115, -- [3]
+							39625, -- [4]
+							72861, -- [5]
+							50098, -- [6]
+							47698, -- [7]
+							48478, -- [8]
+							46122, -- [9]
+							45344, -- [10]
+							45339, -- [11]
+							39621, -- [12]
+							72818, -- [13]
+							60349, -- [14]
+							51129, -- [15]
+							48481, -- [16]
+							46118, -- [17]
+							46111, -- [18]
+							39617, -- [19]
+							70937, -- [20]
+						},
+						["links"] = {
+							"|cffa335ee|Hitem:48529:3818:3637:3574:0:0:0:0:85:0:0:0|h[Thassarian's Faceguard of Conquest]|h|r", -- [1]
+							"|cffa335ee|Hitem:46120:3818:3637:3293:0:0:0:0:85:0:0:0|h[Conqueror's Darkruned Faceguard]|h|r", -- [2]
+							"|cffa335ee|Hitem:46115:3817:3621:3518:0:0:0:0:85:0:0:0|h[Conqueror's Darkruned Helmet]|h|r", -- [3]
+							"|cffa335ee|Hitem:39625:0:3637:3454:0:0:0:0:85:0:0:0|h[Heroes' Scourgeborne Faceguard]|h|r", -- [4]
+							"|cffa335ee|Hitem:72861:4195:4026:0:0:0:0:1907602176:85:0:0:0|h[Pauldrons of the Dragonblight]|h|r", -- [5]
+							"|cffa335ee|Hitem:50098:3835:3732:0:0:0:0:0:85:0:0:0|h[Scourgelord Shoulderplates]|h|r", -- [6]
+							"|cffa335ee|Hitem:47698:3837:3532:0:0:0:0:0:85:0:0:0|h[Shoulderplates of Enduring Order]|h|r", -- [7]
+							"|cffa335ee|Hitem:48478:3835:3732:0:0:0:0:0:85:0:0:0|h[Thassarian's Shoulderplates of Conquest]|h|r", -- [8]
+							"|cffa335ee|Hitem:46122:3837:3532:0:0:0:0:0:85:0:0:0|h[Conqueror's Darkruned Pauldrons]|h|r", -- [9]
+							"|cffa335ee|Hitem:45344:3835:3732:0:0:0:0:0:85:0:0:0|h[Valorous Darkruned Shoulderplates]|h|r", -- [10]
+							"|cffa335ee|Hitem:45339:3837:3532:0:0:0:0:0:85:0:0:0|h[Valorous Darkruned Pauldrons]|h|r", -- [11]
+							"|cffa335ee|Hitem:39621:0:3464:0:0:0:0:0:85:0:0:0|h[Heroes' Scourgeborne Shoulderplates]|h|r", -- [12]
+							"|cffa335ee|Hitem:72818:0:4014:4026:0:0:0:1730313984:85:0:0:0|h[Breastplate of Tarnished Bronze]|h|r", -- [13]
+							"|cffa335ee|Hitem:60349:4103:3999:3999:0:0:0:0:85:0:0:0|h[Magma Plated Chestguard]|h|r", -- [14]
+							"|cffa335ee|Hitem:51129:3832:3518:3879:0:0:0:0:85:0:0:0|h[Sanctified Scourgelord Battleplate]|h|r", -- [15]
+							"|cffa335ee|Hitem:48481:3832:3732:3732:0:0:0:0:85:0:0:0|h[Thassarian's Battleplate of Triumph]|h|r", -- [16]
+							"|cffa335ee|Hitem:46118:1953:3293:3293:0:0:0:0:85:0:0:0|h[Conqueror's Darkruned Chestguard]|h|r", -- [17]
+							"|cffa335ee|Hitem:46111:3832:3518:3518:0:0:0:0:85:0:0:0|h[Conqueror's Darkruned Battleplate]|h|r", -- [18]
+							"|cffa335ee|Hitem:39617:3252:3446:3446:0:0:0:0:85:0:0:0|h[Heroes' Scourgeborne Battleplate]|h|r", -- [19]
+							"|cffa335ee|Hitem:70937:0:3999:0:0:0:0:0:85:0:0:0|h[Bracers of Regal Force]|h|r", -- [20]
+						},
+						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:505037216:85:0:0:0|h[Frostweave Bag]|h|r",
+						["icon"] = "Interface\\ICONS\\INV_Misc_Bag_EnchantedMageweave.blp",
+						["size"] = 20,
+					},
+					["Bag4"] = {
+						["ids"] = {
+							6948, -- [1]
+							53051, -- [2]
+							87585, -- [3]
+							87581, -- [4]
+							52771, -- [5]
+							81406, -- [6]
+							81405, -- [7]
+							62670, -- [8]
+							62670, -- [9]
+							62667, -- [10]
+							62663, -- [11]
+							62662, -- [12]
+							62662, -- [13]
+							62649, -- [14]
+							44315, -- [15]
+							58088, -- [16]
+							46379, -- [17]
+							46377, -- [18]
+							58090, -- [19]
+							57191, -- [20]
+						},
+						["link"] = "|cffa335ee|Hitem:34845:0:0:0:0:0:0:-1301045056:85:0:0:0|h[Pit Lord's Satchel]|h|r",
+						["icon"] = "Interface\\ICONS\\INV_Misc_Bag_EnchantedRunecloth.blp",
+						["size"] = 20,
+						["counts"] = {
+							nil, -- [1]
+							17, -- [2]
+							nil, -- [3]
+							2, -- [4]
+							nil, -- [5]
+							3, -- [6]
+							2, -- [7]
+							20, -- [8]
+							16, -- [9]
+							20, -- [10]
+							3, -- [11]
+							20, -- [12]
+							19, -- [13]
+							7, -- [14]
+							nil, -- [15]
+							4, -- [16]
+							4, -- [17]
+							2, -- [18]
+							3, -- [19]
+							3, -- [20]
+						},
+					},
+					["Bag0"] = {
+						["ids"] = {
+							nil, -- [1]
+							nil, -- [2]
+							nil, -- [3]
+							nil, -- [4]
+							nil, -- [5]
+							nil, -- [6]
+							nil, -- [7]
+							nil, -- [8]
+							nil, -- [9]
+							nil, -- [10]
+							nil, -- [11]
+							nil, -- [12]
+							nil, -- [13]
+							nil, -- [14]
+							34907, -- [15]
+							20824, -- [16]
+						},
+						["icon"] = "Interface\\Buttons\\Button-Backpack-Up",
+						["size"] = 16,
+						["counts"] = {
+							[15] = 12,
+						},
+						["freeslots"] = 14,
+					},
+					["Bag7"] = {
+						["ids"] = {
+							45338, -- [1]
+							39626, -- [2]
+							59221, -- [3]
+							40743, -- [4]
+							62383, -- [5]
+							40722, -- [6]
+							53097, -- [7]
+							70935, -- [8]
+							52323, -- [9]
+							51548, -- [10]
+							45821, -- [11]
+							63489, -- [12]
+							58187, -- [13]
+							50404, -- [14]
+							47731, -- [15]
+							47729, -- [16]
+							40718, -- [17]
+							59506, -- [18]
+							59332, -- [19]
+							52351, -- [20]
+						},
+						["links"] = {
+							"|cffa335ee|Hitem:45338:3822:3532:3518:0:0:0:0:85:0:0:0|h[Valorous Darkruned Legguards]|h|r", -- [1]
+							nil, -- [2]
+							"|cffa335ee|Hitem:59221:0:3985:0:0:0:0:1239866944:85:0:0:0|h[Massacre Treads]|h|r", -- [3]
+							"|cffa335ee|Hitem:40743:1075:0:0:0:0:0:0:85:0:0:0|h[Kyzoc's Ground Stompers]|h|r", -- [4]
+							"|cffa335ee|Hitem:62383:4090:0:0:0:0:0:0:85:0:0:0|h[Wrap of the Great Turtle]|h|r", -- [5]
+							"|cffa335ee|Hitem:40722:1951:0:0:0:0:0:0:85:0:0:0|h[Platinum Mesh Cloak]|h|r", -- [6]
+							[9] = "|cff0070dd|Hitem:52323:0:4000:0:0:0:0:1917762304:85:0:0:0|h[Elementium Guardian]|h|r",
+							[10] = "|cffa335ee|Hitem:51548:0:3549:0:0:0:0:1415507200:85:0:0:0|h[Collar of Haughty Disdain]|h|r",
+							[12] = "|cffa335ee|Hitem:63489:0:0:0:0:0:-127:804913186:85:0:0:0|h[Permafrost Signet of the Bouldercrag]|h|r",
+							[14] = "|cffa335ee|Hitem:50404:0:3532:0:0:0:0:1234080896:85:0:0:0|h[Ashen Band of Endless Courage]|h|r",
+							[19] = "|cffa335ee|Hitem:59332:0:0:0:0:0:0:-2115937024:85:0:0:0|h[Symbiotic Worm]|h|r",
+						},
+						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:1162899584:85:0:0:0|h[Frostweave Bag]|h|r",
+						["icon"] = "Interface\\ICONS\\INV_Misc_Bag_EnchantedMageweave.blp",
+						["size"] = 20,
+					},
+					["Bag2"] = {
+						["ids"] = {
+							39505, -- [1]
+							20815, -- [2]
+							76700, -- [3]
+							76673, -- [4]
+							76670, -- [5]
+							76663, -- [6]
+							76639, -- [7]
+							76568, -- [8]
+							52233, -- [9]
+							35193, -- [10]
+						},
+						["link"] = "|cff0070dd|Hitem:41600:0:0:0:0:0:0:702594560:85:0:0:0|h[Glacial Bag]|h|r",
+						["icon"] = "Interface\\ICONS\\INV_Misc_Bag_EnchantedRunecloth.blp",
+						["size"] = 22,
+						["counts"] = {
+							nil, -- [1]
+							nil, -- [2]
+							2, -- [3]
+							nil, -- [4]
+							nil, -- [5]
+							nil, -- [6]
+							3, -- [7]
+							10, -- [8]
+						},
+						["freeslots"] = 12,
+					},
+					["Bag9"] = {
+						["ids"] = {
+							25433, -- [1]
+							21100, -- [2]
+							40615, -- [3]
+							26043, -- [4]
+							50226, -- [5]
+							44987, -- [6]
+							34597, -- [7]
+							8383, -- [8]
+						},
+						["link"] = "|cffa335ee|Hitem:50317:0:0:0:0:0:0:1598420352:85:0:0:0|h[Papa's New Bag]|h|r",
+						["icon"] = "Interface\\ICONS\\INV_Misc_Bag_26_Spellfire.blp",
+						["size"] = 20,
+						["counts"] = {
+							6, -- [1]
+							2, -- [2]
+							nil, -- [3]
+							5, -- [4]
+							nil, -- [5]
+							4, -- [6]
+							2, -- [7]
+						},
+						["freeslots"] = 12,
+					},
+					["Bag11"] = {
+						["ids"] = {
+							nil, -- [1]
+							nil, -- [2]
+							nil, -- [3]
+							nil, -- [4]
+							nil, -- [5]
+							nil, -- [6]
+							nil, -- [7]
+							nil, -- [8]
+							nil, -- [9]
+							37101, -- [10]
+							40714, -- [11]
+							40207, -- [12]
+							45254, -- [13]
+							47672, -- [14]
+							47673, -- [15]
+							50459, -- [16]
+							50462, -- [17]
+							70939, -- [18]
+							10648, -- [19]
+							39502, -- [20]
+						},
+						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:1923136128:85:0:0:0|h[Frostweave Bag]|h|r",
+						["icon"] = "Interface\\ICONS\\INV_Misc_Bag_EnchantedMageweave.blp",
+						["size"] = 20,
+						["counts"] = {
+							[19] = 3,
+							[20] = 2,
+							[10] = 5,
+						},
+						["freeslots"] = 9,
+					},
+					["Bag6"] = {
+						["ids"] = {
+							51563, -- [1]
+							40733, -- [2]
+							60350, -- [3]
+							50095, -- [4]
+							47234, -- [5]
+							48537, -- [6]
+							48480, -- [7]
+							46113, -- [8]
+							45337, -- [9]
+							39618, -- [10]
+							59117, -- [11]
+							50987, -- [12]
+							45825, -- [13]
+							72815, -- [14]
+							60352, -- [15]
+							55076, -- [16]
+							50854, -- [17]
+							48533, -- [18]
+							48476, -- [19]
+							46116, -- [20]
+						},
+						["links"] = {
+							"|cffa335ee|Hitem:51563:0:3732:0:0:0:0:1242142592:85:0:0:0|h[Taiga Bindings]|h|r", -- [1]
+							"|cffa335ee|Hitem:40733:3845:0:0:0:0:0:0:85:0:0:0|h[Wristbands of the Sentinel Huntress]|h|r", -- [2]
+							"|cffa335ee|Hitem:60350:4061:4026:0:0:0:0:-2124315008:85:0:0:0|h[Magma Plated Handguards]|h|r", -- [3]
+							"|cffa335ee|Hitem:50095:1603:3549:0:0:0:0:0:85:0:0:0|h[Scourgelord Gauntlets]|h|r", -- [4]
+							nil, -- [5]
+							"|cffa335ee|Hitem:48537:0:3532:0:0:0:0:0:85:0:0:0|h[Thassarian's Handguards of Conquest]|h|r", -- [6]
+							"|cffa335ee|Hitem:48480:1603:3518:0:0:0:0:0:85:0:0:0|h[Thassarian's Gauntlets of Conquest]|h|r", -- [7]
+							"|cffa335ee|Hitem:46113:1603:3528:0:0:0:0:0:85:0:0:0|h[Conqueror's Darkruned Gauntlets]|h|r", -- [8]
+							"|cffa335ee|Hitem:45337:3253:3540:0:0:0:0:0:85:0:0:0|h[Valorous Darkruned Handguards]|h|r", -- [9]
+							"|cffa335ee|Hitem:39618:3234:3528:0:0:0:0:0:85:0:0:0|h[Heroes' Scourgeborne Gauntlets]|h|r", -- [10]
+							"|cffa335ee|Hitem:59117:0:4035:3999:0:0:0:1349436416:85:0:0:0|h[Jumbotron Power Belt]|h|r", -- [11]
+							"|cffa335ee|Hitem:50987:0:3518:3518:3518:0:0:0:85:0:0:0|h[Malevolent Girdle]|h|r", -- [12]
+							"|cffa335ee|Hitem:45825:0:3532:0:0:0:0:0:85:0:0:0|h[Shieldwarder Girdle]|h|r", -- [13]
+							"|cffa335ee|Hitem:72815:0:4014:3999:0:0:0:1157951488:85:0:0:0|h[Bloodhoof Legguards]|h|r", -- [14]
+							"|cffa335ee|Hitem:60352:4127:3999:3999:0:0:0:952363200:85:0:0:0|h[Magma Plated Legguards]|h|r", -- [15]
+							"|cff0070dd|Hitem:55076:4122:0:0:0:0:0:171834368:85:0:0:0|h[Bloodied Pyrium Legguards]|h|r", -- [16]
+							"|cffa335ee|Hitem:50854:3822:3532:3532:0:0:0:-1855025536:85:0:0:0|h[Scourgelord Legguards]|h|r", -- [17]
+							nil, -- [18]
+							"|cffa335ee|Hitem:48476:3823:3549:3518:0:0:0:0:85:0:0:0|h[Thassarian's Legplates of Conquest]|h|r", -- [19]
+							"|cffa335ee|Hitem:46116:3823:3518:3518:0:0:0:0:85:0:0:0|h[Conqueror's Darkruned Legplates]|h|r", -- [20]
+						},
+						["link"] = "|cff1eff00|Hitem:41599:0:0:0:0:0:0:1740753408:85:0:0:0|h[Frostweave Bag]|h|r",
+						["icon"] = "Interface\\ICONS\\INV_Misc_Bag_EnchantedMageweave.blp",
+						["size"] = 20,
+					},
+				},
+				["numFreeBagSlots"] = 46,
+				["numBagSlots"] = 100,
+			},
+		},
+		["Version"] = 1,
+	},
+}

@@ -1,0 +1,4619 @@
+
+XPerlConfig = nil
+XPerlConfig_Global = nil
+XPerlConfigNew = {
+	["ConfigVersion"] = "3.2.1",
+	["global"] = {
+		["highlight"] = {
+			["enable"] = 1,
+			["AGGRO"] = 1,
+		},
+		["showFD"] = 1,
+		["highlightSelection"] = 1,
+		["optionsColour"] = {
+			["r"] = 0.7,
+			["g"] = 0.2,
+			["b"] = 0.2,
+		},
+		["rangeFinder"] = {
+			["StatsFrame"] = {
+				["FadeAmount"] = 0.5,
+				["HealthLowPoint"] = 0.85,
+				["item"] = "",
+			},
+			["Main"] = {
+				["enabled"] = true,
+				["item"] = "",
+				["FadeAmount"] = 0.5,
+				["HealthLowPoint"] = 0.85,
+			},
+			["NameFrame"] = {
+				["FadeAmount"] = 0.5,
+				["HealthLowPoint"] = 0.85,
+				["item"] = "",
+			},
+		},
+		["showAFK"] = 1,
+		["ShowTutorials"] = true,
+		["buffHelper"] = {
+			["enable"] = 1,
+			["sort"] = "group",
+			["visible"] = 1,
+		},
+		["focus"] = {
+			["debuffs"] = {
+				["enable"] = 1,
+				["curable"] = 0,
+				["size"] = 29,
+			},
+			["values"] = 1,
+			["combo"] = {
+				["enable"] = 1,
+				["blizzard"] = 1,
+				["pos"] = "top",
+			},
+			["enable"] = 1,
+			["mana"] = 1,
+			["castBar"] = {
+				["enable"] = 1,
+			},
+			["hitIndicator"] = 1,
+			["level"] = 1,
+			["sound"] = 1,
+			["size"] = {
+				["width"] = 0,
+			},
+			["portrait3D"] = 1,
+			["pvpIcon"] = 1,
+			["mobType"] = 1,
+			["highlightDebuffs"] = {
+				["who"] = 2,
+			},
+			["raidIconAlternate"] = 1,
+			["healerMode"] = {
+				["type"] = 1,
+			},
+			["elite"] = 1,
+			["scale"] = 1,
+			["buffs"] = {
+				["size"] = 22,
+				["castable"] = 0,
+				["enable"] = 1,
+				["wrap"] = 1,
+				["rows"] = 3,
+				["maxrows"] = 2,
+			},
+			["percent"] = 1,
+			["classIcon"] = 1,
+		},
+		["target"] = {
+			["debuffs"] = {
+				["enable"] = 1,
+				["size"] = 29,
+				["curable"] = 0,
+				["big"] = 1,
+			},
+			["values"] = 1,
+			["combo"] = {
+				["enable"] = 1,
+				["blizzard"] = 1,
+				["pos"] = "bottom",
+			},
+			["enable"] = 1,
+			["mana"] = 1,
+			["castBar"] = {
+				["enable"] = 1,
+			},
+			["hitIndicator"] = 1,
+			["level"] = 1,
+			["sound"] = 1,
+			["size"] = {
+				["width"] = 0,
+			},
+			["portrait3D"] = 1,
+			["pvpIcon"] = 1,
+			["mobType"] = 1,
+			["highlightDebuffs"] = {
+				["who"] = 2,
+			},
+			["raidIconAlternate"] = 1,
+			["portrait"] = 1,
+			["healerMode"] = {
+				["type"] = 1,
+			},
+			["elite"] = 1,
+			["scale"] = 1.1,
+			["buffs"] = {
+				["size"] = 22,
+				["wrap"] = 1,
+				["castable"] = 0,
+				["enable"] = 1,
+				["rows"] = 3,
+				["maxrows"] = 2,
+				["big"] = 1,
+			},
+			["percent"] = 1,
+			["classIcon"] = 1,
+		},
+		["raid"] = {
+			["debuffs"] = {
+				["size"] = 20,
+			},
+			["group"] = {
+				1, -- [1]
+				1, -- [2]
+				1, -- [3]
+				1, -- [4]
+				1, -- [5]
+			},
+			["class"] = {
+				{
+					["enable"] = true,
+					["name"] = "WARRIOR",
+				}, -- [1]
+				{
+					["enable"] = true,
+					["name"] = "DEATHKNIGHT",
+				}, -- [2]
+				{
+					["enable"] = true,
+					["name"] = "ROGUE",
+				}, -- [3]
+				{
+					["enable"] = true,
+					["name"] = "HUNTER",
+				}, -- [4]
+				{
+					["enable"] = true,
+					["name"] = "MAGE",
+				}, -- [5]
+				{
+					["enable"] = true,
+					["name"] = "WARLOCK",
+				}, -- [6]
+				{
+					["enable"] = true,
+					["name"] = "PRIEST",
+				}, -- [7]
+				{
+					["enable"] = true,
+					["name"] = "DRUID",
+				}, -- [8]
+				{
+					["enable"] = true,
+					["name"] = "SHAMAN",
+				}, -- [9]
+				{
+					["enable"] = true,
+					["name"] = "PALADIN",
+				}, -- [10]
+			},
+			["scale"] = 0.8,
+			["hideframemanager"] = {
+			},
+			["titles"] = 1,
+			["hideframecontainer"] = {
+				["enable"] = 1,
+			},
+			["healerMode"] = {
+				["type"] = 1,
+			},
+			["spacing"] = 0,
+			["anchor"] = "TOP",
+			["buffs"] = {
+				["inside"] = 1,
+				["castable"] = 1,
+				["enable"] = 1,
+				["right"] = 1,
+				["size"] = 20,
+				["maxrows"] = 2,
+			},
+			["percent"] = 1,
+			["size"] = {
+				["width"] = 0,
+			},
+		},
+		["raidpet"] = {
+			["hunter"] = 1,
+			["warlock"] = 1,
+		},
+		["colour"] = {
+			["classic"] = 1,
+			["class"] = 1,
+			["border"] = {
+				["a"] = 1,
+				["r"] = 0.5,
+				["g"] = 0.5,
+				["b"] = 0.5,
+			},
+			["classbarBright"] = 1,
+			["reaction"] = {
+				["tapped"] = {
+					["r"] = 0.5,
+					["g"] = 0.5,
+					["b"] = 0.5,
+				},
+				["enemy"] = {
+					["r"] = 1,
+					["g"] = 0,
+					["b"] = 0,
+				},
+				["neutral"] = {
+					["r"] = 1,
+					["g"] = 1,
+					["b"] = 0,
+				},
+				["unfriendly"] = {
+					["r"] = 1,
+					["g"] = 0.5,
+					["b"] = 0,
+				},
+				["friend"] = {
+					["r"] = 0,
+					["g"] = 1,
+					["b"] = 0,
+				},
+				["none"] = {
+					["r"] = 0.5,
+					["g"] = 0.5,
+					["b"] = 1,
+				},
+			},
+			["guildList"] = 1,
+			["gradient"] = {
+				["enable"] = 1,
+				["s"] = {
+					["a"] = 1,
+					["r"] = 0.25,
+					["g"] = 0.25,
+					["b"] = 0.25,
+				},
+				["e"] = {
+					["a"] = 0,
+					["r"] = 0.1,
+					["g"] = 0.1,
+					["b"] = 0.1,
+				},
+			},
+			["frame"] = {
+				["a"] = 1,
+				["r"] = 0,
+				["g"] = 0,
+				["b"] = 0,
+			},
+			["classbar"] = 1,
+			["bar"] = {
+				["rage"] = {
+					["r"] = 1,
+					["g"] = 0,
+					["b"] = 0,
+				},
+				["healthFull"] = {
+					["r"] = 0,
+					["g"] = 1,
+					["b"] = 0,
+				},
+				["focus"] = {
+					["r"] = 1,
+					["g"] = 0.5,
+					["b"] = 0.25,
+				},
+				["mana"] = {
+					["r"] = 0,
+					["g"] = 0,
+					["b"] = 1,
+				},
+				["healthEmpty"] = {
+					["r"] = 1,
+					["g"] = 0,
+					["b"] = 0,
+				},
+				["energy"] = {
+					["r"] = 1,
+					["g"] = 1,
+					["b"] = 0,
+				},
+			},
+		},
+		["minimap"] = {
+			["enable"] = 1,
+			["radius"] = 78,
+			["pos"] = 339.4452901786233,
+		},
+		["combatFlash"] = 1,
+		["party"] = {
+			["debuffs"] = {
+				["below"] = 1,
+				["halfSize"] = 1,
+				["curable"] = 0,
+				["size"] = 32,
+			},
+			["values"] = 1,
+			["scale"] = 0.8,
+			["castBar"] = {
+				["enable"] = 1,
+				["castTime"] = 1,
+			},
+			["spacing"] = 23,
+			["anchor"] = "TOP",
+			["level"] = 1,
+			["size"] = {
+				["width"] = 0,
+			},
+			["threat"] = 1,
+			["portrait3D"] = 1,
+			["pvpIcon"] = 1,
+			["inRaid"] = 1,
+			["healerMode"] = {
+				["type"] = 1,
+			},
+			["name"] = 1,
+			["hitIndicator"] = 1,
+			["target"] = {
+				["large"] = 1,
+				["size"] = 120,
+			},
+			["buffs"] = {
+				["size"] = 22,
+				["castable"] = 1,
+				["enable"] = 1,
+				["wrap"] = 1,
+				["rows"] = 2,
+				["maxrows"] = 2,
+			},
+			["percent"] = 1,
+			["classIcon"] = 1,
+		},
+		["pet"] = {
+			["debuffs"] = {
+				["enable"] = 1,
+				["size"] = 20,
+			},
+			["portrait3D"] = 1,
+			["scale"] = 1,
+			["happiness"] = {
+				["enabled"] = 1,
+				["enable"] = 1,
+			},
+			["healerMode"] = {
+				["type"] = 1,
+			},
+			["name"] = 1,
+			["hitIndicator"] = 1,
+			["castBar"] = {
+				["enable"] = 1,
+			},
+			["buffs"] = {
+				["big"] = 1,
+				["enable"] = 1,
+				["wrap"] = 1,
+				["size"] = 25,
+				["maxrows"] = 2,
+			},
+			["values"] = 1,
+			["size"] = {
+				["enable"] = 1,
+				["width"] = 100,
+				["size"] = 20,
+			},
+		},
+		["transparency"] = {
+			["frame"] = 1,
+			["text"] = 1,
+		},
+		["focustarget"] = {
+			["debuffs"] = {
+				["enable"] = 1,
+				["curable"] = 0,
+				["size"] = 29,
+			},
+			["values"] = 1,
+			["pvpIcon"] = 1,
+			["enable"] = 1,
+			["mana"] = 1,
+			["healerMode"] = {
+				["type"] = 1,
+			},
+			["scale"] = 1,
+			["buffs"] = {
+				["size"] = 22,
+				["castable"] = 0,
+				["enable"] = 1,
+				["rows"] = 3,
+				["wrap"] = 1,
+				["maxrows"] = 2,
+			},
+			["percent"] = 1,
+			["size"] = {
+				["width"] = 0,
+			},
+		},
+		["targettarget"] = {
+			["debuffs"] = {
+				["enable"] = 1,
+				["curable"] = 0,
+				["size"] = 29,
+			},
+			["values"] = 1,
+			["pvpIcon"] = 1,
+			["enable"] = 1,
+			["mana"] = 1,
+			["healerMode"] = {
+				["type"] = 1,
+			},
+			["scale"] = 0.91,
+			["buffs"] = {
+				["size"] = 22,
+				["rows"] = 3,
+				["castable"] = 0,
+				["enable"] = 1,
+				["wrap"] = 1,
+				["maxrows"] = 2,
+				["big"] = 1,
+			},
+			["percent"] = 1,
+			["size"] = {
+				["width"] = 0,
+			},
+		},
+		["partypet"] = {
+			["debuffs"] = {
+				["enable"] = 1,
+				["curable"] = 0,
+				["size"] = 12,
+			},
+			["name"] = 1,
+			["scale"] = 0.7,
+			["buffs"] = {
+				["enable"] = 1,
+				["castable"] = 0,
+				["size"] = 12,
+				["maxrows"] = 2,
+			},
+			["healerMode"] = {
+				["type"] = 1,
+			},
+			["size"] = {
+				["width"] = 0,
+			},
+		},
+		["highlightDebuffs"] = {
+			["enable"] = 1,
+			["frame"] = 1,
+			["border"] = 1,
+			["class"] = 1,
+		},
+		["player"] = {
+			["partyNumber"] = 1,
+			["debuffs"] = {
+				["enable"] = 1,
+				["size"] = 25,
+			},
+			["values"] = 1,
+			["scale"] = 1.1,
+			["castBar"] = {
+				["enable"] = 1,
+			},
+			["fullScreen"] = {
+				["enable"] = 1,
+				["highHP"] = 40,
+				["lowHP"] = 30,
+			},
+			["hitIndicator"] = 1,
+			["level"] = 1,
+			["size"] = {
+				["width"] = 0,
+			},
+			["portrait3D"] = 1,
+			["pvpIcon"] = 1,
+			["showRunes"] = 1,
+			["classIcon"] = 1,
+			["totems"] = {
+				["enable"] = true,
+				["offsetY"] = 0,
+				["offsetX"] = 0,
+			},
+			["xpBar"] = 1,
+			["healerMode"] = {
+				["type"] = 1,
+			},
+			["buffs"] = {
+				["flash"] = 1,
+				["size"] = 25,
+				["count"] = 40,
+				["wrap"] = 1,
+				["maxrows"] = 2,
+				["rows"] = 2,
+				["cooldown"] = 1,
+				["hideBlizzard"] = 1,
+			},
+			["percent"] = 1,
+			["energyTicker"] = 1,
+		},
+		["pettarget"] = {
+			["debuffs"] = {
+				["enable"] = 1,
+				["curable"] = 0,
+				["size"] = 29,
+			},
+			["values"] = 1,
+			["pvpIcon"] = 1,
+			["healerMode"] = {
+				["type"] = 1,
+			},
+			["mana"] = 1,
+			["enable"] = 1,
+			["scale"] = 1,
+			["level"] = 1,
+			["buffs"] = {
+				["size"] = 22,
+				["castable"] = 0,
+				["enable"] = 1,
+				["rows"] = 3,
+				["wrap"] = 1,
+				["maxrows"] = 2,
+			},
+			["percent"] = 1,
+			["size"] = {
+				["width"] = 0,
+			},
+		},
+		["tooltip"] = {
+			["enable"] = 1,
+			["enableBuffs"] = 1,
+			["modifier"] = "all",
+		},
+		["targettargettarget"] = {
+			["debuffs"] = {
+				["enable"] = 1,
+				["curable"] = 0,
+				["size"] = 29,
+			},
+			["values"] = 1,
+			["pvpIcon"] = 1,
+			["scale"] = 0.91,
+			["mana"] = 1,
+			["enable"] = 1,
+			["healerMode"] = {
+				["type"] = 1,
+			},
+			["buffs"] = {
+				["size"] = 22,
+				["rows"] = 3,
+				["castable"] = 0,
+				["enable"] = 1,
+				["wrap"] = 1,
+				["maxrows"] = 2,
+				["big"] = 1,
+			},
+			["percent"] = 1,
+			["size"] = {
+				["width"] = 0,
+			},
+		},
+		["buffs"] = {
+			["countdown"] = 1,
+			["cooldown"] = 1,
+			["countdownStart"] = 20,
+		},
+		["maximumScale"] = 1.5,
+		["bar"] = {
+			["texture"] = {
+				"X-Perl 2", -- [1]
+				"Interface\\Addons\\XPerl\\Images\\XPerl_StatusBar3", -- [2]
+			},
+			["background"] = 1,
+			["fadeTime"] = 0.5,
+			["fat"] = 1,
+		},
+	},
+	["savedPositions"] = {
+		["Talnivarr"] = {
+			["Elturko"] = {
+				["XPerl_RosterTextAnchor"] = {
+					["height"] = 250,
+					["top"] = 497.9999694824219,
+					["left"] = 337.0000305175781,
+					["width"] = 349.9999694824219,
+				},
+				["XPerl_Focus"] = {
+					["top"] = 607.9999602317803,
+					["left"] = 216.8000032305718,
+				},
+				["XPerl_MTList_Anchor"] = {
+					["height"] = 70,
+					["top"] = 167.0001068115234,
+					["left"] = 1146.304443359375,
+					["width"] = 305.9999389648438,
+				},
+				["XPerl_Raid_Title8"] = {
+					["top"] = 776.3739861782487,
+					["left"] = 456.452155239167,
+				},
+				["XPerl_AdminFrameAnchor"] = {
+					["height"] = 150,
+					["top"] = 459,
+					["left"] = 442,
+					["width"] = 140,
+				},
+				["XPerl_Raid_TitlePets"] = {
+					["top"] = 630.5181246298271,
+					["left"] = 473.8254465136743,
+				},
+				["XPerl_FocusTarget"] = {
+					["top"] = 608.0000201633993,
+					["left"] = 414.6999624201235,
+				},
+				["XPerl_Raid_Title4"] = {
+					["top"] = 776.3739861782487,
+					["left"] = 187.2000272035602,
+				},
+				["XPerl_Raid_Title1"] = {
+					["top"] = 776.373937350123,
+					["left"] = 0,
+				},
+				["XPerl_Player"] = {
+					["top"] = 1113.043523880428,
+					["left"] = 25.81740473438185,
+				},
+				["XPerl_TargetTargetTarget"] = {
+					["top"] = 1113.043559909755,
+					["left"] = 643.2405501542926,
+				},
+				["XPerl_Raid_Title9"] = {
+					["top"] = 776.3739861782487,
+					["left"] = 518.8522049971252,
+				},
+				["XPerl_Raid_Title5"] = {
+					["top"] = 776.3739861782487,
+					["left"] = 249.6000037193298,
+				},
+				["XPerl_Player_Pet"] = {
+					["top"] = 1001.47448245671,
+					["left"] = 156.6069995912994,
+				},
+				["XPerl_TargetTarget"] = {
+					["top"] = 1113.043559909755,
+					["left"] = 478.3202078769027,
+				},
+				["XPerl_Raid_Title6"] = {
+					["top"] = 776.3739861782487,
+					["left"] = 312.0000046491623,
+				},
+				["XPerl_CheckAnchor"] = {
+					["height"] = 240,
+					["top"] = 503.9999694824219,
+					["left"] = 262.0000305175781,
+					["width"] = 500,
+				},
+				["XPerl_Assists_FrameAnchor"] = {
+					["height"] = 124,
+					["top"] = 514.239501953125,
+					["left"] = 284.8169555664063,
+					["width"] = 330,
+				},
+				["XPerl_Party_Anchor"] = {
+					["top"] = 1034.970718547265,
+					["left"] = 0,
+				},
+				["XPerl_OptionsAnchor"] = {
+					["height"] = 540,
+					["top"] = 900.695556640625,
+					["left"] = 410.8478088378906,
+					["width"] = 711.0870361328125,
+				},
+				["XPerl_PetTarget"] = {
+					["top"] = 994.1428541635978,
+					["left"] = 233.500005178792,
+				},
+				["XPerl_Raid_Title7"] = {
+					["top"] = 776.3739861782487,
+					["left"] = 394.0522031374603,
+				},
+				["XPerl_Target"] = {
+					["top"] = 1111.371233805119,
+					["left"] = 240.2078222840009,
+				},
+				["XPerl_Raid_Title2"] = {
+					["top"] = 776.3739861782487,
+					["left"] = 62.40000092983246,
+				},
+				["XPerl_Raid_Title3"] = {
+					["top"] = 776.3739861782487,
+					["left"] = 124.8000018596649,
+				},
+			},
+		},
+		["Arena Pass 1"] = {
+			["Wiikree"] = {
+				["XPerl_RosterTextAnchor"] = {
+					["top"] = 498.0000006838724,
+					["height"] = 250.0000077961453,
+					["left"] = 507.6667394078937,
+					["width"] = 350.0000179174567,
+				},
+				["XPerl_Assists_FrameAnchor"] = {
+					["top"] = 618.5216973904319,
+					["height"] = 124.0000051974302,
+					["left"] = 824.3719713257776,
+					["width"] = 330.0000439046077,
+				},
+				["XPerl_MTList_Anchor"] = {
+					["top"] = 424.0000093006645,
+					["height"] = 79.99999234062918,
+					["left"] = 579.6666458541502,
+					["width"] = 206.0000999821441,
+				},
+				["XPerl_Raid_Title8"] = {
+					["top"] = 741.0434620649373,
+					["left"] = 425.6000415750405,
+				},
+				["XPerl_AdminFrameAnchor"] = {
+					["top"] = 631.5217942951501,
+					["height"] = 150.0000677033671,
+					["left"] = 919.3719791903102,
+					["width"] = 140.0000982040759,
+				},
+				["XPerl_FocusTarget"] = {
+					["top"] = 913.0435006443104,
+					["left"] = 518.9999821509305,
+				},
+				["XPerl_Raid_Title4"] = {
+					["top"] = 741.0434620649373,
+					["left"] = 182.4000038121677,
+				},
+				["XPerl_Raid_Title1"] = {
+					["top"] = 741.0434620649373,
+					["left"] = 0,
+				},
+				["XPerl_Player"] = {
+					["top"] = 1099.843530364079,
+					["left"] = 25.30000137584835,
+				},
+				["XPerl_Raid_Title5"] = {
+					["top"] = 741.0434620649373,
+					["left"] = 243.200023757166,
+				},
+				["XPerl_Raid_Title9"] = {
+					["top"] = 741.0434620649373,
+					["left"] = 486.400047514332,
+				},
+				["XPerl_PetTarget"] = {
+					["top"] = 1028.043447507425,
+					["left"] = 287.999993434825,
+				},
+				["XPerl_Player_Pet"] = {
+					["top"] = 1024.043487719122,
+					["left"] = 102.9999974696721,
+				},
+				["XPerl_Raid_Title2"] = {
+					["top"] = 741.0434620649373,
+					["left"] = 60.8000059392915,
+				},
+				["XPerl_Raid_Title6"] = {
+					["top"] = 741.0434620649373,
+					["left"] = 304.0000016850438,
+				},
+				["XPerl_CheckAnchor"] = {
+					["top"] = 504.000045409127,
+					["height"] = 240.0000382968541,
+					["left"] = 432.6667405704768,
+					["width"] = 500.0000155922906,
+				},
+				["XPerl_TargetTargetTarget"] = {
+					["top"] = 1082.103499312214,
+					["left"] = 687.0500431378091,
+				},
+				["XPerl_Party_Anchor"] = {
+					["top"] = 993.0434955274471,
+					["left"] = 0,
+				},
+				["XPerl_Raid_Title10"] = {
+					["top"] = 741.0434620649373,
+					["left"] = 547.1999974307961,
+				},
+				["XPerl_Raid_Title7"] = {
+					["top"] = 741.0434620649373,
+					["left"] = 364.8000076243353,
+				},
+				["XPerl_Focus"] = {
+					["top"] = 913.0435006443104,
+					["left"] = 270.9999892632034,
+				},
+				["XPerl_Target"] = {
+					["top"] = 1099.843530364079,
+					["left"] = 298.100013908514,
+				},
+				["XPerl_TargetTarget"] = {
+					["top"] = 1102.123521670523,
+					["left"] = 536.900002902423,
+				},
+				["XPerl_Raid_Title3"] = {
+					["top"] = 741.0434620649373,
+					["left"] = 121.600011878583,
+				},
+			},
+		},
+		["Nordrassil"] = {
+			["Wiikree"] = {
+				["XPerl_RosterTextAnchor"] = {
+					["top"] = 497.999988535818,
+					["height"] = 249.9999924987451,
+					["left"] = 425.0000271035907,
+					["width"] = 349.9999967447384,
+				},
+				["XPerl_Assists_FrameAnchor"] = {
+					["top"] = 618.5217050578768,
+					["height"] = 123.9999980185364,
+					["left"] = 704.5652130437765,
+					["width"] = 329.9999958955398,
+				},
+				["XPerl_MTList_Anchor"] = {
+					["top"] = 424.0000107565164,
+					["height"] = 80.00000339679465,
+					["left"] = 496.9999721887438,
+					["width"] = 205.9999978770034,
+				},
+				["XPerl_Raid_Title8"] = {
+					["top"] = 741.0435450279412,
+					["left"] = 425.5999780353116,
+				},
+				["XPerl_AdminFrameAnchor"] = {
+					["top"] = 631.5217001749845,
+					["height"] = 149.9999973108709,
+					["left"] = 799.5652442518273,
+					["width"] = 139.9999968862716,
+				},
+				["XPerl_FocusTarget"] = {
+					["top"] = 1091.36066560395,
+					["left"] = 1332.585400798631,
+				},
+				["XPerl_Raid_Title4"] = {
+					["top"] = 741.0435450279412,
+					["left"] = 182.3999843752804,
+				},
+				["XPerl_Raid_Title1"] = {
+					["top"] = 741.0435450279412,
+					["left"] = 0,
+				},
+				["XPerl_Player"] = {
+					["top"] = 1093.531347320944,
+					["left"] = 29.55994065414348,
+				},
+				["XPerl_Raid_Title5"] = {
+					["top"] = 741.0435450279412,
+					["left"] = 243.200008153022,
+				},
+				["XPerl_Raid_Title9"] = {
+					["top"] = 741.0435450279412,
+					["left"] = 486.4000163060441,
+				},
+				["XPerl_PetTarget"] = {
+					["top"] = 1372.158827722354,
+					["left"] = 195.681448135357,
+				},
+				["XPerl_Player_Pet"] = {
+					["top"] = 1050.743433768744,
+					["left"] = 72.0999980290955,
+				},
+				["XPerl_Raid_Title2"] = {
+					["top"] = 741.0435450279412,
+					["left"] = 60.80000203825551,
+				},
+				["XPerl_Raid_Title6"] = {
+					["top"] = 741.0435450279412,
+					["left"] = 304.0000174377729,
+				},
+				["XPerl_CheckAnchor"] = {
+					["top"] = 504.0000141533111,
+					["height"] = 239.9999920741458,
+					["left"] = 349.9999967447384,
+					["width"] = 499.9999849974903,
+				},
+				["XPerl_TargetTargetTarget"] = {
+					["top"] = 1094.517190242746,
+					["left"] = 735.2797030586672,
+				},
+				["XPerl_Party_Anchor"] = {
+					["top"] = 993.0434942644788,
+					["left"] = 0,
+				},
+				["XPerl_Raid_Title10"] = {
+					["top"] = 741.0435450279412,
+					["left"] = 547.2000255907949,
+				},
+				["XPerl_Raid_Title7"] = {
+					["top"] = 741.0435450279412,
+					["left"] = 364.7999687505608,
+				},
+				["XPerl_Focus"] = {
+					["top"] = 1092.043504405609,
+					["left"] = 1120.795329370384,
+				},
+				["XPerl_Target"] = {
+					["top"] = 1092.287444464317,
+					["left"] = 240.7949776627943,
+				},
+				["XPerl_TargetTarget"] = {
+					["top"] = 1102.123532021202,
+					["left"] = 536.9000217843274,
+				},
+				["XPerl_Raid_Title3"] = {
+					["top"] = 741.0435450279412,
+					["left"] = 121.600004076511,
+				},
+			},
+		},
+		["Boulderfist"] = {
+			["Wiikree"] = {
+				["XPerl_RosterTextAnchor"] = {
+					["height"] = 250,
+					["top"] = 497.9999694824219,
+					["left"] = 337.0000305175781,
+					["width"] = 349.9999694824219,
+				},
+				["XPerl_Focus"] = {
+					["top"] = 607.9999602317803,
+					["left"] = 216.8000032305718,
+				},
+				["XPerl_MTList_Anchor"] = {
+					["height"] = 174.0000305175781,
+					["top"] = 274.8587951660156,
+					["left"] = 1004.000183105469,
+					["width"] = 306.0000305175781,
+				},
+				["XPerl_Raid_Title8"] = {
+					["top"] = 739.9439075103983,
+					["left"] = 436.8001041650787,
+				},
+				["XPerl_AdminFrameAnchor"] = {
+					["height"] = 150,
+					["top"] = 459,
+					["left"] = 442,
+					["width"] = 140,
+				},
+				["XPerl_Raid_TitlePets"] = {
+					["top"] = 630.5181246298271,
+					["left"] = 473.8254465136743,
+				},
+				["XPerl_Raid_Title4"] = {
+					["top"] = 739.9439075103983,
+					["left"] = 187.2000272035602,
+				},
+				["XPerl_FocusTarget"] = {
+					["top"] = 608.0000201633993,
+					["left"] = 414.6999624201235,
+				},
+				["XPerl_Raid_Title10"] = {
+					["top"] = 741.0434620649373,
+					["left"] = 547.1999974307961,
+				},
+				["XPerl_Raid_Title1"] = {
+					["top"] = 739.9438586822726,
+					["left"] = 0,
+				},
+				["XPerl_Player"] = {
+					["top"] = 1081.690099128595,
+					["left"] = 26.7084461279012,
+				},
+				["XPerl_TargetTarget"] = {
+					["top"] = 1081.690215500297,
+					["left"] = 450.0652735909207,
+				},
+				["XPerl_Raid_Title9"] = {
+					["top"] = 739.9439075103983,
+					["left"] = 499.2001539230369,
+				},
+				["XPerl_Raid_Title5"] = {
+					["top"] = 739.9439075103983,
+					["left"] = 249.6000281333927,
+				},
+				["XPerl_Player_Pet"] = {
+					["top"] = 1001.47448245671,
+					["left"] = 156.6069995912994,
+				},
+				["XPerl_TargetTargetTarget"] = {
+					["top"] = 1081.690215500297,
+					["left"] = 604.0655044696105,
+				},
+				["XPerl_Raid_Title6"] = {
+					["top"] = 739.9439075103983,
+					["left"] = 312.0000778913509,
+				},
+				["XPerl_CheckAnchor"] = {
+					["height"] = 240,
+					["top"] = 503.9999694824219,
+					["left"] = 262.0000305175781,
+					["width"] = 500,
+				},
+				["XPerl_OptionsAnchor"] = {
+					["height"] = 540,
+					["top"] = 855.2115478515625,
+					["left"] = 337.4297180175781,
+					["width"] = 702.60546875,
+				},
+				["XPerl_Party_Anchor"] = {
+					["top"] = 1002.507046188519,
+					["left"] = 0,
+				},
+				["XPerl_PetTarget"] = {
+					["top"] = 994.1428541635978,
+					["left"] = 233.500005178792,
+				},
+				["XPerl_Raid_Title7"] = {
+					["top"] = 739.9439075103983,
+					["left"] = 374.4001032352462,
+				},
+				["XPerl_Assists_FrameAnchor"] = {
+					["height"] = 124,
+					["top"] = 514.239501953125,
+					["left"] = 284.8169555664063,
+					["width"] = 330,
+				},
+				["XPerl_Target"] = {
+					["top"] = 1081.690099128595,
+					["left"] = 218.8746263260109,
+				},
+				["XPerl_Raid_Title2"] = {
+					["top"] = 739.9439075103983,
+					["left"] = 62.40000092983246,
+				},
+				["XPerl_Raid_Title3"] = {
+					["top"] = 739.9439075103983,
+					["left"] = 124.8000140666964,
+				},
+			},
+		},
+		["Frostmane"] = {
+			["Kiinai"] = {
+				["XPerl_RosterTextAnchor"] = {
+					["top"] = 497.9999694824219,
+					["height"] = 250,
+					["left"] = 337.0000305175781,
+					["width"] = 349.9999694824219,
+				},
+				["XPerl_Focus"] = {
+					["top"] = 607.9999602317803,
+					["left"] = 216.8000032305718,
+				},
+				["XPerl_MTList_Anchor"] = {
+					["top"] = 191.8552551269531,
+					["height"] = 95.99997711181641,
+					["left"] = 1147.014770507813,
+					["width"] = 305.9999389648438,
+				},
+				["XPerl_Raid_Title8"] = {
+					["top"] = 761.9246695566872,
+					["left"] = 651.2347753291542,
+				},
+				["XPerl_AdminFrameAnchor"] = {
+					["top"] = 459,
+					["height"] = 150,
+					["left"] = 442,
+					["width"] = 140,
+				},
+				["XPerl_Raid_TitlePets"] = {
+					["top"] = 630.5181246298271,
+					["left"] = 473.8254465136743,
+				},
+				["XPerl_Raid_Title4"] = {
+					["top"] = 761.9246695566872,
+					["left"] = 187.2000027894974,
+				},
+				["XPerl_FocusTarget"] = {
+					["top"] = 608.0000201633993,
+					["left"] = 414.6999624201235,
+				},
+				["XPerl_Raid_Title10"] = {
+					["top"] = 741.0435325986331,
+					["left"] = 547.2000385186063,
+				},
+				["XPerl_Raid_Title1"] = {
+					["top"] = 761.9246695566872,
+					["left"] = 0,
+				},
+				["XPerl_Player"] = {
+					["top"] = 1096.846453216866,
+					["left"] = 26.40000267028813,
+				},
+				["XPerl_Raid_Title2"] = {
+					["top"] = 761.9246695566872,
+					["left"] = 62.40000703334817,
+				},
+				["XPerl_Raid_Title9"] = {
+					["top"] = 761.9246695566872,
+					["left"] = 713.6348739152381,
+				},
+				["XPerl_Raid_Title5"] = {
+					["top"] = 761.9246695566872,
+					["left"] = 249.6000281333927,
+				},
+				["XPerl_Player_Pet"] = {
+					["top"] = 1001.47448245671,
+					["left"] = 156.6069995912994,
+				},
+				["XPerl_TargetTargetTarget"] = {
+					["top"] = 1096.663559437686,
+					["left"] = 646.7651339961049,
+				},
+				["XPerl_Raid_Title6"] = {
+					["top"] = 761.9246695566872,
+					["left"] = 312.0000290632252,
+				},
+				["XPerl_CheckAnchor"] = {
+					["top"] = 503.9999694824219,
+					["height"] = 240,
+					["left"] = 262.0000305175781,
+					["width"] = 500,
+				},
+				["XPerl_Raid_Title7"] = {
+					["top"] = 761.9246695566872,
+					["left"] = 588.8348720555732,
+				},
+				["XPerl_Party_Anchor"] = {
+					["top"] = 1018.446401894784,
+					["left"] = 0,
+				},
+				["XPerl_PetTarget"] = {
+					["top"] = 994.1428541635978,
+					["left"] = 233.500005178792,
+				},
+				["XPerl_OptionsAnchor"] = {
+					["top"] = 959.13037109375,
+					["height"] = 540,
+					["left"] = 221.6303863525391,
+					["width"] = 711.0870361328125,
+				},
+				["XPerl_Assists_FrameAnchor"] = {
+					["top"] = 514.239501953125,
+					["height"] = 124,
+					["left"] = 284.8169555664063,
+					["width"] = 330,
+				},
+				["XPerl_Target"] = {
+					["top"] = 1096.5435235228,
+					["left"] = 219.5245790378522,
+				},
+				["XPerl_TargetTarget"] = {
+					["top"] = 1095.718456871386,
+					["left"] = 490.631257426041,
+				},
+				["XPerl_Raid_Title3"] = {
+					["top"] = 761.9246695566872,
+					["left"] = 124.8000140666964,
+				},
+			},
+			["Etni"] = {
+				["XPerl_RosterTextAnchor"] = {
+					["height"] = 250,
+					["top"] = 497.9999694824219,
+					["left"] = 337.0000305175781,
+					["width"] = 349.9999694824219,
+				},
+				["XPerl_Focus"] = {
+					["top"] = 1096.556765277639,
+					["left"] = 814.3331708025788,
+				},
+				["XPerl_MTList_Anchor"] = {
+					["height"] = 69.9999908624774,
+					["top"] = 167.0000935541737,
+					["left"] = 1388.999953960944,
+					["width"] = 305.9999298519419,
+				},
+				["XPerl_Raid_Title8"] = {
+					["top"] = 728.7302986466074,
+					["left"] = 651.2349577759675,
+				},
+				["XPerl_AdminFrameAnchor"] = {
+					["height"] = 150,
+					["top"] = 459,
+					["left"] = 442,
+					["width"] = 140,
+				},
+				["XPerl_Raid_TitlePets"] = {
+					["top"] = 630.5181246298271,
+					["left"] = 473.8254465136743,
+				},
+				["XPerl_Raid_Title10"] = {
+					["top"] = 728.7302986466074,
+					["left"] = 547.2348746914284,
+				},
+				["XPerl_FocusTarget"] = {
+					["top"] = 1091.166496811354,
+					["left"] = 1039.859178522483,
+				},
+				["XPerl_Raid_Title4"] = {
+					["top"] = 728.7302986466074,
+					["left"] = 187.2000056010428,
+				},
+				["XPerl_Raid_Title1"] = {
+					["top"] = 728.7302986466074,
+					["left"] = 0,
+				},
+				["XPerl_Player"] = {
+					["top"] = 1096.5435235228,
+					["left"] = 26.40000267028813,
+				},
+				["XPerl_TargetTarget"] = {
+					["top"] = 1095.718456871386,
+					["left"] = 490.631257426041,
+				},
+				["XPerl_Raid_Title9"] = {
+					["top"] = 728.7302986466074,
+					["left"] = 713.6348924657889,
+				},
+				["XPerl_Raid_Title5"] = {
+					["top"] = 728.7302986466074,
+					["left"] = 249.6000266615408,
+				},
+				["XPerl_Player_Pet"] = {
+					["top"] = 986.9029289125335,
+					["left"] = 153.0898561977874,
+				},
+				["XPerl_TargetTargetTarget"] = {
+					["top"] = 1096.663559437686,
+					["left"] = 646.7651339961049,
+				},
+				["XPerl_Raid_Title6"] = {
+					["top"] = 728.7302986466074,
+					["left"] = 312.0000189318133,
+				},
+				["XPerl_CheckAnchor"] = {
+					["height"] = 240,
+					["top"] = 503.9999694824219,
+					["left"] = 262.0000305175781,
+					["width"] = 500,
+				},
+				["XPerl_Assists_FrameAnchor"] = {
+					["height"] = 124,
+					["top"] = 514.239501953125,
+					["left"] = 284.8169555664063,
+					["width"] = 330,
+				},
+				["XPerl_Party_Anchor"] = {
+					["top"] = 984.3246805733962,
+					["left"] = 0,
+				},
+				["XPerl_OptionsAnchor"] = {
+					["height"] = 539.9999333663736,
+					["top"] = 852.9296343985834,
+					["left"] = 512.608805296333,
+					["width"] = 700.0001335484072,
+				},
+				["XPerl_PetTarget"] = {
+					["top"] = 1250.739072770597,
+					["left"] = 193.8735553840357,
+				},
+				["XPerl_Raid_Title7"] = {
+					["top"] = 728.7302986466074,
+					["left"] = 588.8348503447932,
+				},
+				["XPerl_Target"] = {
+					["top"] = 1096.5435235228,
+					["left"] = 219.9999879837033,
+				},
+				["XPerl_Raid_Title2"] = {
+					["top"] = 728.7302986466074,
+					["left"] = 62.40000666538519,
+				},
+				["XPerl_Raid_Title3"] = {
+					["top"] = 728.7302986466074,
+					["left"] = 124.8000133307704,
+				},
+			},
+			["Elturko"] = {
+				["XPerl_RosterTextAnchor"] = {
+					["top"] = 498.0000333168132,
+					["height"] = 249.999991143632,
+					["left"] = 439.4000133970139,
+					["width"] = 349.999994798641,
+				},
+				["XPerl_Focus"] = {
+					["top"] = 913.043552314531,
+					["left"] = 271.0000131439748,
+				},
+				["XPerl_MTList_Anchor"] = {
+					["top"] = 424.0000500455084,
+					["height"] = 80.00000112461817,
+					["left"] = 511.4000117100866,
+					["width"] = 205.9999981724955,
+				},
+				["XPerl_Raid_Title8"] = {
+					["top"] = 741.0435325986331,
+					["left"] = 425.5999723784651,
+				},
+				["XPerl_TargetTargetTarget"] = {
+					["top"] = 1082.103555757644,
+					["left"] = 687.0499941516364,
+				},
+				["XPerl_FocusTarget"] = {
+					["top"] = 913.0435223703796,
+					["left"] = 459.5000451372475,
+				},
+				["XPerl_Raid_Title4"] = {
+					["top"] = 741.0435325986331,
+					["left"] = 182.3999984444227,
+				},
+				["XPerl_Raid_Title1"] = {
+					["top"] = 741.0435325986331,
+					["left"] = 0,
+				},
+				["XPerl_Player"] = {
+					["top"] = 1099.843617960679,
+					["left"] = 25.29999830615522,
+				},
+				["XPerl_Raid_Title9"] = {
+					["top"] = 741.0435325986331,
+					["left"] = 486.3999766583103,
+				},
+				["XPerl_Raid_Title5"] = {
+					["top"] = 741.0435325986331,
+					["left"] = 243.1999883291551,
+				},
+				["XPerl_Player_Pet"] = {
+					["top"] = 1050.743495656293,
+					["left"] = 72.09999813251774,
+				},
+				["XPerl_Assists_FrameAnchor"] = {
+					["top"] = 618.5217813586245,
+					["height"] = 123.9999940957546,
+					["left"] = 725.4347858878133,
+					["width"] = 330.0000012651955,
+				},
+				["XPerl_Raid_Title6"] = {
+					["top"] = 741.0435325986331,
+					["left"] = 304.0000213992257,
+				},
+				["XPerl_CheckAnchor"] = {
+					["top"] = 504.0000241792906,
+					["height"] = 239.9999943769092,
+					["left"] = 364.4000016588118,
+					["width"] = 499.9999822872639,
+				},
+				["XPerl_TargetTarget"] = {
+					["top"] = 1102.123536762043,
+					["left"] = 536.9000056231162,
+				},
+				["XPerl_Party_Anchor"] = {
+					["top"] = 993.0436276164913,
+					["left"] = 0,
+				},
+				["XPerl_AdminFrameAnchor"] = {
+					["top"] = 631.521719574914,
+					["height"] = 149.9999964855682,
+					["left"] = 820.4348271472422,
+					["width"] = 139.9999997188455,
+				},
+				["XPerl_Raid_Title7"] = {
+					["top"] = 741.0435325986331,
+					["left"] = 364.7999968888454,
+				},
+				["XPerl_Raid_Title10"] = {
+					["top"] = 741.0435325986331,
+					["left"] = 547.2000385186063,
+				},
+				["XPerl_Target"] = {
+					["top"] = 1099.843617960679,
+					["left"] = 298.1000209195161,
+				},
+				["XPerl_Raid_Title2"] = {
+					["top"] = 741.0435325986331,
+					["left"] = 60.79999708228878,
+				},
+				["XPerl_Raid_Title3"] = {
+					["top"] = 741.0435325986331,
+					["left"] = 121.5999941645776,
+				},
+			},
+			["Slakthuset"] = {
+				["XPerl_RosterTextAnchor"] = {
+					["top"] = 497.9999694824219,
+					["height"] = 250,
+					["left"] = 337.0000305175781,
+					["width"] = 349.9999694824219,
+				},
+				["XPerl_Focus"] = {
+					["top"] = 607.9999602317803,
+					["left"] = 216.8000032305718,
+				},
+				["XPerl_MTList_Anchor"] = {
+					["top"] = 194.5362883706539,
+					["height"] = 96.00000674770899,
+					["left"] = 1376.797217076118,
+					["width"] = 305.9999298519419,
+				},
+				["XPerl_Raid_Title8"] = {
+					["top"] = 754.701385241142,
+					["left"] = 651.2350153564183,
+				},
+				["XPerl_AdminFrameAnchor"] = {
+					["top"] = 459,
+					["height"] = 150,
+					["left"] = 442,
+					["width"] = 140,
+				},
+				["XPerl_Raid_TitlePets"] = {
+					["top"] = 630.5181246298271,
+					["left"] = 473.8254465136743,
+				},
+				["XPerl_Raid_Title4"] = {
+					["top"] = 754.701385241142,
+					["left"] = 187.2000056010428,
+				},
+				["XPerl_FocusTarget"] = {
+					["top"] = 608.0000201633993,
+					["left"] = 414.6999624201235,
+				},
+				["XPerl_Raid_Title10"] = {
+					["top"] = 754.701385241142,
+					["left"] = 547.2348746914284,
+				},
+				["XPerl_Raid_Title1"] = {
+					["top"] = 754.701385241142,
+					["left"] = 0,
+				},
+				["XPerl_Player"] = {
+					["top"] = 1096.5435235228,
+					["left"] = 26.40000267028813,
+				},
+				["XPerl_Raid_Title2"] = {
+					["top"] = 754.701385241142,
+					["left"] = 62.40000666538519,
+				},
+				["XPerl_Raid_Title9"] = {
+					["top"] = 754.701385241142,
+					["left"] = 713.6348924657889,
+				},
+				["XPerl_Raid_Title5"] = {
+					["top"] = 754.701385241142,
+					["left"] = 249.6000266615408,
+				},
+				["XPerl_Player_Pet"] = {
+					["top"] = 1011.018801397779,
+					["left"] = 153.0898561977874,
+				},
+				["XPerl_TargetTargetTarget"] = {
+					["top"] = 1096.663559437686,
+					["left"] = 646.7651339961049,
+				},
+				["XPerl_Raid_Title6"] = {
+					["top"] = 754.701385241142,
+					["left"] = 312.0000189318133,
+				},
+				["XPerl_CheckAnchor"] = {
+					["top"] = 503.9999694824219,
+					["height"] = 240,
+					["left"] = 262.0000305175781,
+					["width"] = 500,
+				},
+				["XPerl_Raid_Title7"] = {
+					["top"] = 754.701385241142,
+					["left"] = 588.8348503447932,
+				},
+				["XPerl_Party_Anchor"] = {
+					["top"] = 1014.00567562236,
+					["left"] = 0,
+				},
+				["XPerl_PetTarget"] = {
+					["top"] = 1378.096467673277,
+					["left"] = 191.3982747392291,
+				},
+				["XPerl_OptionsAnchor"] = {
+					["top"] = 910.8983926465154,
+					["height"] = 540.0000053419363,
+					["left"] = 371.8912542029968,
+					["width"] = 711.0871052616596,
+				},
+				["XPerl_Assists_FrameAnchor"] = {
+					["top"] = 514.239501953125,
+					["height"] = 124,
+					["left"] = 284.8169555664063,
+					["width"] = 330,
+				},
+				["XPerl_Target"] = {
+					["top"] = 1096.5435235228,
+					["left"] = 219.9999879837033,
+				},
+				["XPerl_TargetTarget"] = {
+					["top"] = 1095.718456871386,
+					["left"] = 490.631257426041,
+				},
+				["XPerl_Raid_Title3"] = {
+					["top"] = 754.701385241142,
+					["left"] = 124.8000133307704,
+				},
+			},
+			["Oween"] = {
+				["XPerl_RosterTextAnchor"] = {
+					["top"] = 497.9999694824219,
+					["height"] = 250,
+					["left"] = 337.0000305175781,
+					["width"] = 349.9999694824219,
+				},
+				["XPerl_Focus"] = {
+					["top"] = 607.9999602317803,
+					["left"] = 216.8000032305718,
+				},
+				["XPerl_RaidMonitor_Anchor"] = {
+					["top"] = 424.0000093006645,
+					["height"] = 79.99999234062918,
+					["left"] = 582.6666682167775,
+					["width"] = 200.0000027354896,
+				},
+				["XPerl_MTList_Anchor"] = {
+					["top"] = 191.8552551269531,
+					["height"] = 95.99997711181641,
+					["left"] = 1147.014770507813,
+					["width"] = 305.9999389648438,
+				},
+				["XPerl_Raid_Title8"] = {
+					["top"] = 761.9246695566872,
+					["left"] = 651.2347753291542,
+				},
+				["XPerl_AdminFrameAnchor"] = {
+					["top"] = 459,
+					["height"] = 150,
+					["left"] = 442,
+					["width"] = 140,
+				},
+				["XPerl_Raid_TitlePets"] = {
+					["top"] = 630.5181246298271,
+					["left"] = 473.8254465136743,
+				},
+				["XPerl_Raid_Title4"] = {
+					["top"] = 761.9246695566872,
+					["left"] = 187.2000027894974,
+				},
+				["XPerl_FocusTarget"] = {
+					["top"] = 974.1049502034897,
+					["left"] = 1203.854211809368,
+				},
+				["XPerl_Raid_Title10"] = {
+					["top"] = 741.0435325986331,
+					["left"] = 547.2000385186063,
+				},
+				["XPerl_Raid_Title1"] = {
+					["top"] = 761.9246695566872,
+					["left"] = 0,
+				},
+				["XPerl_Player"] = {
+					["top"] = 1096.846453216866,
+					["left"] = 26.40000267028813,
+				},
+				["XPerl_Raid_Title2"] = {
+					["top"] = 761.9246695566872,
+					["left"] = 62.40000703334817,
+				},
+				["XPerl_Raid_Title9"] = {
+					["top"] = 761.9246695566872,
+					["left"] = 713.6348739152381,
+				},
+				["XPerl_Raid_Title5"] = {
+					["top"] = 761.9246695566872,
+					["left"] = 249.6000281333927,
+				},
+				["XPerl_Player_Pet"] = {
+					["top"] = 1017.511745580439,
+					["left"] = 153.0898436020642,
+				},
+				["XPerl_TargetTargetTarget"] = {
+					["top"] = 1087.195458983839,
+					["left"] = 723.4439429233644,
+				},
+				["XPerl_Raid_Title6"] = {
+					["top"] = 761.9246695566872,
+					["left"] = 312.0000290632252,
+				},
+				["XPerl_CheckAnchor"] = {
+					["top"] = 503.9999694824219,
+					["height"] = 240,
+					["left"] = 262.0000305175781,
+					["width"] = 500,
+				},
+				["XPerl_Raid_Title7"] = {
+					["top"] = 761.9246695566872,
+					["left"] = 588.8348720555732,
+				},
+				["XPerl_Party_Anchor"] = {
+					["top"] = 1018.446401894784,
+					["left"] = 0,
+				},
+				["XPerl_PetTarget"] = {
+					["top"] = 994.1428541635978,
+					["left"] = 233.500005178792,
+				},
+				["XPerl_OptionsAnchor"] = {
+					["top"] = 845.4583329885477,
+					["height"] = 540.0001737035882,
+					["left"] = 547.9450508530932,
+					["width"] = 727.3657860419046,
+				},
+				["XPerl_Assists_FrameAnchor"] = {
+					["top"] = 514.239501953125,
+					["height"] = 124,
+					["left"] = 284.8169555664063,
+					["width"] = 330,
+				},
+				["XPerl_Target"] = {
+					["top"] = 1089.179304981903,
+					["left"] = 216.8050539204966,
+				},
+				["XPerl_TargetTarget"] = {
+					["top"] = 1087.337312986505,
+					["left"] = 500.2769126763517,
+				},
+				["XPerl_Raid_Title3"] = {
+					["top"] = 761.9246695566872,
+					["left"] = 124.8000140666964,
+				},
+			},
+			["Axrio"] = {
+				["XPerl_RosterTextAnchor"] = {
+					["top"] = 498,
+					["height"] = 249.9999847412109,
+					["left"] = 304.9999694824219,
+					["width"] = 350.0000305175781,
+				},
+				["XPerl_Focus"] = {
+					["top"] = 568,
+					["left"] = 271,
+				},
+				["XPerl_MTList_Anchor"] = {
+					["top"] = 424,
+					["height"] = 80,
+					["left"] = 377.0000305175781,
+					["width"] = 206,
+				},
+				["XPerl_Raid_Title8"] = {
+					["top"] = 396.0000059008598,
+					["left"] = 425.6000063419342,
+				},
+				["XPerl_TargetTargetTarget"] = {
+					["top"] = 737.0600310075679,
+					["left"] = 687.050019800663,
+				},
+				["XPerl_FocusTarget"] = {
+					["top"] = 568.0000452586573,
+					["left"] = 459.5000471064013,
+				},
+				["XPerl_Raid_Title4"] = {
+					["top"] = 396.0000059008598,
+					["left"] = 182.4000149250032,
+				},
+				["XPerl_Raid_Title1"] = {
+					["top"] = 396.0000059008598,
+					["left"] = 0,
+				},
+				["XPerl_Player"] = {
+					["top"] = 754.8000224633652,
+					["left"] = 25.29999845027919,
+				},
+				["XPerl_Raid_Title9"] = {
+					["top"] = 396.0000059008598,
+					["left"] = 486.4000560760505,
+				},
+				["XPerl_Raid_Title5"] = {
+					["top"] = 396.0000059008598,
+					["left"] = 243.2000280380253,
+				},
+				["XPerl_Player_Pet"] = {
+					["top"] = 705.7000062925472,
+					["left"] = 72.09999877214432,
+				},
+				["XPerl_Raid_Title6"] = {
+					["top"] = 396.0000059008598,
+					["left"] = 304.000004529953,
+				},
+				["XPerl_CheckAnchor"] = {
+					["top"] = 504.0000305175781,
+					["height"] = 240,
+					["left"] = 229.9999847412109,
+					["width"] = 499.9999694824219,
+				},
+				["XPerl_Assists_FrameAnchor"] = {
+					["top"] = 446.0000305175781,
+					["height"] = 123.9999923706055,
+					["left"] = 315,
+					["width"] = 330,
+				},
+				["XPerl_Party_Anchor"] = {
+					["top"] = 647.9999608278267,
+					["left"] = 0,
+				},
+				["XPerl_TargetTarget"] = {
+					["top"] = 757.0799760425471,
+					["left"] = 536.9000154733658,
+				},
+				["XPerl_AdminFrameAnchor"] = {
+					["top"] = 458.9999694824219,
+					["height"] = 150,
+					["left"] = 410,
+					["width"] = 140,
+				},
+				["XPerl_Raid_Title7"] = {
+					["top"] = 396.0000059008598,
+					["left"] = 364.8000298500065,
+				},
+				["XPerl_Target"] = {
+					["top"] = 754.8000224633652,
+					["left"] = 298.1000064611435,
+				},
+				["XPerl_Raid_Title2"] = {
+					["top"] = 396.0000059008598,
+					["left"] = 60.80000700950632,
+				},
+				["XPerl_Raid_Title3"] = {
+					["top"] = 396.0000059008598,
+					["left"] = 121.6000140190126,
+				},
+			},
+			["Juuna"] = {
+				["XPerl_RosterTextAnchor"] = {
+					["height"] = 250,
+					["top"] = 497.9999694824219,
+					["left"] = 337.0000305175781,
+					["width"] = 349.9999694824219,
+				},
+				["XPerl_Focus"] = {
+					["top"] = 607.9999602317803,
+					["left"] = 216.8000032305718,
+				},
+				["XPerl_MTList_Anchor"] = {
+					["height"] = 95.99997711181641,
+					["top"] = 191.8552551269531,
+					["left"] = 1147.014770507813,
+					["width"] = 305.9999389648438,
+				},
+				["XPerl_Raid_Title8"] = {
+					["top"] = 761.9246695566872,
+					["left"] = 651.2347753291542,
+				},
+				["XPerl_AdminFrameAnchor"] = {
+					["height"] = 150,
+					["top"] = 459,
+					["left"] = 442,
+					["width"] = 140,
+				},
+				["XPerl_Raid_TitlePets"] = {
+					["top"] = 630.5181246298271,
+					["left"] = 473.8254465136743,
+				},
+				["XPerl_Raid_Title4"] = {
+					["top"] = 761.9246695566872,
+					["left"] = 187.2000027894974,
+				},
+				["XPerl_FocusTarget"] = {
+					["top"] = 608.0000201633993,
+					["left"] = 414.6999624201235,
+				},
+				["XPerl_Raid_Title10"] = {
+					["top"] = 741.0435325986331,
+					["left"] = 547.2000385186063,
+				},
+				["XPerl_Raid_Title1"] = {
+					["top"] = 761.9246695566872,
+					["left"] = 0,
+				},
+				["XPerl_Player"] = {
+					["top"] = 1096.846453216866,
+					["left"] = 26.40000267028813,
+				},
+				["XPerl_TargetTarget"] = {
+					["top"] = 1095.718456871386,
+					["left"] = 490.631257426041,
+				},
+				["XPerl_Raid_Title9"] = {
+					["top"] = 761.9246695566872,
+					["left"] = 713.6348739152381,
+				},
+				["XPerl_Raid_Title5"] = {
+					["top"] = 761.9246695566872,
+					["left"] = 249.6000281333927,
+				},
+				["XPerl_Player_Pet"] = {
+					["top"] = 1001.47448245671,
+					["left"] = 156.6069995912994,
+				},
+				["XPerl_TargetTargetTarget"] = {
+					["top"] = 1097.994426732634,
+					["left"] = 651.2977122585587,
+				},
+				["XPerl_Raid_Title6"] = {
+					["top"] = 761.9246695566872,
+					["left"] = 312.0000290632252,
+				},
+				["XPerl_CheckAnchor"] = {
+					["height"] = 240,
+					["top"] = 503.9999694824219,
+					["left"] = 262.0000305175781,
+					["width"] = 500,
+				},
+				["XPerl_OptionsAnchor"] = {
+					["height"] = 540,
+					["top"] = 959.13037109375,
+					["left"] = 221.6303863525391,
+					["width"] = 711.0870361328125,
+				},
+				["XPerl_Party_Anchor"] = {
+					["top"] = 1018.446401894784,
+					["left"] = 0,
+				},
+				["XPerl_PetTarget"] = {
+					["top"] = 994.1428541635978,
+					["left"] = 233.500005178792,
+				},
+				["XPerl_Raid_Title7"] = {
+					["top"] = 761.9246695566872,
+					["left"] = 588.8348720555732,
+				},
+				["XPerl_Assists_FrameAnchor"] = {
+					["height"] = 124,
+					["top"] = 514.239501953125,
+					["left"] = 284.8169555664063,
+					["width"] = 330,
+				},
+				["XPerl_Target"] = {
+					["top"] = 1096.5435235228,
+					["left"] = 219.5245790378522,
+				},
+				["XPerl_Raid_Title2"] = {
+					["top"] = 761.9246695566872,
+					["left"] = 62.40000703334817,
+				},
+				["XPerl_Raid_Title3"] = {
+					["top"] = 761.9246695566872,
+					["left"] = 124.8000140666964,
+				},
+			},
+			["Askfatet"] = {
+				["XPerl_RosterTextAnchor"] = {
+					["top"] = 497.999988535818,
+					["height"] = 249.9999924987451,
+					["left"] = 425.0000271035907,
+					["width"] = 349.9999967447384,
+				},
+				["XPerl_Assists_FrameAnchor"] = {
+					["top"] = 618.5217050578768,
+					["height"] = 123.9999980185364,
+					["left"] = 704.5652130437765,
+					["width"] = 329.9999958955398,
+				},
+				["XPerl_MTList_Anchor"] = {
+					["top"] = 424.0000107565164,
+					["height"] = 80.00000339679465,
+					["left"] = 496.9999721887438,
+					["width"] = 205.9999978770034,
+				},
+				["XPerl_Raid_Title8"] = {
+					["top"] = 741.0435450279412,
+					["left"] = 425.5999780353116,
+				},
+				["XPerl_AdminFrameAnchor"] = {
+					["top"] = 631.5217001749845,
+					["height"] = 149.9999973108709,
+					["left"] = 799.5652442518273,
+					["width"] = 139.9999968862716,
+				},
+				["XPerl_FocusTarget"] = {
+					["top"] = 913.0434750141358,
+					["left"] = 459.5000325187742,
+				},
+				["XPerl_Raid_Title4"] = {
+					["top"] = 741.0435450279412,
+					["left"] = 182.3999843752804,
+				},
+				["XPerl_Raid_Title1"] = {
+					["top"] = 741.0435450279412,
+					["left"] = 0,
+				},
+				["XPerl_Player"] = {
+					["top"] = 1099.843517260608,
+					["left"] = 25.30000062620595,
+				},
+				["XPerl_PetTarget"] = {
+					["top"] = 1495.061975721552,
+					["left"] = 187.9999934894769,
+				},
+				["XPerl_Raid_Title9"] = {
+					["top"] = 741.0435450279412,
+					["left"] = 486.4000163060441,
+				},
+				["XPerl_Raid_Title5"] = {
+					["top"] = 741.0435450279412,
+					["left"] = 243.200008153022,
+				},
+				["XPerl_Player_Pet"] = {
+					["top"] = 1050.743433768744,
+					["left"] = 72.0999980290955,
+				},
+				["XPerl_TargetTarget"] = {
+					["top"] = 1102.123532021202,
+					["left"] = 536.9000217843274,
+				},
+				["XPerl_Raid_Title6"] = {
+					["top"] = 741.0435450279412,
+					["left"] = 304.0000174377729,
+				},
+				["XPerl_CheckAnchor"] = {
+					["top"] = 504.0000141533111,
+					["height"] = 239.9999920741458,
+					["left"] = 349.9999967447384,
+					["width"] = 499.9999849974903,
+				},
+				["XPerl_TargetTargetTarget"] = {
+					["top"] = 1082.103467948228,
+					["left"] = 687.0499747867635,
+				},
+				["XPerl_Party_Anchor"] = {
+					["top"] = 993.0434942644788,
+					["left"] = 0,
+				},
+				["XPerl_Focus"] = {
+					["top"] = 913.0434760701832,
+					["left"] = 271.0000096950181,
+				},
+				["XPerl_Raid_Title7"] = {
+					["top"] = 741.0435450279412,
+					["left"] = 364.7999687505608,
+				},
+				["XPerl_Raid_Title10"] = {
+					["top"] = 741.0435450279412,
+					["left"] = 547.2000255907949,
+				},
+				["XPerl_Target"] = {
+					["top"] = 1099.843517260608,
+					["left"] = 298.0999971978011,
+				},
+				["XPerl_Raid_Title2"] = {
+					["top"] = 741.0435450279412,
+					["left"] = 60.80000203825551,
+				},
+				["XPerl_Raid_Title3"] = {
+					["top"] = 741.0435450279412,
+					["left"] = 121.600004076511,
+				},
+			},
+			["Kargoth"] = {
+				["XPerl_RosterTextAnchor"] = {
+					["top"] = 498.0000006838724,
+					["height"] = 250.0000077961453,
+					["left"] = 507.6667394078937,
+					["width"] = 350.0000179174567,
+				},
+				["XPerl_Assists_FrameAnchor"] = {
+					["top"] = 618.5216973904319,
+					["height"] = 124.0000051974302,
+					["left"] = 824.3719713257776,
+					["width"] = 330.0000088903411,
+				},
+				["XPerl_MTList_Anchor"] = {
+					["top"] = 424.0000093006645,
+					["height"] = 80.00000109419584,
+					["left"] = 579.6666458541502,
+					["width"] = 205.9999949393443,
+				},
+				["XPerl_Raid_Title8"] = {
+					["top"] = 748.5103525694436,
+					["left"] = 750.1720456529889,
+				},
+				["XPerl_AdminFrameAnchor"] = {
+					["top"] = 631.5217942951501,
+					["height"] = 149.9999976748339,
+					["left"] = 919.3719791903102,
+					["width"] = 140.0000106684094,
+				},
+				["XPerl_Focus"] = {
+					["top"] = 1097.043471648121,
+					["left"] = 913.3720044935888,
+				},
+				["XPerl_FocusTarget"] = {
+					["top"] = 1097.043551005527,
+					["left"] = 1101.872018287985,
+				},
+				["XPerl_Raid_Title4"] = {
+					["top"] = 748.5103525694436,
+					["left"] = 187.1999976467769,
+				},
+				["XPerl_Raid_Title1"] = {
+					["top"] = 748.5102965466163,
+					["left"] = 0,
+				},
+				["XPerl_Player"] = {
+					["top"] = 1096.543505693663,
+					["left"] = 26.40000237762775,
+				},
+				["XPerl_TargetTarget"] = {
+					["top"] = 1095.753474003628,
+					["left"] = 589.8820268164658,
+				},
+				["XPerl_Raid_Title9"] = {
+					["top"] = 748.5103525694436,
+					["left"] = 812.5721195656845,
+				},
+				["XPerl_Raid_Title5"] = {
+					["top"] = 748.5103525694436,
+					["left"] = 249.600015536645,
+				},
+				["XPerl_Player_Pet"] = {
+					["top"] = 1012.997396976504,
+					["left"] = 142.3210188659194,
+				},
+				["XPerl_PetTarget"] = {
+					["top"] = 925.7828112913624,
+					["left"] = 136.7972469485785,
+				},
+				["XPerl_Raid_Title6"] = {
+					["top"] = 748.5103525694436,
+					["left"] = 312.0000054150994,
+				},
+				["XPerl_CheckAnchor"] = {
+					["top"] = 504.000045409127,
+					["height"] = 240.0000032825875,
+					["left"] = 432.6667405704768,
+					["width"] = 500.0000155922906,
+				},
+				["XPerl_TargetTargetTarget"] = {
+					["top"] = 1094.670005111746,
+					["left"] = 765.59178772632,
+				},
+				["XPerl_Party_Anchor"] = {
+					["top"] = 1009.383449504229,
+					["left"] = 0,
+				},
+				["XPerl_Raid_Title7"] = {
+					["top"] = 748.5103525694436,
+					["left"] = 687.7721398087757,
+				},
+				["XPerl_Raid_Title10"] = {
+					["top"] = 748.5103525694436,
+					["left"] = 646.1719971622663,
+				},
+				["XPerl_Runes"] = {
+					["top"] = 178.4424015656301,
+					["left"] = 799.5672346067333,
+				},
+				["XPerl_Target"] = {
+					["top"] = 1096.543505693663,
+					["left"] = 220.0000077774102,
+				},
+				["XPerl_Raid_Title2"] = {
+					["top"] = 748.5103525694436,
+					["left"] = 62.40000388416125,
+				},
+				["XPerl_Raid_Title3"] = {
+					["top"] = 748.5103525694436,
+					["left"] = 124.8000077683225,
+				},
+			},
+			["Wiikree"] = {
+				["XPerl_RosterTextAnchor"] = {
+					["top"] = 497.9999694824219,
+					["height"] = 250,
+					["left"] = 337.0000305175781,
+					["width"] = 349.9999694824219,
+				},
+				["XPerl_Focus"] = {
+					["top"] = 607.9999602317803,
+					["left"] = 216.8000032305718,
+				},
+				["XPerl_MTList_Anchor"] = {
+					["top"] = 192.5653076171875,
+					["height"] = 96.00000762939453,
+					["left"] = 1144.087280273438,
+					["width"] = 306.0000305175781,
+				},
+				["XPerl_Raid_Title8"] = {
+					["top"] = 761.9246695566872,
+					["left"] = 651.2347753291542,
+				},
+				["XPerl_AdminFrameAnchor"] = {
+					["top"] = 459,
+					["height"] = 150,
+					["left"] = 442,
+					["width"] = 140,
+				},
+				["XPerl_Raid_TitlePets"] = {
+					["top"] = 630.5181246298271,
+					["left"] = 473.8254465136743,
+				},
+				["XPerl_Raid_Title4"] = {
+					["top"] = 761.9246695566872,
+					["left"] = 187.2000027894974,
+				},
+				["XPerl_FocusTarget"] = {
+					["top"] = 608.0000201633993,
+					["left"] = 414.6999624201235,
+				},
+				["XPerl_Raid_Title10"] = {
+					["top"] = 713.3218160907887,
+					["left"] = 526.3653078876338,
+				},
+				["XPerl_Raid_Title1"] = {
+					["top"] = 761.9246695566872,
+					["left"] = 0,
+				},
+				["XPerl_Player"] = {
+					["top"] = 1096.5435235228,
+					["left"] = 26.40000267028813,
+				},
+				["XPerl_Raid_Title2"] = {
+					["top"] = 761.9246695566872,
+					["left"] = 62.40000703334817,
+				},
+				["XPerl_Raid_Title9"] = {
+					["top"] = 761.9246695566872,
+					["left"] = 713.6348739152381,
+				},
+				["XPerl_Raid_Title5"] = {
+					["top"] = 761.9246695566872,
+					["left"] = 249.6000281333927,
+				},
+				["XPerl_Player_Pet"] = {
+					["top"] = 1001.47448245671,
+					["left"] = 156.6069995912994,
+				},
+				["XPerl_TargetTargetTarget"] = {
+					["top"] = 1096.663559437686,
+					["left"] = 646.7651339961049,
+				},
+				["XPerl_Raid_Title6"] = {
+					["top"] = 761.9246695566872,
+					["left"] = 312.0000290632252,
+				},
+				["XPerl_CheckAnchor"] = {
+					["top"] = 503.9999694824219,
+					["height"] = 240,
+					["left"] = 262.0000305175781,
+					["width"] = 500,
+				},
+				["XPerl_Raid_Title7"] = {
+					["top"] = 761.9246695566872,
+					["left"] = 588.8348720555732,
+				},
+				["XPerl_Party_Anchor"] = {
+					["top"] = 1018.446401894784,
+					["left"] = 0,
+				},
+				["XPerl_PetTarget"] = {
+					["top"] = 994.1428541635978,
+					["left"] = 233.500005178792,
+				},
+				["XPerl_OptionsAnchor"] = {
+					["top"] = 959.13037109375,
+					["height"] = 540,
+					["left"] = 221.6303863525391,
+					["width"] = 711.0870361328125,
+				},
+				["XPerl_Assists_FrameAnchor"] = {
+					["top"] = 514.239501953125,
+					["height"] = 124,
+					["left"] = 284.8169555664063,
+					["width"] = 330,
+				},
+				["XPerl_Target"] = {
+					["top"] = 1096.5435235228,
+					["left"] = 219.9999879837033,
+				},
+				["XPerl_TargetTarget"] = {
+					["top"] = 1095.718456871386,
+					["left"] = 490.631257426041,
+				},
+				["XPerl_Raid_Title3"] = {
+					["top"] = 761.9246695566872,
+					["left"] = 124.8000140666964,
+				},
+			},
+			["Übermac"] = {
+				["XPerl_RosterTextAnchor"] = {
+					["top"] = 497.999988535818,
+					["height"] = 249.9999924987451,
+					["left"] = 425.0000271035907,
+					["width"] = 349.9999967447384,
+				},
+				["XPerl_Assists_FrameAnchor"] = {
+					["top"] = 618.5217050578768,
+					["height"] = 123.9999980185364,
+					["left"] = 704.5652130437765,
+					["width"] = 329.9999958955398,
+				},
+				["XPerl_MTList_Anchor"] = {
+					["top"] = 424.0000107565164,
+					["height"] = 80.00000339679465,
+					["left"] = 496.9999721887438,
+					["width"] = 205.9999978770034,
+				},
+				["XPerl_Raid_Title8"] = {
+					["top"] = 741.0435450279412,
+					["left"] = 425.5999780353116,
+				},
+				["XPerl_AdminFrameAnchor"] = {
+					["top"] = 631.5217001749845,
+					["height"] = 149.9999973108709,
+					["left"] = 799.5652442518273,
+					["width"] = 139.9999968862716,
+				},
+				["XPerl_FocusTarget"] = {
+					["top"] = 913.0434750141358,
+					["left"] = 459.5000325187742,
+				},
+				["XPerl_Raid_Title4"] = {
+					["top"] = 741.0435450279412,
+					["left"] = 182.3999843752804,
+				},
+				["XPerl_Raid_Title1"] = {
+					["top"] = 741.0435450279412,
+					["left"] = 0,
+				},
+				["XPerl_Player"] = {
+					["top"] = 1099.843517260608,
+					["left"] = 25.30000062620595,
+				},
+				["XPerl_Raid_Title5"] = {
+					["top"] = 741.0435450279412,
+					["left"] = 243.200008153022,
+				},
+				["XPerl_Raid_Title9"] = {
+					["top"] = 741.0435450279412,
+					["left"] = 486.4000163060441,
+				},
+				["XPerl_PetTarget"] = {
+					["top"] = 1495.061975721552,
+					["left"] = 187.9999934894769,
+				},
+				["XPerl_Player_Pet"] = {
+					["top"] = 1050.743433768744,
+					["left"] = 72.0999980290955,
+				},
+				["XPerl_Raid_Title2"] = {
+					["top"] = 741.0435450279412,
+					["left"] = 60.80000203825551,
+				},
+				["XPerl_Raid_Title6"] = {
+					["top"] = 741.0435450279412,
+					["left"] = 304.0000174377729,
+				},
+				["XPerl_CheckAnchor"] = {
+					["top"] = 504.0000141533111,
+					["height"] = 239.9999920741458,
+					["left"] = 349.9999967447384,
+					["width"] = 499.9999849974903,
+				},
+				["XPerl_TargetTargetTarget"] = {
+					["top"] = 1082.103467948228,
+					["left"] = 687.0499747867635,
+				},
+				["XPerl_Party_Anchor"] = {
+					["top"] = 993.0434942644788,
+					["left"] = 0,
+				},
+				["XPerl_Raid_Title10"] = {
+					["top"] = 741.0435450279412,
+					["left"] = 547.2000255907949,
+				},
+				["XPerl_Raid_Title7"] = {
+					["top"] = 741.0435450279412,
+					["left"] = 364.7999687505608,
+				},
+				["XPerl_Focus"] = {
+					["top"] = 913.0434760701832,
+					["left"] = 271.0000096950181,
+				},
+				["XPerl_Target"] = {
+					["top"] = 1099.843517260608,
+					["left"] = 298.0999971978011,
+				},
+				["XPerl_TargetTarget"] = {
+					["top"] = 1102.123532021202,
+					["left"] = 536.9000217843274,
+				},
+				["XPerl_Raid_Title3"] = {
+					["top"] = 741.0435450279412,
+					["left"] = 121.600004076511,
+				},
+			},
+			["Soppa"] = {
+				["XPerl_RosterTextAnchor"] = {
+					["height"] = 250,
+					["top"] = 497.9999694824219,
+					["left"] = 337.0000305175781,
+					["width"] = 349.9999694824219,
+				},
+				["XPerl_Focus"] = {
+					["top"] = 607.9999602317803,
+					["left"] = 216.8000032305718,
+				},
+				["XPerl_MTList_Anchor"] = {
+					["height"] = 96.00000674770899,
+					["top"] = 194.5362883706539,
+					["left"] = 1376.797217076118,
+					["width"] = 305.9999298519419,
+				},
+				["XPerl_Raid_Title8"] = {
+					["top"] = 754.701385241142,
+					["left"] = 651.2350153564183,
+				},
+				["XPerl_AdminFrameAnchor"] = {
+					["height"] = 150,
+					["top"] = 459,
+					["left"] = 442,
+					["width"] = 140,
+				},
+				["XPerl_Raid_TitlePets"] = {
+					["top"] = 630.5181246298271,
+					["left"] = 473.8254465136743,
+				},
+				["XPerl_Raid_Title10"] = {
+					["top"] = 754.701385241142,
+					["left"] = 547.2348746914284,
+				},
+				["XPerl_FocusTarget"] = {
+					["top"] = 608.0000201633993,
+					["left"] = 414.6999624201235,
+				},
+				["XPerl_Raid_Title4"] = {
+					["top"] = 754.701385241142,
+					["left"] = 187.2000056010428,
+				},
+				["XPerl_Raid_Title1"] = {
+					["top"] = 754.701385241142,
+					["left"] = 0,
+				},
+				["XPerl_Player"] = {
+					["top"] = 1096.5435235228,
+					["left"] = 26.40000267028813,
+				},
+				["XPerl_TargetTarget"] = {
+					["top"] = 1095.718456871386,
+					["left"] = 490.631257426041,
+				},
+				["XPerl_Raid_Title9"] = {
+					["top"] = 754.701385241142,
+					["left"] = 713.6348924657889,
+				},
+				["XPerl_Raid_Title5"] = {
+					["top"] = 754.701385241142,
+					["left"] = 249.6000266615408,
+				},
+				["XPerl_Player_Pet"] = {
+					["top"] = 1011.018801397779,
+					["left"] = 153.0898561977874,
+				},
+				["XPerl_TargetTargetTarget"] = {
+					["top"] = 1096.663559437686,
+					["left"] = 646.7651339961049,
+				},
+				["XPerl_Raid_Title6"] = {
+					["top"] = 754.701385241142,
+					["left"] = 312.0000189318133,
+				},
+				["XPerl_CheckAnchor"] = {
+					["height"] = 240,
+					["top"] = 503.9999694824219,
+					["left"] = 262.0000305175781,
+					["width"] = 500,
+				},
+				["XPerl_Assists_FrameAnchor"] = {
+					["height"] = 124,
+					["top"] = 514.239501953125,
+					["left"] = 284.8169555664063,
+					["width"] = 330,
+				},
+				["XPerl_Party_Anchor"] = {
+					["top"] = 1014.00567562236,
+					["left"] = 0,
+				},
+				["XPerl_OptionsAnchor"] = {
+					["height"] = 540.0000053419363,
+					["top"] = 910.8983926465154,
+					["left"] = 371.8912542029968,
+					["width"] = 711.0871052616596,
+				},
+				["XPerl_PetTarget"] = {
+					["top"] = 994.1428541635978,
+					["left"] = 233.500005178792,
+				},
+				["XPerl_Raid_Title7"] = {
+					["top"] = 754.701385241142,
+					["left"] = 588.8348503447932,
+				},
+				["XPerl_Target"] = {
+					["top"] = 1096.5435235228,
+					["left"] = 219.9999879837033,
+				},
+				["XPerl_Raid_Title2"] = {
+					["top"] = 754.701385241142,
+					["left"] = 62.40000666538519,
+				},
+				["XPerl_Raid_Title3"] = {
+					["top"] = 754.701385241142,
+					["left"] = 124.8000133307704,
+				},
+			},
+			["Holiez"] = {
+				["XPerl_RosterTextAnchor"] = {
+					["height"] = 250,
+					["top"] = 497.9999694824219,
+					["left"] = 337.0000305175781,
+					["width"] = 349.9999694824219,
+				},
+				["XPerl_Focus"] = {
+					["top"] = 607.9999602317803,
+					["left"] = 216.8000032305718,
+				},
+				["XPerl_MTList_Anchor"] = {
+					["height"] = 96.00000762939453,
+					["top"] = 192.5653076171875,
+					["left"] = 1144.087280273438,
+					["width"] = 306.0000305175781,
+				},
+				["XPerl_Raid_Title8"] = {
+					["top"] = 761.9246695566872,
+					["left"] = 651.2347753291542,
+				},
+				["XPerl_AdminFrameAnchor"] = {
+					["height"] = 150,
+					["top"] = 459,
+					["left"] = 442,
+					["width"] = 140,
+				},
+				["XPerl_Raid_TitlePets"] = {
+					["top"] = 630.5181246298271,
+					["left"] = 473.8254465136743,
+				},
+				["XPerl_Raid_Title4"] = {
+					["top"] = 761.9246695566872,
+					["left"] = 187.2000027894974,
+				},
+				["XPerl_FocusTarget"] = {
+					["top"] = 608.0000201633993,
+					["left"] = 414.6999624201235,
+				},
+				["XPerl_Raid_Title10"] = {
+					["top"] = 741.3217613376025,
+					["left"] = 547.2348746914284,
+				},
+				["XPerl_Raid_Title1"] = {
+					["top"] = 761.9246695566872,
+					["left"] = 0,
+				},
+				["XPerl_Player"] = {
+					["top"] = 1096.5435235228,
+					["left"] = 26.40000267028813,
+				},
+				["XPerl_TargetTarget"] = {
+					["top"] = 1095.718456871386,
+					["left"] = 490.631257426041,
+				},
+				["XPerl_Raid_Title9"] = {
+					["top"] = 761.9246695566872,
+					["left"] = 713.6348739152381,
+				},
+				["XPerl_Raid_Title5"] = {
+					["top"] = 761.9246695566872,
+					["left"] = 249.6000281333927,
+				},
+				["XPerl_Player_Pet"] = {
+					["top"] = 1001.47448245671,
+					["left"] = 156.6069995912994,
+				},
+				["XPerl_TargetTargetTarget"] = {
+					["top"] = 1096.663559437686,
+					["left"] = 646.7651339961049,
+				},
+				["XPerl_Raid_Title6"] = {
+					["top"] = 761.9246695566872,
+					["left"] = 312.0000290632252,
+				},
+				["XPerl_CheckAnchor"] = {
+					["height"] = 240,
+					["top"] = 503.9999694824219,
+					["left"] = 262.0000305175781,
+					["width"] = 500,
+				},
+				["XPerl_OptionsAnchor"] = {
+					["height"] = 540,
+					["top"] = 959.13037109375,
+					["left"] = 221.6303863525391,
+					["width"] = 711.0870361328125,
+				},
+				["XPerl_Party_Anchor"] = {
+					["top"] = 1018.446401894784,
+					["left"] = 0,
+				},
+				["XPerl_PetTarget"] = {
+					["top"] = 994.1428541635978,
+					["left"] = 233.500005178792,
+				},
+				["XPerl_Raid_Title7"] = {
+					["top"] = 761.9246695566872,
+					["left"] = 588.8348720555732,
+				},
+				["XPerl_Assists_FrameAnchor"] = {
+					["height"] = 124,
+					["top"] = 514.239501953125,
+					["left"] = 284.8169555664063,
+					["width"] = 330,
+				},
+				["XPerl_Target"] = {
+					["top"] = 1096.5435235228,
+					["left"] = 219.9999879837033,
+				},
+				["XPerl_Raid_Title2"] = {
+					["top"] = 761.9246695566872,
+					["left"] = 62.40000703334817,
+				},
+				["XPerl_Raid_Title3"] = {
+					["top"] = 761.9246695566872,
+					["left"] = 124.8000140666964,
+				},
+			},
+		},
+		["Shattered Hand"] = {
+			["Slakthuset"] = {
+				["XPerl_RosterTextAnchor"] = {
+					["top"] = 498.0000006838724,
+					["height"] = 250.0000077961453,
+					["left"] = 507.6667394078937,
+					["width"] = 350.0000179174567,
+				},
+				["XPerl_Assists_FrameAnchor"] = {
+					["top"] = 514.5216924665506,
+					["height"] = 124.0000051974302,
+					["left"] = 285.0000060864643,
+					["width"] = 330.0000088903411,
+				},
+				["XPerl_RaidMonitor_Anchor"] = {
+					["top"] = 424.0000093006645,
+					["height"] = 80.00000109419584,
+					["left"] = 582.6666682167775,
+					["width"] = 200.0000027354896,
+				},
+				["XPerl_MTList_Anchor"] = {
+					["top"] = 424.0000093006645,
+					["height"] = 80.00000109419584,
+					["left"] = 579.6666458541502,
+					["width"] = 205.9999949393443,
+				},
+				["XPerl_Raid_Title8"] = {
+					["top"] = 754.9217730057126,
+					["left"] = 750.1720456529889,
+				},
+				["XPerl_AdminFrameAnchor"] = {
+					["top"] = 458.5217302163068,
+					["height"] = 149.9999976748339,
+					["left"] = 541.3719626405982,
+					["width"] = 140.0000106684094,
+				},
+				["XPerl_Player"] = {
+					["top"] = 1096.543505693663,
+					["left"] = 26.40000237762775,
+				},
+				["XPerl_FocusTarget"] = {
+					["top"] = 607.5217731165772,
+					["left"] = 405.500001047812,
+				},
+				["XPerl_Raid_Title4"] = {
+					["top"] = 754.9217730057126,
+					["left"] = 187.1999976467769,
+				},
+				["XPerl_Raid_Title1"] = {
+					["top"] = 754.9217730057126,
+					["left"] = 0,
+				},
+				["XPerl_OptionsAnchor"] = {
+					["top"] = 828.6258545754927,
+					["height"] = 540.0001737035882,
+					["left"] = 526.6455223352382,
+					["width"] = 727.3657860419046,
+				},
+				["XPerl_TargetTarget"] = {
+					["top"] = 1095.753474003628,
+					["left"] = 589.8820268164658,
+				},
+				["XPerl_Raid_Title9"] = {
+					["top"] = 754.9217730057126,
+					["left"] = 812.572063542857,
+				},
+				["XPerl_Raid_Title5"] = {
+					["top"] = 754.9217730057126,
+					["left"] = 249.600015536645,
+				},
+				["XPerl_Player_Pet"] = {
+					["top"] = 1010.843498160359,
+					["left"] = 153.3000004051938,
+				},
+				["XPerl_PetTarget"] = {
+					["top"] = 1338.871464747301,
+					["left"] = 192.9371524688717,
+				},
+				["XPerl_Raid_Title6"] = {
+					["top"] = 754.9217730057126,
+					["left"] = 312.0000054150994,
+				},
+				["XPerl_CheckAnchor"] = {
+					["top"] = 504.000045409127,
+					["height"] = 240.0000032825875,
+					["left"] = 432.6667405704768,
+					["width"] = 500.0000155922906,
+				},
+				["XPerl_Focus"] = {
+					["top"] = 607.5217554511982,
+					["left"] = 217.0000069071112,
+				},
+				["XPerl_Party_Anchor"] = {
+					["top"] = 1013.843538839288,
+					["left"] = 0,
+				},
+				["XPerl_Raid_Title7"] = {
+					["top"] = 754.9217730057126,
+					["left"] = 687.7720837859482,
+				},
+				["XPerl_Raid_Title10"] = {
+					["top"] = 754.9217730057126,
+					["left"] = 646.1720531850937,
+				},
+				["XPerl_TargetTargetTarget"] = {
+					["top"] = 1075.733579097253,
+					["left"] = 740.0320670518519,
+				},
+				["XPerl_Target"] = {
+					["top"] = 1096.543505693663,
+					["left"] = 220.0000077774102,
+				},
+				["XPerl_Raid_Title2"] = {
+					["top"] = 754.9217730057126,
+					["left"] = 62.40000388416125,
+				},
+				["XPerl_Raid_Title3"] = {
+					["top"] = 754.9217730057126,
+					["left"] = 124.8000077683225,
+				},
+			},
+			["Etni"] = {
+				["XPerl_RosterTextAnchor"] = {
+					["top"] = 497.999988535818,
+					["height"] = 249.9999924987451,
+					["left"] = 425.0000271035907,
+					["width"] = 349.9999967447384,
+				},
+				["XPerl_Assists_FrameAnchor"] = {
+					["top"] = 514.521707888539,
+					["height"] = 123.9999980185364,
+					["left"] = 458.5652497008521,
+					["width"] = 329.9999958955398,
+				},
+				["XPerl_Focus"] = {
+					["top"] = 1087.939342159892,
+					["left"] = 1219.069731390652,
+				},
+				["XPerl_RaidMonitor_Anchor"] = {
+					["top"] = 424.0000093006645,
+					["height"] = 80.00000109419584,
+					["left"] = 582.6666682167775,
+					["width"] = 200.0000027354896,
+				},
+				["XPerl_MTList_Anchor"] = {
+					["top"] = 424.0000107565164,
+					["height"] = 80.00000339679465,
+					["left"] = 496.9999721887438,
+					["width"] = 205.9999978770034,
+				},
+				["XPerl_Raid_Title8"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 630.3653805023439,
+				},
+				["XPerl_AdminFrameAnchor"] = {
+					["top"] = 458.5217344967638,
+					["height"] = 149.9999973108709,
+					["left"] = 247.9999960370729,
+					["width"] = 139.9999968862716,
+				},
+				["XPerl_TargetTarget"] = {
+					["top"] = 1087.705521624153,
+					["left"] = 535.1867302781285,
+				},
+				["XPerl_Raid_Title10"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 526.3652759887938,
+				},
+				["XPerl_FocusTarget"] = {
+					["top"] = 1001.184014556878,
+					["left"] = 1262.476251937233,
+				},
+				["XPerl_Raid_Title4"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 187.1999836410701,
+				},
+				["XPerl_Raid_Title1"] = {
+					["top"] = 754.8224445327303,
+					["left"] = 2.129971703692849,
+				},
+				["XPerl_OptionsAnchor"] = {
+					["top"] = 924.3602516677767,
+					["height"] = 540.0001737035882,
+					["left"] = 676.8933509890949,
+					["width"] = 793.2251004967581,
+				},
+				["XPerl_Player"] = {
+					["top"] = 1093.387683781954,
+					["left"] = 29.59490808992376,
+				},
+				["XPerl_Raid_Title9"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 692.7652863465571,
+				},
+				["XPerl_PetTarget"] = {
+					["top"] = 1048.164956039657,
+					["left"] = 169.6683865829434,
+				},
+				["XPerl_Player_Pet"] = {
+					["top"] = 939.3672962976574,
+					["left"] = 138.1047570021648,
+				},
+				["XPerl_Raid_Title5"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 249.600015536645,
+				},
+				["XPerl_Raid_Title6"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 312.0000054150994,
+				},
+				["XPerl_CheckAnchor"] = {
+					["top"] = 504.0000141533111,
+					["height"] = 239.9999920741458,
+					["left"] = 349.9999967447384,
+					["width"] = 499.9999849974903,
+				},
+				["XPerl_TargetTargetTarget"] = {
+					["top"] = 1089.283376568455,
+					["left"] = 752.7225198573068,
+				},
+				["XPerl_Party_Anchor"] = {
+					["top"] = 1014.153233029162,
+					["left"] = 0,
+				},
+				["XPerl_AggroAnchor"] = {
+					["top"] = 689.2964546482157,
+					["left"] = 977.6317972214401,
+				},
+				["XPerl_Raid_Title7"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 567.9652505668209,
+				},
+				["XPerl_Runes"] = {
+					["top"] = 178.4420339158308,
+					["left"] = 792.7901532770037,
+				},
+				["XPerl_Target"] = {
+					["top"] = 1091.819263842991,
+					["left"] = 225.7511087022387,
+				},
+				["XPerl_Raid_Title2"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 62.40000388416125,
+				},
+				["XPerl_Raid_Title3"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 124.8000077683225,
+				},
+			},
+			["Wiikree"] = {
+				["XPerl_RosterTextAnchor"] = {
+					["top"] = 498.0000006838724,
+					["height"] = 250.0000077961453,
+					["left"] = 507.6667394078937,
+					["width"] = 350.0000179174567,
+				},
+				["XPerl_Assists_FrameAnchor"] = {
+					["top"] = 618.5216973904319,
+					["height"] = 124.0000051974302,
+					["left"] = 824.3719713257776,
+					["width"] = 330.0000088903411,
+				},
+				["XPerl_RaidMonitor_Anchor"] = {
+					["top"] = 424.0000093006645,
+					["height"] = 80.00000109419584,
+					["left"] = 582.6666682167775,
+					["width"] = 200.0000027354896,
+				},
+				["XPerl_MTList_Anchor"] = {
+					["top"] = 424.0000093006645,
+					["height"] = 80.00000109419584,
+					["left"] = 579.6666458541502,
+					["width"] = 205.9999949393443,
+				},
+				["XPerl_Raid_Title8"] = {
+					["top"] = 747.7217752509451,
+					["left"] = 476.0000258584115,
+				},
+				["XPerl_AdminFrameAnchor"] = {
+					["top"] = 631.5217942951501,
+					["height"] = 149.9999976748339,
+					["left"] = 919.3719791903102,
+					["width"] = 140.0000106684094,
+				},
+				["XPerl_Raid_Title4"] = {
+					["top"] = 747.7217752509451,
+					["left"] = 204.0000110821764,
+				},
+				["XPerl_TargetTarget"] = {
+					["top"] = 1093.933460384515,
+					["left"] = 563.4920205172278,
+				},
+				["XPerl_FocusTarget"] = {
+					["top"] = 353.5215017321814,
+					["left"] = 412.1539966128319,
+				},
+				["XPerl_Raid_Title10"] = {
+					["top"] = 747.7217752509451,
+					["left"] = 612.000033246529,
+				},
+				["XPerl_Raid_Title1"] = {
+					["top"] = 747.4143219741678,
+					["left"] = 0,
+				},
+				["XPerl_OptionsAnchor"] = {
+					["top"] = 1033.771011209968,
+					["height"] = 540.0001737035882,
+					["left"] = 1169.981830467897,
+					["width"] = 793.2251004967581,
+				},
+				["XPerl_PetTarget"] = {
+					["top"] = 1092.026557500572,
+					["left"] = 172.2634339380293,
+				},
+				["XPerl_Raid_Title9"] = {
+					["top"] = 747.7217752509451,
+					["left"] = 544.0000295524703,
+				},
+				["XPerl_Raid_Title5"] = {
+					["top"] = 747.7217752509451,
+					["left"] = 272.0000707990625,
+				},
+				["XPerl_Player_Pet"] = {
+					["top"] = 942.5253591010871,
+					["left"] = 136.2498691983267,
+				},
+				["XPerl_Focus"] = {
+					["top"] = 353.729702581844,
+					["left"] = 227.5308627166516,
+				},
+				["XPerl_Raid_Title6"] = {
+					["top"] = 747.7217752509451,
+					["left"] = 340.0001025045351,
+				},
+				["XPerl_CheckAnchor"] = {
+					["top"] = 504.000045409127,
+					["height"] = 240.0000032825875,
+					["left"] = 432.6667405704768,
+					["width"] = 500.0000155922906,
+				},
+				["XPerl_Raid_Title7"] = {
+					["top"] = 747.7217752509451,
+					["left"] = 408.0000781871801,
+				},
+				["XPerl_Party_Anchor"] = {
+					["top"] = 1012.43994292158,
+					["left"] = 0,
+				},
+				["XPerl_AggroAnchor"] = {
+					["top"] = 570.4177323735139,
+					["left"] = 977.6320773355729,
+				},
+				["XPerl_TargetTargetTarget"] = {
+					["top"] = 1092.849864040698,
+					["left"] = 734.9417005294033,
+				},
+				["XPerl_Player"] = {
+					["top"] = 1093.243481023247,
+					["left"] = 29.7000005685042,
+				},
+				["XPerl_Target"] = {
+					["top"] = 1092.143472799775,
+					["left"] = 240.9000099606027,
+				},
+				["XPerl_Raid_Title2"] = {
+					["top"] = 747.7217752509451,
+					["left"] = 68.00000369405879,
+				},
+				["XPerl_Raid_Title3"] = {
+					["top"] = 747.7217752509451,
+					["left"] = 136.0000073881176,
+				},
+			},
+			["Augor"] = {
+				["XPerl_RosterTextAnchor"] = {
+					["top"] = 498.0000006838724,
+					["height"] = 250.0000077961453,
+					["left"] = 507.6667394078937,
+					["width"] = 350.0000179174567,
+				},
+				["XPerl_Assists_FrameAnchor"] = {
+					["top"] = 618.5216973904319,
+					["height"] = 124.0000051974302,
+					["left"] = 824.3719713257776,
+					["width"] = 330.0000088903411,
+				},
+				["XPerl_RaidMonitor_Anchor"] = {
+					["top"] = 424.0000093006645,
+					["height"] = 80.00000109419584,
+					["left"] = 582.6666682167775,
+					["width"] = 200.0000027354896,
+				},
+				["XPerl_MTList_Anchor"] = {
+					["top"] = 424.0000093006645,
+					["height"] = 80.00000109419584,
+					["left"] = 579.6666458541502,
+					["width"] = 205.9999949393443,
+				},
+				["XPerl_Raid_Title8"] = {
+					["top"] = 747.7217752509451,
+					["left"] = 476.0000258584115,
+				},
+				["XPerl_AdminFrameAnchor"] = {
+					["top"] = 631.5217942951501,
+					["height"] = 149.9999976748339,
+					["left"] = 919.3719791903102,
+					["width"] = 140.0000106684094,
+				},
+				["XPerl_Raid_Title4"] = {
+					["top"] = 747.7217752509451,
+					["left"] = 204.0000110821764,
+				},
+				["XPerl_TargetTarget"] = {
+					["top"] = 1093.933460384515,
+					["left"] = 563.4920205172278,
+				},
+				["XPerl_FocusTarget"] = {
+					["top"] = 353.5215017321814,
+					["left"] = 412.1539966128319,
+				},
+				["XPerl_Raid_Title10"] = {
+					["top"] = 747.7217752509451,
+					["left"] = 612.000033246529,
+				},
+				["XPerl_Raid_Title1"] = {
+					["top"] = 747.4143219741678,
+					["left"] = 0,
+				},
+				["XPerl_OptionsAnchor"] = {
+					["top"] = 958.0251384653534,
+					["height"] = 540.0001737035882,
+					["left"] = 722.6876699380158,
+					["width"] = 793.2251004967581,
+				},
+				["XPerl_PetTarget"] = {
+					["top"] = 1092.026557500572,
+					["left"] = 172.2634339380293,
+				},
+				["XPerl_Raid_Title9"] = {
+					["top"] = 747.7217752509451,
+					["left"] = 544.0000295524703,
+				},
+				["XPerl_Raid_Title5"] = {
+					["top"] = 747.7217752509451,
+					["left"] = 272.0000707990625,
+				},
+				["XPerl_Player_Pet"] = {
+					["top"] = 942.5253591010871,
+					["left"] = 136.2498691983267,
+				},
+				["XPerl_Focus"] = {
+					["top"] = 353.729702581844,
+					["left"] = 227.5308627166516,
+				},
+				["XPerl_Raid_Title6"] = {
+					["top"] = 747.7217752509451,
+					["left"] = 340.0001025045351,
+				},
+				["XPerl_CheckAnchor"] = {
+					["top"] = 504.000045409127,
+					["height"] = 240.0000032825875,
+					["left"] = 432.6667405704768,
+					["width"] = 500.0000155922906,
+				},
+				["XPerl_Raid_Title7"] = {
+					["top"] = 747.7217752509451,
+					["left"] = 408.0000781871801,
+				},
+				["XPerl_Party_Anchor"] = {
+					["top"] = 1012.43994292158,
+					["left"] = 0,
+				},
+				["XPerl_AggroAnchor"] = {
+					["top"] = 570.4177323735139,
+					["left"] = 977.6320773355729,
+				},
+				["XPerl_TargetTargetTarget"] = {
+					["top"] = 1092.849864040698,
+					["left"] = 734.9417005294033,
+				},
+				["XPerl_Player"] = {
+					["top"] = 1093.243481023247,
+					["left"] = 29.7000005685042,
+				},
+				["XPerl_Target"] = {
+					["top"] = 1092.143472799775,
+					["left"] = 240.9000099606027,
+				},
+				["XPerl_Raid_Title2"] = {
+					["top"] = 747.7217752509451,
+					["left"] = 68.00000369405879,
+				},
+				["XPerl_Raid_Title3"] = {
+					["top"] = 747.7217752509451,
+					["left"] = 136.0000073881176,
+				},
+			},
+			["Jokkles"] = {
+				["XPerl_RosterTextAnchor"] = {
+					["top"] = 498.0000006838724,
+					["height"] = 250.0000077961453,
+					["left"] = 507.6667394078937,
+					["width"] = 350.0000179174567,
+				},
+				["XPerl_Assists_FrameAnchor"] = {
+					["top"] = 618.5216973904319,
+					["height"] = 124.0000051974302,
+					["left"] = 824.3719713257776,
+					["width"] = 330.0000088903411,
+				},
+				["XPerl_RaidMonitor_Anchor"] = {
+					["top"] = 424.0000093006645,
+					["height"] = 80.00000109419584,
+					["left"] = 582.6666682167775,
+					["width"] = 200.0000027354896,
+				},
+				["XPerl_MTList_Anchor"] = {
+					["top"] = 424.0000093006645,
+					["height"] = 80.00000109419584,
+					["left"] = 579.6666458541502,
+					["width"] = 205.9999949393443,
+				},
+				["XPerl_Raid_Title8"] = {
+					["top"] = 741.0434620649373,
+					["left"] = 425.6000415750405,
+				},
+				["XPerl_AdminFrameAnchor"] = {
+					["top"] = 631.5217942951501,
+					["height"] = 149.9999976748339,
+					["left"] = 919.3719791903102,
+					["width"] = 140.0000106684094,
+				},
+				["XPerl_FocusTarget"] = {
+					["top"] = 913.0434570838594,
+					["left"] = 459.4999859857166,
+				},
+				["XPerl_Raid_Title4"] = {
+					["top"] = 741.0434620649373,
+					["left"] = 182.4000038121677,
+				},
+				["XPerl_Raid_Title1"] = {
+					["top"] = 741.0434620649373,
+					["left"] = 0,
+				},
+				["XPerl_Player"] = {
+					["top"] = 1099.843530364079,
+					["left"] = 25.30000137584835,
+				},
+				["XPerl_Raid_Title5"] = {
+					["top"] = 741.0434620649373,
+					["left"] = 243.200023757166,
+				},
+				["XPerl_Raid_Title9"] = {
+					["top"] = 741.0434620649373,
+					["left"] = 486.400047514332,
+				},
+				["XPerl_PetTarget"] = {
+					["top"] = 1306.304415264825,
+					["left"] = 287.999993434825,
+				},
+				["XPerl_Player_Pet"] = {
+					["top"] = 1041.843523883069,
+					["left"] = 82.39999920359337,
+				},
+				["XPerl_Raid_Title2"] = {
+					["top"] = 741.0434620649373,
+					["left"] = 60.8000059392915,
+				},
+				["XPerl_Raid_Title6"] = {
+					["top"] = 741.0434620649373,
+					["left"] = 304.0000016850438,
+				},
+				["XPerl_CheckAnchor"] = {
+					["top"] = 504.000045409127,
+					["height"] = 240.0000032825875,
+					["left"] = 432.6667405704768,
+					["width"] = 500.0000155922906,
+				},
+				["XPerl_TargetTargetTarget"] = {
+					["top"] = 1082.103499312214,
+					["left"] = 687.0500431378091,
+				},
+				["XPerl_Party_Anchor"] = {
+					["top"] = 993.0434955274471,
+					["left"] = 0,
+				},
+				["XPerl_Raid_Title10"] = {
+					["top"] = 741.0434620649373,
+					["left"] = 547.1999974307961,
+				},
+				["XPerl_Raid_Title7"] = {
+					["top"] = 741.0434620649373,
+					["left"] = 364.8000076243353,
+				},
+				["XPerl_Focus"] = {
+					["top"] = 913.0435006443104,
+					["left"] = 270.9999892632034,
+				},
+				["XPerl_Target"] = {
+					["top"] = 1099.843530364079,
+					["left"] = 298.100013908514,
+				},
+				["XPerl_TargetTarget"] = {
+					["top"] = 1102.123521670523,
+					["left"] = 536.900002902423,
+				},
+				["XPerl_Raid_Title3"] = {
+					["top"] = 741.0434620649373,
+					["left"] = 121.600011878583,
+				},
+			},
+		},
+		["Eonar"] = {
+			["Obur"] = {
+				["XPerl_RosterTextAnchor"] = {
+					["top"] = 497.999988535818,
+					["height"] = 249.9999924987451,
+					["left"] = 425.0000271035907,
+					["width"] = 349.9999967447384,
+				},
+				["XPerl_Focus"] = {
+					["top"] = 1087.939342159892,
+					["left"] = 1219.069731390652,
+				},
+				["XPerl_Raid_Title10"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 526.3652759887938,
+				},
+				["XPerl_RaidMonitor_Anchor"] = {
+					["top"] = 424.0000093006645,
+					["height"] = 80.00000109419584,
+					["left"] = 582.6666682167775,
+					["width"] = 200.0000027354896,
+				},
+				["XPerl_MTList_Anchor"] = {
+					["top"] = 424.0000107565164,
+					["height"] = 80.00000339679465,
+					["left"] = 496.9999721887438,
+					["width"] = 205.9999978770034,
+				},
+				["XPerl_Raid_Title8"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 630.3653805023439,
+				},
+				["XPerl_AdminFrameAnchor"] = {
+					["top"] = 458.5217344967638,
+					["height"] = 149.9999973108709,
+					["left"] = 247.9999960370729,
+					["width"] = 139.9999968862716,
+				},
+				["XPerl_TargetTarget"] = {
+					["top"] = 1087.705521624153,
+					["left"] = 535.1867302781285,
+				},
+				["XPerl_Player"] = {
+					["top"] = 1093.387683781954,
+					["left"] = 29.59490808992376,
+				},
+				["XPerl_FocusTarget"] = {
+					["top"] = 1001.184014556878,
+					["left"] = 1262.476251937233,
+				},
+				["XPerl_Raid_Title4"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 187.1999836410701,
+				},
+				["XPerl_Raid_Title1"] = {
+					["top"] = 754.8224445327303,
+					["left"] = 2.129971703692849,
+				},
+				["XPerl_OptionsAnchor"] = {
+					["top"] = 926.4643289765419,
+					["height"] = 540.0001737035882,
+					["left"] = 434.0765900152852,
+					["width"] = 793.2251004967581,
+				},
+				["XPerl_Assists_FrameAnchor"] = {
+					["top"] = 514.521707888539,
+					["height"] = 123.9999980185364,
+					["left"] = 458.5652497008521,
+					["width"] = 329.9999958955398,
+				},
+				["XPerl_Raid_Title9"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 692.7652863465571,
+				},
+				["XPerl_PetTarget"] = {
+					["top"] = 1090.245871958161,
+					["left"] = 1128.156238581468,
+				},
+				["XPerl_Player_Pet"] = {
+					["top"] = 1088.038152420248,
+					["left"] = 931.2697569538026,
+				},
+				["XPerl_Raid_Title5"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 249.600015536645,
+				},
+				["XPerl_Raid_Title6"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 312.0000054150994,
+				},
+				["XPerl_CheckAnchor"] = {
+					["top"] = 504.0000141533111,
+					["height"] = 239.9999920741458,
+					["left"] = 349.9999967447384,
+					["width"] = 499.9999849974903,
+				},
+				["XPerl_TargetTargetTarget"] = {
+					["top"] = 1089.283376568455,
+					["left"] = 752.7225198573068,
+				},
+				["XPerl_Party_Anchor"] = {
+					["top"] = 1014.153233029162,
+					["left"] = 0,
+				},
+				["XPerl_AggroAnchor"] = {
+					["top"] = 689.2964546482157,
+					["left"] = 977.6317972214401,
+				},
+				["XPerl_Raid_Title7"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 567.9652505668209,
+				},
+				["XPerl_Runes"] = {
+					["top"] = 178.4420339158308,
+					["left"] = 792.7901532770037,
+				},
+				["XPerl_Target"] = {
+					["top"] = 1091.819263842991,
+					["left"] = 225.7511087022387,
+				},
+				["XPerl_Raid_Title2"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 62.40000388416125,
+				},
+				["XPerl_Raid_Title3"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 124.8000077683225,
+				},
+			},
+			["Slakthuset"] = {
+				["XPerl_RosterTextAnchor"] = {
+					["top"] = 497.999988535818,
+					["height"] = 249.9999924987451,
+					["left"] = 425.0000271035907,
+					["width"] = 349.9999967447384,
+				},
+				["XPerl_Focus"] = {
+					["top"] = 1087.939342159892,
+					["left"] = 1219.069731390652,
+				},
+				["XPerl_Raid_Title10"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 526.3652759887938,
+				},
+				["XPerl_RaidMonitor_Anchor"] = {
+					["top"] = 424.0000093006645,
+					["height"] = 80.00000109419584,
+					["left"] = 582.6666682167775,
+					["width"] = 200.0000027354896,
+				},
+				["XPerl_MTList_Anchor"] = {
+					["top"] = 424.0000107565164,
+					["height"] = 80.00000339679465,
+					["left"] = 496.9999721887438,
+					["width"] = 205.9999978770034,
+				},
+				["XPerl_Raid_Title8"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 630.3653805023439,
+				},
+				["XPerl_AdminFrameAnchor"] = {
+					["top"] = 458.5217344967638,
+					["height"] = 149.9999973108709,
+					["left"] = 247.9999960370729,
+					["width"] = 139.9999968862716,
+				},
+				["XPerl_TargetTarget"] = {
+					["top"] = 1087.705521624153,
+					["left"] = 535.1867302781285,
+				},
+				["XPerl_Player"] = {
+					["top"] = 1093.387683781954,
+					["left"] = 29.59490808992376,
+				},
+				["XPerl_FocusTarget"] = {
+					["top"] = 1001.184014556878,
+					["left"] = 1262.476251937233,
+				},
+				["XPerl_Raid_Title4"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 187.1999836410701,
+				},
+				["XPerl_Raid_Title1"] = {
+					["top"] = 754.8224445327303,
+					["left"] = 2.129971703692849,
+				},
+				["XPerl_OptionsAnchor"] = {
+					["top"] = 924.3602516677767,
+					["height"] = 540.0001737035882,
+					["left"] = 676.8933509890949,
+					["width"] = 793.2251004967581,
+				},
+				["XPerl_Assists_FrameAnchor"] = {
+					["top"] = 514.521707888539,
+					["height"] = 123.9999980185364,
+					["left"] = 458.5652497008521,
+					["width"] = 329.9999958955398,
+				},
+				["XPerl_Raid_Title9"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 692.7652863465571,
+				},
+				["XPerl_PetTarget"] = {
+					["top"] = 891.4130873070479,
+					["left"] = 134.5238231393832,
+				},
+				["XPerl_Player_Pet"] = {
+					["top"] = 939.3672962976574,
+					["left"] = 138.1047570021648,
+				},
+				["XPerl_Raid_Title5"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 249.600015536645,
+				},
+				["XPerl_Raid_Title6"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 312.0000054150994,
+				},
+				["XPerl_CheckAnchor"] = {
+					["top"] = 504.0000141533111,
+					["height"] = 239.9999920741458,
+					["left"] = 349.9999967447384,
+					["width"] = 499.9999849974903,
+				},
+				["XPerl_TargetTargetTarget"] = {
+					["top"] = 1089.283376568455,
+					["left"] = 752.7225198573068,
+				},
+				["XPerl_Party_Anchor"] = {
+					["top"] = 1014.153233029162,
+					["left"] = 0,
+				},
+				["XPerl_AggroAnchor"] = {
+					["top"] = 689.2964546482157,
+					["left"] = 977.6317972214401,
+				},
+				["XPerl_Raid_Title7"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 567.9652505668209,
+				},
+				["XPerl_Runes"] = {
+					["top"] = 178.4420339158308,
+					["left"] = 792.7901532770037,
+				},
+				["XPerl_Target"] = {
+					["top"] = 1091.819263842991,
+					["left"] = 225.7511087022387,
+				},
+				["XPerl_Raid_Title2"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 62.40000388416125,
+				},
+				["XPerl_Raid_Title3"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 124.8000077683225,
+				},
+			},
+			["Etni"] = {
+				["XPerl_RosterTextAnchor"] = {
+					["height"] = 249.9999924987451,
+					["top"] = 497.999988535818,
+					["left"] = 425.0000271035907,
+					["width"] = 349.9999967447384,
+				},
+				["XPerl_Assists_FrameAnchor"] = {
+					["height"] = 147.6105540932464,
+					["top"] = 892.1992976493733,
+					["left"] = 19.59773449488604,
+					["width"] = 392.8345458960783,
+				},
+				["XPerl_Raid_Title4"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 187.1999836410701,
+				},
+				["XPerl_RaidMonitor_Anchor"] = {
+					["height"] = 80.00000109419584,
+					["top"] = 424.0000093006645,
+					["left"] = 582.6666682167775,
+					["width"] = 200.0000027354896,
+				},
+				["XPerl_MTList_Anchor"] = {
+					["height"] = 80.00000339679465,
+					["top"] = 424.0000107565164,
+					["left"] = 496.9999721887438,
+					["width"] = 205.9999978770034,
+				},
+				["XPerl_Raid_Title8"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 630.3653805023439,
+				},
+				["XPerl_AdminFrameAnchor"] = {
+					["height"] = 149.9999973108709,
+					["top"] = 458.5217344967638,
+					["left"] = 247.9999960370729,
+					["width"] = 139.9999968862716,
+				},
+				["XPerl_Raid_Title2"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 62.40000388416125,
+				},
+				["XPerl_OptionsAnchor"] = {
+					["height"] = 540.0001737035882,
+					["top"] = 924.3602516677767,
+					["left"] = 676.8933509890949,
+					["width"] = 793.2251004967581,
+				},
+				["XPerl_FocusTarget"] = {
+					["top"] = 1088.001963881072,
+					["left"] = 1411.336367678902,
+				},
+				["XPerl_Raid_Title10"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 526.3652759887938,
+				},
+				["XPerl_Raid_Title1"] = {
+					["top"] = 754.8224445327303,
+					["left"] = 2.129971703692849,
+				},
+				["XPerl_Player"] = {
+					["top"] = 1093.387683781954,
+					["left"] = 29.59490808992376,
+				},
+				["XPerl_Focus"] = {
+					["top"] = 1087.939342159892,
+					["left"] = 1219.069731390652,
+				},
+				["XPerl_Raid_Title9"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 692.7652863465571,
+				},
+				["XPerl_PetTarget"] = {
+					["top"] = 1090.245871958161,
+					["left"] = 1128.156238581468,
+				},
+				["XPerl_Player_Pet"] = {
+					["top"] = 1088.038152420248,
+					["left"] = 931.2697569538026,
+				},
+				["XPerl_Raid_Title7"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 567.9652505668209,
+				},
+				["XPerl_Raid_Title6"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 312.0000054150994,
+				},
+				["XPerl_CheckAnchor"] = {
+					["height"] = 239.9999920741458,
+					["top"] = 504.0000141533111,
+					["left"] = 349.9999967447384,
+					["width"] = 499.9999849974903,
+				},
+				["XPerl_TargetTargetTarget"] = {
+					["top"] = 1089.283376568455,
+					["left"] = 752.7225198573068,
+				},
+				["XPerl_Party_Anchor"] = {
+					["top"] = 1014.153233029162,
+					["left"] = 0,
+				},
+				["XPerl_AggroAnchor"] = {
+					["top"] = 689.2964546482157,
+					["left"] = 977.6317972214401,
+				},
+				["XPerl_Raid_Title5"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 249.600015536645,
+				},
+				["XPerl_Runes"] = {
+					["top"] = 178.4420339158308,
+					["left"] = 792.7901532770037,
+				},
+				["XPerl_Target"] = {
+					["top"] = 1091.819263842991,
+					["left"] = 225.7511087022387,
+				},
+				["XPerl_TargetTarget"] = {
+					["top"] = 1087.705521624153,
+					["left"] = 535.1867302781285,
+				},
+				["XPerl_Raid_Title3"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 124.8000077683225,
+				},
+			},
+			["Ironetti"] = {
+				["XPerl_RosterTextAnchor"] = {
+					["top"] = 498.0000006838724,
+					["height"] = 250.0000077961453,
+					["left"] = 507.6667394078937,
+					["width"] = 350.0000179174567,
+				},
+				["XPerl_Assists_FrameAnchor"] = {
+					["top"] = 618.5216973904319,
+					["height"] = 124.0000051974302,
+					["left"] = 824.3719713257776,
+					["width"] = 330.0000439046077,
+				},
+				["XPerl_PetTarget"] = {
+					["top"] = 987.014430186237,
+					["left"] = 239.0106926868259,
+				},
+				["XPerl_Player_Pet"] = {
+					["top"] = 987.2225549869309,
+					["left"] = 32.71091872716849,
+				},
+				["XPerl_Player"] = {
+					["top"] = 1091.427311983695,
+					["left"] = 32.75491376890416,
+				},
+				["XPerl_RaidMonitor_Anchor"] = {
+					["top"] = 424.0000093006645,
+					["height"] = 79.99999234062918,
+					["left"] = 582.6666682167775,
+					["width"] = 200.0000027354896,
+				},
+				["XPerl_MTList_Anchor"] = {
+					["top"] = 424.0000093006645,
+					["height"] = 79.99999234062918,
+					["left"] = 579.6666458541502,
+					["width"] = 206.0000999821441,
+				},
+				["XPerl_AdminFrameAnchor"] = {
+					["top"] = 631.5217942951501,
+					["height"] = 150.0000677033671,
+					["left"] = 919.3719791903102,
+					["width"] = 140.0000982040759,
+				},
+				["XPerl_TargetTargetTarget"] = {
+					["top"] = 1091.571776045427,
+					["left"] = 761.5989735344732,
+				},
+				["XPerl_FocusTarget"] = {
+					["top"] = 913.0435006443104,
+					["left"] = 518.9999821509305,
+				},
+				["XPerl_Focus"] = {
+					["top"] = 913.0435006443104,
+					["left"] = 270.9999892632034,
+				},
+				["XPerl_Target"] = {
+					["top"] = 1088.271258977821,
+					["left"] = 282.1252253660989,
+				},
+				["XPerl_TargetTarget"] = {
+					["top"] = 1088.447164428749,
+					["left"] = 582.6943112662774,
+				},
+				["XPerl_CheckAnchor"] = {
+					["top"] = 504.000045409127,
+					["height"] = 240.0000382968541,
+					["left"] = 432.6667405704768,
+					["width"] = 500.0000155922906,
+				},
+			},
+			["Baskiri"] = {
+				["XPerl_RosterTextAnchor"] = {
+					["top"] = 498.0000006838724,
+					["height"] = 250.0000077961453,
+					["left"] = 507.6667394078937,
+					["width"] = 350.0000179174567,
+				},
+				["XPerl_Assists_FrameAnchor"] = {
+					["top"] = 618.5216973904319,
+					["height"] = 124.0000051974302,
+					["left"] = 824.3719713257776,
+					["width"] = 330.0000088903411,
+				},
+				["XPerl_RaidMonitor_Anchor"] = {
+					["top"] = 424.0000093006645,
+					["height"] = 80.00000109419584,
+					["left"] = 582.6666682167775,
+					["width"] = 200.0000027354896,
+				},
+				["XPerl_MTList_Anchor"] = {
+					["top"] = 424.0000093006645,
+					["height"] = 80.00000109419584,
+					["left"] = 579.6666458541502,
+					["width"] = 205.9999949393443,
+				},
+				["XPerl_Raid_Title8"] = {
+					["top"] = 741.0434620649373,
+					["left"] = 425.6000415750405,
+				},
+				["XPerl_AdminFrameAnchor"] = {
+					["top"] = 631.5217942951501,
+					["height"] = 149.9999976748339,
+					["left"] = 919.3719791903102,
+					["width"] = 140.0000106684094,
+				},
+				["XPerl_FocusTarget"] = {
+					["top"] = 913.0434570838594,
+					["left"] = 459.4999859857166,
+				},
+				["XPerl_Raid_Title4"] = {
+					["top"] = 741.0434620649373,
+					["left"] = 182.4000038121677,
+				},
+				["XPerl_Raid_Title1"] = {
+					["top"] = 741.0434620649373,
+					["left"] = 0,
+				},
+				["XPerl_Player"] = {
+					["top"] = 1099.843530364079,
+					["left"] = 25.30000137584835,
+				},
+				["XPerl_Raid_Title5"] = {
+					["top"] = 741.0434620649373,
+					["left"] = 243.200023757166,
+				},
+				["XPerl_Raid_Title9"] = {
+					["top"] = 741.0434620649373,
+					["left"] = 486.400047514332,
+				},
+				["XPerl_PetTarget"] = {
+					["top"] = 1306.304415264825,
+					["left"] = 287.999993434825,
+				},
+				["XPerl_Player_Pet"] = {
+					["top"] = 1041.843523883069,
+					["left"] = 82.39999920359337,
+				},
+				["XPerl_Raid_Title2"] = {
+					["top"] = 741.0434620649373,
+					["left"] = 60.8000059392915,
+				},
+				["XPerl_Raid_Title6"] = {
+					["top"] = 741.0434620649373,
+					["left"] = 304.0000016850438,
+				},
+				["XPerl_CheckAnchor"] = {
+					["top"] = 504.000045409127,
+					["height"] = 240.0000032825875,
+					["left"] = 432.6667405704768,
+					["width"] = 500.0000155922906,
+				},
+				["XPerl_TargetTargetTarget"] = {
+					["top"] = 1082.103499312214,
+					["left"] = 687.0500431378091,
+				},
+				["XPerl_Party_Anchor"] = {
+					["top"] = 993.0434955274471,
+					["left"] = 0,
+				},
+				["XPerl_Raid_Title10"] = {
+					["top"] = 741.0434620649373,
+					["left"] = 547.1999974307961,
+				},
+				["XPerl_Raid_Title7"] = {
+					["top"] = 741.0434620649373,
+					["left"] = 364.8000076243353,
+				},
+				["XPerl_Focus"] = {
+					["top"] = 913.0435006443104,
+					["left"] = 270.9999892632034,
+				},
+				["XPerl_Target"] = {
+					["top"] = 1099.843530364079,
+					["left"] = 298.100013908514,
+				},
+				["XPerl_TargetTarget"] = {
+					["top"] = 1102.123521670523,
+					["left"] = 536.900002902423,
+				},
+				["XPerl_Raid_Title3"] = {
+					["top"] = 741.0434620649373,
+					["left"] = 121.600011878583,
+				},
+			},
+			["Heede"] = {
+				["XPerl_RosterTextAnchor"] = {
+					["top"] = 497.999988535818,
+					["height"] = 249.9999924987451,
+					["left"] = 425.0000271035907,
+					["width"] = 349.9999967447384,
+				},
+				["XPerl_Focus"] = {
+					["top"] = 1087.939342159892,
+					["left"] = 1219.069731390652,
+				},
+				["XPerl_Raid_Title10"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 526.3652759887938,
+				},
+				["XPerl_RaidMonitor_Anchor"] = {
+					["top"] = 424.0000093006645,
+					["height"] = 80.00000109419584,
+					["left"] = 582.6666682167775,
+					["width"] = 200.0000027354896,
+				},
+				["XPerl_MTList_Anchor"] = {
+					["top"] = 424.0000107565164,
+					["height"] = 80.00000339679465,
+					["left"] = 496.9999721887438,
+					["width"] = 205.9999978770034,
+				},
+				["XPerl_Raid_Title8"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 630.3653805023439,
+				},
+				["XPerl_AdminFrameAnchor"] = {
+					["top"] = 458.5217344967638,
+					["height"] = 149.9999973108709,
+					["left"] = 247.9999960370729,
+					["width"] = 139.9999968862716,
+				},
+				["XPerl_TargetTarget"] = {
+					["top"] = 1087.705521624153,
+					["left"] = 535.1867302781285,
+				},
+				["XPerl_Player"] = {
+					["top"] = 1093.387683781954,
+					["left"] = 29.59490808992376,
+				},
+				["XPerl_FocusTarget"] = {
+					["top"] = 1001.184014556878,
+					["left"] = 1262.476251937233,
+				},
+				["XPerl_Raid_Title4"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 187.1999836410701,
+				},
+				["XPerl_Raid_Title1"] = {
+					["top"] = 754.8224445327303,
+					["left"] = 2.129971703692849,
+				},
+				["XPerl_OptionsAnchor"] = {
+					["top"] = 924.3602516677767,
+					["height"] = 540.0001737035882,
+					["left"] = 676.8933509890949,
+					["width"] = 793.2251004967581,
+				},
+				["XPerl_Assists_FrameAnchor"] = {
+					["top"] = 514.521707888539,
+					["height"] = 123.9999980185364,
+					["left"] = 458.5652497008521,
+					["width"] = 329.9999958955398,
+				},
+				["XPerl_Raid_Title9"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 692.7652863465571,
+				},
+				["XPerl_PetTarget"] = {
+					["top"] = 892.4650559328974,
+					["left"] = 136.6538285125687,
+				},
+				["XPerl_Player_Pet"] = {
+					["top"] = 939.3672962976574,
+					["left"] = 138.1047570021648,
+				},
+				["XPerl_Raid_Title5"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 249.600015536645,
+				},
+				["XPerl_Raid_Title6"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 312.0000054150994,
+				},
+				["XPerl_CheckAnchor"] = {
+					["top"] = 504.0000141533111,
+					["height"] = 239.9999920741458,
+					["left"] = 349.9999967447384,
+					["width"] = 499.9999849974903,
+				},
+				["XPerl_TargetTargetTarget"] = {
+					["top"] = 1089.283376568455,
+					["left"] = 752.7225198573068,
+				},
+				["XPerl_Party_Anchor"] = {
+					["top"] = 1014.153233029162,
+					["left"] = 0,
+				},
+				["XPerl_AggroAnchor"] = {
+					["top"] = 689.2964546482157,
+					["left"] = 977.6317972214401,
+				},
+				["XPerl_Raid_Title7"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 567.9652505668209,
+				},
+				["XPerl_Runes"] = {
+					["top"] = 178.4420339158308,
+					["left"] = 792.7901532770037,
+				},
+				["XPerl_Target"] = {
+					["top"] = 1091.819263842991,
+					["left"] = 225.7511087022387,
+				},
+				["XPerl_Raid_Title2"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 62.40000388416125,
+				},
+				["XPerl_Raid_Title3"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 124.8000077683225,
+				},
+			},
+			["Ironoppi"] = {
+				["XPerl_RosterTextAnchor"] = {
+					["top"] = 498.0000006838724,
+					["height"] = 250.0000077961453,
+					["left"] = 507.6667394078937,
+					["width"] = 350.0000179174567,
+				},
+				["XPerl_Assists_FrameAnchor"] = {
+					["top"] = 618.5216973904319,
+					["height"] = 124.0000051974302,
+					["left"] = 824.3719713257776,
+					["width"] = 330.0000439046077,
+				},
+				["XPerl_PetTarget"] = {
+					["top"] = 983.8584542801556,
+					["left"] = 235.8158334376809,
+				},
+				["XPerl_Player_Pet"] = {
+					["top"] = 978.8064558374698,
+					["left"] = 25.25603341291101,
+				},
+				["XPerl_OptionsAnchor"] = {
+					["top"] = 849.6662074919452,
+					["height"] = 539.999928603722,
+					["left"] = 621.2671660348484,
+					["width"] = 700.0001058634467,
+				},
+				["XPerl_TargetTargetTarget"] = {
+					["top"] = 1086.31170727271,
+					["left"] = 779.7039031308223,
+				},
+				["XPerl_RaidMonitor_Anchor"] = {
+					["top"] = 424.0000093006645,
+					["height"] = 79.99999234062918,
+					["left"] = 582.6666682167775,
+					["width"] = 200.0000027354896,
+				},
+				["XPerl_MTList_Anchor"] = {
+					["top"] = 424.0000093006645,
+					["height"] = 79.99999234062918,
+					["left"] = 579.6666458541502,
+					["width"] = 206.0000999821441,
+				},
+				["XPerl_FocusTarget"] = {
+					["top"] = 913.0435006443104,
+					["left"] = 518.9999821509305,
+				},
+				["XPerl_AdminFrameAnchor"] = {
+					["top"] = 631.5217942951501,
+					["height"] = 150.0000677033671,
+					["left"] = 919.3719791903102,
+					["width"] = 140.0000982040759,
+				},
+				["XPerl_Player"] = {
+					["top"] = 1091.427311983695,
+					["left"] = 42.33977293241416,
+				},
+				["XPerl_Focus"] = {
+					["top"] = 913.0435006443104,
+					["left"] = 270.9999892632034,
+				},
+				["XPerl_Target"] = {
+					["top"] = 1090.375217283682,
+					["left"] = 288.515094564232,
+				},
+				["XPerl_TargetTarget"] = {
+					["top"] = 1088.447291880683,
+					["left"] = 595.4742990554457,
+				},
+				["XPerl_CheckAnchor"] = {
+					["top"] = 504.000045409127,
+					["height"] = 240.0000382968541,
+					["left"] = 432.6667405704768,
+					["width"] = 500.0000155922906,
+				},
+			},
+			["Pelé"] = {
+				["XPerl_RosterTextAnchor"] = {
+					["top"] = 497.999988535818,
+					["height"] = 249.9999924987451,
+					["left"] = 425.0000271035907,
+					["width"] = 349.9999967447384,
+				},
+				["XPerl_Focus"] = {
+					["top"] = 1087.939342159892,
+					["left"] = 1219.069731390652,
+				},
+				["XPerl_Raid_Title10"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 526.3652759887938,
+				},
+				["XPerl_RaidMonitor_Anchor"] = {
+					["top"] = 424.0000093006645,
+					["height"] = 80.00000109419584,
+					["left"] = 582.6666682167775,
+					["width"] = 200.0000027354896,
+				},
+				["XPerl_MTList_Anchor"] = {
+					["top"] = 424.0000107565164,
+					["height"] = 80.00000339679465,
+					["left"] = 496.9999721887438,
+					["width"] = 205.9999978770034,
+				},
+				["XPerl_Raid_Title8"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 630.3653805023439,
+				},
+				["XPerl_AdminFrameAnchor"] = {
+					["top"] = 458.5217344967638,
+					["height"] = 149.9999973108709,
+					["left"] = 247.9999960370729,
+					["width"] = 139.9999968862716,
+				},
+				["XPerl_TargetTarget"] = {
+					["top"] = 1087.705521624153,
+					["left"] = 535.1867302781285,
+				},
+				["XPerl_Player"] = {
+					["top"] = 1093.387683781954,
+					["left"] = 29.59490808992376,
+				},
+				["XPerl_FocusTarget"] = {
+					["top"] = 1001.184014556878,
+					["left"] = 1262.476251937233,
+				},
+				["XPerl_Raid_Title4"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 187.1999836410701,
+				},
+				["XPerl_Raid_Title1"] = {
+					["top"] = 754.8224445327303,
+					["left"] = 2.129971703692849,
+				},
+				["XPerl_OptionsAnchor"] = {
+					["top"] = 924.3602516677767,
+					["height"] = 540.0001737035882,
+					["left"] = 676.8933509890949,
+					["width"] = 793.2251004967581,
+				},
+				["XPerl_Assists_FrameAnchor"] = {
+					["top"] = 514.521707888539,
+					["height"] = 123.9999980185364,
+					["left"] = 458.5652497008521,
+					["width"] = 329.9999958955398,
+				},
+				["XPerl_Raid_Title9"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 692.7652863465571,
+				},
+				["XPerl_PetTarget"] = {
+					["top"] = 893.5171646158132,
+					["left"] = 133.4588292063572,
+				},
+				["XPerl_Player_Pet"] = {
+					["top"] = 939.3672962976574,
+					["left"] = 138.1047570021648,
+				},
+				["XPerl_Raid_Title5"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 249.600015536645,
+				},
+				["XPerl_Raid_Title6"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 312.0000054150994,
+				},
+				["XPerl_CheckAnchor"] = {
+					["top"] = 504.0000141533111,
+					["height"] = 239.9999920741458,
+					["left"] = 349.9999967447384,
+					["width"] = 499.9999849974903,
+				},
+				["XPerl_TargetTargetTarget"] = {
+					["top"] = 1089.283376568455,
+					["left"] = 752.7225198573068,
+				},
+				["XPerl_Party_Anchor"] = {
+					["top"] = 1014.153233029162,
+					["left"] = 0,
+				},
+				["XPerl_AggroAnchor"] = {
+					["top"] = 689.2964546482157,
+					["left"] = 977.6317972214401,
+				},
+				["XPerl_Raid_Title7"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 567.9652505668209,
+				},
+				["XPerl_Runes"] = {
+					["top"] = 178.4420339158308,
+					["left"] = 792.7901532770037,
+				},
+				["XPerl_Target"] = {
+					["top"] = 1091.81917065546,
+					["left"] = 225.7511327046028,
+				},
+				["XPerl_Raid_Title2"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 62.40000388416125,
+				},
+				["XPerl_Raid_Title3"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 124.8000077683225,
+				},
+			},
+			["Wiikree"] = {
+				["XPerl_RosterTextAnchor"] = {
+					["height"] = 250.0000077961453,
+					["top"] = 498.0000006838724,
+					["left"] = 507.6667394078937,
+					["width"] = 350.0000179174567,
+				},
+				["XPerl_Assists_FrameAnchor"] = {
+					["height"] = 124.0000051974302,
+					["top"] = 618.5216973904319,
+					["left"] = 824.3719713257776,
+					["width"] = 330.0000088903411,
+				},
+				["XPerl_RaidMonitor_Anchor"] = {
+					["height"] = 80.00000109419584,
+					["top"] = 424.0000093006645,
+					["left"] = 582.6666682167775,
+					["width"] = 200.0000027354896,
+				},
+				["XPerl_MTList_Anchor"] = {
+					["height"] = 80.00000109419584,
+					["top"] = 424.0000093006645,
+					["left"] = 579.6666458541502,
+					["width"] = 205.9999949393443,
+				},
+				["XPerl_Raid_Title8"] = {
+					["top"] = 747.7217752509451,
+					["left"] = 448.0000408146306,
+				},
+				["XPerl_AdminFrameAnchor"] = {
+					["height"] = 149.9999976748339,
+					["top"] = 631.5217942951501,
+					["left"] = 919.3719791903102,
+					["width"] = 140.0000106684094,
+				},
+				["XPerl_Raid_Title10"] = {
+					["top"] = 747.7217752509451,
+					["left"] = 576.0000444726927,
+				},
+				["XPerl_Raid_Title2"] = {
+					["top"] = 747.7217752509451,
+					["left"] = 64.00000182903101,
+				},
+				["XPerl_FocusTarget"] = {
+					["top"] = 1091.527884315599,
+					["left"] = 1369.57603536058,
+				},
+				["XPerl_Raid_Title4"] = {
+					["top"] = 747.7217752509451,
+					["left"] = 192.000005487093,
+				},
+				["XPerl_Raid_Title1"] = {
+					["top"] = 747.4143219741678,
+					["left"] = 0,
+				},
+				["XPerl_OptionsAnchor"] = {
+					["height"] = 540.0001737035882,
+					["top"] = 958.0251384653534,
+					["left"] = 722.6876699380158,
+					["width"] = 793.2251004967581,
+				},
+				["XPerl_Raid_Title5"] = {
+					["top"] = 747.7217752509451,
+					["left"] = 256.000007316124,
+				},
+				["XPerl_Raid_Title9"] = {
+					["top"] = 747.7217752509451,
+					["left"] = 512.0000146322481,
+				},
+				["XPerl_PetTarget"] = {
+					["top"] = 867.9454053725426,
+					["left"] = 22.10031136026254,
+				},
+				["XPerl_Player_Pet"] = {
+					["top"] = 931.6044933425364,
+					["left"] = 24.09697584104508,
+				},
+				["XPerl_Player"] = {
+					["top"] = 1093.243481023247,
+					["left"] = 29.7000005685042,
+				},
+				["XPerl_Raid_Title6"] = {
+					["top"] = 747.7217752509451,
+					["left"] = 320.000009145155,
+				},
+				["XPerl_CheckAnchor"] = {
+					["height"] = 240.0000032825875,
+					["top"] = 504.000045409127,
+					["left"] = 432.6667405704768,
+					["width"] = 500.0000155922906,
+				},
+				["XPerl_TargetTargetTarget"] = {
+					["top"] = 1092.849864040698,
+					["left"] = 734.9417005294033,
+				},
+				["XPerl_Party_Anchor"] = {
+					["top"] = 1012.243526888712,
+					["left"] = 0,
+				},
+				["XPerl_AggroAnchor"] = {
+					["top"] = 570.4177323735139,
+					["left"] = 977.6320773355729,
+				},
+				["XPerl_Raid_Title7"] = {
+					["top"] = 747.7217752509451,
+					["left"] = 384.000010974186,
+				},
+				["XPerl_Focus"] = {
+					["top"] = 1091.043496951399,
+					["left"] = 1179.108088972619,
+				},
+				["XPerl_Target"] = {
+					["top"] = 1092.143472799775,
+					["left"] = 240.9000099606027,
+				},
+				["XPerl_TargetTarget"] = {
+					["top"] = 1093.933460384515,
+					["left"] = 563.4920205172278,
+				},
+				["XPerl_Raid_Title3"] = {
+					["top"] = 747.7217752509451,
+					["left"] = 128.000003658062,
+				},
+			},
+			["Lillipop"] = {
+				["XPerl_RosterTextAnchor"] = {
+					["top"] = 497.999988535818,
+					["height"] = 249.9999924987451,
+					["left"] = 425.0000271035907,
+					["width"] = 349.9999967447384,
+				},
+				["XPerl_Focus"] = {
+					["top"] = 1087.939342159892,
+					["left"] = 1219.069731390652,
+				},
+				["XPerl_Raid_Title10"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 526.3652759887938,
+				},
+				["XPerl_RaidMonitor_Anchor"] = {
+					["top"] = 424.0000093006645,
+					["height"] = 80.00000109419584,
+					["left"] = 582.6666682167775,
+					["width"] = 200.0000027354896,
+				},
+				["XPerl_MTList_Anchor"] = {
+					["top"] = 424.0000107565164,
+					["height"] = 80.00000339679465,
+					["left"] = 496.9999721887438,
+					["width"] = 205.9999978770034,
+				},
+				["XPerl_Raid_Title8"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 630.3653805023439,
+				},
+				["XPerl_AdminFrameAnchor"] = {
+					["top"] = 458.5217344967638,
+					["height"] = 149.9999973108709,
+					["left"] = 247.9999960370729,
+					["width"] = 139.9999968862716,
+				},
+				["XPerl_TargetTarget"] = {
+					["top"] = 1087.705521624153,
+					["left"] = 535.1867302781285,
+				},
+				["XPerl_Player"] = {
+					["top"] = 1093.387683781954,
+					["left"] = 29.59490808992376,
+				},
+				["XPerl_FocusTarget"] = {
+					["top"] = 1088.001963881072,
+					["left"] = 1411.336367678902,
+				},
+				["XPerl_Raid_Title4"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 187.1999836410701,
+				},
+				["XPerl_Raid_Title1"] = {
+					["top"] = 754.8224445327303,
+					["left"] = 2.129971703692849,
+				},
+				["XPerl_OptionsAnchor"] = {
+					["top"] = 924.3602516677767,
+					["height"] = 540.0001737035882,
+					["left"] = 676.8933509890949,
+					["width"] = 793.2251004967581,
+				},
+				["XPerl_Assists_FrameAnchor"] = {
+					["top"] = 514.521707888539,
+					["height"] = 123.9999980185364,
+					["left"] = 458.5652497008521,
+					["width"] = 329.9999958955398,
+				},
+				["XPerl_Raid_Title9"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 692.7652863465571,
+				},
+				["XPerl_PetTarget"] = {
+					["top"] = 1090.245871958161,
+					["left"] = 1128.156238581468,
+				},
+				["XPerl_Player_Pet"] = {
+					["top"] = 1088.038152420248,
+					["left"] = 931.2697569538026,
+				},
+				["XPerl_Raid_Title5"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 249.600015536645,
+				},
+				["XPerl_Raid_Title6"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 312.0000054150994,
+				},
+				["XPerl_CheckAnchor"] = {
+					["top"] = 504.0000141533111,
+					["height"] = 239.9999920741458,
+					["left"] = 349.9999967447384,
+					["width"] = 499.9999849974903,
+				},
+				["XPerl_TargetTargetTarget"] = {
+					["top"] = 1089.283376568455,
+					["left"] = 752.7225198573068,
+				},
+				["XPerl_Party_Anchor"] = {
+					["top"] = 1014.153233029162,
+					["left"] = 0,
+				},
+				["XPerl_AggroAnchor"] = {
+					["top"] = 689.2964546482157,
+					["left"] = 977.6317972214401,
+				},
+				["XPerl_Raid_Title7"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 567.9652505668209,
+				},
+				["XPerl_Runes"] = {
+					["top"] = 178.4420339158308,
+					["left"] = 792.7901532770037,
+				},
+				["XPerl_Target"] = {
+					["top"] = 1091.819263842991,
+					["left"] = 225.7511087022387,
+				},
+				["XPerl_Raid_Title2"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 62.40000388416125,
+				},
+				["XPerl_Raid_Title3"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 124.8000077683225,
+				},
+			},
+			["Osses"] = {
+				["XPerl_RosterTextAnchor"] = {
+					["top"] = 497.999988535818,
+					["height"] = 249.9999924987451,
+					["left"] = 425.0000271035907,
+					["width"] = 349.9999967447384,
+				},
+				["XPerl_Focus"] = {
+					["top"] = 1087.939342159892,
+					["left"] = 1219.069731390652,
+				},
+				["XPerl_Raid_Title10"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 526.3652759887938,
+				},
+				["XPerl_RaidMonitor_Anchor"] = {
+					["top"] = 424.0000093006645,
+					["height"] = 80.00000109419584,
+					["left"] = 582.6666682167775,
+					["width"] = 200.0000027354896,
+				},
+				["XPerl_MTList_Anchor"] = {
+					["top"] = 424.0000107565164,
+					["height"] = 80.00000339679465,
+					["left"] = 496.9999721887438,
+					["width"] = 205.9999978770034,
+				},
+				["XPerl_Raid_Title8"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 630.3653805023439,
+				},
+				["XPerl_AdminFrameAnchor"] = {
+					["top"] = 458.5217344967638,
+					["height"] = 149.9999973108709,
+					["left"] = 247.9999960370729,
+					["width"] = 139.9999968862716,
+				},
+				["XPerl_TargetTarget"] = {
+					["top"] = 1087.705521624153,
+					["left"] = 535.1867302781285,
+				},
+				["XPerl_Player"] = {
+					["top"] = 1093.387683781954,
+					["left"] = 29.59490808992376,
+				},
+				["XPerl_FocusTarget"] = {
+					["top"] = 1001.184014556878,
+					["left"] = 1262.476251937233,
+				},
+				["XPerl_Raid_Title4"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 187.1999836410701,
+				},
+				["XPerl_Raid_Title1"] = {
+					["top"] = 754.8224445327303,
+					["left"] = 2.129971703692849,
+				},
+				["XPerl_OptionsAnchor"] = {
+					["top"] = 924.3602516677767,
+					["height"] = 540.0001737035882,
+					["left"] = 676.8933509890949,
+					["width"] = 793.2251004967581,
+				},
+				["XPerl_Assists_FrameAnchor"] = {
+					["top"] = 514.521707888539,
+					["height"] = 123.9999980185364,
+					["left"] = 458.5652497008521,
+					["width"] = 329.9999958955398,
+				},
+				["XPerl_Raid_Title9"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 692.7652863465571,
+				},
+				["XPerl_PetTarget"] = {
+					["top"] = 1048.164956039657,
+					["left"] = 169.6683865829434,
+				},
+				["XPerl_Player_Pet"] = {
+					["top"] = 939.3672962976574,
+					["left"] = 138.1047570021648,
+				},
+				["XPerl_Raid_Title5"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 249.600015536645,
+				},
+				["XPerl_Raid_Title6"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 312.0000054150994,
+				},
+				["XPerl_CheckAnchor"] = {
+					["top"] = 504.0000141533111,
+					["height"] = 239.9999920741458,
+					["left"] = 349.9999967447384,
+					["width"] = 499.9999849974903,
+				},
+				["XPerl_TargetTargetTarget"] = {
+					["top"] = 1089.283376568455,
+					["left"] = 752.7225198573068,
+				},
+				["XPerl_Party_Anchor"] = {
+					["top"] = 1014.153233029162,
+					["left"] = 0,
+				},
+				["XPerl_AggroAnchor"] = {
+					["top"] = 689.2964546482157,
+					["left"] = 977.6317972214401,
+				},
+				["XPerl_Raid_Title7"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 567.9652505668209,
+				},
+				["XPerl_Runes"] = {
+					["top"] = 178.4420339158308,
+					["left"] = 792.7901532770037,
+				},
+				["XPerl_Target"] = {
+					["top"] = 1091.819263842991,
+					["left"] = 225.7511087022387,
+				},
+				["XPerl_Raid_Title2"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 62.40000388416125,
+				},
+				["XPerl_Raid_Title3"] = {
+					["top"] = 754.8223885099028,
+					["left"] = 124.8000077683225,
+				},
+			},
+			["Ironikree"] = {
+				["XPerl_RosterTextAnchor"] = {
+					["top"] = 498.0000006838724,
+					["height"] = 250.0000077961453,
+					["left"] = 507.6667394078937,
+					["width"] = 350.0000179174567,
+				},
+				["XPerl_Assists_FrameAnchor"] = {
+					["top"] = 618.5216973904319,
+					["height"] = 124.0000051974302,
+					["left"] = 824.3719713257776,
+					["width"] = 330.0000439046077,
+				},
+				["XPerl_PetTarget"] = {
+					["top"] = 1012.263077777286,
+					["left"] = 229.4257823038581,
+				},
+				["XPerl_Player_Pet"] = {
+					["top"] = 1011.419303980664,
+					["left"] = 31.64595762001738,
+				},
+				["XPerl_CheckAnchor"] = {
+					["top"] = 504.000045409127,
+					["height"] = 240.0000382968541,
+					["left"] = 432.6667405704768,
+					["width"] = 500.0000155922906,
+				},
+				["XPerl_RaidMonitor_Anchor"] = {
+					["top"] = 424.0000093006645,
+					["height"] = 79.99999234062918,
+					["left"] = 582.6666682167775,
+					["width"] = 200.0000027354896,
+				},
+				["XPerl_MTList_Anchor"] = {
+					["top"] = 424.0000093006645,
+					["height"] = 79.99999234062918,
+					["left"] = 579.6666458541502,
+					["width"] = 206.0000999821441,
+				},
+				["XPerl_TargetTargetTarget"] = {
+					["top"] = 1084.207475840528,
+					["left"] = 732.8442877756964,
+				},
+				["XPerl_AdminFrameAnchor"] = {
+					["top"] = 631.5217942951501,
+					["height"] = 150.0000677033671,
+					["left"] = 919.3719791903102,
+					["width"] = 140.0000982040759,
+				},
+				["XPerl_Target"] = {
+					["top"] = 1085.11512894056,
+					["left"] = 271.4752893064339,
+				},
+				["XPerl_Focus"] = {
+					["top"] = 913.0435006443104,
+					["left"] = 270.9999892632034,
+				},
+				["XPerl_FocusTarget"] = {
+					["top"] = 913.0435006443104,
+					["left"] = 518.9999821509305,
+				},
+				["XPerl_TargetTarget"] = {
+					["top"] = 1082.13497993994,
+					["left"] = 561.5966828050549,
+				},
+				["XPerl_Player"] = {
+					["top"] = 1093.531424352332,
+					["left"] = 29.55995269029788,
+				},
+			},
+		},
+		["Magtheridon"] = {
+			["Ffggr"] = {
+				["XPerl_RosterTextAnchor"] = {
+					["top"] = 498,
+					["height"] = 249.9999847412109,
+					["left"] = 304.9999694824219,
+					["width"] = 350.0000305175781,
+				},
+				["XPerl_Focus"] = {
+					["top"] = 568,
+					["left"] = 271,
+				},
+				["XPerl_MTList_Anchor"] = {
+					["top"] = 424,
+					["height"] = 80,
+					["left"] = 377.0000305175781,
+					["width"] = 206,
+				},
+				["XPerl_Raid_Title8"] = {
+					["top"] = 396.0000059008598,
+					["left"] = 425.6000063419342,
+				},
+				["XPerl_TargetTargetTarget"] = {
+					["top"] = 737.0600310075679,
+					["left"] = 687.050019800663,
+				},
+				["XPerl_FocusTarget"] = {
+					["top"] = 568.0000452586573,
+					["left"] = 459.5000471064013,
+				},
+				["XPerl_Raid_Title4"] = {
+					["top"] = 396.0000059008598,
+					["left"] = 182.4000149250032,
+				},
+				["XPerl_Raid_Title1"] = {
+					["top"] = 396.0000059008598,
+					["left"] = 0,
+				},
+				["XPerl_Player"] = {
+					["top"] = 754.8000224633652,
+					["left"] = 25.29999845027919,
+				},
+				["XPerl_Raid_Title9"] = {
+					["top"] = 396.0000059008598,
+					["left"] = 486.4000560760505,
+				},
+				["XPerl_Raid_Title5"] = {
+					["top"] = 396.0000059008598,
+					["left"] = 243.2000280380253,
+				},
+				["XPerl_Player_Pet"] = {
+					["top"] = 705.7000062925472,
+					["left"] = 72.09999877214432,
+				},
+				["XPerl_Raid_Title6"] = {
+					["top"] = 396.0000059008598,
+					["left"] = 304.000004529953,
+				},
+				["XPerl_CheckAnchor"] = {
+					["top"] = 504.0000305175781,
+					["height"] = 240,
+					["left"] = 229.9999847412109,
+					["width"] = 499.9999694824219,
+				},
+				["XPerl_Assists_FrameAnchor"] = {
+					["top"] = 446.0000305175781,
+					["height"] = 123.9999923706055,
+					["left"] = 315,
+					["width"] = 330,
+				},
+				["XPerl_Party_Anchor"] = {
+					["top"] = 647.9999608278267,
+					["left"] = 0,
+				},
+				["XPerl_Raid_Title2"] = {
+					["top"] = 396.0000059008598,
+					["left"] = 60.80000700950632,
+				},
+				["XPerl_AdminFrameAnchor"] = {
+					["top"] = 458.9999694824219,
+					["height"] = 150,
+					["left"] = 410,
+					["width"] = 140,
+				},
+				["XPerl_Raid_Title7"] = {
+					["top"] = 396.0000059008598,
+					["left"] = 364.8000298500065,
+				},
+				["XPerl_Target"] = {
+					["top"] = 754.8000224633652,
+					["left"] = 298.1000064611435,
+				},
+				["XPerl_TargetTarget"] = {
+					["top"] = 757.0799760425471,
+					["left"] = 536.9000154733658,
+				},
+				["XPerl_Raid_Title3"] = {
+					["top"] = 396.0000059008598,
+					["left"] = 121.6000140190126,
+				},
+			},
+		},
+	},
+}
+XPerlConfigSavePerCharacter = nil

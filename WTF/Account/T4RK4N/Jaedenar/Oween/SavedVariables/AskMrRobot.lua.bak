@@ -1,0 +1,70 @@
+
+AmrDb = {
+	["Talents"] = {
+	},
+	["LastCharacterImportDate"] = "",
+	["SendSettings"] = {
+		["SendTo"] = "",
+		["SendGems"] = true,
+		["SendEnchants"] = true,
+		["SendEnchantMaterials"] = true,
+		["SendToType"] = "a friend",
+	},
+	["CharacterName"] = "Oween",
+	["Race"] = "Scourge",
+	["ActiveSpec"] = 1,
+	["Level"] = 90,
+	["Equipped"] = {
+		{
+			"|cffa335ee|Hitem:86641:0:4656:4593:0:0:0:0:90:445:0:0|h[Helmet of the Thousandfold Blades]|h|r", -- [1]
+			"|cffa335ee|Hitem:86166:0:0:0:0:0:0:526290976:90:445:0:0|h[Choker of the Unleashed Storm]|h|r", -- [2]
+			"|cffa335ee|Hitem:89961:4804:4643:0:0:0:0:559577920:90:445:0:0|h[Shadow Heart Spaulders]|h|r", -- [3]
+			nil, -- [4]
+			"|cffa335ee|Hitem:86795:4419:4643:4649:0:0:0:565400384:90:445:0:0|h[Chestguard of Total Annihilation]|h|r", -- [5]
+			"|cffa335ee|Hitem:86899:0:4593:4649:0:0:0:1807401728:90:445:0:0|h[Stalker's Cord of Eternal Autumn]|h|r", -- [6]
+			"|cffa335ee|Hitem:86743:4822:4643:4593:0:0:0:605448448:90:445:0:0|h[Stoneflesh Leggings]|h|r", -- [7]
+			"|cffa335ee|Hitem:86811:4428:4649:0:0:0:0:1984547328:90:445:0:0|h[Boots of the Still Breath]|h|r", -- [8]
+			"|cffa335ee|Hitem:89970:4411:0:0:0:0:0:2065321856:90:445:0:0|h[Bracers of Violent Meditation]|h|r", -- [9]
+			"|cffa335ee|Hitem:85302:4430:0:0:0:0:0:1861410304:90:446:0:0|h[Gloves of the Thousandfold Blades]|h|r", -- [10]
+			"|cffa335ee|Hitem:86869:0:0:0:0:0:0:259315712:90:445:0:0|h[Regail's Band of the Endless]|h|r", -- [11]
+			"|cffa335ee|Hitem:93248:0:0:0:0:0:0:0:90:446:0:0|h[Dominator's Signet]|h|r", -- [12]
+			"|cffa335ee|Hitem:86043:0:0:0:0:0:0:1488093760:90:445:0:0|h[Jade Bandit Figurine]|h|r", -- [13]
+			"|cffa335ee|Hitem:95625:0:0:0:0:0:0:1269667328:90:465:0:0|h[Renataki's Soul Charm]|h|r", -- [14]
+			"|cffa335ee|Hitem:86082:4421:0:0:0:0:0:378384056:90:445:0:0|h[Arrow Breaking Windcloak]|h|r", -- [15]
+			"|cffa335ee|Hitem:86864:4444:4996:0:0:0:0:147555616:90:446:0:0|h[Claws of Shek'zeer]|h|r", -- [16]
+			"|cffa335ee|Hitem:86741:4444:0:0:0:0:0:2036732032:90:445:0:0|h[Dagger of the Seven Stars]|h|r", -- [17]
+		}, -- [1]
+	},
+	["Specs"] = {
+	},
+	["Options"] = {
+	},
+	["Region"] = "EU",
+	["Currencies"] = {
+	},
+	["Glyphs"] = {
+	},
+	["LogData"] = {
+		["_wipes"] = {
+		},
+		["_autoLog"] = {
+			[1136] = "disabled",
+		},
+		["_lastDiff"] = 0,
+		["_lastZone"] = "Pandaria",
+	},
+	["BagItems"] = {
+	},
+	["BankItems"] = {
+	},
+	["LastCharacterImport"] = "",
+	["Reps"] = {
+	},
+	["Faction"] = "Horde",
+	["IconInfo"] = {
+	},
+	["Professions"] = {
+	},
+	["RealmName"] = "Jaedenar",
+	["Class"] = "ROGUE",
+}

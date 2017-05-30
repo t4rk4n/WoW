@@ -1,0 +1,22 @@
+VER 3 0100000000000001 " charge pvp" "INV_MISC_QUESTIONMARK"
+/cancelaura Bladestorm
+/cast Charge
+#showtooltip# Charge
+#showcooldown# Charge
+/cast Rend
+/cast Mortal Strike
+END
+VER 3 0100000000000003 "charge" "INV_MISC_QUESTIONMARK"
+/cancelaura Bladestorm
+/cast Charge
+#showtooltip# Charge
+#showcooldown# Charge
+/cast Bloodthirst
+END
+VER 3 0100000000000004 "Nuke" "ACHIEVEMENT_REPUTATION_01"
+/use Vial of Convulsive Shadows
+/use Thorasus, the Stone Heart of Draenor
+END
+VER 3 0100000000000002 "pull" "ABILITY_WARRIOR_OFFENSIVESTANCE"
+/dbm pull 5
+END

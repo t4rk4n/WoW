@@ -1,0 +1,7 @@
+changeset:   61:00b9b61917c8
+tag:         a61-alpha
+user:        Tercio
+date:        Mon May 08 16:30:42 2017 -0300
+summary:     - localization is now handled on curseforge.
+
+

@@ -1,0 +1,18 @@
+
+NumPadBar = {
+	["barpage"] = 1,
+	["stancebars"] = false,
+	["rightclicked"] = true,
+	["hidden"] = true,
+	["nav"] = "",
+	["left"] = 1516.00024414063,
+	["cleared"] = true,
+	["enter"] = "",
+	["disabled"] = false,
+	["labels"] = true,
+	["top"] = 874.999938964844,
+	["leftclicked"] = true,
+	["arrow"] = "",
+	["shape"] = "Windows",
+	["size"] = 1,
+}

@@ -1,0 +1,10 @@
+AutoTurnIn: disabled
+ILD-Bagnon: disabled
+ILD-Baggins: disabled
+ILD-Arkinventory: disabled
+ILD-Onebag3: disabled
+ILD-Combuctor: disabled
+ILD-Litebag: disabled
+Oilvl: enabled
+ItemLevelDisplay: disabled
+ILD-Blizzard: disabled

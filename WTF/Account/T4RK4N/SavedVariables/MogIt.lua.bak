@@ -1,0 +1,32 @@
+
+MogItDB = {
+	["profileKeys"] = {
+		["Froglund - Twisting Nether"] = "Default",
+	},
+	["global"] = {
+		["version"] = "3.5.0",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["x"] = 21.8802909851074,
+			["y"] = 81.3252182006836,
+			["previewProps"] = {
+				{
+					["y"] = 0,
+					["h"] = 385.000030517578,
+					["x"] = 0,
+				}, -- [1]
+			},
+			["gridWidth"] = 600.000061035156,
+		},
+	},
+}
+MogItWishlist = {
+	["profileKeys"] = {
+		["Froglund - Twisting Nether"] = "Froglund - Twisting Nether",
+	},
+	["profiles"] = {
+		["Froglund - Twisting Nether"] = {
+		},
+	},
+}

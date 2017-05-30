@@ -1,0 +1,39 @@
+
+EPGP_DB = {
+	["namespaces"] = {
+		["boss"] = {
+		},
+		["loot"] = {
+		},
+		["warnings"] = {
+		},
+		["whisper"] = {
+		},
+		["log"] = {
+		},
+		["gptooltip"] = {
+		},
+		["announce"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Etni - Hellfire"] = "Delirium",
+	},
+	["global"] = {
+		["last_version"] = "5.10.8",
+		["last_tier"] = 600,
+	},
+	["profiles"] = {
+		["Delirium"] = {
+			["min_ep"] = 500,
+			["extras_p"] = 30,
+			["base_gp"] = 100,
+			["decay_p"] = 10,
+			["outsiders"] = 0,
+			["blizzard_show_offline"] = false,
+		},
+		["Etni - Hellfire"] = {
+			["outsiders"] = 0,
+		},
+	},
+}

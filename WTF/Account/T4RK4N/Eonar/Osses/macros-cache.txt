@@ -1,0 +1,16 @@
+VER 3 0100000000000001 "CH" "Spell_Nature_HealingWaveGreater"
+#showtooltip Chain Heal
+/cast [mod,target=player][target=mouseover,help,nodead][help,nodead][nogroup,target=player][target=targettarget,help,nodead]Chain Heal
+END
+VER 3 0100000000000003 "HS" "SPELL_NATURE_HEALINGWAY"
+#showtooltip Healing Surge
+/cast [mod,target=player][target=mouseover,help,nodead][help,nodead][nogroup,target=player][target=targettarget,help,nodead]Healing Surge
+END
+VER 3 0100000000000002 "HW" "Spell_Nature_MagicImmunity"
+#showtooltip Greater Healing Wave
+/cast [mod,target=player][target=mouseover,help,nodead][help,nodead][nogroup,target=player][target=targettarget,help,nodead]Greater Healing Wave
+END
+VER 3 0100000000000004 "R" "Spell_Nature_Riptide"
+#showtooltip Riptide
+/cast [mod,target=player][target=mouseover,help,nodead][help,nodead][nogroup,target=player][target=targettarget,help,nodead]Riptide
+END

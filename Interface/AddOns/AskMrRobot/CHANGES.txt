@@ -1,0 +1,7 @@
+changeset:   108:917ac27213d1
+tag:         v50
+user:        yellowfive
+date:        Thu Mar 30 14:08:56 2017 -0700
+summary:     Update to equipment set creation to use new 7.2 API.
+
+

@@ -1,0 +1,48 @@
+VER 3 0100000000000009 "DI aspan" "INV_Misc_QuestionMark"
+#showtooltip Dispersion
+/stopcasting
+/cast Dispersion
+/cancelaura Dispersion
+END
+VER 3 010000000000000D "MF-FOCUS" "INV_Misc_QuestionMark"
+#showtooltip Mind Flay
+/Cast [target=focus]Mind Flay
+END
+VER 3 010000000000001D "mind flay fuckah" "Ability_Creature_Cursed_02"
+#showtooltip
+/cast Mind Flay
+END
+VER 3 0100000000000029 "mouseovervoid" "INV_MISC_QUESTIONMARK"
+#showtooltip Void Eruption
+/cast [@mouseover,nodead,harm][@target,nodead,harm] Void Eruption
+END
+VER 3 0100000000000002 "NOFUKKENCHANNEL" "Ability_Creature_Cursed_02"
+#showtooltip
+/cast [nochanneling:Mind Flay] Mind Flay
+END
+VER 3 0100000000000027 "pws" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/Cast [target=Mouseover]Power Word: Shield
+END
+VER 3 010000000000002A "SWP" "INV_MISC_QUESTIONMARK"
+#showtooltip shadow word: pain
+/use Battle Standard of Coordination
+/use Standard of Unity
+/use Banner of Cooperation
+/cast shadow word: pain
+END
+VER 3 010000000000000C "SWP-FOCUS" "INV_Misc_QuestionMark"
+#showtooltip Shadow Word: Pain
+/Cast [target=focus]Shadow Word: Pain
+END
+VER 3 0100000000000012 "tagge" "INV_Misc_QuestionMark"
+/click ExtraActionButton1
+END
+VER 3 0100000000000026 "voidbolt" "INV_MISC_QUESTIONMARK"
+#showtooltip Void Eruption
+/Cast [target=focus] Void Eruption
+END
+VER 3 010000000000000A "VT-FOCUS" "INV_Misc_QuestionMark"
+#showtooltip Vampiric Touch
+/Cast [target=focus]Vampiric Touch
+END

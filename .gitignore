@@ -1,0 +1,14 @@
+[Cc]ache/
+[Dd]ata/
+[Ee]lvUI/
+[Uu]tils/
+[Ll]ogs/
+/[Ww]*.*
+/*.rar
+/[Bb]*.*
+/*.dll
+.build.info
+.curseclient
+.patch.result
+.product.db
+Launcher.db

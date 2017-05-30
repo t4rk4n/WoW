@@ -1,0 +1,66 @@
+
+AucAdvancedConfig = {
+	["users.Twisting Nether.Stiflersmom"] = "Default",
+	["profile.Default"] = {
+		["configator.left"] = 650.2564086914063,
+		["util"] = {
+			["EasyBuyout"] = {
+				["active"] = true,
+				["EGL.EBuy.limit"] = 1600000,
+			},
+			["mover"] = {
+				["anchors"] = {
+					"CENTER", -- [1]
+					nil, -- [2]
+					"CENTER", -- [3]
+					22.15386772155762, -- [4]
+					43.90706634521484, -- [5]
+				},
+			},
+			["automagic"] = {
+				["ammailguix"] = 160,
+				["uierrormsg"] = 1,
+				["SavedMailButtons"] = {
+				},
+			},
+			["pricelevel"] = {
+			},
+		},
+		["core"] = {
+			["matcher"] = {
+				["matcherlist"] = {
+					"Undercut", -- [1]
+					"BeanCount", -- [2]
+				},
+			},
+		},
+		["stat"] = {
+			["sales"] = {
+				["ignoredsigs"] = {
+				},
+			},
+		},
+		["configator.top"] = 815.7692260742188,
+	},
+	["version"] = 1,
+}
+AucAdvancedData = {
+	["AserArbitrageRealms"] = {
+		["Twisting Nether"] = "Stiflersmom",
+	},
+	["Stats"] = {
+	},
+	["UtilSearchUiData"] = {
+		["Global"] = {
+			["configator.left"] = 600.2564086914063,
+			["configator.top"] = 840.7692260742188,
+		},
+		["Current"] = {
+			["snatch.itemsList"] = {
+			},
+		},
+		["Version"] = 1,
+		["SavedSearches"] = {
+		},
+	},
+}

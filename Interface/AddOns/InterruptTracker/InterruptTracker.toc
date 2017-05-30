@@ -1,0 +1,5 @@
+## Interface: 40300
+## Title: InterruptTracker
+## Notes: InterruptTracker
+## SavedVariablesPerCharacter: InterruptTrackerScale, InterruptTrackerEnableArena, InterruptTrackerEnableNonArena, InterruptTrackerRotate, InterruptTrackerEnableRangeCheck, InterruptTrackerRogueGlyph, InterruptTrackerRoguePrepGlyph, InterruptTrackerMaxFrames
+InterruptTracker.xml

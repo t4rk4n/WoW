@@ -1,0 +1,41 @@
+
+dbILD = {
+	["char"] = {
+		["Wiikree - Silvermoon"] = {
+			["firstun"] = false,
+		},
+	},
+	["profileKeys"] = {
+		["Wiikree - Silvermoon"] = "Default",
+	},
+	["global"] = {
+		["hascommon"] = true,
+		["firstrun"] = false,
+	},
+	["profiles"] = {
+		["Default"] = {
+			["toggles"] = {
+				["BAGSFONT"] = "FrancoisOne",
+				["BAGSLEVELS"] = 850,
+				["FONT"] = "FrancoisOne",
+				["CORNER"] = "bc",
+				["CLASSES"] = {
+					true, -- [1]
+					[16] = true,
+					["_default"] = true,
+				},
+				["SHOWSOCKETS"] = true,
+				["BAGSFONTSIZE"] = 11,
+				["FONTSIZE"] = 15,
+				["BAGSCORNER"] = "tr",
+				["FONTOUTLINE"] = "",
+				["BAGS"] = true,
+				["COLORSCHEME"] = "plain",
+				["BAGSFONTOUTLINE"] = "",
+				["SHOWBUCKLE"] = false,
+				["SHOWENCHANT"] = true,
+				["SHOWUSELESSILEVEL"] = false,
+			},
+		},
+	},
+}

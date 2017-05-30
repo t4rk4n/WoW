@@ -1,0 +1,166 @@
+
+AmrDb = {
+	["Talents"] = {
+		"1221130", -- [1]
+		"2213330", -- [2]
+	},
+	["LastCharacterImportDate"] = "",
+	["SendSettings"] = {
+		["SendTo"] = "",
+		["SendGems"] = true,
+		["SendEnchants"] = true,
+		["SendEnchantMaterials"] = true,
+		["SendToType"] = "a friend",
+	},
+	["CharacterName"] = "Wiikree",
+	["Race"] = "Human",
+	["ActiveSpec"] = 2,
+	["Level"] = 90,
+	["Equipped"] = {
+		{
+			"|cffa335ee|Hitem:86702:0:4660:4589:0:0:0:0:90:445:0:0|h[Guardian Serpent Cowl]|h|r", -- [1]
+			"|cffa335ee|Hitem:95145:0:0:0:0:0:0:0:90:465:0:0|h[Mender's Battletags]|h|r", -- [2]
+			"|cffa335ee|Hitem:86699:4806:4589:0:0:0:0:0:90:445:0:0|h[Guardian Serpent Mantle]|h|r", -- [3]
+			nil, -- [4]
+			"|cffa335ee|Hitem:82437:4419:4602:4589:0:0:0:1837853184:90:445:0:0|h[Spelltwister's Grand Robe]|h|r", -- [5]
+			"|cffa335ee|Hitem:86897:0:4589:4589:0:0:0:1938210432:90:445:0:0|h[Sorcerer's Belt of Final Winter]|h|r", -- [6]
+			"|cffa335ee|Hitem:86867:4826:4571:4589:0:0:0:744340928:90:445:0:0|h[Leggings of Shadow Infestation]|h|r", -- [7]
+			"|cffa335ee|Hitem:90911:4429:0:0:0:0:0:1722432256:90:445:0:0|h[Furyheart Treads]|h|r", -- [8]
+			"|cffa335ee|Hitem:86157:4414:0:0:0:0:0:915646080:90:445:0:0|h[Attenuating Bracers]|h|r", -- [9]
+			"|cffa335ee|Hitem:89768:4430:4589:0:0:0:0:1027888896:90:445:0:0|h[Claws of Amethyst]|h|r", -- [10]
+			"|cffa335ee|Hitem:86814:0:0:0:0:0:0:2053074048:90:445:0:0|h[Fragment of Fear Made Flesh]|h|r", -- [11]
+			"|cffa335ee|Hitem:86858:0:0:0:0:0:0:1811817344:90:445:0:0|h[Seal of the Profane]|h|r", -- [12]
+			"|cffa335ee|Hitem:86907:0:0:0:0:0:0:1280185600:90:445:0:0|h[Essence of Terror]|h|r", -- [13]
+			"|cffa335ee|Hitem:79331:0:0:0:0:0:0:944056512:90:445:0:0|h[Relic of Yu'lon]|h|r", -- [14]
+			"|cffa335ee|Hitem:89077:0:0:0:0:0:0:0:90:445:0:0|h[Cloak of Snow Blossoms]|h|r", -- [15]
+			"|cff0070dd|Hitem:81079:4441:0:0:0:0:0:2110413824:90:452:0:0|h[Staff of Trembling Will]|h|r", -- [16]
+		}, -- [1]
+		{
+			"|cffa335ee|Hitem:86702:0:4660:4589:0:0:0:0:90:445:0:0|h[Guardian Serpent Cowl]|h|r", -- [1]
+			"|cffa335ee|Hitem:95145:0:0:0:0:0:0:0:90:465:0:0|h[Mender's Battletags]|h|r", -- [2]
+			"|cffa335ee|Hitem:86699:4806:4589:0:0:0:0:0:90:445:0:0|h[Guardian Serpent Mantle]|h|r", -- [3]
+			nil, -- [4]
+			"|cffa335ee|Hitem:82437:4419:4602:4589:0:0:0:1837853184:90:445:0:0|h[Spelltwister's Grand Robe]|h|r", -- [5]
+			"|cffa335ee|Hitem:95091:0:0:0:0:0:0:0:90:465:14:0|h[Girdle of Glowing Light]|h|r", -- [6]
+			"|cffa335ee|Hitem:86867:4826:4571:4589:0:0:0:744340928:90:445:0:0|h[Leggings of Shadow Infestation]|h|r", -- [7]
+			"|cffa335ee|Hitem:90911:4429:0:0:0:0:0:1722432256:90:445:0:0|h[Furyheart Treads]|h|r", -- [8]
+			"|cffa335ee|Hitem:95136:0:0:0:0:0:0:0:90:465:14:0|h[Troll-Burner Bracers]|h|r", -- [9]
+			"|cffa335ee|Hitem:95106:0:0:0:0:0:0:0:90:465:14:0|h[Flameweaver Handwraps]|h|r", -- [10]
+			"|cffa335ee|Hitem:86814:0:0:0:0:0:0:2053074048:90:445:0:0|h[Fragment of Fear Made Flesh]|h|r", -- [11]
+			"|cffa335ee|Hitem:95138:0:0:0:0:0:0:0:90:465:14:0|h[Signet of the Shado-Pan Assault]|h|r", -- [12]
+			"|cffa335ee|Hitem:86907:0:0:0:0:0:0:1280185600:90:445:0:0|h[Essence of Terror]|h|r", -- [13]
+			"|cffa335ee|Hitem:94510:0:0:0:0:0:0:0:90:465:14:0|h[Volatile Talisman of the Shado-Pan Assault]|h|r", -- [14]
+			"|cffa335ee|Hitem:89077:0:0:0:0:0:0:0:90:445:0:0|h[Cloak of Snow Blossoms]|h|r", -- [15]
+			"|cff0070dd|Hitem:81079:4441:0:0:0:0:0:2110413824:90:452:0:0|h[Staff of Trembling Will]|h|r", -- [16]
+		}, -- [2]
+	},
+	["Guild"] = "Demise",
+	["Specs"] = {
+		20, -- [1]
+		22, -- [2]
+	},
+	["Options"] = {
+	},
+	["Region"] = "EU",
+	["Currencies"] = {
+		[676] = 19,
+		[515] = 5,
+		[81] = 17,
+		[398] = 2,
+		[384] = 24,
+		[400] = 16,
+		[401] = 13,
+		[402] = 2,
+		[416] = 23,
+		[397] = 14,
+		[391] = 4,
+		[241] = 36,
+		[392] = 569,
+		[393] = 31,
+		[394] = 19,
+		[-1] = 99532649,
+	},
+	["Glyphs"] = {
+		{
+			126174, -- [1]
+			55685, -- [2]
+			126152, -- [3]
+			55692, -- [4]
+			120581, -- [5]
+		}, -- [1]
+		{
+			58228, -- [1]
+			147778, -- [2]
+			33371, -- [3]
+			57985, -- [4]
+			87195, -- [5]
+		}, -- [2]
+	},
+	["LogData"] = {
+		["_wipes"] = {
+		},
+		["_autoLog"] = {
+			[1136] = "disabled",
+		},
+		["_lastDiff"] = 17,
+		["_lastZone"] = "Siege of Orgrimmar",
+	},
+	["BagItems"] = {
+		"|cffffffff|Hitem:5512:0:0:0:0:0:0:0:90:0:4:0|h[Healthstone]|h|r", -- [1]
+		"|cffffffff|Hitem:79104:0:0:0:0:0:0:826610944:90:0:0:0|h[Rusty Watering Can]|h|r", -- [2]
+		"|cff0070dd|Hitem:76139:0:0:0:0:0:0:0:90:0:0:0|h[Wild Jade]|h|r", -- [3]
+		"|cff0070dd|Hitem:45991:0:0:0:0:0:0:1315393120:90:0:0:0|h[Bone Fishing Pole]|h|r", -- [4]
+		"|cffa335ee|Hitem:89426:0:0:0:0:0:0:1913070976:90:445:0:0|h[Fan of Fiery Winds]|h|r", -- [5]
+		"|cffa335ee|Hitem:34206:0:0:0:0:0:0:-1687322624:90:0:0:0|h[Book of Highborne Hymns]|h|r", -- [6]
+		"|cffa335ee|Hitem:86705:0:4658:4637:0:0:0:0:90:445:0:0|h[Guardian Serpent Hood]|h|r", -- [7]
+		"|cffa335ee|Hitem:86788:0:4658:4637:0:0:0:897155904:90:445:0:0|h[Hood of Blind Eyes]|h|r", -- [8]
+		"|cff0070dd|Hitem:33820:0:0:0:0:0:0:-1937961216:90:0:0:0|h[Weather-Beaten Fishing Hat]|h|r", -- [9]
+		"|cffa335ee|Hitem:86041:4806:4644:0:0:0:0:1526805184:90:445:0:0|h[Shadowsummoner Spaulders]|h|r", -- [10]
+		"|cffa335ee|Hitem:86857:0:4619:4637:4644:0:0:1995229824:90:445:0:0|h[Belt of Malleable Amber]|h|r", -- [11]
+		"|cffa335ee|Hitem:84954:0:0:0:0:0:0:758017536:90:453:0:0|h[Malevolent Gladiator's Cord of Cruelty]|h|r", -- [12]
+		"|cff1eff00|Hitem:84075:0:0:0:0:0:0:1810932864:90:0:0:0|h[Relic of Kypari Zar]|h|r", -- [13]
+		"|cffa335ee|Hitem:86897:0:4589:4589:0:0:0:1938210432:90:445:0:0|h[Sorcerer's Belt of Final Winter]|h|r", -- [14]
+		"|cffa335ee|Hitem:86157:4414:0:0:0:0:0:915646080:90:445:0:0|h[Attenuating Bracers]|h|r", -- [15]
+		"|cffa335ee|Hitem:86858:0:0:0:0:0:0:1811817344:90:445:0:0|h[Seal of the Profane]|h|r", -- [16]
+		"|cffa335ee|Hitem:89768:4430:4589:0:0:0:0:1027888896:90:445:0:0|h[Claws of Amethyst]|h|r", -- [17]
+		"|cffa335ee|Hitem:79331:0:0:0:0:0:0:944056512:90:445:0:0|h[Relic of Yu'lon]|h|r", -- [18]
+		"|cff0070dd|Hitem:52723:0:0:0:0:0:0:1774502912:90:0:0:0|h[Runed Elementium Rod]|h|r", -- [19]
+		"|cffff8000|Hitem:89882:0:0:0:0:0:0:1918995712:90:0:0:0|h[Crystallized Horror]|h|r", -- [20]
+		"|cffffffff|Hitem:71634:0:0:0:0:0:0:1049446912:90:0:0:0|h[Darkmoon Adventurer's Guide]|h|r", -- [21]
+		"|cffffffff|Hitem:95567:0:0:0:0:0:0:1521457664:90:0:0:0|h[Kirin Tor Beacon]|h|r", -- [22]
+		"|cffffffff|Hitem:89880:0:0:0:0:0:0:601302912:90:0:0:0|h[Dented Shovel]|h|r", -- [23]
+		"|cffffffff|Hitem:89815:0:0:0:0:0:0:1860418816:90:0:0:0|h[Master Plow]|h|r", -- [24]
+		"|cffffffff|Hitem:87903:0:0:0:0:0:0:563067664:90:0:0:0|h[Dread Amber Shards]|h|r", -- [25]
+		"|cffffffff|Hitem:80513:0:0:0:0:0:0:2114897152:90:0:0:0|h[Vintage Bug Sprayer]|h|r", -- [26]
+		"|cff0070dd|Hitem:64488:0:0:0:0:0:0:974865472:90:0:0:0|h[The Innkeeper's Daughter]|h|r", -- [27]
+		"|cffffffff|Hitem:75016:0:0:0:0:0:0:1566766080:90:0:0:0|h[Great Pandaren Banquet]|h|r", -- [28]
+		"|cffffffff|Hitem:74647:0:0:0:0:0:0:1826479360:90:0:0:0|h[Valley Stir Fry]|h|r", -- [29]
+	},
+	["BankItems"] = {
+	},
+	["LastCharacterImport"] = "",
+	["Reps"] = {
+		[1269] = 6,
+		[1337] = 5,
+		[1341] = 5,
+		[1375] = 0,
+		[1387] = 4,
+		[1376] = 4,
+		[1435] = 4,
+		[1388] = 0,
+		[1270] = 6,
+	},
+	["Faction"] = "Alliance",
+	["IconInfo"] = {
+	},
+	["Professions"] = {
+		["Tailoring"] = 600,
+		["Archaeology"] = 528,
+		["Fishing"] = 468,
+		["Cooking"] = 600,
+		["First Aid"] = 600,
+		["Enchanting"] = 600,
+	},
+	["RealmName"] = "Eonar",
+	["Class"] = "PRIEST",
+}

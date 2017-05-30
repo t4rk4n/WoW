@@ -1,0 +1,7 @@
+
+TukuiConfigAll = {
+	["Frostmane"] = {
+		["Viklund"] = false,
+	},
+}
+TukuiConfigSettings = nil

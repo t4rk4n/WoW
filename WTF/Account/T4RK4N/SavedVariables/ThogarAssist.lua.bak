@@ -1,0 +1,12 @@
+
+ThogarAssistDB = {
+	["profileKeys"] = {
+		["Víklund - Kazzak"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["posy"] = 329.522177244253,
+			["posx"] = 395.799958016323,
+		},
+	},
+}

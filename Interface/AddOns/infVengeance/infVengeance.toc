@@ -1,0 +1,8 @@
+## Interface: 50200
+## Title: |cff3399FFinf|rVengeance
+## Author: iNF
+## Notes: Vengeance tracker.
+## DefaultState: Enabled
+## SavedVariablesPerCharacter: infVengeanceDB
+infVengeance.xml
+infVengeance.lua

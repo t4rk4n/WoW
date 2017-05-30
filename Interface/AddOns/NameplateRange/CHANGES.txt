@@ -1,0 +1,10 @@
+lightweight tag 39e6635944e685873ca4b67e4979e3c3da179701 v1.1.3
+Author:	Ketho <sghs17@outlook.com>
+Date:	Wed Apr 12 23:14:20 2017 +0200
+
+commit 39e6635944e685873ca4b67e4979e3c3da179701
+Author: Ketho <sghs17@outlook.com>
+Date:   Wed Apr 12 23:14:20 2017 +0200
+
+    Bump TOC
+

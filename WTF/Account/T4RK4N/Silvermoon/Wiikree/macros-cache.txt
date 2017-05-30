@@ -1,0 +1,72 @@
+VER 3 0100000000000003 "FH" "Spell_Holy_FlashHeal"
+#showtooltip Flash Heal
+/cast [mod,target=player][target=mouseover,help,nodead][help,nodead][nogroup,target=player][target=targettarget,help,nodead]Flash Heal
+END
+VER 3 0100000000000007 "GS" "Spell_Holy_GuardianSpirit"
+#showtooltip Guardian Spirit
+/cast [mod,target=player][target=mouseover,help,nodead][help,nodead][nogroup,target=player][target=targettarget,help,nodead]Guardian Spirit
+END
+VER 3 0100000000000004 "H" "Spell_Holy_GreaterHeal"
+#showtooltip Heal
+/cast [mod,target=player][target=mouseover,help,nodead][help,nodead][nogroup,target=player][target=targettarget,help,nodead]Heal
+END
+VER 3 0100000000000016 "HF" "SPELL_HOLY_SEARINGLIGHT"
+#showtooltip Holy Fire
+/cast [@mouseovertarget, harm] [@mouseover, harm] [@targettarget, harm] [harm] Holy Fire
+END
+VER 3 0100000000000013 "HWC" "Spell_Holy_Chastise"
+#showtooltip Holy Word: Chastise
+/cast [mod,target=player][target=mouseover,help,nodead][help,nodead][nogroup,target=player][target=targettarget,help,nodead]Holy Word: Chastise
+END
+VER 3 010000000000000C "HWS" "SPELL_HOLY_PERSUITOFJUSTICE"
+#showtooltip Holy Word: Serenity
+/cast [mod,target=player][target=mouseover,help,nodead][help,nodead][nogroup,target=player][target=targettarget,help,nodead]Holy Word: Serenity
+END
+VER 3 0100000000000012 "LoF" "Spell_Holy_DivineSpirit"
+#showtooltip Leap of Faith
+/cast [mod,target=player][target=mouseover,help,nodead][help,nodead][nogroup,target=player][target=targettarget,help,nodead]Leap of Faith
+END
+VER 3 0100000000000005 "LoT" "INV_STAFF_2H_ARTIFACTHEARTOFKURE_D_01"
+#showtooltip Light of T'uure
+/cast [mod,target=player][target=mouseover,help,nodead][help,nodead][nogroup,target=player][target=targettarget,help,nodead]Light of T'uure
+END
+VER 3 0100000000000001 "Plea" "SPELL_PRIEST_PLEA_BLUE"
+#showtooltip Plea
+/cast [mod,target=player][target=mouseover,help,nodead][help,nodead][nogroup,target=player][target=targettarget,help,nodead]Plea
+END
+VER 3 0100000000000009 "PoH" "Spell_Holy_PrayerOfHealing02"
+#showtooltip Prayer of Healing
+/cast [mod,target=player][target=mouseover,help,nodead][help,nodead][nogroup,target=player][target=targettarget,help,nodead]Prayer of Healing
+END
+VER 3 010000000000000B "PoM" "Spell_Holy_PrayerOfMendingtga"
+#showtooltip Prayer of Mending
+/cast [mod,target=player][target=mouseover,help,nodead][help,nodead][nogroup,target=player][target=targettarget,help,nodead]Prayer of Mending
+END
+VER 3 0100000000000008 "PS" "Spell_Holy_PainSupression"
+#showtooltip Pain Suppression
+/cast [mod,target=player][target=mouseover,help,nodead][help,nodead][nogroup,target=player][target=targettarget,help,nodead]Pain Suppression
+END
+VER 3 0100000000000018 "Purify" "SPELL_HOLY_DISPELMAGIC"
+#showtooltip Purify
+/cast [mod,target=player][target=mouseover,help,nodead][help,nodead][nogroup,target=player][target=targettarget,help,nodead]Purify
+END
+VER 3 0100000000000002 "PW:R" "SPELL_PRIEST_POWER WORD"
+#showtooltip Power Word: Radiance
+/cast [mod,target=player][target=mouseover,help,nodead][help,nodead][nogroup,target=player][target=targettarget,help,nodead]Power Word: Radiance
+END
+VER 3 010000000000000A "Pw:S" "Spell_Holy_PowerWordShield"
+#showtooltip Power Word: Shield
+/cast [mod,target=player][target=mouseover,help,nodead][help,nodead][nogroup,target=player][target=targettarget,help,nodead]Power Word: Shield
+END
+VER 3 010000000000000D "Renew" "Spell_Holy_Renew"
+#showtooltip Renew
+/cast [mod,target=player][target=mouseover,help,nodead][help,nodead][nogroup,target=player][target=targettarget,help,nodead]Renew
+END
+VER 3 0100000000000017 "SM" "SPELL_SHADOW_SHADOWMEND"
+#showtooltip Shadow Mend
+/cast [mod,target=player][target=mouseover,help,nodead][help,nodead][target=player][target=targettarget,help,nodead]Shadow Mend
+END
+VER 3 010000000000000F "Smite" "Spell_Holy_HolySmite"
+#showtooltip Smite
+/cast [@mouseovertarget, harm] [@mouseover, harm] [@targettarget, harm] [harm] Smite
+END

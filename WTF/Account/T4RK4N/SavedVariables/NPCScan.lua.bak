@@ -1,0 +1,10 @@
+
+NPCScanDB = {
+	["profileKeys"] = {
+		["Viklund - Twisting Nether"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

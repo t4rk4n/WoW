@@ -1,0 +1,1002 @@
+
+RecountDB = {
+	["profileKeys"] = {
+		["Kargoth - Frostmane"] = "Kargoth - Frostmane",
+		["Paraply - Frostwhisper"] = "Paraply - Frostwhisper",
+		["Slakthuset - Shattered Hand"] = "Slakthuset - Shattered Hand",
+		["Lathe - Shattered Hand"] = "Lathe - Shattered Hand",
+		["Heede - Eonar"] = "Heede - Eonar",
+		["Ironetti - Eonar"] = "Ironetti - Eonar",
+		["Kizzie - Talnivarr"] = "Kizzie - Talnivarr",
+		["Ironoppi - Eonar"] = "Ironoppi - Eonar",
+		["Augor - Shattered Hand"] = "Augor - Shattered Hand",
+		["Jokkles - Shattered Hand"] = "Jokkles - Shattered Hand",
+		["Wiikree - Shattered Hand"] = "Wiikree - Shattered Hand",
+		["Wiikree - Arena Pass 1"] = "Wiikree - Arena Pass 1",
+		["Wobster - Shattered Hand"] = "Wobster - Shattered Hand",
+		["Etni - Shattered Hand"] = "Etni - Shattered Hand",
+		["Lillipop - Eonar"] = "Lillipop - Eonar",
+		["Etni - Eonar"] = "Etni - Eonar",
+		["Oween - Frostmane"] = "Oween - Frostmane",
+		["Osses - Eonar"] = "Osses - Eonar",
+		["Slakthuset - Eonar"] = "Slakthuset - Eonar",
+		["Cazey - Talnivarr"] = "Cazey - Talnivarr",
+		["Wiikree - Silvermoon"] = "Wiikree - Silvermoon",
+		["Wiikree - Boulderfist"] = "Wiikree - Boulderfist",
+		["Pelé - Eonar"] = "Pelé - Eonar",
+		["Doerf - Frostmane"] = "Doerf - Frostmane",
+		["Obur - Eonar"] = "Obur - Eonar",
+		["Ironikree - Eonar"] = "Ironikree - Eonar",
+		["Baskiri - Eonar"] = "Baskiri - Eonar",
+	},
+	["profiles"] = {
+		["Kargoth - Frostmane"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -452.4986592339768,
+					["x"] = 841.8919898778678,
+					["w"] = 292.9604120632081,
+					["h"] = 205.2081122858291,
+				},
+			},
+			["DetailWindowX"] = 438.9546025672159,
+			["LastInstanceName"] = "Vault of Archavon",
+			["CurDataSet"] = "LastFightData",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = -176.4277506937715,
+			["MainWindowHeight"] = 205.2081122858291,
+			["MainWindowWidth"] = 292.9604120632081,
+			["ReportLines"] = 5,
+			["GraphWindowX"] = 0,
+		},
+		["Paraply - Frostwhisper"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -374.4990330386277,
+					["x"] = 723.4013307199379,
+					["w"] = 233.0592302564843,
+					["h"] = 185.4280628815196,
+				},
+			},
+			["DetailWindowX"] = 0,
+			["MainWindowHeight"] = 185.4280628815196,
+			["CurDataSet"] = "OverallData",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["MainWindowWidth"] = 233.0592652707509,
+			["GraphWindowX"] = 0,
+		},
+		["Slakthuset - Shattered Hand"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -502.5217255659745,
+					["x"] = -828.3721411996804,
+					["w"] = 312.0000147716438,
+					["h"] = 111.9999945290208,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["DetailWindowX"] = 0,
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
+		},
+		["Lathe - Shattered Hand"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["HideTotalBar"] = false,
+				["Buttons"] = {
+					["CloseButton"] = false,
+					["RightButton"] = false,
+					["LeftButton"] = false,
+				},
+				["Position"] = {
+					["y"] = -377.5741030107414,
+					["h"] = 198.9999952812805,
+					["w"] = 241.0000107367966,
+					["x"] = 721.2982338106375,
+				},
+			},
+			["DetailWindowX"] = 0,
+			["LastInstanceName"] = "The Culling of Stratholme",
+			["BarTexture"] = "Otravi",
+			["CurDataSet"] = "OverallData",
+			["Colors"] = {
+				["Window"] = {
+					["Title"] = {
+						["a"] = 0,
+					},
+					["Background"] = {
+						["a"] = 0,
+					},
+				},
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+				["Other Windows"] = {
+					["Title"] = {
+						["r"] = 0,
+						["g"] = 0.03137254901960784,
+						["b"] = 0.2627450980392157,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["Locked"] = true,
+			["GraphWindowX"] = 0,
+		},
+		["Heede - Eonar"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -453.0217242324234,
+					["x"] = 840.9370807990448,
+					["w"] = 294.9999580786222,
+					["h"] = 207.0000023935534,
+				},
+			},
+			["DetailWindowX"] = 0,
+			["LastInstanceName"] = "Hellfire Citadel: Ramparts",
+			["CurDataSet"] = "LastFightData",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["MainWindowHeight"] = 207.1041173153002,
+			["MainWindowWidth"] = 294.566586500865,
+			["ReportLines"] = 5,
+			["GraphWindowX"] = 0,
+		},
+		["Ironetti - Eonar"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["HideTotalBar"] = false,
+				["Position"] = {
+					["y"] = -454.0738329153392,
+					["x"] = 840.8086484691413,
+					["w"] = 294.9999580786222,
+					["h"] = 207.0000023935534,
+				},
+			},
+			["DetailWindowX"] = 0,
+			["LastInstanceName"] = "Hour of Twilight",
+			["RealtimeWindows"] = {
+				["Realtime_FPS_FPS"] = {
+					"FPS", -- [1]
+					"FPS", -- [2]
+					"", -- [3]
+					423.8642940033076, -- [4]
+					-2.104007280231917, -- [5]
+					200.0000027354896, -- [6]
+					232.0000136774479, -- [7]
+					false, -- [8]
+				},
+				["Realtime_Latency_LAG"] = {
+					"Latency", -- [1]
+					"LAG", -- [2]
+					"", -- [3]
+					627.2765945835528, -- [4]
+					-2.104077308765171, -- [5]
+					200.0000027354896, -- [6]
+					232.0000136774479, -- [7]
+					false, -- [8]
+				},
+				["Realtime_Bandwidth Available_AVAILABLE_BANDWIDTH"] = {
+					"Bandwidth Available", -- [1]
+					"AVAILABLE_BANDWIDTH", -- [2]
+					"", -- [3]
+					0, -- [4]
+					-3.501426658564726e-005, -- [5]
+					200.0000027354896, -- [6]
+					232.0000136774479, -- [7]
+					false, -- [8]
+				},
+			},
+			["CurDataSet"] = "LastFightData",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["GraphWindowX"] = 0,
+			["ReportLines"] = 5,
+			["MainWindowWidth"] = 294.566586500865,
+			["MainWindowHeight"] = 207.1041173153002,
+		},
+		["Kizzie - Talnivarr"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["w"] = 140.0000106684094,
+					["h"] = 200.0000027354896,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["CurDataSet"] = "OverallData",
+			["GraphWindowX"] = 0,
+			["DetailWindowX"] = 0,
+		},
+		["Ironoppi - Eonar"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["HideTotalBar"] = false,
+				["Position"] = {
+					["y"] = -454.0738329153392,
+					["x"] = 840.8086484691413,
+					["w"] = 294.9999580786222,
+					["h"] = 207.0000023935534,
+				},
+			},
+			["DetailWindowX"] = 0,
+			["LastInstanceName"] = "Hour of Twilight",
+			["RealtimeWindows"] = {
+				["Realtime_FPS_FPS"] = {
+					"FPS", -- [1]
+					"FPS", -- [2]
+					"", -- [3]
+					423.8642940033076, -- [4]
+					-2.104007280231917, -- [5]
+					200.0000027354896, -- [6]
+					232.0000136774479, -- [7]
+					false, -- [8]
+				},
+				["Realtime_Latency_LAG"] = {
+					"Latency", -- [1]
+					"LAG", -- [2]
+					"", -- [3]
+					627.2765945835528, -- [4]
+					-2.104077308765171, -- [5]
+					200.0000027354896, -- [6]
+					232.0000136774479, -- [7]
+					false, -- [8]
+				},
+				["Realtime_Bandwidth Available_AVAILABLE_BANDWIDTH"] = {
+					"Bandwidth Available", -- [1]
+					"AVAILABLE_BANDWIDTH", -- [2]
+					"", -- [3]
+					0, -- [4]
+					-3.501426658564726e-005, -- [5]
+					200.0000027354896, -- [6]
+					232.0000136774479, -- [7]
+					false, -- [8]
+				},
+			},
+			["CurDataSet"] = "CurrentFightData",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["MainWindowHeight"] = 207.1041173153002,
+			["MainWindowWidth"] = 294.566586500865,
+			["ReportLines"] = 5,
+			["GraphWindowX"] = 0,
+		},
+		["Augor - Shattered Hand"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -455.706806397298,
+					["x"] = 838.8282415500213,
+					["w"] = 292.9604120632081,
+					["h"] = 205.2081122858291,
+				},
+			},
+			["DetailWindowX"] = 0,
+			["LastInstanceName"] = "Gundrak",
+			["CurDataSet"] = "LastFightData",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["MainWindowHeight"] = 205.2081122858291,
+			["MainWindowWidth"] = 292.9604120632081,
+			["GraphWindowX"] = 0,
+		},
+		["Jokkles - Shattered Hand"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -452.4986723643268,
+					["x"] = 843.0217602041113,
+					["w"] = 292.9604120632081,
+					["h"] = 205.2081122858291,
+				},
+			},
+			["DetailWindowX"] = 0,
+			["MainWindowHeight"] = 205.2081122858291,
+			["CurDataSet"] = "LastFightData",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["LastInstanceName"] = "Gundrak",
+			["MainWindowWidth"] = 292.9604120632081,
+			["GraphWindowX"] = 0,
+		},
+		["Wiikree - Shattered Hand"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["HideTotalBar"] = false,
+				["Position"] = {
+					["y"] = -454.9177248851112,
+					["h"] = 213.0000121045414,
+					["w"] = 333.9999686786443,
+					["x"] = 821.3718089060839,
+				},
+			},
+			["DetailWindowX"] = 389.7353631304286,
+			["LastInstanceName"] = "Icecrown Citadel",
+			["CurDataSet"] = "LastFightData",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = -359.0820884177251,
+			["MainWindowHeight"] = 213.0000121045414,
+			["MainWindowWidth"] = 333.5995455257614,
+			["GraphWindowX"] = 0,
+		},
+		["Wiikree - Arena Pass 1"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -370.3132645736113,
+					["x"] = 609.1718377791764,
+					["w"] = 306.1378212140089,
+					["h"] = 155.8149569868199,
+				},
+			},
+			["DetailWindowX"] = 0,
+			["MainWindowHeight"] = 155.8149569868199,
+			["CurDataSet"] = "OverallData",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["MainWindowWidth"] = 306.1378212140089,
+			["GraphWindowX"] = 0,
+		},
+		["Wobster - Shattered Hand"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["ShowScrollbar"] = false,
+				["Position"] = {
+					["y"] = -377.5741030107414,
+					["x"] = 721.2982338106375,
+					["w"] = 241.0000107367966,
+					["h"] = 198.9999952812805,
+				},
+				["HideTotalBar"] = false,
+				["BarText"] = {
+					["NumFormat"] = 3,
+				},
+				["Buttons"] = {
+					["CloseButton"] = false,
+					["RightButton"] = false,
+					["LeftButton"] = false,
+				},
+			},
+			["AutoDeleteNewInstance"] = false,
+			["DeleteJoinGroup"] = false,
+			["GraphWindowX"] = 0,
+			["Locked"] = true,
+			["ReportLines"] = 2,
+			["Filters"] = {
+				["Data"] = {
+					["Trivial"] = true,
+					["Nontrivial"] = true,
+				},
+			},
+			["BarTextColorSwap"] = false,
+			["BarTexture"] = "Otravi",
+			["Font"] = "Friz Quadrata TT",
+			["CurDataSet"] = "OverallData",
+			["Colors"] = {
+				["Window"] = {
+					["Title"] = {
+						["a"] = 0,
+					},
+					["Background"] = {
+						["a"] = 0,
+					},
+				},
+				["Other Windows"] = {
+					["Title"] = {
+						["b"] = 0.4745098039215686,
+						["g"] = 0.1490196078431373,
+						["r"] = 0.1019607843137255,
+					},
+				},
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 92.00000300903854,
+			["DetailWindowX"] = 184.0000060180771,
+			["MainWindowHeight"] = 198.8573296520027,
+			["MainWindowWidth"] = 241.2907867138092,
+			["DeleteJoinRaid"] = false,
+		},
+		["Etni - Shattered Hand"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -453.0217242324234,
+					["h"] = 205.0000224994018,
+					["w"] = 292.999943170204,
+					["x"] = 840.8719542631612,
+				},
+			},
+			["DetailWindowX"] = -364.0000172335843,
+			["LastInstanceName"] = "Icecrown Citadel",
+			["CurDataSet"] = "LastFightData",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 154.0000274916703,
+			["GraphWindowX"] = 0,
+			["ReportLines"] = 3,
+			["MainWindowWidth"] = 292.9604120632081,
+			["MainWindowHeight"] = 205.2081122858291,
+		},
+		["Lillipop - Eonar"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["HideTotalBar"] = false,
+				["Position"] = {
+					["y"] = -453.0217242324234,
+					["x"] = 840.8722343772942,
+					["w"] = 294.999888050089,
+					["h"] = 207.0000023935534,
+				},
+			},
+			["DetailWindowX"] = 665.6164462010239,
+			["LastInstanceName"] = "Dragon Soul",
+			["CurDataSet"] = "LastFightData",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = -479.723814030203,
+			["MainWindowHeight"] = 207.1041173153002,
+			["MainWindowWidth"] = 294.566586500865,
+			["GraphWindowX"] = 0,
+		},
+		["Etni - Eonar"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["HideTotalBar"] = false,
+				["Position"] = {
+					["y"] = -453.0217242324234,
+					["x"] = 840.8720943202278,
+					["w"] = 294.9999580786222,
+					["h"] = 207.0000023935534,
+				},
+			},
+			["DetailWindowX"] = -196.999962865729,
+			["LastInstanceName"] = "Hour of Twilight",
+			["RealtimeWindows"] = {
+				["Realtime_FPS_FPS"] = {
+					"FPS", -- [1]
+					"FPS", -- [2]
+					"", -- [3]
+					423.8642940033076, -- [4]
+					-2.104007280231917, -- [5]
+					200.0000027354896, -- [6]
+					232.0000136774479, -- [7]
+					false, -- [8]
+				},
+				["Realtime_Latency_LAG"] = {
+					"Latency", -- [1]
+					"LAG", -- [2]
+					"", -- [3]
+					627.2765945835528, -- [4]
+					-2.104077308765171, -- [5]
+					200.0000027354896, -- [6]
+					232.0000136774479, -- [7]
+					false, -- [8]
+				},
+				["Realtime_Bandwidth Available_AVAILABLE_BANDWIDTH"] = {
+					"Bandwidth Available", -- [1]
+					"AVAILABLE_BANDWIDTH", -- [2]
+					"", -- [3]
+					0, -- [4]
+					-3.501426658564726e-005, -- [5]
+					200.0000027354896, -- [6]
+					232.0000136774479, -- [7]
+					false, -- [8]
+				},
+			},
+			["CurDataSet"] = "LastFightData",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 162.9999895367524,
+			["MainWindowHeight"] = 207.1041173153002,
+			["MainWindowWidth"] = 294.566586500865,
+			["ReportLines"] = 5,
+			["GraphWindowX"] = 0,
+		},
+		["Oween - Frostmane"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -454.3916223990367,
+					["x"] = 844.2097942699837,
+					["w"] = 290.4550187377617,
+					["h"] = 208.4682031136573,
+				},
+				["HideTotalBar"] = false,
+			},
+			["ReportLines"] = 5,
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = -201.4176078403508,
+			["DetailWindowX"] = 266.3832006472716,
+			["GraphWindowX"] = 0,
+			["LastInstanceName"] = "Ruins of Lordaeron",
+			["RealtimeWindows"] = {
+				["Realtime_FPS_FPS"] = {
+					"FPS", -- [1]
+					"FPS", -- [2]
+					"", -- [3]
+					423.8642940033076, -- [4]
+					-2.104007280231917, -- [5]
+					200.0000027354896, -- [6]
+					232.0000136774479, -- [7]
+					false, -- [8]
+				},
+				["Realtime_Latency_LAG"] = {
+					"Latency", -- [1]
+					"LAG", -- [2]
+					"", -- [3]
+					627.2765945835528, -- [4]
+					-2.104077308765171, -- [5]
+					200.0000027354896, -- [6]
+					232.0000136774479, -- [7]
+					false, -- [8]
+				},
+				["Realtime_Bandwidth Available_AVAILABLE_BANDWIDTH"] = {
+					"Bandwidth Available", -- [1]
+					"AVAILABLE_BANDWIDTH", -- [2]
+					"", -- [3]
+					0, -- [4]
+					-3.501426658564726e-005, -- [5]
+					200.0000027354896, -- [6]
+					232.0000136774479, -- [7]
+					false, -- [8]
+				},
+			},
+			["CurDataSet"] = "CurrentFightData",
+			["MainWindowWidth"] = 290.4549487092285,
+			["MainWindowHeight"] = 208.4682031136573,
+		},
+		["Osses - Eonar"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -453.2818583493742,
+					["x"] = 844.0019495834225,
+					["w"] = 294.9999580786222,
+					["h"] = 207.0000023935534,
+				},
+			},
+			["DetailWindowX"] = 0,
+			["LastInstanceName"] = "Utgarde Keep",
+			["CurDataSet"] = "LastFightData",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["GraphWindowX"] = 0,
+			["ReportLines"] = 3,
+			["MainWindowWidth"] = 294.566586500865,
+			["MainWindowHeight"] = 207.1041173153002,
+		},
+		["Slakthuset - Eonar"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -453.0217242324234,
+					["x"] = 840.9370807990448,
+					["w"] = 294.9999580786222,
+					["h"] = 207.0000023935534,
+				},
+			},
+			["DetailWindowX"] = 0,
+			["LastInstanceName"] = "Icecrown Citadel",
+			["CurDataSet"] = "OverallData",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["MainWindowHeight"] = 207.1041173153002,
+			["MainWindowWidth"] = 294.566586500865,
+			["ReportLines"] = 3,
+			["GraphWindowX"] = 0,
+		},
+		["Cazey - Talnivarr"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -378.8704887246197,
+					["h"] = 194.1710552239952,
+					["w"] = 218.1344516379462,
+					["x"] = 731.742009139134,
+				},
+			},
+			["DetailWindowX"] = 0,
+			["MainWindowHeight"] = 194.1710552239952,
+			["CurDataSet"] = "OverallData",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["MainWindowWidth"] = 218.1344516379462,
+			["GraphWindowX"] = 0,
+		},
+		["Wiikree - Silvermoon"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["HideTotalBar"] = false,
+				["Position"] = {
+					["y"] = -453.0217242324234,
+					["x"] = 840.8720943202278,
+					["w"] = 294.9999580786222,
+					["h"] = 207.0000023935534,
+				},
+			},
+			["DetailWindowX"] = 633.570829176814,
+			["LastInstanceName"] = "Dragon Soul",
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "LastFightData",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = -252.5102681046497,
+			["ReportLines"] = 3,
+			["MainWindowMode"] = 5,
+			["MainWindowWidth"] = 294.566586500865,
+			["MainWindowHeight"] = 207.1041173153002,
+		},
+		["Wiikree - Boulderfist"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -336.1220608275772,
+					["x"] = 574.0276682461155,
+					["w"] = 255.0184800785578,
+					["h"] = 163.1790875104316,
+				},
+			},
+			["DetailWindowX"] = 0,
+			["MainWindowHeight"] = 163.1790875104316,
+			["CurDataSet"] = "OverallData",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["MainWindowWidth"] = 255.0184275571579,
+			["GraphWindowX"] = 0,
+		},
+		["Pelé - Eonar"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -453.0217242324234,
+					["x"] = 840.9370807990448,
+					["w"] = 294.9999580786222,
+					["h"] = 207.0000023935534,
+				},
+			},
+			["DetailWindowX"] = 0,
+			["LastInstanceName"] = "Icecrown Citadel",
+			["CurDataSet"] = "OverallData",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["GraphWindowX"] = 0,
+			["ReportLines"] = 3,
+			["MainWindowWidth"] = 294.566586500865,
+			["MainWindowHeight"] = 207.1041173153002,
+		},
+		["Doerf - Frostmane"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -378.0741122088251,
+					["x"] = 731.7984521368995,
+					["w"] = 216.000051974302,
+					["h"] = 191.9999956232167,
+				},
+			},
+			["DetailWindowX"] = -2.244171304290322,
+			["LastInstanceName"] = "The Forge of Souls",
+			["CurDataSet"] = "CurrentFightData",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0.9428780537210488,
+			["GraphWindowX"] = 0,
+			["MainWindowWidth"] = 215.500888589596,
+			["MainWindowHeight"] = 192.2283061486078,
+		},
+		["Obur - Eonar"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -453.0217242324234,
+					["x"] = 840.9370807990448,
+					["w"] = 294.9999580786222,
+					["h"] = 207.0000023935534,
+				},
+			},
+			["DetailWindowX"] = 0,
+			["LastInstanceName"] = "Blackrock Caverns",
+			["CurDataSet"] = "LastFightData",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["GraphWindowX"] = 0,
+			["ReportLines"] = 3,
+			["MainWindowWidth"] = 294.566586500865,
+			["MainWindowHeight"] = 207.1041173153002,
+		},
+		["Ironikree - Eonar"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["HideTotalBar"] = false,
+				["Position"] = {
+					["y"] = -454.0738329153392,
+					["x"] = 840.8086484691413,
+					["w"] = 294.9999580786222,
+					["h"] = 207.0000023935534,
+				},
+			},
+			["DetailWindowX"] = 351.4677809592282,
+			["LastInstanceName"] = "Hour of Twilight",
+			["RealtimeWindows"] = {
+				["Realtime_FPS_FPS"] = {
+					"FPS", -- [1]
+					"FPS", -- [2]
+					"", -- [3]
+					423.8642940033076, -- [4]
+					-2.104007280231917, -- [5]
+					200.0000027354896, -- [6]
+					232.0000136774479, -- [7]
+					false, -- [8]
+				},
+				["Realtime_Latency_LAG"] = {
+					"Latency", -- [1]
+					"LAG", -- [2]
+					"", -- [3]
+					627.2765945835528, -- [4]
+					-2.104077308765171, -- [5]
+					200.0000027354896, -- [6]
+					232.0000136774479, -- [7]
+					false, -- [8]
+				},
+				["Realtime_Bandwidth Available_AVAILABLE_BANDWIDTH"] = {
+					"Bandwidth Available", -- [1]
+					"AVAILABLE_BANDWIDTH", -- [2]
+					"", -- [3]
+					0, -- [4]
+					-3.501426658564726e-005, -- [5]
+					200.0000027354896, -- [6]
+					232.0000136774479, -- [7]
+					false, -- [8]
+				},
+			},
+			["CurDataSet"] = "LastFightData",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = -277.7989545095606,
+			["MainWindowHeight"] = 207.1041173153002,
+			["MainWindowWidth"] = 294.566586500865,
+			["ReportLines"] = 5,
+			["GraphWindowX"] = 0,
+		},
+		["Baskiri - Eonar"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -452.0280674908195,
+					["x"] = 841.5833041034874,
+					["w"] = 294.9999580786222,
+					["h"] = 207.00003740782,
+				},
+			},
+			["DetailWindowX"] = 121.0000090955029,
+			["LastInstanceName"] = "Violet Hold",
+			["CurDataSet"] = "LastFightData",
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 69.0000022567789,
+			["GraphWindowX"] = 0,
+			["ReportLines"] = 3,
+			["MainWindowWidth"] = 294.566586500865,
+			["MainWindowHeight"] = 207.1041173153002,
+		},
+	},
+}

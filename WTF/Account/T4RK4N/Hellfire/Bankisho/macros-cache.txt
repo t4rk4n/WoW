@@ -1,0 +1,4 @@
+VER 3 0100000000000002 "ZGVMacro1" "0"
+/target Kaltunk
+/run ZGV:MRM():CG(1,1)
+END

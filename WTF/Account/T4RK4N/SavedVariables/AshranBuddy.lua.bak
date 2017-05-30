@@ -1,0 +1,14 @@
+
+AshranBuddyDB = {
+	["profileKeys"] = {
+		["Etni - Hellfire"] = "Etni - Hellfire",
+	},
+	["global"] = {
+		["version"] = 2,
+	},
+	["profiles"] = {
+		["Etni - Hellfire"] = {
+			["firstRun"] = false,
+		},
+	},
+}

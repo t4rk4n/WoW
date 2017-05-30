@@ -1,0 +1,70 @@
+
+AmrDb = {
+	["Talents"] = {
+	},
+	["LastCharacterImportDate"] = "",
+	["SendSettings"] = {
+		["SendTo"] = "",
+		["SendGems"] = true,
+		["SendEnchants"] = true,
+		["SendEnchantMaterials"] = true,
+		["SendToType"] = "a friend",
+	},
+	["CharacterName"] = "Etni",
+	["Race"] = "Scourge",
+	["ActiveSpec"] = 1,
+	["Level"] = 90,
+	["Equipped"] = {
+		{
+			"|cff1eff00|Hitem:117325:0:0:0:0:0:0:0:90:0:0:0|h[Oathsworn Helm]|h|r", -- [1]
+			"|cff0070dd|Hitem:118769:0:0:0:0:0:0:0:90:0:11:0|h[Emberfury Choker]|h|r", -- [2]
+			"|cffa335ee|Hitem:101796:0:0:0:0:0:-364:408879172:90:491:0:0|h[Cliffbreaker Pauldrons of the Earthbreaker]|h|r", -- [3]
+			nil, -- [4]
+			"|cff1eff00|Hitem:117322:0:0:0:0:0:0:0:90:0:0:0|h[Oathsworn Breastplate]|h|r", -- [5]
+			"|cff1eff00|Hitem:117328:0:0:0:0:0:0:0:90:0:0:0|h[Oathsworn Girdle]|h|r", -- [6]
+			"|cffa335ee|Hitem:101794:0:4581:0:0:0:-487:788463707:90:491:0:0|h[Cliffbreaker Legplates of the Earthshaker]|h|r", -- [7]
+			"|cffa335ee|Hitem:112953:0:4581:0:0:0:0:0:90:491:4:1:451|h[Greaves of Sublime Superiority]|h|r", -- [8]
+			"|cffa335ee|Hitem:101799:0:0:0:0:0:-348:1773142067:90:491:0:0|h[Cliffbreaker Vambraces of the Impatient]|h|r", -- [9]
+			"|cff1eff00|Hitem:117324:0:0:0:0:0:0:0:90:0:0:0|h[Oathsworn Gauntlets]|h|r", -- [10]
+			"|cffa335ee|Hitem:117363:0:0:0:0:0:0:0:90:0:1:1:573|h[Band of the Petrified Pumpkin]|h|r", -- [11]
+			"|cffa335ee|Hitem:112484:0:0:0:0:0:0:0:90:491:4:1:451|h[Sorrowpath Signet]|h|r", -- [12]
+			"|cffa335ee|Hitem:103689:0:0:0:0:0:0:0:90:491:0:0|h[Alacrity of Xuen]|h|r", -- [13]
+			"|cffa335ee|Hitem:118779:0:0:0:0:0:0:0:90:0:0:0|h[Bladespike Charm]|h|r", -- [14]
+			"|cff0070dd|Hitem:118774:0:0:0:0:0:0:0:90:0:11:0|h[Armswake Greatcloak]|h|r", -- [15]
+			"|cff1eff00|Hitem:117330:0:0:0:0:0:0:0:90:0:0:0|h[Oathsworn Headchopper]|h|r", -- [16]
+			"|cff1eff00|Hitem:117321:0:0:0:0:0:0:0:90:0:0:0|h[Oathsworn Greataxe]|h|r", -- [17]
+		}, -- [1]
+	},
+	["Specs"] = {
+	},
+	["Options"] = {
+	},
+	["Region"] = "EU",
+	["Currencies"] = {
+	},
+	["Glyphs"] = {
+	},
+	["LogData"] = {
+		["_wipes"] = {
+		},
+		["_autoLog"] = {
+			[1136] = "disabled",
+		},
+		["_lastDiff"] = 0,
+		["_lastZone"] = "Kalimdor",
+	},
+	["BagItems"] = {
+	},
+	["BankItems"] = {
+	},
+	["LastCharacterImport"] = "",
+	["Reps"] = {
+	},
+	["Faction"] = "Horde",
+	["IconInfo"] = {
+	},
+	["Professions"] = {
+	},
+	["RealmName"] = "Hellfire",
+	["Class"] = "WARRIOR",
+}

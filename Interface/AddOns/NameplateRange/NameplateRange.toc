@@ -1,0 +1,7 @@
+## Interface: 70200
+## Version: v1.1.3
+## Title: NameplateRange
+## Notes: Changes the nameplates range
+## Author: Ketho @ EU-Boulderfist
+
+NameplateRange.lua

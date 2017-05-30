@@ -1,0 +1,9 @@
+
+PawnOptions = {
+	["LastPlayerFullName"] = "Bankisho-Hellfire",
+	["LastKeybindingsSet"] = 1,
+}
+PawnWowheadScaleProviderOptions = {
+	["LastClass"] = "HUNTER",
+	["LastAdded"] = 4,
+}

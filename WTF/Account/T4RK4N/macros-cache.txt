@@ -1,0 +1,103 @@
+VER 3 0000000000000038 "AF" "ABILITY_PRIEST_ANGELICFEATHER"
+#showtooltip Angelic Feather
+/cast [@player] Angelic Feather
+/stopspelltarget
+END
+VER 3 0000000000000011 "asdfa" "Ability_Ambush"
+/raid Angelius, turinqui, exiasee
+/raid Gimli, daoer, ihumpr
+/raid etni, dojdoj, Amubu, dracol
+END
+VER 3 000000000000000B "Bone Shield" "Ability_Defend"
+#showtooltip Bone Shield
+/cast Blood Tap
+/stopcasting
+/cast Bone Shield
+END
+VER 3 0000000000000004 "Dancing Weapon" "Ability_BackStab"
+#showtooltip Dancing Rune Weapon
+/cast [target=player] Dancing Rune Weapon
+END
+VER 3 0000000000000007 "Death Grip" "Spell_Shadow_ShadowMend"
+#showtooltip Death Grip
+/castsequence Death Grip,Chains of Ice
+END
+VER 3 0000000000000008 "Death Strike" "Spell_DeathKnight_Butcher2"
+#showtooltip Death Strike
+/castsequence Death Strike,Horn of Winter
+END
+VER 3 0000000000000013 "Decursive" "INV_MISC_QUESTIONMARK"
+/stopcasting
+/cast [@mouseover,nomod,exists] Dispel Magic;  [@mouseover,exists,mod:ctrl] Purify; [@mouseover,exists,mod:shift] Dispel Magic
+END
+VER 3 0000000000000010 "Focus" "Ability_CheapShot"
+/focus
+END
+VER 3 0000000000000002 "Focus/Plague" "Ability_Creature_Cursed_02"
+/cast Inner Focus
+/cast Devouring Plague
+END
+VER 3 000000000000000C "Frost Sphere" "Ability_Druid_Dreamstate"
+/target frost sphere
+END
+VER 3 000000000000003B "Guldan" "INV_MACE_03"
+#showtooltip ExtraActionButton1
+/click ExtraActionButton1
+END
+VER 3 0000000000000009 "Heal Me" "Ability_Creature_Cursed_04"
+/cast Vampiric Blood
+/cast Mark of Blood
+/cast Rune Tap
+END
+VER 3 0000000000000005 "Hysteria & Icebo" "Ability_BullRush"
+/castsequence Hysteria,Icebound Fortitude
+/cast Gift of the Naaru
+END
+VER 3 000000000000000D "kalle" "Ability_CheapShot"
+#showtooltip Flash Heal(rank 11)
+/cast [mod,target=player][target=mouseover,help,nodead][help,nodead][nogroup,target=player][target=targettarget,help,nodead]Flash Heal(rank 11)
+END
+VER 3 000000000000000E "LB" "Spell_Shadow_RaiseDead"
+#showtooltip Lichborne
+/cast Lichborne;
+/cast [@player] Death Coil
+END
+VER 3 000000000000003A "popup" "1542862"
+/Click StaticPopup1Button1
+END
+VER 3 0000000000000037 "pull 10" "INV_SWORD_04"
+/pull 10
+END
+VER 3 0000000000000039 "PW:SS" "SPELL_HOLY_POWERWORDSHIELD"
+#showtooltip Power Word: Shield
+/cast [mod,target=player][target=mouseover,help,nodead][help,nodead][target=player][target=targettarget,help,nodead]Power Word: Shield
+END
+VER 3 000000000000000F "Req" "INV_Misc_QuestionMark"
+/2 {Star} <Numen> {Star} is a social raidinguild and recruiting mature and sensible players. Join us for raiding, social or pvp - Apply on http://numen-eonar.guildlaunch.com/ or wisper any officer
+END
+VER 3 0000000000000012 "Req2" "INV_Misc_QuestionMark"
+#showtooltip
+/cast Power Word: Solace
+END
+VER 3 0000000000000006 "Sparks" "Ability_Druid_Dreamstate"
+/target power spark
+END
+VER 3 0000000000000035 "SW:P" "SPELL_SHADOW_SHADOWWORDPAIN"
+#showtooltip Shadow Word: Pain
+/cast [@mouseovertarget, harm] [@mouseover, harm] [@targettarget, harm] [harm] Shadow Word: Pain
+END
+VER 3 0000000000000014 "Target" "INV_MISC_QUESTIONMARK"
+/target [nodead] Grom'kar Man-at-Arms
+/target [nodead] Grom'kar Firemender
+END
+VER 3 000000000000000A "test" "Ability_Creature_Poison_02"
+/cast [target=targettarget] Lightning Bolt
+END
+VER 3 0000000000000036 "VT" "SPELL_HOLY_STOICISM"
+#showtooltip Vampiric Touch
+/cast [@mouseovertarget, harm] [@mouseover, harm] [@targettarget, harm] [harm] Vampiric Touch
+END
+VER 3 0000000000000034 "ZGVMacro2" "0"
+/target Grand Magister Reglakk
+/run ZGV:MRM():CG(47,2)
+END

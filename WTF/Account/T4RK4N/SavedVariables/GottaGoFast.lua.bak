@@ -1,0 +1,10 @@
+
+GottaGoFastDB = {
+	["profileKeys"] = {
+		["Viklund - Twisting Nether"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}

@@ -1,0 +1,3 @@
+Healium: disabled
+ZygorGuidesViewer: disabled
+XPerl_TeamSpeak: disabled

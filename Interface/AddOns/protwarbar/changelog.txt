@@ -1,0 +1,333 @@
+Version 0.9.1.1
+  Aurabar:
+    - Fix support for Shield Block 2P
+
+Version 0.9.1.0
+  Icons:
+    - Removed support for Focused Rage
+    - Updated Revenge
+    - Added Thunder Clap to default icons
+
+Version 0.9.0.6
+  Icons:
+    - Added support for Overpower
+    - Added support for Warbreaker
+    - Added support for Colossus Smash
+    - Added support for Colossus Smash debuff
+
+Version 0.9.0.5
+  Protwarbar:
+    - TOC update for 7.1
+
+Version 0.9.0.4
+  Aurabar:
+    - Added support for Spell Reflection (enabled by default)
+  Icons:
+    - Spell Reflection is enabled by default
+
+Version 0.9.0.3
+  Aurabar:
+    - Added support for Focused Rage
+    - Added support for Vengeance: Focused Rage
+    - Added support for Vengeance: Ignore Pain
+  Icons:
+    - Added support for Focused Rage
+  Thanks arcadepro
+
+Version 0.9.0.2
+  Protwarbar:
+    - Always open the Protwarbar settings pane when using /pwb command (Thanks arcadepro)
+
+Version 0.9.0.1
+  Protwarbar:
+    - TOC update for 7.0
+
+Version 0.9.0.0
+  Protwarbar:
+    - initial Legion support
+    - Removed support for Shield Charge
+    - Removed support for Mocking Banner
+    - Removed support for Heroic Strike
+    - Removed support for Shield Barrier
+    - Added support for Ignore Pain
+    - Added initial support for Neltharion's Fury
+    - Updated to current alpha of wowace 3 libs
+
+  Info:
+    - Disabled this module for now, no longer useful
+
+Version 0.8.2.8
+  Aurabar:
+    - Added support for Purified Shard of the Third Moon trinket
+  Shieldbar:
+    - Added support for Purified Shard of the Third Moon trinket
+
+Version 0.8.2.7
+  Aurabar:
+    - Added support for Sweeping Strikes
+  Icons:
+    - Added support for Sweeping Strikes
+
+Version 0.8.2.6
+  Announce:
+    - Added support for Stoneform
+
+  Aurabar:
+    - Added support for Stoneform
+
+  Icons:
+    - Added support for Stoneform
+
+Version 0.8.2.5
+  Shieldbar:
+    - Added support Illuminated Healing
+    - Removed support Shieldtronic Shield as we can not track shield size
+
+  Announce:
+    - Added support for Ravager
+
+  Aurabar:
+    - Added support for Shieldtronic Shield
+
+Version 0.8.2.4
+  Shieldbar:
+    - Added support Shieldtronic Shield (requested by arcadepro)
+
+Version 0.8.2.3
+  Aurabar:
+    - Added support Sanctus (legendary ring)
+
+Version 0.8.2.2
+  Protwarbar:
+    - TOC update for 6.2
+
+Version 0.8.2.1
+  Protwarbar:
+    - TOC update for 6.1
+
+Version 0.8.2.0
+  Protwarbar:
+    - Start of multiclass support
+    - Experimental Death Knight support
+
+  Trinket:
+    - Directly update trinket positions again after changing options
+
+  Shieldbar:
+    - Added support for Blood Shield (Death Knight)
+    - Added support for Clarity of Will (Priest)
+
+  Icons:
+    - Added support for Death Strike (Death Knight)
+    - Added support for Anti-Magic Shell (Death Knight)
+    - Added support for Icebound Fortitude (Death Knight)
+
+  Aurabar:
+    - Added support for Icebound Fortitude (Death Knight)
+
+Version 0.8.1.0
+  Protwarbar:
+    - Reworked internal framework for GUI
+    - Minor fixes
+
+  Shieldbar:
+    - Enable Arms/Fury version of Shield Barrier by default
+
+  Trinket:
+    - Allow serperate styling for both trinkets
+    - Prevents an error in settings window when trinket info is not yet loaded
+
+  Aurabar:
+    - Added support for Shield Charge
+    - Added support for Ravager
+
+  Icons:
+    - Added support for Shield Charge
+
+Version 0.8.0.3
+  Info:
+    - Use new Shield Barrier calculation, this includes Resolve and Versatility
+    - Disabeling info module should work again
+
+  Libs:
+    - Update Ace-3.0 libs
+    - Update SharedMedia lib
+
+  Shieldbar:
+    - Added the Arms/Fury version of Shield Barrier
+
+Version 0.8.0.2
+  Info:
+    - Make Shield Barrier frame movable again.
+
+Version 0.8.0.1
+  Protwarbar:
+    - initial WoD support
+    - Removed Battle Shout (It is now a 1 hour buff)
+    - Removed Weakened Blows (no longer in game)
+    - Removed Disarm (no longer in game)
+    - Removed Staggering Shout (no longer in game)
+    - Removed Skull Banner (no longer in game)
+    - Removed Demoralizing Banner (no longer in game)
+    - Removed Cleave (no longer in game)
+    - Removed Overpower (no longer in game)
+    - Removed Weakened armor (no longer in game)
+    - Added Ravager
+    - Added Siegebreaker
+    - Added tracking of Hamstring debuff
+  Icons:
+    - Using ACTIONBAR_UPDATE_USABLE over SPELL_UPDATE_USABLE, the latter event seems not to fire anymore on rage dependent spells at this moment. This does require you to have the rage dependent spell, like shield block, on your actionbar to function.
+
+  Info:
+    - Removed Vengeance
+    - Added Resolve healing and damage taken information
+    - Shield Barrier now  has it's own frame
+
+  Log:
+    - Disabled log module
+
+Version 0.7.6.1
+  Aurabar:
+  - Add Sudden Execute
+
+Version 0.7.6.0
+  Icons:
+   - Fixed an issue preventing manual override of icon borders.
+
+   Trinket:
+   - Added new trinket module to display trinket CD's with icons.
+
+Version 0.7.5.3
+  Protwarbar:
+    - TOC update for 5.4
+
+Version 0.7.5.2
+  Protwarbar:
+    - TOC update for 5.3
+
+Version 0.7.5.1
+  Icons:
+   - Add devastate (Requested by Farban)
+
+Version 0.7.5
+  Protwarbar:
+   - Add spell support for Victory Rush and Weakened Armor.
+   - Add commandline option '\pwb'.
+   - Streamlining protwarbar internals.
+   - Fixed a global variable leak.
+   - Lock UI by default.
+
+  Aurabar
+   - Add Ultimatum and Sword and board
+
+   Shieldbar:
+    - Added support for Sacred shield.
+    - Added option to change shieldbar into a healthbar + shieldbar.
+
+   Log (experimental):
+    - Logs: Blockable, Physical, Magical incomming damage and tracks blocks and absorbs, damage taken the last 5 second and total damage are displayed.
+    - Track missed statistics per fight like: dodge, parry, miss. Stats can be accessed by hovering over log frame.
+
+Version 0.7.4
+  Libs:
+   -  Update Ace-3.0 libs.
+
+  Protwarbar:
+   - TOC to 5.2.
+   - Fix talent index (thanks Navres).
+   - Removed Deadly calm.
+   - Added outline and shadow styling options for text.
+
+   Info:
+    - Reduce AP scaling side of barrier by 10%
+
+Version 0.7.3.1
+  Announce:
+   - Solved issue where announcement was not triggered.
+
+Version 0.7.3
+  Protwarbar:
+   - When a module has been disabled, propperly disable all the game event listeners attached to it.
+
+  Shiedbar:
+   - Add a new module for tracking shields, displayed as a bar.
+
+  Log:
+   - Add a new experimental Combat log / average module.
+
+  Info:
+   - Update combat stats more efficient.
+
+Version 0.7.2
+  Always update active talents on spec change.
+
+Version 0.7.0
+  Rewrote big parts of the addon, it's now module based.
+  Add profile support.
+  Protwarbar can now auto load a profile depending on your spec.
+  Add global appearance settings.
+  Every module can use the gobal appearance, or override them with local settings.
+  Rage dependent icon support has been greatly improved.
+  Add option to manually set the rage threshold values for the ragebar.
+  Add experimental support for spell announce.
+  Add support for more aura's and icons.
+  Add option to set seperator for the information frame.
+  Many more minor changes.
+
+Version 0.6.7
+  Update ToC to 5.1.
+  Use the 5.1 way to read Vengeance values.
+
+Version 0.6.6
+  Correctly hide Weakend blows icon when disabled.
+
+Version 0.6.5
+  Add support for tracking aura's on targets. Weakend blows icon has been added.
+  Add option to put borders around icons.
+
+Version 0.6.4
+  Add icons for 12 more spells.
+  Add option to reverse the way the bars fill up.
+  Update shieldbars more efficient.
+  Add support for shield block/barrier icons, they will be faded out if you don't have enough rage.
+
+Version 0.6.3
+  Only display the information frame in prot spec.
+  Add a color option for the 100-119 rage slot on the rage bar.
+  Cleaned some settings, because of this some of your settings might have reset to the default value.
+  Shieldbar now has 3 seperate bars.
+  Shieldbar has optional time remaining text display.
+  Talent depended spell icons are now supported.
+  Update Ace3 libs.
+
+Version 0.6.2
+  Added option to hide addon when not in protection spec.
+  Handle rage value updates better.
+
+Version 0.6.1
+  Handle icon cooldown updates better.
+
+Version 0.6
+  Added orientation option for bars.
+  Added a shield bar, this bar displays the duration of your shield block, barrier uptime, shield wall, etc.
+  Added more position and styling settings for the user to configure.
+  Icon cooldown now uses the default cooldown animation.
+  Added more icons for protection warrior spells.
+
+Version 0.5
+  Rework icon management, you can now set display per icon.
+  Display potential Shield Barrier size.
+  Correctly display Vengeance for non english clients (Thanks rasha)
+
+Version 0.4
+  Add option to hide frames when out of combat.
+  Add option to hide icon frame.
+
+Version 0.3
+  Add Vengeance frame.
+
+Version 0.2
+  Battleshout icon availability check now ignores GCD.
+
+Version 0.1
+  First version.
